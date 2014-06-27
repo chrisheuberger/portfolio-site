@@ -3,14 +3,22 @@
 <head>
   <meta charset="utf-8">
   <title>Chris Heuberger / web developer + designer</title>
+  <link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="stylesheets/styles.css">
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 </head>
 <body>
   <div class="wrapper">
     <header>
       <h1>Chris Heuberger</h1>
-      <p>web developer + designer</p>
+      <h2>web developer / designer / organizer</h2>
+      <img src="/images/logo4.png">
+      <a href="index.html">home</a>
+      <a href="about.html">about</a>
+      <a href="work.html">work</a>
+      <a href="play.html">play</a>
     </header>
+
     <section>
       <p>A little about me: I am a full-stack web developer with a background in graphic designer.</p>
 
@@ -21,11 +29,18 @@
       <a href='https://github.com/ChrisBup'>GitHub</a><br>
       <a href='https://www.linkedin.com/in/chrisheuberger/'>LinkedIn</a><br>
       <a href='mailto:christopherheuberger@gmail.com'>contact me</a>
+      <h4>
+        <button>Quote Button</button>
+      </h4>
     </section>
     <footer>
-      <p><small>Thanks for reading. &mdash; Have a <a href="http://www.chrisheuberger.com">nice day.</a></small></p>
+      <p><small>Thanks for reading. &mdash; Have a <a class='quote' href="#">nice day.</a></small></p>
     </footer>
   </div>
-  <script src="javascripts/scale.fix.js"></script>
+  <script>
+  $(".quote").on("click", function() {
+    alert("The details are not the details. They make the design. -Charles Eames");
+  });
+  </script>
 </body>
 </html>
