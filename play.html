@@ -20,10 +20,15 @@
     <section>
       <p>test</p>
       <a href='#'>test</a><br>
-      <footer>
-        <p><small>Thanks for reading.</small></p>
-      </footer>
-    </div>
+    <footer>
+      <p><small>Thanks for reading. &mdash; Have a <a class='quote' href="#">nice day.</a></small></p>
+    </footer>
+  </div>
+  <script>
+  $(".quote").on("click", function() {
+    alert("The details are not the details. They make the design. -Charles Eames");
+  });
+  </script>
   </body>
   </html>
 
