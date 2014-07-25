@@ -1,5 +1,4 @@
 body {
-  padding: 20px;
   font:14px/1.5 'Ropa Sans', "Helvetica Neue", Helvetica, sans-serif;
   color:gray;
   font-weight:300;
@@ -18,7 +17,7 @@ h1 {
 }
 
 p {
-  margin:0 0 20px;
+  margin:0 0 10px;
   color: #b3b3b3;
 }
 
@@ -69,7 +68,7 @@ header {
 
 section {
   width:500px;
-  float:right;
+  margin-left: 200px;
   padding-bottom:50px;
 }
 
