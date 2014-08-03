@@ -1,36 +1,40 @@
 body {
   font: 16px/1.5 'Ropa Sans', "Helvetica Neue", Helvetica, sans-serif;
-  color:gray;
-  font-weight:300;
+  color: gray;
+  font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
-}
-
-h1, h2, h3 {
-  line-height:1.25;
-}
-
-h1 {
-  font-size:20px;
+  color: #222;
+  margin: 0;
+  padding: 0;
 }
 
 p {
-  margin:0 0 10px;
-  color: #b3b3b3;
+  margin: 0;
+  color: gray;
+}
+
+img {
+  width: 100%
 }
 
 a {
-  color:#666;
-  font-weight:400;
-  text-decoration:none;
+  color: #666;
+  font-weight: 400;
+  text-decoration: none;
 }
 
 a small {
-  font-size:11px;
-  color:gray;
-  display:block;
+  font-size: 11px;
+  color: gray;
+  display: block;
+}
+
+p a.nav {
+  line-height: 0;
+  margin: 0;
+  padding: 0;
 }
 
 a.nav:hover {
@@ -45,85 +49,29 @@ a.hello-nav:hover {
   color: greenyellow;
 }
 
-.hr-left {
-  float: left;
-  width: 34%;
-}
-
-.hr-right {
-  float: right;
-  width: 34%;
+.resume-format ul {
+  padding: 0 0 0 25px;
 }
 
 .image {
-  position: relative;
   clear: none;
-  overflow: hidden;
-  z-index:1;
+  z-index: 1;
+}
+
+.image img {
+  width: 60%;
+  position: relative;
+  margin: 0 0 0 150px;
 }
 
 .image h2 {
-  font-family: 'Open Sans', sans-serif;
-  display:block;
-  position:absolute;
-  left:0;
-  z-index:2;
-  text-align:center;
+  font: 16px 'Open Sans', sans-serif;
+  display: block;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+  text-align: center;
   letter-spacing: .125em;
-}
-
-.interests {
-  font: 28px 'Open Sans', sans-serif;
-  margin: -10px 0 0 15px;
-  padding-bottom: 20px;
-  display: inline-block;
-  letter-spacing: .125em;
-}
-
-.amazing {
-  width:35%;
-  top:20%;
-}
-
-.information {
-  width:160%;
-  top:2%;
-}
-
-.solving {
-  width:70%;
-  top:70%;
-}
-
-.communication {
-  width:160%;
-  top:47%;
-}
-
-.pizza {
-  width:150%;
-  top:72%;
-}
-
-.highlight {
-  font: 28px 'Vollkorn', serif;
-  padding: 5px;
-  color: white;
-  background-color: black;
-}
-
-.logo {
-  width: 130px;
-  margin-left: 5px;
-}
-
-.resume {
-  background-color: greenyellow;
-}
-
-.wrapper {
-  width:860px;
-  margin:0 auto;
 }
 
 .image-nav {
@@ -134,31 +82,158 @@ a.image-nav:hover {
   color: #ccffff;
 }
 
-img {
-  max-width:100%;
+.interests {
+  font: 20px 'Open Sans', sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+  letter-spacing: .125em;
+}
+
+.amazing {
+  top: 270px;
+  right: 200px;
+}
+
+.information {
+  top: 250px;
+  right: -550px;
+}
+
+.solving {
+  top: 490px;
+  right: -50px;
+}
+
+.communication {
+  top: 400px;
+  right: -600px;
+}
+
+.pizza {
+  top: 490px;
+  right: -400px;
+}
+
+.current {
+  background-color: greenyellow;
+}
+
+.highlight {
+  font: 28px 'Radley', serif;
+  padding: 10px 0 10px 15px;
+  margin-top: -30px;
+  color: white;
+  background-color: black;
+}
+
+.highlight a {
+  color: aqua;
+}
+
+.highlight a:hover {
+  color: greenyellow;
+}
+
+.logo {
+  width: 110px;
+  margin: 5px 0 0 15px;
+}
+
+.resume {
+  display: inline;
+  background: greenyellow;
+}
+
+.resume-shim {
+  height: 10px;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.name {
+  margin: 0;
+}
+
+.title {
+  margin-top: 0;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.number {
+  color: #b3b3b3;
+}
+
+.about-sidebar {
+  float: right;
+  width: 350px;
+  margin-left: 20px;
+}
+
+.short {
+  list-style: none;
+  background-color: lightgray;
+  font-family: 8px;
+  color: black;
+  padding: 5px;
+}
+
+.short li {
+  margin: 0 0 10px -30px;
+  list-style: none;
+}
+
+.short-title {
+  text-align: center;
+  margin-left: -40px;
+  margin-bottom: 10px;
+}
+
+.caption {
+  width: 500px;
+  margin: 0 auto;
+}
+
+a.resume {
+  color: #b3b3b3;
+  background-color: white;
+}
+
+a.resume:hover {
+  background-color: aqua;
+}
+
+.grid img {
+  display: inline-block;
+  max-width: 25%;
+  margin: 10px;
+  padding: 10px;
 }
 
 header {
-  width:200px;
-  float:left;
+  width: 200px;
+  float: left;
 }
 
 section {
-  width:600px;
+  width: 800px;
   margin-left: 200px;
-  padding-bottom:50px;
-  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 hr {
-  border:0;
-  background:lightgray;
-  height:1px;
+  border: 0;
+  background: #b3b3b3;
+  height: 1px;
 }
 
 footer {
-  width:200px;
-  float:left;
+  width: 200px;
+  float: left;
   margin-top: 300px;
   position: relative;
   clear: both;
