@@ -49,37 +49,56 @@ a.hello-nav:hover {
   color: greenyellow;
 }
 
-.resume-format ul {
-  padding: 0 0 0 25px;
+.about-format {
+  width: 430px;
 }
 
-.image {
+.resume-format ul {
+  padding: 0 0 0 25px;
+  width: 550px;
+}
+
+.about-img {
+  width: 230px;
+  height: 230px;
+  margin-left: 60px;
+  overflow: hidden;
+  border-radius: 115px;
+}
+
+.about-img img {
+  width: 400px;
+  height: 400px;
+  margin: -60px 0 0 -75px;
+
+}
+
+.brain {
   clear: none;
   z-index: 1;
 }
 
-.image img {
+.brain img {
   width: 60%;
   position: relative;
   margin: 0 0 0 150px;
 }
 
-.image h2 {
+.brain h2 {
   font: 16px 'Open Sans', sans-serif;
-  display: block;
-  position: absolute;
-  left: 0;
+  display: inline-block;
+  position: relative;
   z-index: 2;
   text-align: center;
   letter-spacing: .125em;
 }
 
-.image-nav {
+.brain-nav {
   color: black;
 }
 
-a.image-nav:hover {
-  color: #ccffff;
+a.brain-nav:hover {
+  color: gray;
 }
 
 .interests {
@@ -90,28 +109,28 @@ a.image-nav:hover {
 }
 
 .amazing {
-  top: 270px;
-  right: 200px;
+  top: -220px;
+  left: -500px;
 }
 
 .information {
-  top: 250px;
-  right: -550px;
+  top: -350px;
+  left: 525px;
 }
 
 .solving {
-  top: 490px;
-  right: -50px;
+  top: -80px;
+  left: 150px;
 }
 
 .communication {
-  top: 400px;
-  right: -600px;
+  top: -220px;
+  left: 325px;
 }
 
 .pizza {
-  top: 490px;
-  right: -400px;
+  top: -130px;
+  left: 90px;
 }
 
 .current {
@@ -130,8 +149,16 @@ a.image-nav:hover {
   color: aqua;
 }
 
+a.about-link {
+  color: black;
+}
+
 .highlight a:hover {
   color: greenyellow;
+}
+
+a.about-link:hover {
+  background-color: greenyellow;
 }
 
 .logo {
@@ -170,19 +197,22 @@ a.image-nav:hover {
 .about-sidebar {
   float: right;
   width: 350px;
+  margin-top: -40px;
   margin-left: 20px;
 }
 
 .short {
   list-style: none;
-  background-color: lightgray;
+  background-color: greenyellow;
   font-family: 8px;
   color: black;
-  padding: 5px;
+  margin-top: 10px;
+  padding: 1px 5px 5px 5px;
 }
 
 .short li {
   margin: 0 0 10px -30px;
+  line-height: 20px;
   list-style: none;
 }
 
@@ -208,7 +238,7 @@ a.resume:hover {
 
 .grid img {
   display: inline-block;
-  max-width: 25%;
+  max-width: 15%;
   margin: 10px;
   padding: 10px;
 }
