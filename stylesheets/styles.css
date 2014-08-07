@@ -185,8 +185,9 @@ a.about-link:hover {
 }
 
 .title {
+  font-style:italic;
   margin-top: 0;
-  font-size: 14px;
+  font-size: 13px;
   color: #b3b3b3;
 }
 
