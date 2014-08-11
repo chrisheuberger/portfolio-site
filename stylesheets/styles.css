@@ -58,6 +58,28 @@ a.hello-nav:hover {
   width: 550px;
 }
 
+.notes {
+  padding: 25px 0 0 25px;
+  width: 550px;
+}
+
+.push {
+  margin-left: 81px;
+}
+
+.notes p {
+  padding-bottom: 15px;
+}
+
+.notes h4 {
+  padding-bottom: 15px;
+}
+
+.presentations {
+  color: black;
+  font-size: 12px;
+}
+
 .about-img {
   width: 230px;
   height: 230px;
@@ -70,7 +92,6 @@ a.hello-nav:hover {
   width: 400px;
   height: 400px;
   margin: -60px 0 0 -75px;
-
 }
 
 .brain {
@@ -99,6 +120,10 @@ a.hello-nav:hover {
 
 a.brain-nav:hover {
   color: gray;
+}
+
+#intro {
+  display:none;
 }
 
 .interests {
@@ -137,6 +162,20 @@ a.brain-nav:hover {
   background-color: greenyellow;
 }
 
+.quote {
+  cursor: pointer;
+  color: black;
+}
+
+.top {
+  cursor: pointer;
+}
+
+.colorize {
+  color: black;
+  background-color: aqua
+}
+
 .highlight {
   font: 28px 'Radley', serif;
   padding: 10px 0 10px 15px;
@@ -164,6 +203,41 @@ a.about-link:hover {
 .logo {
   width: 110px;
   margin: 5px 0 0 15px;
+}
+
+.sketchbooks {
+  display: inline;
+  color: #b3b3b3;
+  background-color: white;
+}
+
+.align-presentation1 {
+  margin-left: 10px;
+}
+
+.align-presentation2 {
+  margin-left: 27px;
+}
+
+.align-presentation3 {
+  margin-left: 9px;
+}
+
+.fade p {
+  color: gray;
+}
+
+.fade a.nav {
+  color: #b3b3b3;
+}
+
+a.presentation {
+  color: #b3b3b3;
+  background-color: white;
+}
+
+a.presentation:hover {
+  background-color: aqua;
 }
 
 .resume {
@@ -263,7 +337,7 @@ hr {
 }
 
 footer {
-  width: 200px;
+  width: 600px;
   float: left;
   margin-top: 300px;
   position: relative;

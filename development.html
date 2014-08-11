@@ -21,10 +21,10 @@
       <p><a class='nav' href="design.html">design</a></p>
       <p><a class='nav' href="photo.html">photo</a></p>
       <p><a class='nav' href="play.html">play</a></p><br>
-      <p><a class='nav' href='https://github.com/ChrisBup'>GitHub</a></p>
-      <p><a class='nav' href='https://www.linkedin.com/in/chrisheuberger/'>LinkedIn</a></p>
-      <p><a class='nav' href='https://twitter.com/chrisbup'>Twitter</a></p>
-      <p><a class='nav' href='http://instagram.com/chrisbup'>Instagram</a></p><br>
+      <p><a class='nav' href='https://github.com/ChrisBup' target="_blank">GitHub</a></p>
+      <p><a class='nav' href='https://www.linkedin.com/in/chrisheuberger/' target="_blank">LinkedIn</a></p>
+      <p><a class='nav' href='https://twitter.com/chrisbup' target="_blank">Twitter</a></p>
+      <p><a class='nav' href='http://instagram.com/chrisbup' target="_blank">Instagram</a></p><br>
       <p><a class='nav' href='mailto:chrisheuberg@gmail.com'>email</a></p>
       <p><a class='nav' href="resume.html">r&eacute;sum&eacute;</a></p>
       <p class='number'>240.393.9747</p>
@@ -32,26 +32,37 @@
 
     <section>
       <h1>DEVELOPMENT</h1><br>
-      <a href="http://curator-app.herokuapp.com/"><img src="images/development/curator.png"></a>
+      <a href="http://curator-app.herokuapp.com/" target="_blank"><img src="images/development/curator.png"></a>
       <div class='caption'>
         <h3>CURATOR</h3>
         <p>A web app to guide you through the Brooklyn Museum and to prevent you from ever again looking at an artwork and saying, "I don't get it."</p>
       </div>
       <br><hr><br>
-      <a href="http://valence.herokuapp.com/"><img src="images/development/valence.png"></a>
+      <a href="http://valence.herokuapp.com/" target="_blank"><img src="images/development/valence.png"></a>
       <div class='caption'>
         <h3>VALENCE</h3>
         <p>A web app that enables you to make a playlist and see your music in a new way with dynamic, animated data visualizations.</p>
       </div>
-      <footer>
-        <p><small>Thanks for reading. &mdash; Have a <a class='quote' href="#">nice day.</a></small></p>
-      </footer>
+    <footer>
+      <p>
+        <small>Thanks for reading. Have a <a class='quote'>nice day.</a>
+          <span class='fade'>
+            &nbsp;&mdash;&nbsp;
+            <span class='colorize'>"The details are not the details. They make the design." -Charles Eames</span>
+          </span>
+        </small>
+      </p>
+    </footer>
+
     </section>
   </div>
   <script>
-  $(".quote").on("click", function() {
-    alert("The details are not the details. They make the design. -Charles Eames");
-  });
+    $(document).ready(function(){
+      $(".fade").hide();
+      $(".quote").click(function(){
+        $(".fade").fadeToggle();
+      });
+    });
   </script>
   </body>
   </html>

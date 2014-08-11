@@ -21,10 +21,10 @@
       <p><a class='nav' href="design.html">design</a></p>
       <p><a class='nav' href="photo.html">photo</a></p>
       <p><a class='nav' href="play.html">play</a></p><br>
-      <p><a class='nav' href='https://github.com/ChrisBup'>GitHub</a></p>
-      <p><a class='nav' href='https://www.linkedin.com/in/chrisheuberger/'>LinkedIn</a></p>
-      <p><a class='nav' href='https://twitter.com/chrisbup'>Twitter</a></p>
-      <p><a class='nav' href='http://instagram.com/chrisbup'>Instagram</a></p><br>
+      <p><a class='nav' href='https://github.com/ChrisBup' target="_blank">GitHub</a></p>
+      <p><a class='nav' href='https://www.linkedin.com/in/chrisheuberger/' target="_blank">LinkedIn</a></p>
+      <p><a class='nav' href='https://twitter.com/chrisbup' target="_blank">Twitter</a></p>
+      <p><a class='nav' href='http://instagram.com/chrisbup' target="_blank">Instagram</a></p><br>
       <p><a class='nav' href='mailto:chrisheuberg@gmail.com'>email</a></p>
       <p><a class='nav current' href="resume.html">r&eacute;sum&eacute;</a></p>
       <p class='number'>240.393.9747</p>
@@ -33,7 +33,7 @@
     <section>
       <div class='resume-format'>
         <h1>R&Eacute;SUM&Eacute; /
-          <a class='resume' href="files/chris-heuberger-resume-2014.pdf">(download pdf)</a>
+          <a class='resume' href="files/chris-heuberger-resume-2014.pdf" target="_blank">(download pdf)</a>
         </h1>
 
         <div class='resume-shim'></div>
@@ -127,15 +127,26 @@
         <p>photography</p>
         <p>copywriting</p>
       </div>
-      <footer>
-        <p><small>Thanks for reading. &mdash; Have a <a class='quote' href="#">nice day.</a></small></p>
-      </footer>
+    <footer>
+      <p>
+        <small>Thanks for reading. Have a <a class='quote'>nice day.</a>
+          <span class='fade'>
+            &nbsp;&mdash;&nbsp;
+            <span class='colorize'>"The details are not the details. They make the design." -Charles Eames</span>
+          </span>
+        </small>
+      </p>
+    </footer>
+
     </section>
   </div>
   <script>
-  $(".quote").on("click", function() {
-    alert("The details are not the details. They make the design. -Charles Eames");
-  });
+    $(document).ready(function(){
+      $(".fade").hide();
+      $(".quote").click(function(){
+        $(".fade").fadeToggle();
+      });
+    });
   </script>
 </body>
 </html>

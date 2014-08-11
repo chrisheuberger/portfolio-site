@@ -21,10 +21,10 @@
       <p><a class='nav' href="design.html">design</a></p>
       <p><a class='nav' href="photo.html">photo</a></p>
       <p><a class='nav' href="play.html">play</a></p><br>
-      <p><a class='nav' href='https://github.com/ChrisBup'>GitHub</a></p>
-      <p><a class='nav' href='https://www.linkedin.com/in/chrisheuberger/'>LinkedIn</a></p>
-      <p><a class='nav' href='https://twitter.com/chrisbup'>Twitter</a></p>
-      <p><a class='nav' href='http://instagram.com/chrisbup'>Instagram</a></p><br>
+      <p><a class='nav' href='https://github.com/ChrisBup' target="_blank">GitHub</a></p>
+      <p><a class='nav' href='https://www.linkedin.com/in/chrisheuberger/' target="_blank">LinkedIn</a></p>
+      <p><a class='nav' href='https://twitter.com/chrisbup' target="_blank">Twitter</a></p>
+      <p><a class='nav' href='http://instagram.com/chrisbup' target="_blank">Instagram</a></p><br>
       <p><a class='nav' href='mailto:chrisheuberg@gmail.com'>email</a></p>
       <p><a class='nav' href="resume.html">r&eacute;sum&eacute;</a></p>
       <p class='number'>240.393.9747</p>
@@ -50,22 +50,33 @@
       </div>
       <div class='about-format'>
         <h1 class='about'>ABOUT</h1><br>
-        <p>I'm a recent gradutate of the Web Development Immersive (WDI) program at General Assembly, a 12-week full-time dev bootcamp and an incredible experience. What really inspired me to become a developer was my previous position at <a class='about-link' href='http://www.sketchbookproject.com/'>The Sketchbook Project</a>, a start-up that runs global, crowdsourced, interactive art projects. That's where I learned how technology can promote real interaction and engagement.</p><br>
+        <p>I'm a recent gradutate of the Web Development Immersive (WDI) program at General Assembly, a 12-week full-time dev bootcamp and an incredible experience. What really inspired me to become a developer was my previous position at <a class='about-link' href='http://www.sketchbookproject.com/' target="_blank">The Sketchbook Project</a>, a start-up that runs global, crowdsourced, interactive art projects. That's where I learned how technology can promote real interaction and engagement.</p><br>
         <p>I think both development and design come down to organizing data so that it's most accessible to the user. So for me, it's all about conveying a message or presenting information as efficiently as possible.</p><br>
         <p>When I'm not coding, I like to listen to podcasts on long runs, play pick-up soccer, cook mediterranean and pet any dog I meet.<br>I keep visual journals where I collect design ideas, inspiration and make all sorts of lists.</p><br>
         <p>I love lists.</p><br>
         <p>But basically, I am a sponge for all things web development so if you have any advice or questions or are looking for a newbie coder who's weirdly enthusiastic about RESTful routes, closures and database queries, please <a class='about-link' href='mailto:chrisheuberg@gmail.com'>reach out!</a><p>
         </div>
     <footer>
-      <p><small>Thanks for reading. &mdash; Have a <a class='quote' href="#">nice day.</a></small></p>
+      <p>
+        <small>Thanks for reading. Have a <a class='quote'>nice day.</a>
+          <span class='fade'>
+            &nbsp;&mdash;&nbsp;
+            <span class='colorize'>"The details are not the details. They make the design." -Charles Eames</span>
+          </span>
+        </small>
+      </p>
     </footer>
-  </section>
-</div>
-<script>
-$(".quote").on("click", function() {
-  alert("The details are not the details. They make the design. -Charles Eames");
-});
-</script>
+
+    </section>
+  </div>
+  <script>
+    $(document).ready(function(){
+      $(".fade").hide();
+      $(".quote").click(function(){
+        $(".fade").fadeToggle();
+      });
+    });
+  </script>
 </body>
 </html>
 

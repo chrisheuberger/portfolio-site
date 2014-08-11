@@ -8,7 +8,6 @@
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 </head>
 <body>
-  <a id="top"></a>
   <div class="wrapper">
     <header>
       <a href="index.html">
@@ -22,10 +21,10 @@
       <p><a class='nav' href="design.html">design</a></p>
       <p><a class='nav current' href="photo.html">photo</a></p>
       <p><a class='nav' href="play.html">play</a></p><br>
-      <p><a class='nav' href='https://github.com/ChrisBup'>GitHub</a></p>
-      <p><a class='nav' href='https://www.linkedin.com/in/chrisheuberger/'>LinkedIn</a></p>
-      <p><a class='nav' href='https://twitter.com/chrisbup'>Twitter</a></p>
-      <p><a class='nav' href='http://instagram.com/chrisbup'>Instagram</a></p><br>
+      <p><a class='nav' href='https://github.com/ChrisBup' target="_blank">GitHub</a></p>
+      <p><a class='nav' href='https://www.linkedin.com/in/chrisheuberger/' target="_blank">LinkedIn</a></p>
+      <p><a class='nav' href='https://twitter.com/chrisbup' target="_blank">Twitter</a></p>
+      <p><a class='nav' href='http://instagram.com/chrisbup' target="_blank">Instagram</a></p><br>
       <p><a class='nav' href='mailto:chrisheuberg@gmail.com'>email</a></p>
       <p><a class='nav' href="resume.html">r&eacute;sum&eacute;</a></p>
       <p class='number'>240.393.9747</p>
@@ -38,7 +37,6 @@
         <img src="images/photo/fb3.jpg">
         <img src="images/photo/fb4.jpg">
         <img src="images/photo/fb6.jpg">
-        <img src="images/photo/fb7.jpg">
         <img src="images/photo/fb8.jpg">
         <img src="images/photo/fb10.jpg">
         <img src="images/photo/fb11.jpg">
@@ -58,16 +56,30 @@
         <img src="images/photo/pic-peluso.jpg">
       </div>
       <br><hr><br>
-      <a href="#top">top</a>
-      <footer>
-        <p><small>Thanks for reading. &mdash; Have a <a class='quote' href="#">nice day.</a></small></p>
-      </footer>
+      <p class='top'>top</p>
+    <footer>
+      <p>
+        <small>Thanks for reading. Have a <a class='quote'>nice day.</a>
+          <span class='fade'>
+            &nbsp;&mdash;&nbsp;
+            <span class='colorize'>"The details are not the details. They make the design." -Charles Eames</span>
+          </span>
+        </small>
+      </p>
+    </footer>
+
     </section>
   </div>
   <script>
-  $(".quote").on("click", function() {
-    alert("The details are not the details. They make the design. -Charles Eames");
-  });
+    $(document).ready(function(){
+      $(".fade").hide();
+      $(".quote").click(function(){
+        $(".fade").fadeToggle();
+      });
+      $(".top").click(function(){
+        $('html, body').animate({ scrollTop: 0 });
+      });
+    });
   </script>
   </body>
   </html>
