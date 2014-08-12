@@ -83,21 +83,21 @@ $(function(){
       var explainer = "<span class='over'>Click image to close.</span><br>for re-approaching any problem creatively";
     } else if (src === "images/design/banana-poster_large.jpg") {
       var explainer = "<span class='over'>Click image to close.</span><br>AIGA poster";
-    } else if (src === "images/design/IMG_7362_large.jpg") {
+    } else if (src === "images/design/img_7362_large.jpg") {
       var explainer = "<span class='over'>Click image to close.</span><br>AIGA poster";
-    } else if (src === "images/design/IMG_7363_large.jpg") {
+    } else if (src === "images/design/img_7363_large.jpg") {
       var explainer = "<span class='over'>Click image to close.</span><br>AIGA poster";
     } else if (src === "images/design/aiga_large.jpg") {
       var explainer = "<span class='over'>Click image to close.</span><br>AIGA poster";
     } else if (src === "images/design/aiga2_large.jpg") {
       var explainer = "<span class='over'>Click image to close.</span><br>AIGA poster";
-    } else if (src === "images/design/IMG_7284_large.jpg") {
+    } else if (src === "images/design/img_7284_large.jpg") {
       var explainer = "<span class='over'>Click image to close.</span><br>MLK Foundation invitation";
-    } else if (src === "images/design/IMG_7308_large.jpg") {
+    } else if (src === "images/design/img_7308_large.jpg") {
       var explainer = "<span class='over'>Click image to close.</span><br>MHCC Consumer Guides";
-    } else if (src === "images/design/IMG_7290_large.jpg") {
+    } else if (src === "images/design/img_7290_large.jpg") {
       var explainer = "<span class='over'>Click image to close.</span><br>MEPT fundraising announcement";
-    } else if (src === "images/design/IMG_7307_large.jpg") {
+    } else if (src === "images/design/img_7307_large.jpg") {
       var explainer = "<span class='over'>Click image to close.</span><br>USAID informational folder + material";
     } else if (src === "images/design/abt_large.jpg") {
       var explainer = "<span class='over'>Click image to close.</span><br>USAID informational folder + material";
@@ -161,14 +161,14 @@ $(function(){
       var explainer = "<span class='over'>Click image to close.</span><br>logo comp";
     } else if (src === "images/design/fiss-logo2_large.jpg") {
       var explainer = "<span class='over'>Click image to close.</span><br>logo comp";
-    } else if (src === "images/design/BMZ-lettering-2_large.jpg") {
+    } else if (src === "images/design/bmz-lettering-2_large.jpg") {
       var explainer = "<span class='over'>Click image to close.</span><br>logo comp";
-    } else if (src === "images/play/IMG_7262_large.jpg") {
+    } else if (src === "images/play/img_7262_large.jpg") {
       var explainer = "<span class='over'>Click image to close.</span><br>lasercut";
-    } else if (src === "images/play/IMG_7249_large.jpg") {
+    } else if (src === "images/play/img_7249_large.jpg") {
       var explainer = "<span class='over'>Click image to close.</span><br>lasercut";
-    } else if (src === "images/play/IMG_7145_large.jpg") {
-      var explainer = '<span class="over">Click image to close.</span><br>"The aim of art is to represent not the outward appearance of things, but their inward significance." -Aristotle';
+    } else if (src === "images/play/img_7145_large.jpg") {
+      var explainer = '<span class="over">Click image to close.</span><br>"The aim of art is to represent not the outward appearance of things,<br>but their inward significance." -Aristotle';
     } else if (src === "images/play/ts-logo1_large.jpg") {
       var explainer = "<span class='over'>Click image to close.</span><br>logo comp";
     } else if (src === "images/play/ts-logo2_large.jpg") {
@@ -179,13 +179,13 @@ $(function(){
       var explainer = "<span class='over'>Click image to close.</span><br>logo comp";
     } else if (src === "images/play/fiss-logo2_large.jpg") {
       var explainer = "<span class='over'>Click image to close.</span><br>logo comp";
-    } else if (src === "images/play/IMG_3826_large.jpg") {
+    } else if (src === "images/play/img_3826_large.jpg") {
       var explainer = "<span class='over'>Click image to close.</span><br>Periodic Table of Toasting: how to say 'cheers' in 118 different languages";
-    } else if (src === "images/play/IMG_3824_large.jpg") {
+    } else if (src === "images/play/img_3824_large.jpg") {
       var explainer = "<span class='over'>Click image to close.</span><br>Periodic Table of Toasting: how to say 'cheers' in 118 different languages";
-    } else if (src === "images/play/IMG_7148_large.jpg") {
+    } else if (src === "images/play/img_7148_large.jpg") {
       var explainer = "<span class='over'>Click image to close.</span><br>based on Seurat self-portrait";
-    } else if (src === "images/play/IMG_7218_large.jpg") {
+    } else if (src === "images/play/img_7218_large.jpg") {
       var explainer = "<span class='over'>Click image to close.</span><br>based on Schiele drawing";
     } else if (src === "images/play/doodle002_large.jpg") {
       var explainer = "<span class='over'>Click image to close.</span><br>insert for <a href='http://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
@@ -231,3 +231,4 @@ $(function(){
     $('.explainer').html('');
   });
 });
+
