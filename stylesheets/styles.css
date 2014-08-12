@@ -96,24 +96,6 @@ a.nav:hover {
   background-color: greenyellow;
 }
 
-.about-format {
-  width: 430px;
-}
-
-.about-img {
-  width: 230px;
-  height: 230px;
-  margin-left: 60px;
-  overflow: hidden;
-  border-radius: 115px;
-}
-
-.about-img img {
-  width: 400px;
-  height: 400px;
-  margin: -60px 0 0 -75px;
-}
-
 .brain {
   clear: none;
   z-index: 1;
@@ -179,6 +161,10 @@ a.brain-nav:hover {
   color: black;
 }
 
+.quote:hover {
+  background-color: aqua;
+}
+
 .colorize {
   color: black;
   background-color: aqua
@@ -210,6 +196,24 @@ a.brain-nav:hover {
 
 .top {
   cursor: pointer;
+}
+
+.about-format {
+  width: 430px;
+}
+
+.about-img {
+  width: 230px;
+  height: 230px;
+  margin-left: 60px;
+  overflow: hidden;
+  border-radius: 115px;
+}
+
+.about-img img {
+  width: 400px;
+  height: 400px;
+  margin: -60px 0 0 -75px;
 }
 
 a.about-link {
@@ -270,6 +274,23 @@ a.presentation {
 
 a.presentation:hover {
   background-color: aqua;
+}
+
+.license {
+  color: #b3b3b3;
+}
+
+.license img {
+  border-width: 0;
+  width: 80px;
+}
+
+.license a {
+  color: #b3b3b3;
+}
+
+.license a:hover {
+  color: gray;
 }
 
 .fade p {
