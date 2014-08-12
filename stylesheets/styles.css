@@ -4,6 +4,32 @@ body {
   font-weight: 300;
 }
 
+header {
+  width: 200px;
+  float: left;
+}
+
+section {
+  width: 800px;
+  margin-left: 200px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+hr {
+  border: 0;
+  background: #b3b3b3;
+  height: 1px;
+}
+
+footer {
+  width: 600px;
+  float: left;
+  margin-top: 300px;
+  position: relative;
+  clear: both;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   margin: 0;
@@ -41,43 +67,37 @@ a.nav:hover {
   background-color: aqua;
 }
 
-a.hello-nav {
-  color: aqua;
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
 }
 
-a.hello-nav:hover {
-  color: greenyellow;
+.name {
+  margin: 0;
+}
+
+.logo {
+  width: 110px;
+  margin: 5px 0 0 15px;
+}
+
+.title {
+  font-style:italic;
+  margin-top: 0;
+  font-size: 13px;
+  color: #b3b3b3;
+}
+
+.number {
+  color: #b3b3b3;
+}
+
+.current {
+  background-color: greenyellow;
 }
 
 .about-format {
   width: 430px;
-}
-
-.resume-format ul {
-  padding: 0 0 0 25px;
-  width: 550px;
-}
-
-.notes {
-  padding: 25px 0 0 25px;
-  width: 550px;
-}
-
-.push {
-  margin-left: 81px;
-}
-
-.notes p {
-  padding-bottom: 15px;
-}
-
-.notes h4 {
-  padding-bottom: 15px;
-}
-
-.presentations {
-  color: black;
-  font-size: 12px;
 }
 
 .about-img {
@@ -122,10 +142,6 @@ a.brain-nav:hover {
   color: gray;
 }
 
-#intro {
-  display:none;
-}
-
 .interests {
   font: 20px 'Open Sans', sans-serif;
   text-align: center;
@@ -158,22 +174,18 @@ a.brain-nav:hover {
   left: 90px;
 }
 
-.current {
-  background-color: greenyellow;
-}
-
 .quote {
   cursor: pointer;
   color: black;
 }
 
-.top {
-  cursor: pointer;
-}
-
 .colorize {
   color: black;
   background-color: aqua
+}
+
+#intro {
+  display:none;
 }
 
 .highlight {
@@ -188,27 +200,55 @@ a.brain-nav:hover {
   color: aqua;
 }
 
-a.about-link {
-  color: black;
-}
-
 .highlight a:hover {
   color: greenyellow;
 }
 
-a.about-link:hover {
-  background-color: greenyellow;
+.large {
+  width: 600px;
 }
 
-.logo {
-  width: 110px;
-  margin: 5px 0 0 15px;
+.top {
+  cursor: pointer;
+}
+
+a.about-link {
+  color: black;
+}
+
+a.about-link:hover {
+  background-color: aqua;
 }
 
 .sketchbooks {
   display: inline;
   color: #b3b3b3;
   background-color: white;
+}
+
+.push {
+  margin-left: 81px;
+}
+.notes {
+  padding: 25px 0 0 25px;
+  width: 550px;
+}
+
+.notes p {
+  padding-bottom: 15px;
+}
+
+.notes h4 {
+  padding-bottom: 15px;
+}
+
+.presentations {
+  color: black;
+  font-size: 12px;
+}
+
+.pres {
+  cursor: pointer;
 }
 
 .align-presentation1 {
@@ -223,6 +263,15 @@ a.about-link:hover {
   margin-left: 9px;
 }
 
+a.presentation {
+  color: #b3b3b3;
+  background-color: white;
+}
+
+a.presentation:hover {
+  background-color: aqua;
+}
+
 .fade p {
   color: gray;
 }
@@ -231,13 +280,9 @@ a.about-link:hover {
   color: #b3b3b3;
 }
 
-a.presentation {
-  color: #b3b3b3;
-  background-color: white;
-}
-
-a.presentation:hover {
-  background-color: aqua;
+.resume-format ul {
+  padding: 0 0 0 25px;
+  width: 550px;
 }
 
 .resume {
@@ -249,24 +294,13 @@ a.presentation:hover {
   height: 10px;
 }
 
-.wrapper {
-  width: 1000px;
-  margin: 0 auto;
-}
-
-.name {
-  margin: 0;
-}
-
-.title {
-  font-style:italic;
-  margin-top: 0;
-  font-size: 13px;
+a.resume {
   color: #b3b3b3;
+  background-color: white;
 }
 
-.number {
-  color: #b3b3b3;
+a.resume:hover {
+  background-color: aqua;
 }
 
 .about-sidebar {
@@ -302,46 +336,30 @@ a.presentation:hover {
   margin: 0 auto;
 }
 
-a.resume {
-  color: #b3b3b3;
-  background-color: white;
+.explainer {
+  color: black;
 }
 
-a.resume:hover {
+.explainer a:hover {
   background-color: aqua;
 }
 
+.over {
+  float: right;
+  margin-right: 200px;
+  color: #b3b3b3;
+}
+
+.shorten {
+  width: 650px;
+}
+
 .grid img {
+  cursor: pointer;
   display: inline-block;
-  max-width: 15%;
+  width: 120px;
   margin: 10px;
   padding: 10px;
-}
-
-header {
-  width: 200px;
-  float: left;
-}
-
-section {
-  width: 800px;
-  margin-left: 200px;
-  padding-bottom: 50px;
-  padding-top: 50px;
-}
-
-hr {
-  border: 0;
-  background: #b3b3b3;
-  height: 1px;
-}
-
-footer {
-  width: 600px;
-  float: left;
-  margin-top: 300px;
-  position: relative;
-  clear: both;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -377,16 +395,20 @@ footer {
     right:50px;
     top:52px;
   }
+
 }
 
 @media (max-width: 500px) {
+
   h1 {
-  font-size: 20px;
-  padding: 4px;
+    font-size: 20px;
+    padding: 4px;
   }
+
   li {
-  padding: 4px;
-  display: block;
+    padding: 4px;
+    display: block;
   }
+
 }
 

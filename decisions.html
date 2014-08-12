@@ -6,6 +6,7 @@
   <link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="stylesheets/styles.css">
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="javascripts/scripts.js"></script>
 </head>
 <body>
   <a id="top"></a>
@@ -100,28 +101,19 @@
         <h4>Outro</h4>
 
       </div>
-      <br><hr><br>
-      <a href="#top">top</a>
-    <footer>
-      <p>
-        <small>Thanks for reading. Have a <a class='quote'>nice day.</a>
-          <span class='fade'>
-            &nbsp;&mdash;&nbsp;
-            <span class='colorize'>"The details are not the details. They make the design." -Charles Eames</span>
-          </span>
-        </small>
-      </p>
-    </footer>
-
+      <div class='shorten'><br><hr><br></div>
+      <p class='top'>top</p>
+      <footer>
+        <p>
+          <small>Thanks for reading. Have a <a class='quote'>nice day.</a>
+            <span class='fade'>
+              &nbsp;&mdash;&nbsp;
+              <span class='colorize'>"The details are not the details. They make the design." -Charles Eames</span>
+            </span>
+          </small>
+        </p>
+      </footer>
     </section>
   </div>
-  <script>
-    $(document).ready(function(){
-      $(".fade").hide();
-      $(".quote").click(function(){
-        $(".fade").fadeToggle();
-      });
-    });
-  </script>
 </body>
 </html>

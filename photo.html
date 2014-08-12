@@ -2,10 +2,11 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Chris Heuberger / work</title>
+  <title>Chris Heuberger / photo</title>
   <link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="stylesheets/styles.css">
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="javascripts/scripts.js"></script>
 </head>
 <body>
   <div class="wrapper">
@@ -31,7 +32,7 @@
     </header>
     <section>
       <h1>PHOTO</h1><br>
-        <div class='grid'>
+      <div class='grid'>
         <img src="images/photo/fb1.jpg">
         <img src="images/photo/fb2.jpg">
         <img src="images/photo/fb3.jpg">
@@ -55,33 +56,21 @@
         <img src="images/photo/pic-messagero.jpg">
         <img src="images/photo/pic-peluso.jpg">
       </div>
-      <br><hr><br>
+      <img class="large" src="">
+      <div class='explainer'></div>
+      <div class='shorten'><br><hr><br></div>
       <p class='top'>top</p>
-    <footer>
-      <p>
-        <small>Thanks for reading. Have a <a class='quote'>nice day.</a>
-          <span class='fade'>
-            &nbsp;&mdash;&nbsp;
-            <span class='colorize'>"The details are not the details. They make the design." -Charles Eames</span>
-          </span>
-        </small>
-      </p>
-    </footer>
-
+      <footer>
+        <p>
+          <small>Thanks for reading. Have a <a class='quote'>nice day.</a>
+            <span class='fade'>
+              &nbsp;&mdash;&nbsp;
+              <span class='colorize'>"The details are not the details. They make the design." -Charles Eames</span>
+            </span>
+          </small>
+        </p>
+      </footer>
     </section>
   </div>
-  <script>
-    $(document).ready(function(){
-      $(".fade").hide();
-      $(".quote").click(function(){
-        $(".fade").fadeToggle();
-      });
-      $(".top").click(function(){
-        $('html, body').animate({ scrollTop: 0 });
-      });
-    });
-  </script>
-  </body>
-  </html>
-
-
+</body>
+</html>
