@@ -31,6 +31,7 @@ footer {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
   color: #222;
   margin: 0;
   padding: 0;
@@ -96,15 +97,19 @@ a.nav:hover {
   background-color: greenyellow;
 }
 
+.venn {
+  width: 740px;
+}
+
 .brain {
   clear: none;
   z-index: 1;
 }
 
 .brain img {
-  width: 60%;
+  width: 70%;
   position: relative;
-  margin: 0 0 0 150px;
+  margin: 0 0 0 100px;
 }
 
 .brain h2 {
@@ -133,27 +138,27 @@ a.brain-nav:hover {
 
 .amazing {
   top: -220px;
-  left: -500px;
+  left: -550px;
 }
 
 .information {
-  top: -350px;
-  left: 525px;
+  top: -380px;
+  left: 500px;
 }
 
 .solving {
-  top: -80px;
-  left: 150px;
+  top: -85px;
+  left: 120px;
 }
 
 .communication {
-  top: -220px;
-  left: 325px;
+  top: -230px;
+  left: 290px;
 }
 
 .pizza {
-  top: -130px;
-  left: 90px;
+  top: -135px;
+  left: 70px;
 }
 
 .quote {
@@ -175,6 +180,7 @@ a.brain-nav:hover {
 }
 
 .highlight {
+  width: 740px;
   font: 28px 'Radley', serif;
   padding: 10px 0 10px 15px;
   margin-top: -30px;
@@ -192,6 +198,7 @@ a.brain-nav:hover {
 
 .large {
   width: 600px;
+  cursor: pointer;
 }
 
 .top {
@@ -364,10 +371,17 @@ a.resume:hover {
   background-color: aqua;
 }
 
-.over {
+.close {
   float: right;
-  margin-right: 200px;
+  padding: 0;
+  margin: 0 200px 0 0;
   color: #b3b3b3;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: gray;
 }
 
 .shorten {
@@ -378,6 +392,10 @@ a.resume:hover {
   cursor: pointer;
   display: inline-block;
   width: 120px;
-  margin: 10px;
-  padding: 10px;
+  margin: 20px;
+  padding: 0;
+}
+
+.grid img:hover {
+  opacity: 0.8;
 }
