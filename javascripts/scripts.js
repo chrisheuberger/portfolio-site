@@ -7,7 +7,6 @@ ga('create', 'UA-53787405-1', 'auto');
 ga('send', 'pageview');
 
 $(function(){
-  $('#intro').fadeIn(1000);
   $(".fade").hide();
   $(".slide").hide();
   $(".quote").click(function(){

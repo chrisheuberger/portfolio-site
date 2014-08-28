@@ -1,5 +1,39 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
 body {
-  font: 16px/1.5 'Ropa Sans', "Helvetica Neue", Helvetica, sans-serif;
+  margin-top: 10px;
+  line-height: 1;
+  font: 1em/1.5 'Ropa Sans', "Helvetica Neue", Helvetica, sans-serif;
   color: gray;
   font-weight: 300;
 }
@@ -37,6 +71,18 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
 p {
   margin: 0;
   color: gray;
@@ -52,8 +98,12 @@ a {
   text-decoration: none;
 }
 
+small {
+  font-size: .8em;
+}
+
 a small {
-  font-size: 11px;
+  font-size: .8em;
   color: gray;
   display: block;
 }
@@ -85,7 +135,7 @@ a.nav:hover {
 .title {
   font-style:italic;
   margin-top: 0;
-  font-size: 13px;
+  font-size: .8em;
   color: #b3b3b3;
 }
 
@@ -113,7 +163,7 @@ a.nav:hover {
 }
 
 .brain h2 {
-  font: 16px 'Open Sans', sans-serif;
+  font: 1em 'Open Sans', sans-serif;
   display: inline-block;
   position: relative;
   z-index: 2;
@@ -130,7 +180,7 @@ a.brain-nav:hover {
 }
 
 .interests {
-  font: 20px 'Open Sans', sans-serif;
+  font: 1.5em 'Open Sans', sans-serif;
   text-align: center;
   padding-bottom: 20px;
   letter-spacing: .125em;
@@ -175,13 +225,9 @@ a.brain-nav:hover {
   background-color: aqua
 }
 
-#intro {
-  display:none;
-}
-
 .highlight {
   width: 740px;
-  font: 28px 'Radley', serif;
+  font: 1.7em 'Open Sans', serif;
   padding: 10px 0 10px 15px;
   margin-top: -30px;
   color: white;
@@ -238,7 +284,7 @@ a.about-link:hover {
 }
 
 .push {
-  margin-left: 81px;
+  margin-left: 75px;
 }
 .notes {
   padding: 25px 0 0 25px;
@@ -251,11 +297,6 @@ a.about-link:hover {
 
 .notes h4 {
   padding-bottom: 15px;
-}
-
-.presentations {
-  color: black;
-  font-size: 12px;
 }
 
 .pres {
@@ -310,7 +351,7 @@ a.presentation:hover {
 
 .resume-format ul {
   padding: 0 0 0 25px;
-  width: 550px;
+  width: 520px;
 }
 
 .resume {
@@ -342,12 +383,12 @@ a.resume:hover {
   list-style: none;
   background-color: greenyellow;
   color: black;
-  margin-top: 10px;
-  padding: 1px 5px 5px 5px;
+  margin-top: 20px;
+  padding: 10px 5px 5px 5px;
 }
 
 .short li {
-  margin: 0 0 10px -30px;
+  margin: 0 0 10px 10px;
   line-height: 20px;
   list-style: none;
 }
@@ -359,7 +400,12 @@ a.resume:hover {
 }
 
 .caption {
-  width: 500px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.screenshot {
+  width: 700px;
   margin: 0 auto;
 }
 
@@ -376,7 +422,7 @@ a.resume:hover {
   padding: 0;
   margin: 0 200px 0 0;
   color: #b3b3b3;
-  font-size: 20px;
+  font-size: 1em;
   cursor: pointer;
 }
 
@@ -399,4 +445,36 @@ a.resume:hover {
 .grid img:hover {
   opacity: 0.8;
   filter: alpha(opacity=80);
+}
+
+@media only screen and (min-width : 481px) and (max-width : 768px) {
+
+  header {
+    margin-left: 5px;
+  }
+
+  .grid {
+      width: 500px;
+  }
+
+  .large {
+    width: 400px;
+  }
+
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+  header {
+    margin-left: 5px;
+  }
+
+  .grid img {
+    display: block;
+  }
+
+  .large {
+    width: 200px;
+  }
+
 }
