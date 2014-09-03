@@ -28,7 +28,7 @@ $(function(){
   $('.grid img').click(function() {
     $('.grid').hide();
     $('.close').fadeIn();
-    $('html, body').animate({ scrollTop: 90 });
+    $('html, body').animate({ scrollTop: 80 });
     var src = $(this).attr('src').replace('.jpg', '_large.jpg');
     if ("url:contains('images/play')") {
       $('.bump').html('<br>');
