@@ -391,9 +391,12 @@ a.presentation:hover {
   color: #b3b3b3;
 }
 
+.resume-format {
+  width: 550px;
+}
+
 .resume-format ul {
   padding: 0 0 0 25px;
-  width: 520px;
 }
 
 .resume {
