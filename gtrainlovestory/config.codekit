@@ -470,13 +470,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/ipad-device.png": {
+	"\/img\/dickinson.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 153405,
-		"inputAbbreviatedPath": "\/img\/ipad-device.png",
-		"outputAbbreviatedPath": "\/img\/ipad-device.png",
+		"inputAbbreviatedPath": "\/img\/dickinson.png",
+		"outputAbbreviatedPath": "\/img\/dickinson.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -492,24 +492,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/iphone6.png": {
+	"\/img\/eliot.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 95273,
-		"inputAbbreviatedPath": "\/img\/iphone6.png",
-		"outputAbbreviatedPath": "\/img\/iphone6.png",
+		"inputAbbreviatedPath": "\/img\/eliot.png",
+		"outputAbbreviatedPath": "\/img\/eliot.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/macbook-pro.png": {
+	"\/img\/theater.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 125706,
-		"inputAbbreviatedPath": "\/img\/macbook-pro.png",
-		"outputAbbreviatedPath": "\/img\/macbook-pro.png",
+		"inputAbbreviatedPath": "\/img\/theater.png",
+		"outputAbbreviatedPath": "\/img\/theater.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
