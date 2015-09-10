@@ -19,6 +19,7 @@ $(document).ready(function() {
 	});
 
 	/***************** Initiate Flexslider ******************/
+	
 	$('.flexslider').flexslider({
 		animation: "slide"
 	});
@@ -30,6 +31,7 @@ $(document).ready(function() {
 	});
 
 	/***************** Tooltips ******************/
+
     $('[data-toggle="tooltip"]').tooltip();
 
 	/***************** Nav Transformicon ******************/

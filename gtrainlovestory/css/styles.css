@@ -564,12 +564,13 @@ Hero
     color: #fff; }
   .hero h1 {
     color: #fff;
-    margin-bottom: 40px; }
+    margin-bottom: 200px; }
   .hero p.intro {
     color: #fff;
     font-size: 28px;
     font-weight: 300;
-    margin-bottom: 80px; }
+    margin-top: 80px;
+  }
   .hero .hero-content {
     padding-top: 26%; }
 
