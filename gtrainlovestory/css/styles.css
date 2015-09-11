@@ -90,7 +90,7 @@ h1, h2, h3 {
     width: 100%;
 }
 
-.gallery {
+/*.gallery {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -151,7 +151,7 @@ h1, h2, h3 {
     padding: 0 2%;
   }
   
-}
+}*/
 
 /* ==========================================================================
 Typography
@@ -598,7 +598,7 @@ Features-stack
 .hero-strip
 ========================================================================== */
 
-.hero-strip {
+/*.hero-strip {
   margin-top: 120px;
   background: #333844 url("../img/polygonal-bg.jpg") no-repeat center center;
   padding-bottom: 190px;
@@ -626,7 +626,7 @@ Features-stack
     left: 50%;
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
-            transform: translateX(-50%); }
+            transform: translateX(-50%); }*/
 
 /* ==========================================================================
 .blog-intro
