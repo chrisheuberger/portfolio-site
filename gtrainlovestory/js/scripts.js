@@ -9,21 +9,21 @@ $(document).ready(function() {
 	// });
 
 	$('.wp1').waypoint(function() {
-		$('.wp1').addClass('animated fadeIn');
+		$('.wp1').addClass('animated fadeInUp');
 	}, {
-		offset: '10%'
+		offset: '70%'
 	});
 
 	$('.wp2').waypoint(function() {
-		$('.wp2').addClass('animated fadeIn');
+		$('.wp2').addClass('animated fadeInUp');
 	}, {
-		offset: '10%'
+		offset: '70%'
 	});
 
 	$('.wp3').waypoint(function() {
-		$('.wp3').addClass('animated fadeIn');
+		$('.wp3').addClass('animated fadeInUp');
 	}, {
-		offset: '10%'
+		offset: '70%'
 	});
 
 	/***************** Initiate Flexslider ******************/

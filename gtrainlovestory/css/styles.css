@@ -7,6 +7,10 @@
 Added
 ========================================================================== */
 
+.phone {
+  color: pink;
+}
+
 .warning {
   color: lightpink;
 }
@@ -86,10 +90,6 @@ h1, h2, h3 {
     width: 100%;
 }
 
-.tighten {
-    line-height: 22px;
-}
-
 .gallery {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -158,42 +158,49 @@ Typography
 ========================================================================== */
 
 p {
-  font-size: .75em;
+  font-size: 1em;
+  line-height: 1.4;
   color: rgba(28, 54, 83, 0.6);
   padding-bottom: 20px;
 }
 
 h1 {
   font-size: 6em;
+  line-height: 1.4;
 }
 
 h2 {
   font-size: 4em;
+  line-height: 1.4;
   color: #3D4351;
 }
 
 h3 {
   font-size: 3em;
+  line-height: 1.4;
   margin-bottom: 20px;
   color: #3D4351;
 }
 
 h4 {
   font-size: 2em;
+  line-height: 1.4;
 }
 
 h5 {
   font-size: 1em;
   color: #3D4351;
   text-transform: uppercase;
+  letter-spacing: 0.2em;
   font-weight: 500;
+  line-height: 1.4;
 }
 
 h6 {
-  font-size: .75em;
+  font-size: 1em;
   color: #3D4351;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.4;
 }
 
 .btn {
@@ -202,6 +209,7 @@ h6 {
   border-radius: 40px;
   display: inline-block;
   text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
 .btn:hover, .btn:focus {
@@ -229,6 +237,7 @@ h6 {
   border-radius: 40px;
   display: inline-block;
   text-transform: uppercase;
+  letter-spacing: 0.2em;
   background-color: rgba(71, 228, 194, 1);
 }
 
@@ -289,6 +298,10 @@ a {
 a:hover, a:focus {
   color: rgba(52, 173, 146, 1);
   text-decoration: none;
+}
+
+p a {
+ font-weight: bold;
 }
 
 body {
@@ -466,7 +479,7 @@ header {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    font-size: 11px; }
+    font-size: .75em; }
     header a.login {
       margin-right: 20px; }
   header .logo {
@@ -641,10 +654,11 @@ Features-stack
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out; }
   .blog h2 {
-    font-size: 11px;
+    font-size: 1em;
     color: #ACB1B4;
     font-weight: 500;
     text-transform: uppercase;
+    letter-spacing: 0.2em;
     margin-top: 35px; }
   .blog .btn {
     margin-top: 20px; }
@@ -663,7 +677,7 @@ Features-stack
       opacity: 0; }
     .blog .blog-img-wrap i {
       color: #fff;
-      font-size: 20px;
+      font-size: 2em;
       position: absolute;
       width: 20px;
       height: 20px;
@@ -678,9 +692,12 @@ Features-stack
     filter: alpha(opacity=1);
     opacity: 1;
     z-index: 9; }
+  .blog figcaption {
+    margin-top: 10px;
+  }
   .blog figcaption i {
     margin-left: 5px;
-    font-size: 15px; }
+    font-size: 1.5em; }
   .blog figcaption a.blog-post-title {
     color: rgba(28, 54, 83, 0.6); }
   .blog figcaption a.blog-post-title:hover, .blog figcaption a.blog-post-title:focus {
@@ -709,7 +726,7 @@ To top
       background-color: rgba(0, 0, 0, 0.4); }
     .to-top .to-top-wrap i {
       font-size: 30px;
-      line-height: 55px; }
+      line-height: 1.4 }
   .to-top .row {
     position: relative; }
 
@@ -735,7 +752,8 @@ footer {
     display: inline-block; }
   footer ul.footer-group li a {
     font-size: 10px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    letter-spacing: 0.2em; }
   footer ul.footer-group li a:hover {
     color: rgba(71, 228, 194, 1); }
   footer ul.footer-group li {
@@ -756,6 +774,7 @@ footer {
     footer .social-share p {
       color: #fff;
       text-transform: uppercase;
+      letter-spacing: 0.2em;
       padding-bottom: 10px; }
     footer .social-share a.twitter-share {
       height: 40px;
