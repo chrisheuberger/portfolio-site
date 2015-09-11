@@ -2,20 +2,28 @@ $(document).ready(function() {
 
 	/***************** Waypoints ******************/
 
+	// $('section').waypoint(function() {
+	// 	var id = $(this).attr('id');
+	// 	$('a').removeClass('active');
+	// 	$("[href=#"+id+"]").addClass('active');
+	// });
+
 	$('.wp1').waypoint(function() {
-		$('.wp1').addClass('animated fadeInUp');
+		$('.wp1').addClass('animated fadeIn');
 	}, {
-		offset: '75%'
+		offset: '10%'
 	});
+
 	$('.wp2').waypoint(function() {
-		$('.wp2').addClass('animated fadeInUp');
+		$('.wp2').addClass('animated fadeIn');
 	}, {
-		offset: '75%'
+		offset: '10%'
 	});
+
 	$('.wp3').waypoint(function() {
 		$('.wp3').addClass('animated fadeIn');
 	}, {
-		offset: '75%'
+		offset: '10%'
 	});
 
 	/***************** Initiate Flexslider ******************/
@@ -36,13 +44,16 @@ $(document).ready(function() {
 
 	/***************** Nav Transformicon ******************/
 
-	/* When user clicks the Icon */
+	/* When user clicks the icon */
+
 	$('.nav-toggle').click(function() {
 		$(this).toggleClass('active');
 		$('.header-nav').toggleClass('open');
 		event.preventDefault();
 	});
+
 	/* When user clicks a link */
+
 	$('.header-nav li a').click(function() {
 		$('.nav-toggle').toggleClass('active');
 		$('.header-nav').toggleClass('open');
@@ -51,44 +62,34 @@ $(document).ready(function() {
 
 	/***************** Header BG Scroll ******************/
 
-	$(function() {
+$(function() {
 		$(window).scroll(function() {
 			var scroll = $(window).scrollTop();
 
-			if (scroll >= 20) {
-				$('section.navigation').addClass('fixed');
+			if (scroll >= 100) {
+				$('section.navigation').css({
+					"background": "#232731"
+				});
 				$('header').css({
 					"border-bottom": "none",
-					"padding": "35px 0"
-				});
-				$('header .member-actions').css({
-					"top": "26px",
-				});
-				$('header .navicon').css({
-					"top": "34px",
 				});
 			} else {
-				$('section.navigation').removeClass('fixed');
+				$('section.navigation').css({
+					"background": "none"
+				});
 				$('header').css({
-					"border-bottom": "solid 1px rgba(255, 255, 255, 0.2)",
-					"padding": "50px 0"
-				});
-				$('header .member-actions').css({
-					"top": "41px",
-				});
-				$('header .navicon').css({
-					"top": "48px",
+					"border-bottom": "solid 1px rgba(255, 255, 255, 0.2)"
 				});
 			}
 		});
 	});
+
 	/***************** Smooth Scrolling ******************/
 
 	$(function() {
 
 		$('a[href*=#]:not([href=#])').click(function() {
 			if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
-
 				var target = $(this.hash);
 				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 				if (target.length) {
