@@ -90,6 +90,13 @@ h1, h2, h3 {
     width: 100%;
 }
 
+.gallery img {
+  width: 30%;
+  height: auto;
+  margin: 10px;
+  vertical-align: top;
+}
+
 /*.gallery {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
