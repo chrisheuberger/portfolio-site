@@ -7,12 +7,12 @@
 Added
 ========================================================================== */
 
-.phone {
-  color: pink;
+.brighten {
+   color: lightpink;
 }
 
-.warning {
-  color: lightpink;
+.phone {
+  color: pink;
 }
 
 .header-logo {
@@ -30,10 +30,7 @@ Added
   transition-duration: 500ms;
   -webkit-transition-property: background-color;
   transition-property: background-color; 
-  -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4;
-  -moz-box-shadow: 0px 3px 0px 0px #f0f2f4;
-  box-shadow: 0px 3px 0px 0px #f0f2f4;
-  padding: 20px 0;
+  padding: 20px 10px;
 }
 
 .light-box:hover, .light-box:focus { 
@@ -65,7 +62,13 @@ Added
 h1, h2, h3 {
   font-family: 'Amatic SC';
   font-weight: 700;
-  letter-spacing: 0.2em; 
+  letter-spacing: 0.2em;
+  padding-bottom: 10px;
+}
+
+#event h2 {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .map {
@@ -88,6 +91,7 @@ h1, h2, h3 {
 
 .primary-pics {
     width: 100%;
+    height: auto;
 }
 
 .gallery img {
@@ -328,7 +332,7 @@ ul li {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 60px 0 0 0;
 }
 
 .tooltip {
@@ -383,6 +387,37 @@ ul li {
 /* ==========================================================================
 Animations
 ========================================================================== */
+.pulse2 {
+  -webkit-animation-name: pulse2;
+          animation-name: pulse2;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear; }
+
+@-webkit-keyframes pulse2 {
+  0% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); }
+  50% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes pulse2 {
+  0% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); }
+  50% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
 
 .floating-arrow {
   -webkit-animation-name: floating-arrow;
@@ -554,86 +589,11 @@ Intro
   width: 80%;
 }
 
-/* ==========================================================================
-Features-stack
-========================================================================== */
-
-/*.features {
-  position: relative; }
-  .features p {
-    margin-bottom: 0;
-    padding-bottom: 0; }
-  .features h3 {
-    margin: 0 0 20px 0; }
-  .features span.icon {
-    font-size: 35px;
-    color: rgba(71, 228, 194, 1);
-    font-weight: bold; }
-  .features .feature-icon {
-    display: inline-block;
-    vertical-align: top;
-    padding: 6px 0 0 0;
-    margin-right: 20px;
-    width: 35px; }
-  .features .feature-content {
-    display: inline-block;
-    width: 75%; }
-  .features .intro-icon {
-    display: inline-block;
-    vertical-align: top;
-    padding: 6px 0 0 0;
-    margin-right: 20px; }
-  .features .intro-content {
-    display: inline-block;
-    width: 80%; }
-  .features ul.features-stack {
-    margin-top: 50px; }
-  .features ul.features-stack li {
-    margin-top: 20px;
-    padding-bottom: 20px;
-    border-bottom: solid 1px #E6E9EA; }
-  .features ul.features-stack li:last-child {
-    padding-bottom: 0px;
-    border-bottom: none; }*/
-
 .dickinson, .eliot, .theater {
   width: 80%;
   height: auto;
+  padding: 10px;
 }
-
-/* ==========================================================================
-.hero-strip
-========================================================================== */
-
-/*.hero-strip {
-  margin-top: 120px;
-  background: #333844 url("../img/polygonal-bg.jpg") no-repeat center center;
-  padding-bottom: 190px;
-  position: relative; }
-  .hero-strip i {
-    font-family: "Nunito", sans-serif;
-    font-weight: 300;
-    font-size: 25px;
-    color: #F69D52;
-    vertical-align: top;
-    margin-left: -8px;
-    font-style: normal; }
-  .hero-strip h2 {
-    color: #fff;
-    margin: 0 0 20px 0; }
-  .hero-strip p {
-    color: #ACB1B4; }
-  .hero-strip .btn {
-    margin-top: 10px; }
-  .hero-strip .logo-placeholder {
-    width: 230px;
-    height: 230px;
-    position: absolute;
-    bottom: -285px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-            transform: translateX(-50%); }*/
 
 /* ==========================================================================
 .blog-intro
@@ -733,7 +693,7 @@ To top
       background-color: rgba(0, 0, 0, 0.4); }
     .to-top .to-top-wrap i {
       font-size: 30px;
-      line-height: 1.4 }
+      line-height: 60px; }
   .to-top .row {
     position: relative; }
 
