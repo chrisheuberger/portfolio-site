@@ -106,7 +106,7 @@ $(function() {
 
 	$(function() {
 
-		var headerHeight = $("header").height() - 60;
+		var headerHeight = $("header").height() - 30;
 
 		$('a[href*=#]:not([href=#])').click(function() {
 			if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
