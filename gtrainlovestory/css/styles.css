@@ -8,11 +8,11 @@ Added
 ========================================================================== */
 
 .brighten {
-   color: lightpink;
+   color: #E7808D;
 }
 
-.phone {
-  color: pink;
+.expand {
+  letter-spacing: 0.2em;
 }
 
 .header-logo {
@@ -76,6 +76,10 @@ h1, h2, h3 {
   height: auto;
 }
 
+img {
+  width: 100%;
+}
+
 .zoomy1 img {
     width: 100%;
     height: auto;
@@ -94,75 +98,40 @@ h1, h2, h3 {
     height: auto;
 }
 
-.gallery img {
-  width: 30%;
-  height: auto;
-  margin: 10px;
-  vertical-align: top;
+/* ==========================================================================
+Modal
+========================================================================== */
+
+.modal-body {
+  padding:5px !important;
 }
 
-/*.gallery {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 22px 0 0 0;
+.modal-content {
+  border-radius:0;
 }
 
-.gallery ul {
-    -moz-column-count: 3;
-    -moz-column-gap: 2%;
-    -webkit-column-count: 3;
-    -webkit-column-gap: 2%;
-    column-count: 3;
-    column-gap: 2%;
-    margin: 0 auto;
-    padding: 0;
-    max-width: 1000px;
+.modal-dialog img {
+  text-align:center;
+  margin:0 auto;
 }
 
-.gallery ul li {
-  display: inline-block;
-  list-style: none;            
-  margin-bottom: 20px;
-  padding: 0;
-  width: 100%;
+.controls{          
+  width:50px;
+  display:block;
+  font-size:11px;
+  padding-top:8px;
+  font-weight:bold;          
 }
 
-.gallery ul li img {
-  width: 400px;
-  height: 100%;
-  padding: 10px 20px;
-  margin-bottom: 10px;
-  display: block;
-}
-       
-@media only screen and (min-width: 768px) and (max-width: 999px) {
-
-  .gallery ul {
-    -moz-column-count: 2;
-    -moz-column-gap: 2%;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 2%;
-    column-count: 2;
-    column-gap: 2%;
-    padding: 0 2%;
-  }
-
+.next {
+  float:right;
+  text-align:right;
 }
 
-@media only screen and (max-width: 767px) {
-  
-  .gallery ul {
-    -moz-column-count: 1;
-    -moz-column-gap: 2%;
-    -webkit-column-count: 1;
-    -webkit-column-gap: 2%;
-    column-count: 1;
-    column-gap: 2%;
-    padding: 0 2%;
-  }
-  
-}*/
+.previous {
+  float:left;
+  text-align:left;
+}
 
 /* ==========================================================================
 Typography
@@ -329,6 +298,14 @@ ul, ol {
 
 ul li {
   list-style: none;
+}
+
+.gallery ul li {
+  margin-bottom:25px;
+}
+
+.gallery ul li img {
+  cursor: pointer;
 }
 
 .section-padding {
