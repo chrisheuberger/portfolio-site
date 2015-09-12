@@ -2,12 +2,6 @@ $(document).ready(function() {
 
 	/***************** Waypoints ******************/
 
-	// $('section').waypoint(function() {
-	// 	var id = $(this).attr('id');
-	// 	$('a').removeClass('active');
-	// 	$("[href=#"+id+"]").addClass('active');
-	// });
-
 	$('.wp1').waypoint(function() {
 		$('.wp1').addClass('animated fadeInUp');
 	}, {
