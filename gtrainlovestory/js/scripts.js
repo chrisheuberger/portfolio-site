@@ -44,7 +44,7 @@ $(document).ready(function() {
 
 	/***************** Header BG Scroll ******************/
 
-$(function() {
+  $(function() {
 		$(window).scroll(function() {
 			var scroll = $(window).scrollTop();
 
@@ -110,6 +110,13 @@ $(function() {
 		});
 
 	});
+
+	/***************** Hide/Show Video ******************/
+
+	$(".viddy").hide();
+  $(".reveal").click(function(){
+    $(".viddy").slideToggle();
+  });
 
 });
 
