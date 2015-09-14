@@ -608,7 +608,8 @@ Intro
     transform: scale(1.1); }
 
   .blog figcaption {
-    margin-top: 10px;
+    margin: 10px auto 0 auto;
+    width:82%;
   }
 
   .blog figcaption i {
