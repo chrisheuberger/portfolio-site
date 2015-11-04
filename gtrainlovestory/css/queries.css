@@ -46,7 +46,12 @@
   }
 
   .accommodations {
-  	font-size: 3.5em;
+  	font-size: 2.75em;
+  }
+
+  .light-box {
+    margin: 20px;
+    border: 1pt solid rgba(28, 54, 83, .2);
   }
 
 	header {
@@ -389,4 +394,20 @@
 
 
 	@media screen and (max-width:320px) {
+		p {
+			font-size: .75em;
+		}
+
+		.intro-content, .poem {
+			font-size: 1.5em;
+		}
+
+		.brighten {
+			font-size: .75em;
+		}
+    
+    h2 {
+    	font-size: 3em;
+    }
+
 	}
