@@ -7,6 +7,23 @@
 Added
 ========================================================================== */
 
+.conversation-topics li {
+  padding-bottom: 15px;
+}
+
+.conversation-topics-header {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+ol {
+  font-weight: bold;
+}
+
+li span {
+  font-weight: normal;
+}
+
 .bump {
   padding-bottom: 5px;
 }
