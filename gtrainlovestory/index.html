@@ -15,7 +15,6 @@
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.css">
     <link rel="stylesheet" href="css/flexslider.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/queries.css">
@@ -136,7 +135,9 @@
                     <p class="brighten">Rides will be provided from the church to the restaurant and will begin at <strong>5:15pm</strong>.</p>
                     <h3>Now featuring Morgan O'Kane!</h3>
                     <p>After dinner, anyone who would like to will be welcome to join us upstairs at Saint Mazie for a set by <a href="http://narrative.ly/stories/the-ol-banjo-sounds-good/" target="_blank">Morgan O’Kane</a> from <strong>9–10pm</strong>.</p>
-                    <iframe src="https://player.vimeo.com/video/26868397?color=00f0c8&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <div class="morgan-okane-viddy">
+                        <iframe src="https://player.vimeo.com/video/26868397?color=00f0c8&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
                     <br>
                     <br>
                     <br>
@@ -156,7 +157,7 @@
                     <img src="img/dickinson.jpg" alt="Dickinson" class="dickinson">
                 </div>
                 <div class="col-md-1">
-                    <h5 class="brighten pull-right">1.</h5>
+                    <h5 class="brighten text-right poem-number">1.</h5>
                 </div>
                 <div class="col-md-4">
                     <h5>Forever&#8212;is composed of Nows</h5>
@@ -183,7 +184,7 @@
                     <img src="img/eliot.jpg" alt="Eliot" class="eliot">
                 </div>
                 <div class="col-md-1">
-                    <h5 class="brighten pull-right">2.</h5>
+                    <h5 class="brighten text-right poem-number">2.</h5>
                 </div>
                 <div class="col-md-4">
                     <h5>Count That Day Lost </h5>
@@ -217,14 +218,16 @@
                     <h2 class="col-md-12 text-center">Seating Chart</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-5 col-md-offset-1">
-                    <img src="img/seating-chart-1.png" alt="seating chart 1" class="seating">
+            <a href="#" data-toggle="tooltip" title="no complaining">
+                <div class="row">
+                    <div class="col-md-5 col-md-offset-1">
+                        <img src="img/seating-chart-1.png" alt="seating chart 1" class="seating">
+                    </div>
+                    <div class="col-md-5">
+                        <img src="img/seating-chart-2.png" alt="seating chart 2" class="seating">
+                    </div>
                 </div>
-                <div class="col-md-5">
-                    <img src="img/seating-chart-2.png" alt="seating chart 2" class="seating">
-                </div>
-            </div>
+            </a>
         </div>
     </section>
     <section class="features section-padding" id="conversation">
@@ -232,7 +235,7 @@
             <div class="row">
                 <div>
                     <h2 class="col-md-12 text-center">Conversation Topics</h2>
-                    <h3 class="col-md-12 text-center conversation-topics-header">Talk amongst yourselves. I’ll give you a topic; discuss.</h3>
+                    <h3 class="col-md-12 text-center conversation-topics-header">Talk amongst yourselves. I’ll give you a topic... discuss.</h3>
                 </div>
             </div>
             <div class="row">
@@ -242,7 +245,7 @@
                         <li><span>Would you spend a week in solitary confinement with no cell mates in exchange for free flights anywhere in the world for a year?</span></li>
                         <li><span>Does happiness correlate to relative income or absolute income?</span></li>
                         <li><span>Should we have a military draft?</span></li>
-                        <li><span>Will you reject or embrace these coming scientific advances: driverless cars, domesticated parasites, lab-grown meat.</span></li>
+                        <li><span>Will you reject or embrace these coming scientific advances: driverless cars? domesticated parasites? lab-grown meat?</span></li>
                         <li><span>How do you make sure you challenge your fundamental assumptions from time to time?</span></li>
                         <li><span>If there is one thing you could change about how our government is set up, what would it be?</span></li>
                         <li><span>Are “care” and “worry” the same thing?</span></li>
@@ -270,8 +273,10 @@
     <section class="section-padding" id="accommodations">
         <div class="container">
             <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="accommodations">Accommodations</h2>
+                </div>
                 <div class="col-md-8 col-md-offset-2">
-                    <h2>Accommodations</h2>
                     <br>
                     <h5>Airbnb</h5>
                     <p class="bump"><em>Airbnb is a great way to take advantage of some amazing apartment rentals in Brooklyn.</em></p>
@@ -303,28 +308,32 @@
     <section class="features section-padding" id="transportation">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-12 text-center">
                     <h2>Traversing the City</h2>
+                </div>
+                <div class="col-md-8 col-md-offset-2">
                     <p>The best way to get around New York is by <a href="http://web.mta.info/maps/submap.html" target="_blank">subway</a>.<strong> Pro tip:</strong> before purchasing a metro card, use this <a href="http://enterprise.mtanyct.info/MetroCardCalculator/" target="_blank">calculator</a> to determine how many rides you can get out of whatever amount you put on your card. Go with their suggestions to avoid getting stuck with a remaining balance.</p>
                     <p>The church and the restaurant are both near the subway, two stops away from each other on the G line.</p>
                     <p>New York has an excellent <a href="https://www.citibikenyc.com/" target="_blank">bike sharing system</a> too with hubs all over the city. Extra points for anyone who bikes to the wedding! And <a href="http://www.eastriverferry.com/" target="_blank">The East River Ferry</a> is a great way to get out on the water for not much more than a subway ride.</p>
+                </div>
+                <div class="col-md-12 text-center">
                     <h3>Taxis</h3>
+                </div>
+                <div class="col-md-8 col-md-offset-2">    
                     <p>Yellow taxi cabs can pick up and drop off passengers anywhere in New York City. You'll see them mostly in Manhattan.</p>
                     <p>Green taxi cabs (or boro taxis) can be hailed in Manhattan above Central Park and all outer boroughs (the Bronx, Brooklyn, Queens, and Staten Island) except at the airports. They can drop off passengers anywhere, but will not be able to pick up new passengers within Manhattan's <a href="http://www.nyc.gov/html/tlc/images/features/map_service_area.png" target="_blank">"yellow zone"</a> (south of East 96th and West 110th Streets) or at airports. </p>
+                </div>
+                <div class="col-md-12 text-center">
                     <h3>Car Services</h3>
+                </div>
+                <div class="col-md-8 col-md-offset-2">      
                     <p>These are the car service companies available in our neighborhood. You can call them anytime and usually be picked up within five minutes. </p>
                     <div class="row">
-                        <div class="col-md-3 col-md-offset-1">
+                        <div class="col-md-8 col-md-offset-3">
                             <p>
-                                <strong>Northside Car Service</strong><br>
-                                <strong>Mobile Car Service</strong><br>
-                                <strong>United Car Service</strong>
-                            </p>
-                        </div>
-                        <div class="col-md-8">
-                            <p class="brighten expand">718.387.2222<br>
-                                718.383.8300<br>
-                                718.349.5900
+                                <strong>Northside Car Service</strong> . . .<span class="brighten expand">718.387.2222</span><br>
+                                <strong>Mobile Car Service</strong> . . .<span class="brighten expand">718.383.8300</span><br>
+                                <strong>United Car Service</strong> . . .<span class="brighten expand">718.349.5900</span>
                             </p>
                         </div>
                     </div>
@@ -413,8 +422,10 @@
     <section class="features section-padding" id="hashtag">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-12 text-center">
                     <h2>What's with the hashtag?</h2>
+                </div>
+                <div class="col-md-8 col-md-offset-2">
                     <p>The hashtag is to help collect photos from the evening. If you post any to <a href="https://instagram.com/chrisbup/" target="_blank">Instagram</a>, <a href="https://www.facebook.com/chris.heuberger" target="_blank">Facebook</a>, or <a href="https://twitter.com/chrisbup" target="_blank">Twitter</a>, please tag it with <strong>#GtrainLoveStory</strong> and they will automatically be added to our wedding album on Flickr.</p>
                     <p>You can also add photos directly to the <a href="https://flic.kr/g/qZ1sq" target="_blank">Flickr allbum</a>.</p>
                 </div>
@@ -424,8 +435,10 @@
     <section class="section-padding" id="faq">
         <div class="container">
             <div class="row">
+                <div class="col-md-12 text-center">
+                   <h2>Frequently Asked Questions</h2>
+                </div>
                 <div class="col-md-8 col-md-offset-2">
-                    <h2>Frequently Asked Questions</h2>
                     <h6>Where can I park?</h6>
                     <p>There are no parking garages near the church or the restaurant. The only parking available near either venue will be on the street. You should be able to find something relatively nearby but we suggest you give yourself some extra time to find a spot.</p>
                     <h6>What about my kids?</h6>
@@ -469,7 +482,7 @@
                         <article class="blog-post">
                             <figure>
                                 <div class="blog-img-wrap">
-                                    <img src="img/blog-img-03.jpg" alt="Peru"/>
+                                    <img src="img/blog-img-03.jpg" class="peru" alt="Peru"/>
                                 </div>
                                 <figcaption>
                                     <p class="blog-post-title">But if you'd really like to give us something, we <em>are</em> saving for a trip to Peru!</p>
@@ -532,7 +545,6 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
     <script src="bower_components/retina.js/dist/retina.js"></script>
-    <script src="js/jquery.fancybox.pack.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/jquery.flexslider-min.js"></script>

@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic);
-@import url(http://fonts.googleapis.com/css?family=Nunito:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC:400,700);
 
 /* ==========================================================================
@@ -49,7 +48,9 @@ li span {
 }
 
 .expand {
+  margin-left: 5px;
   letter-spacing: 0.2em;
+  line-height: 1.75;
 }
 
 .header-logo {
@@ -314,9 +315,8 @@ ul li {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Open Sans", sans-serif;
-  font-size: .5em;
-  font-weight: normal;
+  font-family: "Merriweather", sans-serif;
+  font-size: .75em;
   line-height: 1.4;
   visibility: visible;
   filter: alpha(opacity=0);
@@ -330,7 +330,7 @@ ul li {
 
 .tooltip.top {
   padding: 5px 0;
-  margin-top: -3px;
+  margin-top: 15px;
 }
 
 .tooltip.right {
@@ -349,14 +349,13 @@ ul li {
 }
 
 .tooltip-inner {
-  max-width: 200px;
-  padding: 3px 8px;
+  max-width: 300px;
+  padding: 8px 16px;
   color: #fff;
   text-align: center;
   text-decoration: none;
-  text-transform: capitalize;
   background-color: #000;
-  border-radius: 4px;
+  border-radius: 0;
 }
 
 /* ==========================================================================
