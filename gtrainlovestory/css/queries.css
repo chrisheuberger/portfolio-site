@@ -391,7 +391,32 @@
 
 	}
 
+@media screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+	
+	@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    
+    p {
+			font-size: .75em;
+		}
 
+		.intro-content, .poem {
+			font-size: 1.5em;
+		}
+
+		.brighten {
+			font-size: .75em;
+		}
+    
+    h2 {
+    	font-size: 3em;
+    }
+
+	}
 
 	@media screen and (max-width:320px) {
 		p {
