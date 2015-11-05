@@ -394,7 +394,7 @@
 
 	}
 
-	@media screen and (max-width:400px) {
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
 
 		p {
 			font-size: .75em;
@@ -412,3 +412,8 @@
 			font-size: 3em;
 		}
 	}
+
+/*	@media screen and (max-width:320px) {
+
+		
+	}*/
