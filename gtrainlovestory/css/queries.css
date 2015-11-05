@@ -86,9 +86,9 @@
 		visibility: visible;
 	}
 
-	header .nav-wrapper {
+	/*header .nav-wrapper {
 		display: absolute;
-	}
+	}*/
 
 	header nav {
 		position: relative;
@@ -392,10 +392,6 @@
 			display: none;
 		}
 
-	}
-
-	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-
 		p {
 			font-size: 1em;
 		}
@@ -415,4 +411,9 @@
 		h2 {
 			font-size: 3em;
 		}
+
+	}
+
+  @media screen and (max-device-width:320px) {
+
 	}
