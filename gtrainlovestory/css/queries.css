@@ -400,6 +400,10 @@
 			font-size: 1em;
 		}
 
+		.blog-post p {
+			font-size: 1em;
+		}
+
 		.intro-content, .poem {
 			font-size: 1.5em;
 		}
@@ -412,8 +416,3 @@
 			font-size: 3em;
 		}
 	}
-
-/*	@media screen and (max-width:320px) {
-
-		
-	}*/
