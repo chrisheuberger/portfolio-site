@@ -416,12 +416,12 @@
 
   @media screen and (max-device-width:320px) {
 
-	p, li {
-		font-size: 2em;
-	}
+		p, li {
+			font-size: 2em;
+		}
 
-	h6.ceremony-info" {
-    font-size: 2em;
-	}
+		h6.ceremony-info" {
+	    font-size: 2em;
+		}
 
 	}
