@@ -92,12 +92,12 @@
 
 	header nav {
 		position: relative;
-		top: 2%;
-		-moz-transform: translatey(-2%);
-		-ms-transform: translatey(-2%);
-		-o-transform: translatey(-2%);
-		-webkit-transform: translatey(-2%);
-		transform: translatey(-2%);
+		top: 1%;
+		-moz-transform: translatey(-1%);
+		-ms-transform: translatey(-1%);
+		-o-transform: translatey(-1%);
+		-webkit-transform: translatey(-1%);
+		transform: translatey(-1%);
 	}
 
 	nav ul li a {
