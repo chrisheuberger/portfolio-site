@@ -83,7 +83,7 @@
 	}
 
 	.navicon {
-		visibility: visible;
+		visibility: none;
 	}
 
 	/*header .nav-wrapper {
@@ -92,12 +92,12 @@
 
 	header nav {
 		position: relative;
-		top: 1%;
-		-moz-transform: translatey(-1%);
-		-ms-transform: translatey(-1%);
-		-o-transform: translatey(-1%);
-		-webkit-transform: translatey(-1%);
-		transform: translatey(-1%);
+		top: 45%;
+		-moz-transform: translatey(-45%);
+		-ms-transform: translatey(-45%);
+		-o-transform: translatey(-45%);
+		-webkit-transform: translatey(-45%);
+		transform: translatey(-45%);
 	}
 
 	nav ul li a {
