@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   squareThumbnails();
-  window.onresize = squareThumbnails;
+  $(window).onresize = squareThumbnails;
   
   function squareThumbnails() {
     var cw = $('.thumb').width();
@@ -10,10 +10,16 @@ $(document).ready(function(){
 
   $(window).scroll(function() {
     if ($(window).scrollTop() > 120 ){
-      $('.header-title').fadeOut();
+      $('.page-title').fadeOut();
     } else {
-      $('.header-title').fadeIn();
+      $('.page-title').fadeIn();
     };
+  });
+
+  $("img").unveil(200, function() {
+    $(this).load(function() {
+      this.style.opacity = 1;
+    });
   });
 
 })
