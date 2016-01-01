@@ -2,14 +2,35 @@
 /*  Added */
 /*----------------------------------------------------------------------------------- */
 
-.heady {
-  text-align: center;
-  width: 60%;
-  margin: 0 auto;
+h1.page-header {
+  font-family: 'Nixie One', Helvetica, Arial, Sans-Serif;
+  font-size: 3.5em;
+  line-height: 1.6;
+  letter-spacing: .1em;
+  color: #85144b;
+  margin-bottom: .5em;
+  padding-bottom: .5em;
 }
 
-.heady a {
-  color: darkslategray;
+p {
+  font-size: 1.5em;
+  line-height: 1.4;
+  color: #0D4654
+}
+
+.header-container {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+
+a.header-link {
+  color: #fff0b3;
+}
+
+a.header-link:hover {
+  color: #fcd7a7;
 }
 
 .answerspan {
@@ -24,6 +45,17 @@ li {
   list-style: none;
 }
 
+/*media queries*/
+
+@media only screen and (max-width : 768px) {
+
+  h1.page-header {
+    font-size: 2em;
+    line-height: 1.4;
+    letter-spacing: .1em;
+  }
+
+}
 
 /*----------------------------------------------------------------------------------- */
 /*  Fonts */

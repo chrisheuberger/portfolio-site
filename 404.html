@@ -1,150 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title>Page Not Found :(</title>
-        <link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
-        <style>
-            ::-moz-selection {
-                background: #b3d4fc;
-                text-shadow: none;
-            }
-
-            ::selection {
-                background: #b3d4fc;
-                text-shadow: none;
-            }
-
-            html {
-                padding: 30px 10px;
-                font-size: 20px;
-                line-height: 1.4;
-                color: #222;
-                background: #eee;
-                -webkit-text-size-adjust: 100%;
-                -ms-text-size-adjust: 100%;
-            }
-
-            html,
-            input {
-              font: 1em/1.5 'Ropa Sans', "Helvetica Neue", Helvetica, sans-serif;
-              font-weight: 300;
-            }
-
-            body {
-              width: 600px;
-              padding: 0 20px 40px;
-              margin: 0 auto;
-              background: #fff;
-            }
-
-            h1 {
-              font-size: 50px;
-            }
-
-            p {
-              font-size: 20px;
-              margin: 1em 0;
-            }
-
-            ul {
-              font-size: 20px;
-              margin: 0;
-              padding: 0;
-            }
-
-            .container {
-              width: 500px;
-              margin: 0 auto;
-              padding: 10px;
-            }
-
-            /* google search */
-
-            #goog-fixurl ul {
-              list-style: none;
-              padding: 0;
-              margin: 0;
-            }
-
-            #goog-fixurl form {
-              margin: 0;
-            }
-
-            #goog-wm-qt,
-            #goog-wm-sb {
-              border: 1px solid #bbb;
-              font-size: 16px;
-              line-height: normal;
-              vertical-align: top;
-              color: #444;
-              border-radius: 2px;
-            }
-
-            #goog-wm-qt {
-              width: 220px;
-              height: 20px;
-              padding: 5px;
-              margin: 5px 10px 0 0;
-            }
-
-            #goog-wm-sb {
-              display: inline-block;
-              height: 32px;
-              padding: 0 10px;
-              margin: 5px 0 0;
-              white-space: nowrap;
-              cursor: pointer;
-              background-color: #f5f5f5;
-              background-image: -webkit-linear-gradient(rgba(255,255,255,0), #f1f1f1);
-              background-image: -moz-linear-gradient(rgba(255,255,255,0), #f1f1f1);
-              background-image: -ms-linear-gradient(rgba(255,255,255,0), #f1f1f1);
-              background-image: -o-linear-gradient(rgba(255,255,255,0), #f1f1f1);
-              -webkit-appearance: none;
-              -moz-appearance: none;
-              appearance: none;
-              *overflow: visible;
-              *display: inline;
-              *zoom: 1;
-            }
-
-            #goog-wm-sb:hover,
-            #goog-wm-sb:focus {
-              background-color: #f8f8f8;
-            }
-
-            #goog-wm-qt:hover,
-            #goog-wm-qt:focus {
-              outline: 0;
-              color: #222;
-            }
-
-            input::-moz-focus-inner {
-              padding: 0;
-              border: 0;
-            }
-
-            li {
-              list-style: none;
-            }
-            span {
-              color: aqua;
-            }
-        </style>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="HandheldFriendly" content="true">
+      <title>Chris Heuberger / Page Not Found</title>
+      <link rel="stylesheet" href="stylesheets/normalize.min.css">
+      <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+      <link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="stylesheets/styles.css">
     </head>
     <body>
-        <div class="container">
-            <h1>Uh-oh! <span>Four, oh four.</span></h1>
-            <p>Sorry, but the page you're trying to view doesn't exist.</p>
-            <p>It looks like this was the result of either:</p>
-            <ul>
-                <li>&bull; a mistyped address</li>
-                <li>&bull; an out-of-date link</li>
-            </ul>
-            <script>
-                var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),GOOG_FIXURL_SITE = location.host;
-            </script>
-            <script src="//linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
-        </div>
+      <div class="broken-container">
+        <h1 class="broken-header">Uh-oh! <span>Four oh four.</span></h1>
+        <p class="broken-text">Sorry, but the page you're trying to view doesn't exist.</p>
+        <img class="broken-pic" src="images/sweater.png" alt="">
+        <p class="broken-float"><a class="broken-link" href="index.html">Go to the homepage ></a></p>
+      </div>
     </body>
 </html>

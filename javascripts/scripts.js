@@ -19,6 +19,13 @@ ga('create', 'UA-53787405-1', 'auto');
 ga('send', 'pageview');
 
 $(function(){
+
+  $('.close-intro').click(function() {
+    $( "#intro" ).fadeOut( 500, function() {
+      $( ".venn" ).fadeIn( 500 );
+    });
+  });
+
   $(".fade").hide();
   $(".slide").hide();
   $(".quote").click(function(){

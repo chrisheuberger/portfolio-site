@@ -4,8 +4,8 @@ $(document).ready(function(){
   $(window).onresize = squareThumbnails;
   
   function squareThumbnails() {
-    var cw = $('.thumb').width();
-    $('.thumb').css({'height':cw+'px'});
+    var cw = $(".thumb").width();
+    $(".thumb").css({"height":cw+"px"});
   }
 
   $(window).scroll(function() {
