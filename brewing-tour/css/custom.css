@@ -1,0 +1,93 @@
+body {
+  font: 100%/1.4 'Helvetica Neue', arial, helvetica, helve, sans-serif;
+}
+
+h1 {
+  font-family: 'Kavoon', Helvetica, Arial, Sans-Serif;
+  font-weight: 400;
+  font-size: 5em;
+  text-align: center;
+}
+
+h2 { 
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.span_1_of_6 {
+  width: 16.66%;
+  text-align: center;
+}
+
+.first-link {
+  background-color: red;
+}
+
+.second-link {
+  background-color: orange;
+}
+
+.third-link {
+  background-color: yellow;
+}
+
+.fourth-link {
+  background-color: green;
+}
+
+.fifth-link {
+  background-color: blue;
+}
+
+.sixth-link {
+  background-color: purple;
+  width: 16.7%;
+}
+
+img {
+  width: 100%;
+}
+
+.beers-pic {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.header { 
+  padding: 1em 0; 
+}
+
+.col {
+  padding: .5em 0;
+  margin: 0;
+}
+
+a {
+  color: #eee;
+  text-decoration: none
+}
+
+a:hover {
+  color: #ddd;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+@media only screen and (max-width: 480px) {
+  .span_1_of_6 {
+    padding: 1em;
+    width: 100%; 
+  }
+}
