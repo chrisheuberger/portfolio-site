@@ -188,6 +188,7 @@ footer {
 
 #intro {
   width: 100%;
+  max-width: 930px;
   height: auto;
   background-color: #111;
 }
