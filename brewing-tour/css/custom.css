@@ -233,7 +233,7 @@ hr.images {
   margin-left: 33.32%;
 }
 
-hr.history  {
+hr.timeline  {
   margin-left: 49.98%;
 }
 
@@ -311,6 +311,7 @@ hr.footer-line {
   margin: auto; 
   min-width: 50%;
   min-height: 50%;
+  -webkit-filter: brightness(50%);
 }
 
 img.beers-pic {
