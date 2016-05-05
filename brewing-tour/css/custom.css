@@ -38,7 +38,7 @@ h1.hero-title {
   font-size: 6em;
   font-family: "Bodoni Bold", Helvetica, Arial, Sans-Serif;
   z-index: 1;
-  width: 90%;
+  width: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -77,7 +77,8 @@ h2.subhead-text {
 
 h3 {
   color: #807471;
-  font-size: 1.2em
+  font-size: 1.2em;
+  margin: 2.5em auto 1em;
 }
 
 h4 {
@@ -188,7 +189,7 @@ ul li {
 }
 
 .nav a:hover {
-  color: #E66355;
+  color: #CF442B;
 }
 
 .one:hover ~ hr {
@@ -219,7 +220,7 @@ hr {
   height: .2em;
   width: 16.66%;
   margin-left: 0;
-  background: #E66355;
+  background: #CF442B;
   border: none;
   transition: .3s ease-in-out;
 }
@@ -276,6 +277,7 @@ div.main-wrapper {
 }
 
 .shim {
+  float: left;
   padding: 1em;
 }
 
@@ -292,15 +294,23 @@ hr.footer-line {
   background: #DAC1BA;
 }
 
-img.hero {
-  min-height: 100%;
-  min-width: 1024px;
-  -webkit-filter: brightness(80%); 
-  width: 100%;
-  height: auto;
-  position: fixed;
-  bottom: 0;
-  left: 0;
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
 }
 
 img.beers-pic {
@@ -344,6 +354,10 @@ img.left {
   width: 30px;
 }
 
+.rwd-break {
+  display: none;
+}
+
 /* 404 */
 
 .broken-container {
@@ -382,29 +396,31 @@ a.broken-link:hover {
   margin-left: -50px;
 }
 
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
-  img.hero {
-    left: 50%;
-    margin-left: -512px;   /* 50% */
-  }
-}
-
 @media only screen and (max-width: 840px) {
 
   h1 {
     margin: 0 auto .5em;
   }
 
-  .nav {
-    margin: 0 auto;    
+  h1.hero-title {
+    font-size: 3em;
+  }
+
+  .nav .main {
+    margin: 1em auto 0;    
   }
 
   .nav a {
     width: 50%;
+    line-height: 2em;
   }
 
   hr {
     display: none;
+  }
+
+  .wrapper {
+    width: 90%;
   }
 
   .header {
@@ -415,21 +431,21 @@ a.broken-link:hover {
 
 @media only screen and (max-width: 480px) {
 
+  h1.hero-title {
+    font-size: 2em;
+    top: 40%;
+  }
+
   h1 {
     font-size: 3em;
   }
 
   h2.subhead-text {
-    margin: 0 auto 1em;
+    margin: 2em auto 1em;
   }
 
   p {
     width: 90%;
-    float: left;
-  }
-
-  .wrapper {
-    width: 100%;
   }
 
   img.beers-pic { 
@@ -448,25 +464,13 @@ a.broken-link:hover {
 
   img.left {
     width: 50%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: 0 auto;
+    display: block;
+    float: none;
+  }
+
+  .rwd-break {
+    display: block;
   }
 
 }
-
-/*
-#F8D584
-#EBCA7C
-#F4BD58
-#E8B454
-#D48830
-#C77F2E
-#A4501C
-#A4501C
-#96491A
-#8A3B1B
-#7D3519
-#762B16
-#692614
-*/
