@@ -277,6 +277,131 @@ div.main-wrapper {
   padding-bottom: 1em;
 }
 
+a.btn-temp {
+  background: #E4542F;
+  color: white;
+  text-align: center;
+  padding: 20px 60px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+a.btn-temp:hover {
+  background-color: #CF442B;
+  color: lightyellow;
+}
+
+/* General button style (reset) */
+a.btn-5 {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  background: #E4542F;
+  color: #fff;
+  height: 70px;
+  min-width: 260px;
+  line-height: 24px;
+  font-size: 16px;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+a.btn-5:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+a.btn-5:before,
+.icon-heart:after,
+.icon-star:after,
+.icon-plus:after,
+.icon-file:before {
+  speak: none;
+  line-height: 1;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  left: 0;
+  top: -100%;
+  height: 100%;
+  width: 100%;
+  line-height: 2.5;
+  font-size: 180%;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.icon-beer:before {
+  content: url(../img/beer-mug-icon.png);
+}
+
+.center-text {
+  text-align: center;
+  margin: 2em;
+}
+
+a.btn-5:active {
+  background: #FF6D5E;
+  top: 2px;
+}
+
+a.btn-5 span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.3s;
+  -webkit-backface-visibility: hidden;
+  -moz-transition: all 0.3s;
+  -moz-backface-visibility: hidden;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+}
+
+a.btn-5:active:before {
+  color: white;
+}
+
+a.btn-5:hover span {
+  -webkit-transform: translateY(300%);
+  -moz-transform: translateY(300%);
+  -ms-transform: translateY(300%);
+  transform: translateY(300%);
+}
+
+
+a.btn-5:hover:before {
+  top: 0;
+}
+
+hr.divider-line {
+  height: 1px;
+  width: 100%;
+  margin: 2em auto;
+  background: #DAC1BA;
+}
+
 .shim {
   float: left;
   padding: 1em;
