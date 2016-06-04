@@ -474,44 +474,6 @@ img.left {
   display: none;
 }
 
-/* 404 */
-
-.broken-container {
-  width: 70%;
-  margin: 5% auto;
-}
-
-.broken-header {
-  font-size: 50px;
-}
-
-p.broken-float {
-  float: left;
-  padding-top: 20px;
-}
-
-.broken-text {
-  font-size: 26px;
-  margin: 1em 0;
-}
-
-a.broken-link {
-  color: #001f3f;
-  font-weight: 400;
-  text-decoration: none;
-}
-
-a.broken-link:hover {
-  color: #0074D9;
-  text-decoration: underline;
-}
-
-.broken-pic {
-  width: 50%;
-  float: left;
-  margin-left: -50px;
-}
-
 @media only screen and (max-width: 840px) {
 
   h1 {
