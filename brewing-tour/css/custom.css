@@ -125,6 +125,7 @@ p.caption-text {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
+  width: 16.66%;
   padding: 1em 0 0 0;
   color: #FF6D5E;
 }
@@ -391,7 +392,17 @@ img.left {
   width: 90%;
 }
 
-@media only screen and (max-width: 480px) {
+
+  .nav .main {
+    margin: 1em auto 0;    
+  }
+
+  .nav a {
+    width: 50%;
+    line-height: 2em;
+  }
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
 
   h1.hero-title {
     font-size: 2em;
@@ -450,7 +461,7 @@ img.left {
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
 
   .nav .main {
     margin: 1em auto 0;    
@@ -463,7 +474,7 @@ img.left {
 
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px), only screen and (min-device-width: 600px) {
 
   /* General button style (reset) */
   .btn-5 {
@@ -549,7 +560,7 @@ img.left {
 
 }
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 840px), only screen and (max-device-width: 840px) {
 
   h1 {
     margin: 0 auto .5em;
@@ -578,14 +589,6 @@ img.left {
 
   .header {
     margin: 1.5em auto 0;
-  }
-
-}
-
-@media only screen and (min-device-width: 840px) {
-
-  .nav a {
-    width: 16.66%;
   }
 
 }
