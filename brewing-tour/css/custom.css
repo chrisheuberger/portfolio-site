@@ -291,92 +291,6 @@ div.main-wrapper {
     font-size: 16px;
 }
 
-@media only screen and (min-width: 600px) {
-
-  /* General button style (reset) */
-  .btn-5 {
-    margin: 15px 30px;
-    position: relative;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    overflow: hidden;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-
-  .btn-5:after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-
-  .btn-5:before,
-  .icon-heart:after,
-  .icon-star:after,
-  .icon-plus:after,
-  .icon-file:before {
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 2.5;
-    position: relative;
-    -webkit-font-smoothing: antialiased;
-    position: absolute;
-    left: 0;
-    top: -100%;
-    height: 100%;
-    width: 100%;
-    font-size: 180%;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-
-  .btn-5:active {
-    background: #FF6D5E;
-    top: 2px;
-  }
-
-  .btn-5 span {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    -webkit-transition: all 0.3s;
-    -webkit-backface-visibility: hidden;
-    -moz-transition: all 0.3s;
-    -moz-backface-visibility: hidden;
-    transition: all 0.3s;
-    backface-visibility: hidden;
-  }
-
-  .btn-5:active:before {
-    color: white;
-  }
-
-  .btn-5:hover span {
-    -webkit-transform: translateY(300%);
-    -moz-transform: translateY(300%);
-    -ms-transform: translateY(300%);
-    transform: translateY(300%);
-  }
-
-  .btn-5:hover:before {
-    top: 0;
-  }
-
-  .icon-beer:before {
-    content: url(../img/beer-mug-icon.png);
-  }
-
-}
-
 hr.divider-line {
   height: 1px;
   width: 100%;
@@ -478,6 +392,164 @@ img.left {
   width: 90%;
 }
 
+@media only screen and (max-width: 480px) {
+
+  h1.hero-title {
+    font-size: 2em;
+    top: 40%;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2.subhead-text {
+    margin: 2em auto 1em;
+  }
+
+  h4 {
+    margin: 1em auto;
+  }
+
+  p {
+    width: 90%;
+  }
+
+  .nav .main {
+    margin: 1em auto 0;    
+  }
+
+  .nav a {
+    width: 50%;
+    line-height: 2em;
+  }
+
+  img.beers-pic { 
+    display: none; 
+  }
+
+  img.beers-pic-mobile { 
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  img.content {
+    width: 100%;
+  }
+
+  img.left {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    float: none;
+  }
+
+  .rwd-break {
+    display: block;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .nav .main {
+    margin: 1em auto 0;    
+  }
+
+  .nav a {
+    width: 50%;
+    line-height: 2em;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+  /* General button style (reset) */
+  .btn-5 {
+    margin: 15px 30px;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .btn-5:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .btn-5:before,
+  .icon-heart:after,
+  .icon-star:after,
+  .icon-plus:after,
+  .icon-file:before {
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 2.5;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    left: 0;
+    top: -100%;
+    height: 100%;
+    width: 100%;
+    font-size: 180%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .btn-5:active {
+    background: #FF6D5E;
+    top: 2px;
+  }
+
+  .btn-5 span {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.3s;
+    -webkit-backface-visibility: hidden;
+    -moz-transition: all 0.3s;
+    -moz-backface-visibility: hidden;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+  }
+
+  .btn-5:active:before {
+    color: white;
+  }
+
+  .btn-5:hover span {
+    -webkit-transform: translateY(300%);
+    -moz-transform: translateY(300%);
+    -ms-transform: translateY(300%);
+    transform: translateY(300%);
+  }
+
+  .btn-5:hover:before {
+    top: 0;
+  }
+
+  .icon-beer:before {
+    content: url(../img/beer-mug-icon.png);
+  }
+
+}
+
 @media only screen and (max-width: 840px) {
 
   h1 {
@@ -507,52 +579,6 @@ img.left {
 
   .header {
     margin: 1.5em auto 0;
-  }
-
-}
-
-@media only screen and (max-width: 480px) {
-
-  h1.hero-title {
-    font-size: 2em;
-    top: 40%;
-  }
-
-  h1 {
-    font-size: 2.5em;
-  }
-
-  h2.subhead-text {
-    margin: 2em auto 1em;
-  }
-
-  p {
-    width: 90%;
-  }
-
-  img.beers-pic { 
-    display: none; 
-  }
-
-  img.beers-pic-mobile { 
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  img.content {
-    width: 100%;
-  }
-
-  img.left {
-    width: 50%;
-    margin: 0 auto;
-    display: block;
-    float: none;
-  }
-
-  .rwd-break {
-    display: block;
   }
 
 }
