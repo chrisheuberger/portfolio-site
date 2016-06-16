@@ -125,7 +125,6 @@ p.caption-text {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  width: 16.66%;
   padding: 1em 0 0 0;
   color: #FF6D5E;
 }
@@ -582,3 +581,13 @@ img.left {
   }
 
 }
+
+@media only screen and (min-width: 840px) {
+
+  .nav a {
+    width: 16.66%;
+  }
+
+}
+
+
