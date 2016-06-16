@@ -392,16 +392,6 @@ img.left {
   width: 90%;
 }
 
-
-  .nav .main {
-    margin: 1em auto 0;    
-  }
-
-  .nav a {
-    width: 50%;
-    line-height: 2em;
-  }
-
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
 
   h1.hero-title {
@@ -568,15 +558,6 @@ img.left {
 
   h1.hero-title {
     font-size: 3em;
-  }
-
-  .nav .main {
-    margin: 1em auto 0;    
-  }
-
-  .nav a {
-    width: 50%;
-    line-height: 2em;
   }
 
   hr {
