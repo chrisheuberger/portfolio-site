@@ -401,6 +401,7 @@ img.left {
   .nav a {
     width: 50%;
     line-height: 2em;
+    margin: 4em auto; 
   }
 
   p {
@@ -453,6 +454,7 @@ img.left {
   .nav a {
     width: 50%;
     line-height: 2em;
+    margin: 4em auto; 
   }
 
   img.beers-pic { 
@@ -509,6 +511,7 @@ img.left {
   .nav a {
     width: 50%;
     line-height: 2em;
+    margin: 4em auto; 
   }
 
   p {
