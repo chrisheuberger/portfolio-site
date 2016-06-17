@@ -422,68 +422,10 @@ Media Queries
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
-  .wrapper {
-    width: 90%;
-  }
-
-  .nav .main {
-    margin: 1em auto 0; 
-    font-size: 3em;
-    width: 90%;
-  }
-
-  .nav {
-    font-size: 1em;
-    width: 90%;
-  }
-
-  .nav a {
-    width: 50%;
-    font-size: 2em;
-    line-height: 2em;
-    margin: 0 auto;
-  }
-
-  hr {
-    display: none;
-  }
-
 }
 
 /* Added for iPhones */ 
-@media only screen and (min-device-width : 320px) and (max-device-width : 667px) {
-
-  .wrapper {
-    width: 90%;
-  }
-
-  .nav .main {
-    margin: 1em auto 0; 
-    font-size: 3em;
-    width: 90%;
-  }
-
-  .nav {
-    font-size: 1em;
-    width: 90%;
-  }
-
-  .nav a {
-    width: 50%;
-    font-size: 2em;
-    line-height: 2em;
-    margin: 0 auto;
-  }
-
-  hr {
-    display: none;
-  }
-
-}
-
-
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
 
   h1 {
     margin: 0 auto .5em;
@@ -552,7 +494,8 @@ Media Queries
 
   .nav a {
     width: 50%;
-    line-height: 1.5em;
+    font-size: 2em;
+    line-height: 2em;
     margin: 0 auto;
   }
 
@@ -595,6 +538,12 @@ Media Queries
     font-size: 1.5em;
     transform: translateY(30%);
   }
+
+}
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
 
 }
 
