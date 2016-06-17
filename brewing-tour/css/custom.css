@@ -420,20 +420,15 @@ Media Queries
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-
-}
-
-/* Added for iPhones */ 
-@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+@media only screen and (max-device-width : 768px) {
 
   h1 {
-    margin: 0 auto .5em;
-    font-size: 2em;
+    margin: .5em auto;
+    font-size: 5em;
   }
 
   h1.hero-title {
-    font-size: 2em;
+    font-size: 5em;
     top: 40%;
   }
 
