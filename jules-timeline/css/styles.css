@@ -3,22 +3,21 @@
 /*----------------------------------------------------------------------------------- */
 
 h1.page-header {
-  font-family: 'Nixie One', Helvetica, Arial, Sans-Serif;
-  font-size: 3.5em;
-  line-height: 1.6;
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 1.2;
   letter-spacing: .1em;
-  color: #85144b;
-  margin-top: .25em;
-  margin-bottom: .5em;
-  padding-bottom: .5em;
+  color: #1E8A83;
+  margin: .5em 0;
+  padding: 0;
 }
 
 h2.entry-header {
-  font-family: 'Nixie One', Helvetica, Arial, Sans-Serif;
-  font-size: 1.5em;
+  font-weight: 400;
+  font-size: 2em;
   line-height: 1.6;
   letter-spacing: .1em;
-  color: #85144b;
+  color: #32b9b1;
   margin-bottom: .5em;
   padding-bottom: .5em;
 }
@@ -26,7 +25,7 @@ h2.entry-header {
 p {
   font-size: 1.5em;
   line-height: 1.4;
-  color: #0D4654
+  color: #2c3e50
 }
 
 .header-container {
@@ -37,24 +36,27 @@ p {
 }
 
 a.header-link {
-  color: #fff0b3;
-}
-
-a.header-link:hover {
-  color: #fcd7a7;
-}
-
-.answerspan {
   color: #32b9b1;
 }
 
+a.header-link:hover {
+  color: #4FE8DE;
+}
+
+.answerspan {
+  display: block;
+  color: #8EB8B2;
+  line-height: 1.4;
+}
+
 blockquote {
-  color: darkslategray;
+  color: #2c3e50;
 }
 
 li {
   list-style: none;
-  line-height: 2;
+  line-height: 1.4;
+  margin-top: .75em;
 }
 
 /*media queries*/
@@ -492,7 +494,7 @@ label {
   background-color: rgba(0, 0, 0, 0.05); }
 
 body {
-  background-color: #5bbcd5;
+  background-color: #e9f0f5;
   padding: 0  0 5em 0; }
 
 .timeline {
@@ -521,6 +523,7 @@ body {
       position: absolute;
       right: 50%;
       top: 31px;
+      color: #0D4654;
       text-align: right;
       margin-right: 40px;
       font-size: 16px;
@@ -528,7 +531,7 @@ body {
       font-weight: 600; }
       .timeline .timeline-row .timeline-time small {
         display: block;
-        color: white;
+        color: darkslategray;
         text-transform: uppercase;
         opacity: 0.75;
         font-size: 11px;
@@ -557,7 +560,7 @@ body {
       margin-left: 40px;
       position: relative;
       background-color: white;
-      color: #333333; }
+      color: #2c3e50; }
       .timeline .timeline-row .timeline-content:after {
         content: "";
         position: absolute;
