@@ -449,6 +449,37 @@ Media Queries
 
 }
 
+/* Added for iPhones */ 
+@media only screen and (min-device-width : 320px) and (max-device-width : 667px) {
+
+  .wrapper {
+    width: 90%;
+  }
+
+  .nav .main {
+    margin: 1em auto 0; 
+    font-size: 3em;
+    width: 90%;
+  }
+
+  .nav {
+    font-size: 1em;
+    width: 90%;
+  }
+
+  .nav a {
+    width: 50%;
+    line-height: 1.5em;
+    margin: 0 auto;
+  }
+
+  hr {
+    display: none;
+  }
+
+}
+
+
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
 
@@ -565,6 +596,7 @@ Media Queries
 
 }
 
+/* Added for Buttons */ 
 @media only screen and (min-width : 480px) {
 
   .btn-5:after {
@@ -624,6 +656,31 @@ Media Queries
 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
+
+  .wrapper {
+    width: 90%;
+  }
+
+  .nav .main {
+    margin: 1em auto 0; 
+    font-size: 3em;
+    width: 90%;
+  }
+
+  .nav {
+    font-size: 1em;
+    width: 90%;
+  }
+
+  .nav a {
+    width: 50%;
+    line-height: 1.5em;
+    margin: 0 auto;
+  }
+
+  hr {
+    display: none;
+  }
 
 }
 
