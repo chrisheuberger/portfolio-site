@@ -251,7 +251,7 @@ div.main-wrapper {
 }
 
 .wrapper {
-  width: 90%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -271,24 +271,24 @@ div.main-wrapper {
 }
 
 .btn-5 {
-    border: none;
-    font-family: inherit;
-    font-size: inherit;
-    color: inherit;
-    background: none;
-    cursor: pointer;
-    padding: 25px 80px;
-    display: inline-block;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 400;
-    outline: none;
-    background: #E4542F;
-    color: #fff;
-    height: 70px;
-    min-width: 260px;
-    line-height: 24px;
-    font-size: 16px;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  outline: none;
+  background: #E4542F;
+  color: #fff;
+  height: 70px;
+  min-width: 260px;
+  line-height: 24px;
+  font-size: 16px;
 }
 
 hr.divider-line {
@@ -388,11 +388,11 @@ img.left {
   display: none;
 }
 
-.wrapper {
-  width: 90%;
-}
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+  .wrapper {
+    width: 90%;
+  }
 
   .nav .main {
     margin: 1em auto 0;
@@ -446,6 +446,10 @@ img.left {
 }
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+
+  .wrapper {
+    width: 90%;
+  }
 
   h1.hero-title {
     font-size: 2em;
@@ -536,6 +540,10 @@ img.left {
 }
 
 @media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
+
+  .wrapper {
+    width: 90%;
+  }
 
   .nav .main {
     margin: 1em auto 0;    
