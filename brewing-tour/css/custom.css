@@ -448,23 +448,27 @@ Media Queries
 
   h4 {
     font-size: 1em;
-    margin: 1em auto;
+    margin: 3em auto;
+  }
+
+  h4 a {
+    font-size: 1em;
   }
 
   p {
-    font-size: 1em;
+    font-size: 2em;
   }
 
   p.caption-title {
-    font-size: 1em;  
+    font-size: 2em;  
   }
 
   p.caption-text {
-    font-size: 1em;
+    font-size: 2em;
   }
 
   p.footer-text {
-    font-size: .85em;
+    font-size: 1.5em;
   }
 
   span .drop {
@@ -525,13 +529,14 @@ Media Queries
 
   .btn-5 {
     width: 100%;
+    height: 150px;
     padding: 0;
     margin: 0 auto;
   }
 
   .btn-5 span {
-    font-size: 1.5em;
-    transform: translateY(30%);
+    font-size: 2em;
+    transform: translateY(40%);
   }
 
 }
