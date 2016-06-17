@@ -502,6 +502,31 @@ Media Queries
     line-height: 200px;
   }
 
+  .wrapper {
+    width: 90%;
+  }
+
+  .nav .main {
+    margin: 1em auto 0; 
+    font-size: 3em;
+    width: 90%;
+  }
+
+  .nav {
+    font-size: 1em;
+    width: 90%;
+  }
+
+  .nav a {
+    width: 50%;
+    line-height: 1.5em;
+    margin: 0 auto;
+  }
+
+  hr {
+    display: none;
+  }
+
   img.beers-pic { 
     display: none; 
   }
