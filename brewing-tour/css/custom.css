@@ -367,8 +367,6 @@ hr.footer-line {
   background: #7f8c8d;
 }
 
-/* General button style (reset) */
-
 .btn-5 {
   border: none;
   font-family: inherit;
@@ -389,25 +387,12 @@ hr.footer-line {
   line-height: 24px;
   font-size: 16px;
   position: relative;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  overflow: hidden;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  backface-visibility: hidden;
 }
 
 .btn-5 span {
   display: inline-block;
   width: 100%;
   height: 100%;
-  -webkit-transition: all 0.3s;
-  -webkit-backface-visibility: hidden;
-  -moz-transition: all 0.3s;
-  -moz-backface-visibility: hidden;
-  transition: all 0.3s;
-  backface-visibility: hidden;
 }
 
 /*==================================================
@@ -548,7 +533,17 @@ Media Queries
 }
 
 /* Added for Buttons */ 
-@media only screen and (min-width : 480px) {
+@media only screen and (min-width : 768px) {
+
+  .btn-5 {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
 
   .btn-5:after {
     content: '';
@@ -577,6 +572,15 @@ Media Queries
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+  }
+
+  .btn-5 span {
+    -webkit-transition: all 0.3s;
+    -webkit-backface-visibility: hidden;
+    -moz-transition: all 0.3s;
+    -moz-backface-visibility: hidden;
+    transition: all 0.3s;
+    backface-visibility: hidden;
   }
 
   .btn-5:active {
