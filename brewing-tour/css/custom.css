@@ -144,7 +144,7 @@ p.caption-text {
   color: #C7306F;
 }
 
-span.drop {
+span .drop {
   float: left;
   color: #3E5759;
   font-size: 60px;
@@ -438,6 +438,11 @@ img.left {
     font-size: 1.5em;
   }
 
+  span .drop {
+    font-size: 200px;
+    line-height: 200px;
+  }
+
 }
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
@@ -474,7 +479,6 @@ img.left {
     font-size: 2em;
   }
 
-
   p.footer-text {
     font-size: 1.5em;
   }
@@ -485,7 +489,7 @@ img.left {
 
   .nav a {
     width: 50%;
-    line-height: 2em;
+    line-height: 1.5em;
     margin: 0 auto;
   }
 
@@ -497,6 +501,11 @@ img.left {
   .nav {
     font-size: 3em;
     width: 90%;
+  }
+
+  span .drop {
+    font-size: 200px;
+    line-height: 200px;
   }
 
   img.beers-pic { 
@@ -572,14 +581,22 @@ img.left {
     font-size: 1.5em;
   }
 
+  span .drop {
+    font-size: 200px;
+    line-height: 200px;
+  }
+
 }
 
 @media only screen and (min-width: 600px), only screen and (min-device-width: 600px) {
 
   /* General button style (reset) */
   .btn-5 {
-    margin: 15px 30px;
+    margin: 15px auto;
     position: relative;
+    width: 100%;
+    height: 150px;
+    line-height: 1.5;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -631,6 +648,7 @@ img.left {
     display: inline-block;
     width: 100%;
     height: 100%;
+    font-size: 4em;
     -webkit-transition: all 0.3s;
     -webkit-backface-visibility: hidden;
     -moz-transition: all 0.3s;
@@ -667,7 +685,7 @@ img.left {
   }
 
   h1.hero-title {
-    font-size: 3em;
+    font-size: 5em;
   }
 
   hr {
