@@ -400,7 +400,7 @@ Media Queries
 ==================================================*/
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
+@media only screen and (max-device-width : 992px) {
 
 }
 
@@ -528,12 +528,12 @@ Media Queries
 
 
 /* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-device-width : 480px) {
 
 }
 
 /* Added for Buttons */ 
-@media only screen and (min-width : 768px) {
+@media only screen and (min-device-width : 768px) {
 
   .btn-5 {
     -webkit-transition: all 0.3s;
@@ -610,7 +610,7 @@ Media Queries
 }
 
 /* Custom, iPhone Retina */ 
-@media only screen and (max-width : 320px) {
+@media only screen and (max-device-width : 320px) {
 
   .wrapper {
     width: 90%;
