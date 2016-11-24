@@ -15,10 +15,27 @@ $(function(){
   });
 
   $(".fade").hide();
-  $(".slide").hide();
-  $(".quote").click(function(){
+  $(".quote").click(function(e){
+    e.preventDefault();
     $(".fade").fadeToggle();
   });
+
+  // coming soon nav
+
+  $(".work-temp-fade").hide();
+  $(".work-temp").click(function(e){
+    e.preventDefault();
+    $(".work-temp-fade").fadeToggle();
+  });
+
+  $(".cv-temp-fade").hide();
+  $(".cv-temp").click(function(e){
+    e.preventDefault();
+    $(".cv-temp-fade").fadeToggle();
+  });
+
+  $(".slide").hide();
+
   $(".pres").click(function(){
     var el = $(this);
     if (el.text() == el.data("text-swap")) {
