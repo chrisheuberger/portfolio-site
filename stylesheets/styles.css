@@ -306,6 +306,11 @@ a.brain-nav:hover {
   background-color: #87ffe3
 }
 
+.fade, .work-temp-fade, .cv-temp-fade {
+  display: none;
+}
+
+
 .fade p {
   color: gray;
 }
