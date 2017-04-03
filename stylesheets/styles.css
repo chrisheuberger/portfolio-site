@@ -131,7 +131,7 @@ img {
 div.sidebar {
   width: 150px;
   float: left;
-  margin: 0 0 0 2%;
+  margin: 2% 0 0 2%;
   padding: 0;
 }
 
@@ -172,7 +172,7 @@ a.nav:hover {
 div.main-content {
   width: calc(92% - 150px);
   float: left;
-  margin: 4% 2% 0 2%;
+  margin: 2% 2% 0 2%;
   padding: 0;
 }
 
@@ -309,7 +309,6 @@ a.brain-nav:hover {
 .fade, .work-temp-fade, .cv-temp-fade {
   display: none;
 }
-
 
 .fade p {
   color: gray;
@@ -703,7 +702,7 @@ a.broken-link:hover {
     display: block;
     font-size: 2em;
     width: 80%;
-    margin: 0 0 0 1em;
+    margin: 2em 0 0 1em;
     padding: 0;
   }
 
