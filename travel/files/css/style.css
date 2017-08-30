@@ -936,6 +936,10 @@ a.sr-button {
 	transition: all 0.25s ease;
 }
 
+a.img-hover {
+	cursor: url(../uploads/magnifying-glass.svg), pointer;
+}
+
 a.img-hover:hover::before {
   opacity: .4;
 }
@@ -946,6 +950,11 @@ a.img-hover:hover::before {
 
 .peru-caption {
 	margin-left: 10px;
+}
+
+p.footer-link {
+	border-top: 1px solid white;
+	padding-top: 20px;
 }
 
 /* main */
@@ -985,6 +994,48 @@ a.img-hover:hover::before {
 .enlarge-2 {
 	font-size: 2.5rem;
 	line-height: 1;
+}
+
+.peru-header {
+	color: #E2D102;
+}
+.peru-subheader {
+	color: #5BCDCA;
+}
+
+.portland-sumemr-2016-header {
+	color: #D13B29;
+}
+.portland-sumemr-2016-subheader {
+	color: #5FDB00;
+}
+
+.new-orleans-header {
+	color: #990048;
+}
+.new-orleans-subheader {
+	color: #FF6E5D;
+}
+
+.santa-fe-header {
+	color: #414187;
+}
+.santa-fe-subheader {
+	color: #FF56A6;
+}
+
+.portland-winter-2016-header {
+	color: #C3E100;
+}
+.portland-winter-2016-subheader {
+	color: #5DFFDD;
+}
+
+.scandinavia-header {
+	color: #FFEC00;
+}
+.scandinavia-subheader {
+	color: #9FB700;
 }
 
 @media only screen and (min-width: 500px) {
@@ -1040,15 +1091,11 @@ a.img-hover:hover::before {
 }
 
 .main #page-body {
-	background: #FFEC00;
+	background: linear-gradient(60deg, #F3FF61, #FFEC00);
 }
 
 .main .pace .pace-progress {
 	background: #FFEC00;
-}
-
-.main footer {
-	background-color: #FFEC00;
 }
 
 .main p {
@@ -1056,11 +1103,15 @@ a.img-hover:hover::before {
 }
 
 .main a {
-	color: #E2D102;
+	color: #9FB700;
 }
 
 .main a:hover {
 	color: #C3B400;
+}
+
+.main p.footer-link {
+	border-color: #E2D102;
 }
 
 /* portland summer 2016 */
@@ -1070,7 +1121,16 @@ a.img-hover:hover::before {
 }
 
 .portland-summer-2016 #page-body {
+	background: linear-gradient(60deg, #DCDCFF, #5DFFDD);
+}
+
+.portland-summer-2016 p.back-button a {
 	background: #5DFFDD;
+	padding: 8px;
+}
+
+.portland-summer-2016 p.back-button a:hover {
+	background: #990048;
 }
 
 .portland-summer-2016 .pace .pace-progress {
@@ -1101,12 +1161,8 @@ a.img-hover:hover::before {
 	background: #340ACC;
 }
 
-.portland-summer-2016 footer {
-	background-color: #5DFFDD;
-}
-
 .portland-summer-2016 p {
-	color: #009A7A;
+	color: #D90C6D;
 }
 
 .portland-summer-2016 a {
@@ -1117,6 +1173,14 @@ a.img-hover:hover::before {
 	color: #009A7A;
 }
 
+.portland-summer-2016 h3.video-header {
+	color: #009A7A;
+}
+
+.portland-summer-2016 p.footer-link {
+	border-color: #8A8AD5;
+}
+
 /* new orleans */
 
 .new-orleans #page-loader .loader {
@@ -1124,7 +1188,16 @@ a.img-hover:hover::before {
 }
 
 .new-orleans #page-body {
+	background: linear-gradient(60deg, #FF6E5D, #FF56A6);
+}
+
+.new-orleans p.back-button a {
 	background: #FF56A6;
+	padding: 8px;
+}
+
+.new-orleans p.back-button a:hover {
+	background: #FFEC00;
 }
 
 .new-orleans .pace .pace-progress {
@@ -1145,12 +1218,8 @@ a.img-hover:hover::before {
 	background: #414187;
 }
 
-.new-orleans footer {
-	background-color: #FF56A6;
-}
-
 .new-orleans p {
-	color: #990048;
+	color: #1C0084;
 }
 
 .new-orleans a {
@@ -1161,8 +1230,16 @@ a.img-hover:hover::before {
 	color: #990048;
 }
 
+.new-orleans h3.video-header {
+	color: #990048;
+}
+
 iframe#instagram-embed-0 {
-  margin: 0 auto!important;
+  margin: 0 auto !important;
+}
+
+.new-orleans p.footer-link {
+	border-color: #D90C6D;
 }
 
 /* santa fe */
@@ -1172,23 +1249,28 @@ iframe#instagram-embed-0 {
 }
 
 .santa-fe #page-body {
+	background: linear-gradient(60deg, #D90C6D, #7A56FF);
+}
+
+.santa-fe p.back-button a {
 	background: #7A56FF;
+	padding: 8px;
+}
+
+.santa-fe p.back-button a:hover {
+	background: white;
 }
 
 .santa-fe .pace .pace-progress {
 	background: #7A56FF;
 }
 
-.santa-fe  #hero > p a:hover {
+.santa-fe #hero > p a:hover {
 	color: #7A56FF;
 }
 
-.santa-fe footer {
-	background-color: #7A56FF;
-}
-
-.santa-fe p{
-	color: #1C0084;
+.santa-fe p {
+	color: white;
 }
 
 .santa-fe a {
@@ -1197,6 +1279,10 @@ iframe#instagram-embed-0 {
 
 .santa-fe a:hover {
 	color: #1C0084;
+}
+
+.santa-fe p.footer-link {
+	border-color: #7A56FF;
 }
 
 /* portland winter 2016 */
@@ -1210,7 +1296,16 @@ iframe#instagram-embed-0 {
 }
 
 .portland-winter-2016 #page-body {
-	background: #E3FF32;
+	background: linear-gradient(60deg, #95FFFC, #E3FF32);
+}
+
+.portland-winter-2016  p.back-button a {
+	background: #340ACC;
+	padding: 8px;
+}
+
+.portland-winter-2016  p.back-button a:hover {
+	background: #990048;
 }
 
 .portland-winter-2016 .pace .pace-progress {
@@ -1231,20 +1326,20 @@ iframe#instagram-embed-0 {
 	background: #340ACC;
 }
 
-.portland-winter-2016 footer {
-	background-color: #E3FF32;
-}
-
 .portland-winter-2016 p {
-	color: #9FB700;
+	color: #009A7A;
 }
 
 .portland-winter-2016 a {
-	color: #C3E100;
+	color: #D90C6D;
 }
 
 .portland-winter-2016 a:hover {
-	color: #9FB700;
+	color: #990048;
+}
+
+.portland-winter-2016 p.footer-link {
+	border-color: #5BCDCA;
 }
 
 /* scandinavia */
@@ -1254,7 +1349,16 @@ iframe#instagram-embed-0 {
 }
 
 .scandinavia #page-body {
-	background: #95FFFC;
+	background: linear-gradient(60deg, #DCDCFF, #95FFFC);
+}
+
+.scandinavia p.back-button a {
+	background: #5BCDCA;
+	padding: 8px;
+}
+
+.scandinavia p.back-button a:hover {
+	background: #990048;
 }
 
 .scandinavia .pace .pace-progress {
@@ -1285,12 +1389,8 @@ iframe#instagram-embed-0 {
 	background: #5BCDCA;
 }
 
-.scandinavia footer {
-	background-color: #95FFFC;
-}
-
 .scandinavia p {
-	color: #3DA6A3;
+	color: #D90C6D;
 }
 
 .scandinavia a {
@@ -1298,6 +1398,10 @@ iframe#instagram-embed-0 {
 }
 
 .scandinavia a:hover {
+	color: #3DA6A3;
+}
+
+.scandinavia h3.video-header {
 	color: #3DA6A3;
 }
 
@@ -1313,8 +1417,28 @@ iframe#instagram-embed-0 {
 	transition: 0.5s all ease;
 }
 
+h3.denmark-header {
+	color: #FF6E5D;
+}
+
+h3.norway-header {
+	color: #990048;
+}
+
 .scandinavia .go-to-there:hover h3 {
 	top: -5px;
+}
+
+.go-to-there:hover h3 {
+	top: -5px;
+}
+
+.go-to-there:hover h3.denmark-header {
+	color: #D13B29;
+}
+
+.go-to-there:hover h3.norway-header {
+	color: #8A8AD5;
 }
 
 .scandinavia .go-to-there h5 {
@@ -1323,8 +1447,24 @@ iframe#instagram-embed-0 {
 	transition: 0.5s all ease;
 }
 
+h5.denmark-subheader {
+	color: #DCDCFF;
+}
+
+h5.norway-subheader {
+	color: #99FF4A;
+}
+
 .scandinavia .go-to-there:hover h5 {
 	left: -10px;
+}
+
+.go-to-there:hover h5.denmark-subheader {
+	color: #414187;
+}
+
+.go-to-there:hover h5.norway-subheader {
+	color: #9FB700;
 }
 
 .arrow {
@@ -1346,12 +1486,19 @@ iframe#instagram-embed-0 {
   content: "";
   width: 25px;
   height: 2px;
-  background: slategray;
   position: absolute;
   top: 50%;
   margin-top: -1px;
   right: 24px;
   transition: all 0.3s ease;
+}
+
+.denmark-arrow.arrow:before {
+  background: #C3B400;
+}
+
+.norway-arrow.arrow:before {
+  background: #5BCDCA;
 }
 
 .go-to-there:hover .arrow:before {
@@ -1365,12 +1512,19 @@ iframe#instagram-embed-0 {
   height: 0;
   border-style: solid;
   border-width: 5px 0 5px 5px;
-  border-color: transparent transparent transparent #000000;
   position: absolute;
   top: 50%;
   margin-top: -5px;
   right: 20px;
   transition: all 0.3s ease;
+}
+
+.denmark-arrow.arrow:after {
+  border-color: transparent transparent transparent #C3B400;
+}
+
+.norway-arrow.arrow:after {
+  border-color: transparent transparent transparent #5BCDCA;
 }
 
 .go-to-there:hover .arrow:after {
@@ -1385,7 +1539,16 @@ iframe#instagram-embed-0 {
 }
 
 .denmark #page-body {
-	background: #DCDCFF;
+	background: linear-gradient(60deg, #D90C6D, #DCDCFF);
+}
+
+.denmark p.back-button a {
+	background: #FF6E5D;
+	padding: 8px;
+}
+
+.denmark p.back-button a:hover {
+	background: #414187;
 }
 
 .denmark .pace .pace-progress {
@@ -1396,12 +1559,8 @@ iframe#instagram-embed-0 {
 	color: #DCDCFF;
 }
 
-.denmark footer {
-	background-color: #DCDCFF;
-}
-
 .denmark p {
-	color: #414187;
+	color: #FFEC00;
 }
 
 .denmark a {
@@ -1412,14 +1571,27 @@ iframe#instagram-embed-0 {
 	color: #414187;
 }
 
+.denmark p.footer-link {
+	border-color: #FFEC00;
+}
+
 /* norway */
 
 .norway #page-loader .loader {
-	color: #FF6E5D;;
+	color: #FF6E5D;
 }
 
 .norway #page-body {
+	background: linear-gradient(60deg, #E2D102, #FF6E5D);
+}
+
+.norway p.back-button a {
 	background: #FF6E5D;
+	padding: 8px;
+}
+
+.norway p.back-button a:hover {
+	background: #FFEC00;
 }
 
 .norway .pace .pace-progress {
@@ -1430,12 +1602,8 @@ iframe#instagram-embed-0 {
 	color: #FF6E5D;
 }
 
-.norway footer {
-	background-color: #FF6E5D;
-}
-
 .norway p {
-	color: #D13B29;
+	color: white;
 }
 
 .norway a {
@@ -1444,4 +1612,8 @@ iframe#instagram-embed-0 {
 
 .norway a:hover {
 	color: #D13B29;
+}
+
+.norway p.footer-link {
+	border-color: #C3B400;
 }
