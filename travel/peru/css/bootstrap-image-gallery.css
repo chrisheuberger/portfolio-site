@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+.blueimp-gallery .modal-header {
+  border: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.modal-title {
+  text-align: left;
+  padding: 0 0 0 10px;
+  margin: 0;
+}
+
+.modal-content {
+  border-radius: 0 !important;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.blueimp-gallery .modal-body {
+	position: relative;
+	margin: 0;
+  padding: 0 0 75% 0;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.blueimp-gallery .modal-footer {
+  height: 20%;
+  border: none;
+	margin: 0;
+  padding: 0;
+}
+
+.blueimp-gallery .modal-body img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+button.next, button.prev {
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  padding: 10px;
+  border: none;
+  background-color: #01FF70;
+}
+
+button.next:hover, button.prev:hover {
+  background-color: #14E792;
+}
+
+.close {
+  font-size: 3em;
+  color: #01FF70;
+  opacity: 1;
+}
+
+.close:hover {
+  color: #14E792;
+}
+
+i.glyphicon {
+  color: #00523c;
+}
+
+@media screen and (min-width: 768px) {
+  .blueimp-gallery .modal-dialog {
+    right: auto;
+    left: auto;
+	  width: auto;
+    max-width: 900px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}

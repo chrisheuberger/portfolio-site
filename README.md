@@ -3,7 +3,6 @@
 1. List contents of image directory in a text file:
 
         $ ls > directory-list.txt
-
  [https://ss64.com/bash/](https://ss64.com/bash/)
 
 2. Turn list into array.
