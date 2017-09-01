@@ -863,6 +863,10 @@ a.img-hover:hover .hover-caption {
 	height: auto !important;
 }
 
+.custom-caption {
+	margin-top: 0;
+}
+
 .portfolio-wolf-item .portfolio-caption a {
 	background-color: white;
 	padding: 20px;
@@ -930,6 +934,27 @@ p.footer-link {
 	padding-top: 20px;
 }
 
+@media only screen and (max-width: 760px) {
+
+  .wolf-responsive .wolf-item {
+  	height: auto !important;
+  	position: static;
+  }
+
+}
+
+@media only screen and (min-width: 761px) {
+
+	.margin-top-50 {
+		margin-top: 50px;
+	}
+
+  .margin-top-100 {
+		margin-top: 100px;
+	}
+
+}
+
 /* main */
 
 .main h1 {
@@ -967,6 +992,30 @@ p.footer-link {
 .enlarge-2 {
 	font-size: 2.5rem;
 	line-height: 1;
+}
+
+.main #page-loader .loader {
+	color: #FFEC00;
+}
+
+.main #page-body {
+	background: linear-gradient(60deg, #F3FF61, #FFEC00);
+}
+
+.main .pace .pace-progress {
+	background: #FFEC00;
+}
+
+.main p {
+	color: #C3B400;
+}
+
+.main a {
+	color: #9FB700;
+}
+
+.main a:hover {
+	color: #C3B400;
 }
 
 .peru-header {
@@ -1011,13 +1060,8 @@ p.footer-link {
 	color: #9FB700;
 }
 
-@media only screen and (max-width: 760px) {
-
-  .wolf-responsive .wolf-item {
-  	height: auto !important;
-  	position: static;
-  }
-
+.main p.footer-link {
+	border-color: #E2D102;
 }
 
 @media only screen and (min-width: 500px) {
@@ -1032,18 +1076,6 @@ p.footer-link {
 
 	.enlarge-2 {
 		font-size: 4.8rem;
-	}
-
-}
-
-@media only screen and (min-width: 761px) {
-
-	.margin-top-50 {
-		margin-top: 50px;
-	}
-
-  .margin-top-100 {
-		margin-top: 100px;
 	}
 
 }
@@ -1078,34 +1110,6 @@ p.footer-link {
 		font-size: 8.6rem;
 	}
 
-}
-
-.main #page-loader .loader {
-	color: #FFEC00;
-}
-
-.main #page-body {
-	background: linear-gradient(60deg, #F3FF61, #FFEC00);
-}
-
-.main .pace .pace-progress {
-	background: #FFEC00;
-}
-
-.main p {
-	color: #C3B400;
-}
-
-.main a {
-	color: #9FB700;
-}
-
-.main a:hover {
-	color: #C3B400;
-}
-
-.main p.footer-link {
-	border-color: #E2D102;
 }
 
 /* portland summer 2016 */
