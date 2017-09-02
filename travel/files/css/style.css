@@ -934,6 +934,20 @@ p.footer-link {
 	padding-top: 20px;
 }
 
+p.footer-link-small a {
+	color: #333;
+	opacity: .4;
+}
+
+p.footer-link-small a:hover {
+	color: #333;
+	opacity: .8;
+}
+
+small {
+	font-size: 85%;
+}
+
 @media only screen and (max-width: 760px) {
 
   .wolf-responsive .wolf-item {
@@ -959,6 +973,29 @@ p.footer-link {
 
 .main h1 {
 	font-size: 2rem;
+}
+
+.main h3 a.fancy-link {
+	position: relative;
+	color: white;
+}
+
+.main h3 a.fancy-link:hover {
+	color: white;
+}
+
+.main h3 a.fancy-link:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #7A56FF;
+  transition: 0.4s;
+}
+
+.main h3 a.fancy-link:hover:after {
+  width: 100%;
 }
 
 .text-pop {
