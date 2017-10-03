@@ -269,5 +269,5 @@ $(function(){
     $('.grid').fadeIn();
     $('.explainer').html('');
   });
-});
 
+});
