@@ -33,6 +33,9 @@ h1 sup {
   vertical-align: top;
   margin-left: 0.5rem;
 }
+h1.title-middle {
+  margin-top: 1rem;
+}
 
 h3 {
   font-family: "Capriola", monaco;
@@ -124,31 +127,31 @@ h1 span {
   top: 0;
 }
 .char2 {
-  top: -8px;
+  top: -4px;
 }
 .char3 {
-  top: -16px;
+  top: -8px;
 }
 .char4 {
-  top: -24px;
+  top: -12px;
 }
 .char5 {
-  top: -32px;
+  top: -16px;
 }
 .char6 {
-  top: -40px;
+  top: -20px;
 }
 .char7 {
-  top: -48px;
+  top: -24px;
 }
 .char8 {
-  top: -56px;
+  top: -28px;
 }
 .char9 {
-  top: -64px;
+  top: -32px;
 }
 .char10 {
-  top: -72px;
+  top: -36px;
 }
 
 ul {
