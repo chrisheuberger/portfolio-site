@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Capriola");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i");
-
 html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -15,43 +16,44 @@ html {
 }
 
 h1 {
-  font-family: 'Capriola', monaco;
-  font-size: 2rem;
+  font-family: "Capriola", monaco;
+  font-size: 4rem;
   font-weight: 700;
   font-style: italic;
-  color: #8DF0DD;
+  line-height: 0.7;
+  color: Coral;
 }
 @media (min-width: 768px) {
   h1 {
-    font-size: 4rem;
+    font-size: 9rem;
   }
 }
 h1 sup {
-  font-size: 1rem;
+  font-size: 1.25rem;
   vertical-align: top;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 h3 {
-  font-family: 'Capriola', monaco;
+  font-family: "Capriola", monaco;
   font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: #1A424F;
+  color: #1a424f;
 }
 h3 .step {
-  border-bottom: 6px solid #1A424F;
+  border-bottom: 6px solid #1a424f;
 }
 h3 .number {
   font-size: 60px;
-  line-height: .5;
+  line-height: 0.5;
   margin-left: 4px;
   vertical-align: bottom;
 }
 
 p {
   margin-top: 2rem;
-  font-family: 'Open Sans', monaco;
+  font-family: "Open Sans", monaco;
   font-weight: 300;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -59,7 +61,7 @@ p {
 }
 
 a {
-  color: #046C59;
+  color: #046c59;
   text-decoration: none;
 }
 a:hover {
@@ -109,7 +111,9 @@ a:hover {
 .welcome {
   position: fixed;
   opacity: 0;
+  top: 10%;
   text-align: center;
+  width: 100%;
 }
 
 ul {
@@ -127,7 +131,7 @@ ul {
 ul li {
   width: 100%;
   padding: 8rem 4rem;
-  background: #8DF0DD;
+  background: #8df0dd;
   border-top: 10px solid white;
 }
 @media (min-width: 768px) {
@@ -151,12 +155,12 @@ footer {
   font-style: italic;
   padding: 2rem;
   text-align: center;
-  background: #1A424F;
-  letter-spacing: 0.5rem;
+  background: #1a424f;
+  letter-spacing: 0.25rem;
 }
 footer p {
-  color: #8DF0DD;
-  font-size: .85rem;
+  color: #8df0dd;
+  font-size: 0.85rem;
 }
 footer p sup {
   font-size: 50%;
