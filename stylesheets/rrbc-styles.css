@@ -20,7 +20,7 @@ h1 {
   font-size: 4rem;
   font-weight: 700;
   font-style: italic;
-  line-height: 0.7;
+  line-height: 0.75;
   color: Coral;
 }
 @media (min-width: 768px) {
@@ -114,6 +114,41 @@ a:hover {
   top: 10%;
   text-align: center;
   width: 100%;
+}
+
+h1 span {
+  position: relative;
+}
+
+.char1 {
+  top: 0;
+}
+.char2 {
+  top: -8px;
+}
+.char3 {
+  top: -16px;
+}
+.char4 {
+  top: -24px;
+}
+.char5 {
+  top: -32px;
+}
+.char6 {
+  top: -40px;
+}
+.char7 {
+  top: -48px;
+}
+.char8 {
+  top: -56px;
+}
+.char9 {
+  top: -64px;
+}
+.char10 {
+  top: -72px;
 }
 
 ul {

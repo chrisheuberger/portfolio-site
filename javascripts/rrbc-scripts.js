@@ -8,6 +8,8 @@ ga('send', 'pageview');
 
 $(function(){
 
+  $(".title").lettering();
+
   var InfiniteRotator = {
     init: function() {
       var initialFadeIn = 100;
