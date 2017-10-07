@@ -910,6 +910,7 @@ h4.lightcase-title {
 
 a,
 a.sr-button {
+	-webkit-transition: all 0.25s ease;
 	transition: all 0.25s ease;
 }
 
@@ -917,11 +918,13 @@ a.img-hover {
 	cursor: url(../uploads/magnifying-glass.svg), pointer;
 }
 
-a.img-hover:hover::before {
+a.img-hover:hover:before {
   opacity: .4;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
 }
 
-.inline-video::before {
+.inline-video:before {
+	-webkit-transition: all 0.25s ease;
 	transition: all 0.25s ease;
 }
 
@@ -937,11 +940,13 @@ p.footer-link {
 p.footer-link-small a {
 	color: #333;
 	opacity: .4;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
 }
 
 p.footer-link-small a:hover {
 	color: #333;
 	opacity: .8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
 
 small {
@@ -972,6 +977,7 @@ small {
 /* main */
 
 .main h1 {
+	font-size: 32px;
 	font-size: 2rem;
 }
 
@@ -991,6 +997,7 @@ small {
   left: 0;
   width: 0%;
   border-bottom: 2px solid #7A56FF;
+  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
@@ -1001,32 +1008,49 @@ small {
 .text-pop {
   margin-left: 20px;
 	-webkit-animation: text-pop 0.6s both;
-	-moz-animation: text-pop 0.6s both;
 	animation: text-pop 0.6s both;
-	animation-delay: 2s;
+	-webkit-animation-delay: 2s;
+	        animation-delay: 2s;
 }
 
 .main h5.alttitle {
 	color: white;
 }
 
-@keyframes text-pop {
+@-webkit-keyframes text-pop {
   0% {
     text-shadow: 0 0 #FFEC00, 0 0 #FFEC00, 0 0 #FFEC00, 0 0 #FFEC00, 0 0 #FFEC00, 0 0 #FFEC00, 0 0 #FFEC00, 0 0 #FFEC00;
-    transform: translateX(0) translateY(0);
+    -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
   }
   100% {
     text-shadow: 1px 1px #FFEC00, 2px 2px #FFEC00, 3px 3px #FFEC00, 4px 4px #FFEC00, 5px 5px #FFEC00, 6px 6px #FFEC00, 7px 7px #FFEC00, 8px 8px #FFEC00;
-    transform: translateX(-8px) translateY(-8px);
+    -webkit-transform: translateX(-8px) translateY(-8px);
+            transform: translateX(-8px) translateY(-8px);
+  }
+}
+
+@keyframes text-pop {
+  0% {
+    text-shadow: 0 0 #FFEC00, 0 0 #FFEC00, 0 0 #FFEC00, 0 0 #FFEC00, 0 0 #FFEC00, 0 0 #FFEC00, 0 0 #FFEC00, 0 0 #FFEC00;
+    -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+  }
+  100% {
+    text-shadow: 1px 1px #FFEC00, 2px 2px #FFEC00, 3px 3px #FFEC00, 4px 4px #FFEC00, 5px 5px #FFEC00, 6px 6px #FFEC00, 7px 7px #FFEC00, 8px 8px #FFEC00;
+    -webkit-transform: translateX(-8px) translateY(-8px);
+            transform: translateX(-8px) translateY(-8px);
   }
 }
 
 .enlarge-1 {
+	font-size: 56px;
 	font-size: 3.5rem;
 	line-height: 1;
 }
 
 .enlarge-2 {
+	font-size: 40px;
 	font-size: 2.5rem;
 	line-height: 1;
 }
@@ -1036,6 +1060,7 @@ small {
 }
 
 .main #page-body {
+	background: -webkit-linear-gradient(30deg, #F3FF61, #FFEC00);
 	background: linear-gradient(60deg, #F3FF61, #FFEC00);
 }
 
@@ -1156,6 +1181,7 @@ small {
 }
 
 .portland-summer-2016 #page-body {
+	background: -webkit-linear-gradient(30deg, #DCDCFF, #5DFFDD);
 	background: linear-gradient(60deg, #DCDCFF, #5DFFDD);
 }
 
@@ -1177,12 +1203,12 @@ small {
 }
 
 .portland-summer-2016 .inline-video .inline-iframe-container .close-inline-video,
-.portland-summer-2016 .inline-video::before {
+.portland-summer-2016 .inline-video:before {
 	color: #95FFFC;
 }
 
 .portland-summer-2016 .inline-video .inline-iframe-container .close-inline-video:hover,
-.portland-summer-2016 .inline-video:hover::before {
+.portland-summer-2016 .inline-video:hover:before {
 	color: #5BCDCA;
 }
 
@@ -1223,6 +1249,7 @@ small {
 }
 
 .new-orleans #page-body {
+	background: -webkit-linear-gradient(30deg, #FF6E5D, #FF56A6);
 	background: linear-gradient(60deg, #FF6E5D, #FF56A6);
 }
 
@@ -1284,6 +1311,7 @@ iframe#instagram-embed-0 {
 }
 
 .santa-fe #page-body {
+	background: -webkit-linear-gradient(30deg, #D90C6D, #7A56FF);
 	background: linear-gradient(60deg, #D90C6D, #7A56FF);
 }
 
@@ -1331,6 +1359,7 @@ iframe#instagram-embed-0 {
 }
 
 .portland-winter-2016 #page-body {
+	background: -webkit-linear-gradient(30deg, #95FFFC, #E3FF32);
 	background: linear-gradient(60deg, #95FFFC, #E3FF32);
 }
 
@@ -1384,6 +1413,7 @@ iframe#instagram-embed-0 {
 }
 
 .scandinavia #page-body {
+	background: -webkit-linear-gradient(30deg, #DCDCFF, #95FFFC);
 	background: linear-gradient(60deg, #DCDCFF, #95FFFC);
 }
 
@@ -1405,12 +1435,12 @@ iframe#instagram-embed-0 {
 }
 
 .scandinavia .inline-video .inline-iframe-container .close-inline-video,
-.scandinavia .inline-video::before {
+.scandinavia .inline-video:before {
 	color: #DCDCFF;
 }
 
 .scandinavia .inline-video .inline-iframe-container .close-inline-video:hover,
-.scandinavia .inline-video:hover::before {
+.scandinavia .inline-video:hover:before {
 	color: #E3FF32;
 }
 
@@ -1449,6 +1479,7 @@ iframe#instagram-embed-0 {
 .scandinavia .go-to-there h3 {
 	position: relative;
 	top: 0;
+	-webkit-transition: 0.5s all ease;
 	transition: 0.5s all ease;
 }
 
@@ -1479,6 +1510,7 @@ h3.norway-header {
 .scandinavia .go-to-there h5 {
 	position: relative;
 	left: 0;
+	-webkit-transition: 0.5s all ease;
 	transition: 0.5s all ease;
 }
 
@@ -1525,6 +1557,7 @@ h5.norway-subheader {
   top: 50%;
   margin-top: -1px;
   right: 24px;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -1551,6 +1584,7 @@ h5.norway-subheader {
   top: 50%;
   margin-top: -5px;
   right: 20px;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -1578,6 +1612,7 @@ h5.norway-subheader {
 }
 
 .denmark #page-body {
+	background: -webkit-linear-gradient(30deg, #D90C6D, #DCDCFF);
 	background: linear-gradient(60deg, #D90C6D, #DCDCFF);
 }
 
@@ -1621,6 +1656,7 @@ h5.norway-subheader {
 }
 
 .norway #page-body {
+	background: -webkit-linear-gradient(30deg, #E2D102, #FF6E5D);
 	background: linear-gradient(60deg, #E2D102, #FF6E5D);
 }
 
