@@ -84,7 +84,7 @@ body {
 ---------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Baloo Bhai';
+	font-family: 'Baloo Bhai', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 0.08em;
@@ -113,7 +113,7 @@ h4 + h1, h4 + h2, h4 + h3, h4 + h4, h4 + h5, h4 + h6,
 h5 + h1, h5 + h2, h5 + h3, h5 + h4, h5 + h5, h5 + h6,
 h6 + h1, h6 + h2, h6 + h3, h6 + h4, h6 + h5, h6 + h6 { margin-top: 10px; }
 
-.alttitle { font-family: 'Josefin Sans'; font-weight: 400; text-transform: none; letter-spacing: 0.04em; }
+.alttitle { font-family: 'Josefin Sans', Georgia; font-weight: 400; text-transform: none; letter-spacing: 0.04em; }
 .alttitle b, .alttitle strong { font-weight: 700; }
 
 /* headers with link */
@@ -355,7 +355,7 @@ body.loading-end .pace { opacity:0!important;filter:alpha(opacity=0)!important;-
 
 #page-loader .loader {
 	margin-top: 40px;
-	font-family: 'Baloo Bhai';
+	font-family: 'Baloo Bhai', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
@@ -438,7 +438,7 @@ body.loading-end .pace { opacity:0!important;filter:alpha(opacity=0)!important;-
 #scroll-down {
 	text-align: center;
 	font-size: 12px;
-	font-family: "Maven Pro";
+	font-family: "Maven Pro", 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
@@ -621,7 +621,7 @@ div .column-section:first-child, .spacer + .column-section { margin-top: 0px; }
 
 a.sr-button {
 	display: inline-block;
-	font-family: 'Montserrat';
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 20px !important;
@@ -659,7 +659,7 @@ a.sr-button4:hover { background: #ffffff; }
 
 
 .sr-button-text {
-	font-family: 'Maven Pro';
+	font-family: 'Maven Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
@@ -714,7 +714,7 @@ a.sr-button4:hover { background: #ffffff; }
 
 .inline-video:after {
 	content: attr(data-button);
-	font-family: 'Montserrat';
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	font-size: 12px;
 	text-transform: uppercase;
