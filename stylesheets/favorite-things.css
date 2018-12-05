@@ -7,6 +7,10 @@
   background: moccasin;
 }
 
+.faves-header {
+  margin-bottom: 2rem;
+}
+
 .faves-row {
   width: 80%;
   background: lightyellow;
