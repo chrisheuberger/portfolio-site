@@ -53,6 +53,10 @@
   background-color: yellow;
 }
 
+.faves-link {
+  text-decoration: underline;
+}
+
 .category {
   padding: 0.25rem;
   color: moccasin;
