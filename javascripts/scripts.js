@@ -84,31 +84,31 @@ $(function(){
     } else if (src === "images/photo/pic-peluso_large.jpg") {
       var explainer = "<br>Italy";
     } else if (src === "images/design/ppn1_large.jpg") {
-      var explainer = "<br><a href='http://www.presentationpartynight.com/' target='_blank'>Presentation Party Night (PPN)</a> flyer comp";
+      var explainer = "<br><a href='https://www.presentationpartynight.com/' target='_blank'>Presentation Party Night (PPN)</a> flyer comp";
     } else if (src === "images/design/ppn2_large.jpg") {
-      var explainer = "<br><a href='http://www.presentationpartynight.com/' target='_blank'>Presentation Party Night (PPN)</a> flyer comp";
+      var explainer = "<br><a href='https://www.presentationpartynight.com/' target='_blank'>Presentation Party Night (PPN)</a> flyer comp";
     } else if (src === "images/design/ppn3_large.jpg") {
-      var explainer = "<br><a href='http://www.presentationpartynight.com/' target='_blank'>Presentation Party Night (PPN)</a> flyer comp";
+      var explainer = "<br><a href='https://www.presentationpartynight.com/' target='_blank'>Presentation Party Night (PPN)</a> flyer comp";
     } else if (src === "images/design/ppn4_large.jpg") {
-      var explainer = "<br><a href='http://www.presentationpartynight.com/' target='_blank'>Presentation Party Night (PPN)</a> flyer comp";
+      var explainer = "<br><a href='https://www.presentationpartynight.com/' target='_blank'>Presentation Party Night (PPN)</a> flyer comp";
     } else if (src === "images/design/ppn5_large.jpg") {
-      var explainer = "<br><a href='http://www.presentationpartynight.com/' target='_blank'>Presentation Party Night (PPN)</a> flyer comp";
+      var explainer = "<br><a href='https://www.presentationpartynight.com/' target='_blank'>Presentation Party Night (PPN)</a> flyer comp";
     } else if (src === "images/design/ppn-poster_large.jpg") {
-      var explainer = "<br><a href='http://www.presentationpartynight.com/' target='_blank'>Presentation Party Night (PPN)</a> flyer comp";
+      var explainer = "<br><a href='https://www.presentationpartynight.com/' target='_blank'>Presentation Party Night (PPN)</a> flyer comp";
     } else if (src === "images/design/type-project1_large.jpg") {
-      var explainer = "<br>Typography Project comp for <a href='http://www.thesketchbookproject.com/' target='_blank'>Art House Co-op</a>";
+      var explainer = "<br>Typography Project comp for <a href='https://www.thesketchbookproject.com/' target='_blank'>Art House Co-op</a>";
     } else if (src === "images/design/type-project2_large.jpg") {
-      var explainer = "<br>Typography Project comp for <a href='http://www.thesketchbookproject.com/' target='_blank'>Art House Co-op</a>";
+      var explainer = "<br>Typography Project comp for <a href='https://www.thesketchbookproject.com/' target='_blank'>Art House Co-op</a>";
     } else if (src === "images/design/blockpartyflyer_large.jpg") {
-      var explainer = "<br>block party flyer for <a href='http://www.thesketchbookproject.com/' target='_blank'>Art House Co-op</a>";
+      var explainer = "<br>block party flyer for <a href='https://www.thesketchbookproject.com/' target='_blank'>Art House Co-op</a>";
     } else if (src === "images/design/blockpartyflyer2_large.jpg") {
-      var explainer = "<br>block party flyer for <a href='http://www.thesketchbookproject.com/' target='_blank'>Art House Co-op</a>";
+      var explainer = "<br>block party flyer for <a href='https://www.thesketchbookproject.com/' target='_blank'>Art House Co-op</a>";
     } else if (src === "images/design/sbp-poster1_large.jpg") {
-      var explainer = "<br>tour poster comp for <a href='http://www.thesketchbookproject.com/' target='_blank'>Art House Co-op</a>";
+      var explainer = "<br>tour poster comp for <a href='https://www.thesketchbookproject.com/' target='_blank'>Art House Co-op</a>";
     } else if (src === "images/design/sbp-poster2_large.jpg") {
-      var explainer = "<br>tour poster comp for <a href='http://www.thesketchbookproject.com/' target='_blank'>Art House Co-op</a>";
+      var explainer = "<br>tour poster comp for <a href='https://www.thesketchbookproject.com/' target='_blank'>Art House Co-op</a>";
     } else if (src === "images/design/halloween-flyer_large.jpg") {
-      var explainer = "<br>Halloween flyer comp for <a href='http://www.thesketchbookproject.com/' target='_blank'>Art House Co-op</a>";
+      var explainer = "<br>Halloween flyer comp for <a href='https://www.thesketchbookproject.com/' target='_blank'>Art House Co-op</a>";
     } else if (src === "images/design/nyfile_large.jpg") {
       var explainer = "<br>cover for my amazing collection of New York ephemera";
     } else if (src === "images/design/concept-dartboard_large.jpg") {
@@ -220,39 +220,39 @@ $(function(){
     } else if (src === "images/play/img_7218_large.jpg") {
       var explainer = "<br>based on Schiele drawing";
     } else if (src === "images/play/doodle002_large.jpg") {
-      var explainer = "<br>insert for <a href='http://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
+      var explainer = "<br>insert for <a href='https://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
     } else if (src === "images/play/doodle003_large.jpg") {
-      var explainer = "<br>insert for <a href='http://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
+      var explainer = "<br>insert for <a href='https://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
     } else if (src === "images/play/doodle011_large.jpg") {
-      var explainer = "<br>insert for <a href='http://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
+      var explainer = "<br>insert for <a href='https://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
     } else if (src === "images/play/doodle015_large.jpg") {
-      var explainer = "<br>insert for <a href='http://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
+      var explainer = "<br>insert for <a href='https://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
     } else if (src === "images/play/doodle016_large.jpg") {
-      var explainer = "<br>insert for <a href='http://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
+      var explainer = "<br>insert for <a href='https://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
     } else if (src === "images/play/doodle018_large.jpg") {
-      var explainer = "<br>insert for <a href='http://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
+      var explainer = "<br>insert for <a href='https://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
     } else if (src === "images/play/doodle019_large.jpg") {
-      var explainer = "<br>insert for <a href='http://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
+      var explainer = "<br>insert for <a href='https://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
     } else if (src === "images/play/doodle020_large.jpg") {
-      var explainer = "<br>insert for <a href='http://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
+      var explainer = "<br>insert for <a href='https://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
     } else if (src === "images/play/doodle021_large.jpg") {
-      var explainer = "<br>insert for <a href='http://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
+      var explainer = "<br>insert for <a href='https://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
     } else if (src === "images/play/doodle023_large.jpg") {
-      var explainer = "<br>insert for <a href='http://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
+      var explainer = "<br>insert for <a href='https://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
     } else if (src === "images/play/doodle025_large.jpg") {
-      var explainer = "<br>insert for <a href='http://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
+      var explainer = "<br>insert for <a href='https://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
     } else if (src === "images/play/doodle026_large.jpg") {
-      var explainer = "<br>insert for <a href='http://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
+      var explainer = "<br>insert for <a href='https://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
     } else if (src === "images/play/doodle030_large.jpg") {
-      var explainer = "<br>insert for <a href='http://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
+      var explainer = "<br>insert for <a href='https://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
     } else if (src === "images/play/doodle032_large.jpg") {
-      var explainer = "<br>insert for <a href='http://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
+      var explainer = "<br>insert for <a href='https://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
     } else if (src === "images/play/doodle034_large.jpg") {
-      var explainer = "<br>insert for <a href='http://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
+      var explainer = "<br>insert for <a href='https://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
     } else if (src === "images/play/doodle036_large.jpg") {
-      var explainer = "<br>insert for <a href='http://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
+      var explainer = "<br>insert for <a href='https://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
     } else if (src === "images/play/doodle039_large.jpg") {
-      var explainer = "<br>insert for <a href='http://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
+      var explainer = "<br>insert for <a href='https://www.thesketchbookproject.com/' target='_blank'>The Sketchbook Project</a>";
     } else { var explainer = "" }
     $('.large').attr('src', src).fadeIn();
     $('.explainer').html(explainer);

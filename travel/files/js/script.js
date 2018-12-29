@@ -299,7 +299,7 @@ jQuery(window).load(function() {
 		var video = el.data('videoid');
 				
 		if (type === 'youtube') { 
-		var iframe='<iframe src="http://www.youtube.com/embed/'+video+'?autoplay=1" width="100%" height="100%" frameborder="0" allowfullscreen ></iframe>';
+		var iframe='<iframe src="https://www.youtube.com/embed/'+video+'?autoplay=1" width="100%" height="100%" frameborder="0" allowfullscreen ></iframe>';
 		} else if (type === 'vimeo') {
 		var iframe='<iframe src="https://player.vimeo.com/video/'+video+'?autoplay=1" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>';
 		}
