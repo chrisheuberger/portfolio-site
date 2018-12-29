@@ -3,11 +3,38 @@ COLORS
 ------------------------------------------------*/
 
 /*
-black (dark text,backgrounds)	#0d0d0d
-default text color (body)			#4d4d4d
-light text color: 						#808080
-grey light background					#f2f2f2
-main color: 									#ea4452
+
+black (dark text, backgrounds)	#0d0d0d
+default text color (body)				#4d4d4d
+light text color	 							#808080
+grey light background						#f2f2f2
+main color		 									#ea4452
+
+orange light										#FF6E5D
+orange medium										#E14D3C
+orange dark											#D13B29
+yellowgreen light								#FFEC00
+yellowgreen meium								#E2D102
+yellowgreen dark								#C3B400
+greenyellow light								#E3FF32
+greenyellow medium							#99FF4A
+greenyellow dark								#9FB700
+blue light											#95FFFC
+bluegreen												#5BCDCA
+greenblue light									#5DFFDD
+greenblue medium								#00C59B
+greenblue medium 2							#009A7A
+greenblue dark									#3DA6A3
+violet light										#DCDCFF
+magenta light										#FF56A6
+magenta medium									#D90C6D
+magenta dark										#990048
+indigo light										#8A8AD5
+indigo medium										#7A56FF
+indigo dark											#414187
+blue medium											#340ACC
+blue dark												#1C0084
+
 */
 
 
@@ -72,12 +99,12 @@ body {
 	color:#4d4d4d;
 	text-align: left;
 	position: relative;
-	background: #ffffff;
+	background: #fff;
 	min-height: 100%;
 	}
-::selection { background:#0d0d0d; color:#ffffff; }
-::-moz-selection { background:#0d0d0d; color:#ffffff; }
-::-webkit-selection { background:#0d0d0d; color:#ffffff; }
+::selection { background:#0d0d0d; color:#fff; }
+::-moz-selection { background:#0d0d0d; color:#fff; }
+::-webkit-selection { background:#0d0d0d; color:#fff; }
 
 
 /* Headings
@@ -90,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 0.08em;
 	color: #0d0d0d;
 	}
-	.text-light h1, .text-light h2, .text-light h3, .text-light h4, .text-light h5, .text-light h6 { color: #ffffff; }
+	.text-light h1, .text-light h2, .text-light h3, .text-light h4, .text-light h5, .text-light h6 { color: #fff; }
 
 h1 { font-size: 84px; line-height: 96px; }
 h2 { font-size: 56px; line-height: 66px; }
@@ -133,7 +160,7 @@ a {
 	}
 	a:hover { color: #0d0d0d; }
 
-.text-light a:hover { color: #ffffff; }
+.text-light a:hover { color: #fff; }
 
 
 /* Embedded content
@@ -285,7 +312,7 @@ p pre, p code {
 	}
 
 .text-light {
-	color: #ffffff;
+	color: #fff;
 	}
 
 .colored {
@@ -333,7 +360,7 @@ body.loading-end .pace { opacity:0!important;filter:alpha(opacity=0)!important;-
 	position: fixed;
 	height: 100%;
 	width: 100%;
-	background: #ffffff;
+	background: #fff;
 	z-index: 9;
 	}
 
@@ -452,7 +479,7 @@ body.loading-end .pace { opacity:0!important;filter:alpha(opacity=0)!important;-
 	transition: all 0.2s ease;
 	z-index: 2;
 	}
-	#scroll-down.text-light, .text-light #scroll-down { color: #ffffff; }
+	#scroll-down.text-light, .text-light #scroll-down { color: #fff; }
 
 #scroll-down:before {
 	text-align: center;
@@ -634,7 +661,7 @@ a.sr-button {
     -o-transition: all 100ms ease;
     -ms-transition: all 100ms ease;
     transition: all 100ms ease;
-	color: #ffffff;
+	color: #fff;
 	padding: 15px 50px;
 	background: #0d0d0d;
 	}
@@ -651,11 +678,11 @@ a.sr-button1:hover { background: #ea4452; }
 a.sr-button2 { background: #ea4452; }
 a.sr-button2:hover { background: #0d0d0d; }
 
-a.sr-button3 { background: #ffffff; }
+a.sr-button3 { background: #fff; }
 a.sr-button3:hover { background: #ea4452; }
 
 a.sr-button4 { background: #ea4452; }
-a.sr-button4:hover { background: #ffffff; }
+a.sr-button4:hover { background: #fff; }
 
 
 .sr-button-text {
@@ -697,7 +724,7 @@ a.sr-button4:hover { background: #ffffff; }
 .inline-video:before {
 	content: "\f488";
 	font-family: "Ionicons";
-	color: #ffffff;
+	color: #fff;
 	font-size: 90px;
 	width: 65px;
 	height: 70px; line-height: 70px;
@@ -719,7 +746,7 @@ a.sr-button4:hover { background: #ffffff; }
 	font-size: 12px;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-	color: #ffffff;
+	color: #fff;
 	position: absolute;
 	top: 50%; margin-top: 45px;
 	left: 0;
@@ -740,7 +767,7 @@ a.sr-button4:hover { background: #ffffff; }
 .inline-video .inline-iframe-container .close-inline-video {
 	content: "\f488";
 	font-family: "Ionicons";
-	color: #ffffff;
+	color: #fff;
 	width: 70px;
 	height: 70px; line-height: 70px;
 	text-align: center;
@@ -787,7 +814,7 @@ a.img-hover:before {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: #ffffff;
+	background: #fff;
 	opacity: 0; filter: alpha(opacity=0); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	-webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
@@ -848,7 +875,7 @@ a.img-hover:hover .hover-caption {
 }
 
 #hero > p a {
-	color: white;
+	color: #fff;
 }
 
 #hero .alttitle {
@@ -856,7 +883,7 @@ a.img-hover:hover .hover-caption {
 }
 
 .page-title h1 {
-	color: white;
+	color: #fff;
 }
 
 .panorama {
@@ -868,7 +895,7 @@ a.img-hover:hover .hover-caption {
 }
 
 .portfolio-wolf-item .portfolio-caption a {
-	background-color: white;
+	background-color: #fff;
 	padding: 20px;
 }
 
@@ -933,7 +960,7 @@ a.img-hover:hover:before {
 }
 
 p.footer-link {
-	border-top: 1px solid white;
+	border-top: 1px solid #fff;
 	padding-top: 20px;
 }
 
@@ -983,11 +1010,11 @@ small {
 
 .main h3 a.fancy-link {
 	position: relative;
-	color: white;
+	color: #fff;
 }
 
 .main h3 a.fancy-link:hover {
-	color: white;
+	color: #fff;
 }
 
 .main h3 a.fancy-link:after {
@@ -1014,7 +1041,7 @@ small {
 }
 
 .main h5.alttitle {
-	color: white;
+	color: #fff;
 }
 
 @-webkit-keyframes text-pop {
@@ -1080,6 +1107,10 @@ small {
 	color: #C3B400;
 }
 
+.wolf-item.extend-bottom {
+	margin-bottom: 260px;
+}
+
 .peru-header {
 	color: #E2D102;
 }
@@ -1094,10 +1125,10 @@ small {
 	color: #5FDB00;
 }
 
-.new-orleans-header {
+.new-orleans-2016-header {
 	color: #990048;
 }
-.new-orleans-subheader {
+.new-orleans-2016-subheader {
 	color: #FF6E5D;
 }
 
@@ -1120,6 +1151,20 @@ small {
 }
 .scandinavia-subheader {
 	color: #9FB700;
+}
+
+.new-orleans-2018-header {
+	color: #1C0084;
+}
+.new-orleans-2018-subheader {
+	color: #D13B29;
+}
+
+.portland-summer-2018-header {
+	color: #7A56FF;
+}
+.portland-summer-2018-subheader {
+	color: #3DA6A3;
 }
 
 .main p.footer-link {
@@ -1242,57 +1287,57 @@ small {
 	border-color: #8A8AD5;
 }
 
-/* new orleans */
+/* new orleans 2016 */
 
-.new-orleans #page-loader .loader {
+.new-orleans-2016 #page-loader .loader {
 	color: #FF56A6;
 }
 
-.new-orleans #page-body {
+.new-orleans-2016 #page-body {
 	background: -webkit-linear-gradient(30deg, #FF6E5D, #FF56A6);
 	background: linear-gradient(60deg, #FF6E5D, #FF56A6);
 }
 
-.new-orleans p.back-button a {
+.new-orleans-2016 p.back-button a {
 	background: #FF56A6;
 	padding: 8px;
 }
 
-.new-orleans p.back-button a:hover {
+.new-orleans-2016 p.back-button a:hover {
 	background: #FFEC00;
 }
 
-.new-orleans .pace .pace-progress {
+.new-orleans-2016 .pace .pace-progress {
 	background: #FF56A6;
 }
 
-.new-orleans #hero > p a:hover {
+.new-orleans-2016 #hero > p a:hover {
 	color: #FF56A6;
 }
 
-.new-orleans a.sr-button {
+.new-orleans-2016 a.sr-button {
 	color: #009A7A;
 	background: #FFEC00;
 }
 
-.new-orleans a.sr-button:hover {
+.new-orleans-2016 a.sr-button:hover {
 	color: #99FF4A;
 	background: #414187;
 }
 
-.new-orleans p {
+.new-orleans-2016 p {
 	color: #1C0084;
 }
 
-.new-orleans a {
+.new-orleans-2016 a {
 	color: #D90C6D;
 }
 
-.new-orleans a:hover {
+.new-orleans-2016 a:hover {
 	color: #990048;
 }
 
-.new-orleans h3.video-header {
+.new-orleans-2016 h3.video-header {
 	color: #990048;
 }
 
@@ -1300,7 +1345,7 @@ iframe#instagram-embed-0 {
   margin: 0 auto !important;
 }
 
-.new-orleans p.footer-link {
+.new-orleans-2016 p.footer-link {
 	border-color: #D90C6D;
 }
 
@@ -1321,7 +1366,7 @@ iframe#instagram-embed-0 {
 }
 
 .santa-fe p.back-button a:hover {
-	background: white;
+	background: #fff;
 }
 
 .santa-fe .pace .pace-progress {
@@ -1333,7 +1378,7 @@ iframe#instagram-embed-0 {
 }
 
 .santa-fe p {
-	color: white;
+	color: #fff;
 }
 
 .santa-fe a {
@@ -1381,7 +1426,7 @@ iframe#instagram-embed-0 {
 }
 
 .portland-winter-2016 a.sr-button {
-	color: #FFFFFF;
+	color: #fff;
 	background: #5BCDCA;
 }
 
@@ -1471,7 +1516,7 @@ iframe#instagram-embed-0 {
 }
 
 .scandinavia .go-to-there {
-	background: white;
+	background: #fff;
 	display: inline-block;
 	padding: 20px;
 }
@@ -1678,7 +1723,7 @@ h5.norway-subheader {
 }
 
 .norway p {
-	color: white;
+	color: #fff;
 }
 
 .norway a {
@@ -1691,4 +1736,120 @@ h5.norway-subheader {
 
 .norway p.footer-link {
 	border-color: #C3B400;
+}
+
+/* new orleans 2018 */
+
+.new-orleans-2018 #page-loader .loader {
+	color: #1C0084;
+}
+
+.new-orleans-2018 #page-body {
+	background: -webkit-linear-gradient(30deg, #7A56FF, #1C0084);
+	background: linear-gradient(60deg, #7A56FF, #1C0084);
+}
+
+.new-orleans-2018 p.back-button a {
+	background: #1C0084;
+	padding: 8px;
+}
+
+.new-orleans-2018 p.back-button a:hover {
+	background: #5DFFDD;
+}
+
+.new-orleans-2018 .pace .pace-progress {
+	background: #1C0084;
+}
+
+.new-orleans-2018 #hero > p a:hover {
+	color: #1C0084;
+}
+
+.new-orleans-2018 a.sr-button {
+	color: #009A7A;
+	background: #5DFFDD;
+}
+
+.new-orleans-2018 a.sr-button:hover {
+	color: #990048;
+	background: #E3FF32;
+}
+
+.new-orleans-2018 p {
+	color: #DCDCFF;
+}
+
+.new-orleans-2018 a {
+	color: #FFEC00;
+}
+
+.new-orleans-2018 a:hover {
+	color: #FF6E5D;
+}
+
+.new-orleans-2018 h3.video-header {
+	color: #990048;
+}
+
+.new-orleans-2018 p.footer-link {
+	border-color: #95FFFC;
+}
+
+/* portland summer 2018 */
+
+.portland-summer-2018 #page-loader .loader {
+	color: #8A8AD5;
+}
+
+.portland-summer-2018 #page-body {
+	background: -webkit-linear-gradient(30deg, #95FFFC, #8A8AD5);
+	background: linear-gradient(60deg, #95FFFC, #8A8AD5);
+}
+
+.portland-summer-2018 p.back-button a {
+	background: #8A8AD5;
+	padding: 8px;
+}
+
+.portland-summer-2018 p.back-button a:hover {
+	background: #E3FF32;
+}
+
+.portland-summer-2018 .pace .pace-progress {
+	background: #8A8AD5;
+}
+
+.portland-summer-2018 #hero > p a:hover {
+	color: #8A8AD5;
+}
+
+.portland-summer-2018 a.sr-button {
+	color: #009A7A;
+	background: #E3FF32;
+}
+
+.portland-summer-2018 a.sr-button:hover {
+	color: #9FB700;
+	background: #340ACC;
+}
+
+.portland-summer-2018 p {
+	color: #1C0084;
+}
+
+.portland-summer-2018 a {
+	color: #FF56A6;
+}
+
+.portland-summer-2018 a:hover {
+	color: #D90C6D;
+}
+
+.portland-summer-2018 h3.video-header {
+	color: #D90C6D;
+}
+
+.portland-summer-2018 p.footer-link {
+	border-color: #990048;
 }
