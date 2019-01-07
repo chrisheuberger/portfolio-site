@@ -3,6 +3,7 @@
 .about-img {
   float: left;
   width: 30%;
+  max-width: 200px;
   padding: 0 30px 20px 0;
 }
 
@@ -15,17 +16,8 @@
   display: block;
   width: 100%;
   max-width: 1000px;
-  margin: 0 0 1em 0;
+  margin: 0 0 1rem 0;
   padding: 0;
-}
-
-a.about-link {
-  font-weight: 600;
-  color: $darkgreen;
-}
-
-a.about-link:hover {
-  color: darken($darkgreen, 20%);
 }
 
 .about-list {
@@ -35,6 +27,7 @@ a.about-link:hover {
 }
 
 .short {
+  max-width: 800px;
   margin: 0;
   padding: 25px;
   list-style: none;
@@ -47,12 +40,12 @@ h2.short-title {
 }
 
 .short ul {
-  padding-left: 1em;
+  padding-left: 1rem;
 }
 
 .short ul li {
   margin-top: 10px;
-  padding-left: .25em;
+  padding-left: .25rem;
   padding-bottom: 10px;
   list-style-position: outside;
   color: $darkgray;

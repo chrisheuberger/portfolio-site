@@ -11,3 +11,17 @@ $gray: #aca9C2;
 $lightgray: #f2f1fa;
 $white: #fff;
 $aqua: #87ffe3;
+
+//media queries
+
+@mixin media($point) {
+  @if $point == small {
+    @media all and (max-width: 480px){@content;}
+  }
+  @else if $point == medium {
+    @media all and (max-width: 768px){@content;}
+  }
+  @else if $point == large {
+    @media all and (max-width: 960px){@content;}
+  }
+}

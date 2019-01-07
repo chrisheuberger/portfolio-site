@@ -11,7 +11,7 @@
   display: none;
 }
 
-@media only screen and (max-width : 480px) {
+@include media(small) {
 
   .sidebar {
     width: calc(100% - 40px);
@@ -24,14 +24,14 @@
   .nav-ul {
     display: none;
     padding-top: 0;
-    padding-bottom: 1em;
+    padding-bottom: 1rem;
     &.active {
       display: block;
     }
   }
 
   .nav-ul li {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     line-height: 1.5;
   }
 
@@ -48,17 +48,17 @@
 
 .title {
   margin-top: 0;
-  font-size: .8em;
+  font-size: 1rem;
   font-style: italic;
   color: $darkgray;
 }
 
 .current {
-  background-color: $lightgreen;
+  background-color: $aqua;
 }
 
 ul.nav-ul {
-  padding-top: 1.5em;
+  padding-top: 1.5rem;
 }
 
 ul.nav-ul li {

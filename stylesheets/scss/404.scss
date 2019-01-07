@@ -9,23 +9,23 @@
   font-size: 50px;
 }
 
-p.broken-float {
+.broken-float {
   float: left;
   padding-top: 20px;
 }
 
 .broken-text {
-  margin: 1em 0;
-  font-size: 2em;
+  margin: 1rem 0;
+  font-size: 2rem;
 }
 
-a.broken-link {
+.broken-link {
   font-weight: 300;
   text-decoration: none;
   color: $darkblue;
 }
 
-a.broken-link:hover {
+.broken-link:hover {
   text-decoration: underline;
   color: $darkgray;
 }

@@ -2,7 +2,7 @@
 
 #intro {
   width: 100%;
-  max-width: 930px;
+  max-width: 800px;
   height: auto;
   background-color: $darkgray;
 }
@@ -11,7 +11,7 @@
   float: right;
   padding: 10px 30px 20px 20px;
   color: $white;
-  font: 4em $font-stack;
+  font: 4rem $font-stack;
   font-weight: 300;
   cursor: pointer;
 }
@@ -22,11 +22,13 @@
 
 .highlight {
   margin: 20px 0 0 0;
-  padding: 20px;
-  font: 2em $font-stack;
-  font-weight: 300;
+  padding: 40px;
+  font-size: 2rem;
   line-height: 1.6;
   color: $white;
+  @include media(small) {
+    padding: 20px;
+  }
 }
 
 .highlight a {
@@ -38,7 +40,7 @@
   text-decoration: none;
 }
 
-@media only screen and (max-width : 480px) {
+@include media(small) {
   
   #homepage-main-content {
     width: 100%;
