@@ -1,0 +1,23 @@
+/* resume */
+
+.pdf-link {
+  text-transform: lowercase;
+  letter-spacing: 0;
+}
+
+.pdf-link:hover {
+  background-color: $aqua;
+}
+
+.resume-format {
+  width: 100%;
+  max-width: 550px;
+}
+
+.resume-format ul {
+  padding: 0 0 0 25px;
+}
+
+.resume-shim {
+  height: 10px;
+}

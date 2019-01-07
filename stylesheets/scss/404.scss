@@ -1,0 +1,37 @@
+/* 404 */
+
+.broken-container {
+  width: 60%;
+  margin: 5% auto;
+}
+
+.broken-header {
+  font-size: 50px;
+}
+
+p.broken-float {
+  float: left;
+  padding-top: 20px;
+}
+
+.broken-text {
+  margin: 1em 0;
+  font-size: 2em;
+}
+
+a.broken-link {
+  font-weight: 300;
+  text-decoration: none;
+  color: $darkblue;
+}
+
+a.broken-link:hover {
+  text-decoration: underline;
+  color: $darkgray;
+}
+
+.broken-pic {
+  float: left;
+  width: 50%;
+  margin-left: -50px;
+}

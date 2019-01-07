@@ -1,0 +1,59 @@
+/* about page */
+
+.about-img {
+  float: left;
+  width: 30%;
+  padding: 0 30px 20px 0;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-body {
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+
+a.about-link {
+  font-weight: 600;
+  color: $darkgreen;
+}
+
+a.about-link:hover {
+  color: darken($darkgreen, 20%);
+}
+
+.about-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.short {
+  margin: 0;
+  padding: 25px;
+  list-style: none;
+  background-color: $aqua;
+}
+
+h2.short-title {
+  padding-bottom: 10px;
+  color: $darkgray;
+}
+
+.short ul {
+  padding-left: 1em;
+}
+
+.short ul li {
+  margin-top: 10px;
+  padding-left: .25em;
+  padding-bottom: 10px;
+  list-style-position: outside;
+  color: $darkgray;
+}

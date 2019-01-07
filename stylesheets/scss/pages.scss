@@ -1,0 +1,184 @@
+/* internal pages */
+
+.screenshot {
+  width: 100%;
+  margin: 2em 0 0 0;
+}
+
+.caption {
+  width: 100%;
+}
+
+.all-caps {
+  text-transform: uppercase;
+  letter-spacing: .15em;
+}
+
+.grid {
+  width: 90%;
+}
+
+.grid img {
+  display: inline-block;
+  width: 120px;
+  margin: 20px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.outer-video-container {
+  width: 60%;
+}
+
+@media only screen and (max-width : 768px) {
+
+  .outer-video-container {
+    width: 100%;
+  }
+
+}
+
+.embed-container {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.grid img:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.popup {
+  width: 60%;
+}
+
+.close {
+  float: right;
+  margin: 0;
+  padding: 1em 0;
+  font-size: 1em;
+  color: $lightgreen;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: darken($lightgreen, 20%);
+}
+
+.large {
+  width: 100%;
+  cursor: pointer;
+}
+
+.explainer {
+  color: $lightgray;
+}
+
+.explainer a {
+  color: $lightgreen;
+}
+
+.explainer a:hover {
+  color: darken($lightgreen, 20%);
+}
+
+.shorten {
+  width: 90%;
+}
+
+.top {
+  cursor: pointer;
+}
+
+.license {
+  color: $lightgray;
+}
+
+.license img {
+  border-width: 0;
+  width: 80px;
+}
+
+.license a {
+  color: $lightgray;
+}
+
+.license a:hover {
+  color: $gray;
+}
+
+/* development page */
+
+ul.personal-projects-list {
+  list-style-position: inside;
+  margin: 2em 0;
+}
+
+ul.personal-projects-list li.personal-projects {
+  line-height: 2;
+}
+
+/* play page */
+
+.sketchbooks {
+  display: inline;
+  text-transform: lowercase;
+  letter-spacing: 0;
+  color: $lightgray;
+  background-color: $white;
+}
+
+.slide {
+  padding-top: 20px;
+}
+
+/* presentation pages */
+
+.notes {
+  width: 80%;
+  padding: 25px 0 0 25px;
+}
+
+.notes p {
+  padding-bottom: 15px;
+}
+
+.notes h4 {
+  padding-bottom: 15px;
+}
+
+.pres {
+  cursor: pointer;
+}
+
+.align-presentation1 {
+  margin-left: 10px;
+}
+
+.align-presentation2 {
+  margin-left: 27px;
+}
+
+.align-presentation3 {
+  margin-left: 9px;
+}
+
+a.presentation {
+  color: $lightgray;
+  background-color: $white;
+}
+
+a.presentation:hover {
+  background-color: $aqua;
+}

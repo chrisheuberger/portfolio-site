@@ -1,0 +1,66 @@
+.favorite-things {
+  width: 100%;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  background: $lightblue;
+}
+
+.filter-header {
+  margin: 1em 0 0 0.5em;
+  color: $white;
+}
+
+.filter-container {
+  margin-bottom: 1em;
+}
+
+.favorites-row {
+  width: 100%;
+}
+
+.checkbox-btn {
+  float: left;
+  margin: 0.5em 0 0 0.5em;
+  overflow: auto;
+  color: $white;
+  background-color: $darkblue;
+}
+
+.checkbox-btn:hover {
+  background: darken($darkblue, 20%);
+}
+
+.checkbox-btn label {
+  float: left;
+  cursor: pointer;
+}
+
+.checkbox-btn label span {
+  display: block;
+  padding: 0.25em 0.5em;
+  text-align: center;
+}
+
+.checkbox-btn label input {
+  position: absolute;
+  top: -20px;
+}
+
+.checkbox-btn input:checked + span {
+  background: darken($darkblue, 20%);
+}
+
+.package {
+  margin: 0.5em;
+  padding: 0.5em;
+  background-color: lighten($lightblue, 20%);
+}
+
+.category {
+  display: inline-block;
+  margin-top: 0.5em;
+  padding: 0.125em 0.5em;
+  color: $white;
+  background: $darkblue;
+}

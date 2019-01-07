@@ -1,0 +1,70 @@
+/* sidebar */
+
+.sidebar {
+  width: 150px;
+  margin: 0;
+  padding: 20px;
+}
+
+.mobile-menu-link {
+  float: right;
+  display: none;
+}
+
+@media only screen and (max-width : 480px) {
+
+  .sidebar {
+    width: calc(100% - 40px);
+  }
+
+  .mobile-menu-link {
+    display: block;
+  }
+
+  .nav-ul {
+    display: none;
+    padding-top: 0;
+    padding-bottom: 1em;
+    &.active {
+      display: block;
+    }
+  }
+
+  .nav-ul li {
+    font-size: 1.3em;
+    line-height: 1.5;
+  }
+
+}
+
+.logo {
+  width: 130px;
+  margin: 0;
+}
+
+.name {
+  margin: 0;
+}
+
+.title {
+  margin-top: 0;
+  font-size: .8em;
+  font-style: italic;
+  color: $darkgray;
+}
+
+.current {
+  background-color: $lightgreen;
+}
+
+ul.nav-ul {
+  padding-top: 1.5em;
+}
+
+ul.nav-ul li {
+  list-style: none;
+}
+
+a.nav:hover {
+  background-color: $aqua;
+}

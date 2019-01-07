@@ -8,11 +8,26 @@ ga('send', 'pageview');
 
 $(function(){
 
+  // mobile nav
+
+  var $menu = $('#menu'),
+      $menulink = $('.mobile-menu-link');
+  
+  $menulink.click(function() {
+    $menulink.toggleClass('active');
+    $menu.toggleClass('active');
+    return false;
+  });
+
+  // show/hide Venn diagram
+
   $('.close-intro').click(function() {
     $( "#intro" ).fadeOut( 500, function() {
       $( ".venn" ).fadeIn( 500 );
     });
   });
+
+  // footer quote
 
   $(".fade").hide();
   $(".quote").click(function(e){

@@ -1,0 +1,578 @@
+/* brain venn */
+
+.venn {
+  display: none;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.interests {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  font: 1.5em $font-stack;
+  text-align: center;
+  letter-spacing: .125em;
+}
+
+.brain {
+  position: relative;
+  z-index: 1;
+  clear: none;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.brain img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.brain h2 {
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  font: 1em $font-stack;
+  text-align: center;
+  letter-spacing: .125em;
+}
+
+a.brain-nav {
+  color: $lightgreen;
+}
+
+a.brain-nav:hover {
+  color: darken($lightgreen, 20%);
+}
+
+.ghost {
+  position: absolute;
+  z-index: 1;
+  width: 80%;
+  height: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.behind {
+  position: relative;
+  z-index: -1;
+}
+
+@media only screen and (min-width : 481px) and (max-width : 542px) {
+
+  .amazing {
+    position: absolute;
+    top: 10%;
+    left: -5%;
+  }
+
+  .information {
+    position: absolute;
+    top: 65%;
+    left: -40%;
+  }
+
+  .solving {
+    position: absolute;
+    top: -80%;
+    left: 75%;
+  }
+
+  .communication {
+    position: absolute;
+    top: -50%;
+    left: 20%;
+  }
+
+  .pizza {
+    position: absolute;
+    top: -35%;
+    left: 70%;
+  }
+
+  a.brain-nav {
+    font-size: .75em;
+    line-height: 1;
+  }
+
+  a.brain-nav br {
+    display: block;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+  }
+
+}
+
+@media only screen and (min-width : 543px) and (max-width : 576px) {
+
+  .amazing {
+    position: absolute;
+    top: 10%;
+    left: -5%;
+  }
+
+  .information {
+    position: absolute;
+    top: 65%;
+    left: -20%;
+  }
+
+  .solving {
+    position: absolute;
+    top: -55%;
+    left: 75%;
+  }
+
+  .communication {
+    position: absolute;
+    top: -30%;
+    left: 40%;
+  }
+
+  .pizza {
+    position: absolute;
+    top: 15%;
+    left: -10%;
+  }
+
+  a.brain-nav {
+    font-size: .75em;
+    line-height: 1;
+  }
+
+  a.brain-nav br {
+    display: block;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+  }
+
+}
+
+@media only screen and (min-width : 577px) and (max-width : 692px) {
+
+  .amazing {
+    position: absolute;
+    top: 10%;
+    left: -5%;
+  }
+
+  .information {
+    position: absolute;
+    top: 65%;
+    left: -20%;
+  }
+
+  .solving {
+    position: absolute;
+    top: -10%;
+    left: 5%;
+  }
+
+  .communication {
+    position: absolute;
+    top: 10%;
+    left: 70%;
+  }
+
+  .pizza {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+  }
+
+  a.brain-nav {
+    font-size: .75em;
+    line-height: 1;
+  }
+
+  a.brain-nav br {
+    display: block;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+  }
+
+}
+
+@media only screen and (min-width : 693px) and (max-width : 800px) {
+
+  .amazing {
+    position: absolute;
+    top: 10%;
+    left: -5%;
+  }
+
+  .information {
+    position: absolute;
+    top: 75%;
+    left: -15%;
+  }
+
+  .solving {
+    position: absolute;
+    top: -5%;
+    left: 15%;
+  }
+
+  .communication {
+    position: absolute;
+    top: 20%;
+    left: 75%;
+  }
+
+  .pizza {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+  }
+
+}
+
+@media only screen and (min-width : 801px) and (max-width : 931px) {
+
+  .amazing {
+    position: absolute;
+    top: 20%;
+    left: 0;
+  }
+
+  .information {
+    position: absolute;
+    top: 75%;
+    left: -5%;
+  }
+
+  .solving {
+    position: absolute;
+    top: -10%;
+    left: 15%;
+  }
+
+  .communication {
+    position: absolute;
+    top: 25%;
+    left: 75%;
+  }
+
+  .pizza {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+  }
+
+}
+
+@media only screen and (min-width : 932px) and (max-width : 948px) {
+
+  .amazing {
+    position: absolute;
+    top: 20%;
+    left: 0;
+  }
+
+  .information {
+    position: absolute;
+    top: 75%;
+    left: 0;
+  }
+
+  .solving {
+    position: absolute;
+    top: 0;
+    left: 35%;
+  }
+
+  .communication {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+  }
+
+  .pizza {
+    position: absolute;
+    top: 60%;
+    left: 75%;
+  }
+
+}
+
+@media only screen and (min-width : 949px) and (max-width : 1031px) {
+
+  .amazing {
+    position: absolute;
+    top: 20%;
+    left: 0;
+  }
+
+  .information {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+  }
+
+  .solving {
+    position: absolute;
+    top: -5%;
+    left: 35%;
+  }
+
+  .communication {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+  }
+
+  .pizza {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+  }
+
+}
+
+@media only screen and (min-width : 1032px) and (max-width : 1040px) {
+
+  .amazing {
+    position: absolute;
+    top: 20%;
+    left: 0;
+  }
+
+  .information {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+  }
+
+  .solving {
+    position: absolute;
+    top: 0;
+    left: 35%;
+  }
+
+  .communication {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+  }
+
+  .pizza {
+    position: absolute;
+    top: 70%;
+    left: -20%;
+  }
+
+}
+
+@media only screen and (min-width : 1041px) and (max-width : 1060px) {
+
+  .amazing {
+    position: absolute;
+    top: 20%;
+    left: 0;
+  }
+
+  .information {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+  }
+
+  .solving {
+    position: absolute;
+    top: 0;
+    left: 35%;
+  }
+
+  .communication {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+  }
+
+  .pizza {
+    position: absolute;
+    top: 80%;
+    left: -20%;
+  }
+
+}
+
+@media only screen and (min-width : 1061px) and (max-width : 1200px) {
+
+  .amazing {
+    position: absolute;
+    top: 20%;
+    left: 0;
+  }
+
+  .information {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+  }
+
+  .solving {
+    position: absolute;
+    top: 0;
+    left: 45%;
+  }
+
+  .communication {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+  }
+
+  .pizza {
+    position: absolute;
+    top: 75%;
+    left: -15%;
+  }
+
+}
+
+@media only screen and (min-width : 1201px) and (max-width : 1366px) {
+
+  .amazing {
+    position: absolute;
+    top: 20%;
+    left: 0;
+  }
+
+  .information {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+  }
+
+  .solving {
+    position: absolute;
+    top: 0;
+    left: 50%;
+  }
+
+  .communication {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+  }
+
+  .pizza {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+  }
+
+}
+
+@media only screen and (min-width : 1367px) and (max-width : 1600px) {
+
+  .amazing {
+    position: absolute;
+    top: 20%;
+    left: 0;
+  }
+
+  .information {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+  }
+
+  .solving {
+    position: absolute;
+    top: -5%;
+    left: 50%;
+  }
+
+  .communication {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+  }
+
+  .pizza {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+  }
+
+}
+
+@media only screen and (min-width : 1601px) and (max-width : 1784px) {
+
+  .amazing {
+    position: absolute;
+    top: 20%;
+    left: 0;
+  }
+
+  .information {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+  }
+
+  .solving {
+    position: absolute;
+    top: -5%;
+    left: 55%;
+  }
+
+  .communication {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+  }
+
+  .pizza {
+    position: absolute;
+    top: 80%;
+    left: 25%;
+  }
+
+}
+
+@media only screen and (min-width : 1785px) {
+
+  .amazing {
+    position: absolute;
+    top: 20%;
+    left: 0;
+  }
+
+  .information {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+  }
+
+  .solving {
+    position: absolute;
+    top: -5%;
+    left: 55%;
+  }
+
+  .communication {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+  }
+
+  .pizza {
+    position: absolute;
+    top: 80%;
+    left: 25%;
+  }
+
+}
