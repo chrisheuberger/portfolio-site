@@ -11,6 +11,42 @@
   display: none;
 }
 
+.logo {
+  width: 130px;
+  margin: 0;
+}
+
+.name {
+  margin: 0;
+}
+
+.title {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-style: italic;
+  color: $blue;
+}
+
+.nav-ul {
+  padding-top: 1.5rem;
+  list-style: none;
+}
+
+.nav {
+  color: $darkblue;
+  &.current {
+    background-color: $lightblue;
+  }
+  &:hover {
+    background-color: $lightblue;
+  }
+}
+
+.work-temp-fade,
+.cv-temp-fade {
+  display: none;
+}
+
 @include media(small) {
 
   .sidebar {
@@ -30,41 +66,9 @@
     }
   }
 
-  .nav-ul li {
+  .nav {
     font-size: 1.3rem;
     line-height: 1.5;
   }
 
-}
-
-.logo {
-  width: 130px;
-  margin: 0;
-}
-
-.name {
-  margin: 0;
-}
-
-.title {
-  margin-top: 0;
-  font-size: 1rem;
-  font-style: italic;
-  color: $darkgray;
-}
-
-.current {
-  background-color: $aqua;
-}
-
-ul.nav-ul {
-  padding-top: 1.5rem;
-}
-
-ul.nav-ul li {
-  list-style: none;
-}
-
-a.nav:hover {
-  background-color: $aqua;
 }

@@ -1,4 +1,4 @@
-/* internal pages */
+/* work */
 
 .all-caps {
   text-transform: uppercase;
@@ -7,71 +7,21 @@
 
 .grid {
   width: 90%;
-}
-
-.grid img {
-  display: inline-block;
-  width: 120px;
-  margin: 20px;
-  padding: 0;
-  cursor: pointer;
-  &:hover {
-    opacity: 0.8;
-    filter: alpha(opacity=80);
+  img {
+    display: inline-block;
+    width: 120px;
+    margin: 20px;
+    padding: 0;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+      filter: alpha(opacity=80);
+    }
+    @include media(small) {
+      width: 100%
+    }
   }
-  @include media(small) {
-    width: 100%
-  }
 }
-
-.popup {
-  width: 60%;
-}
-
-.close {
-  float: right;
-  margin: 0;
-  padding: 1rem 0;
-  font-size: 1rem;
-  color: $lightgreen;
-  cursor: pointer;
-}
-
-.close:hover {
-  color: darken($lightgreen, 20%);
-}
-
-.large {
-  width: 100%;
-  cursor: pointer;
-}
-
-.explainer {
-  color: $lightgray;
-}
-
-.explainer a {
-  color: $lightgreen;
-}
-
-.explainer a:hover {
-  color: darken($lightgreen, 20%);
-}
-
-.shorten {
-  width: 90%;
-}
-
-.top {
-  cursor: pointer;
-}
-
-.license img {
-  border-width: 0;
-  width: 80px;
-}
-
-// work
 
 .caption {
   width: 100%;
@@ -82,6 +32,7 @@
   margin: 2rem 0;
   li{
     line-height: 2;
+    padding-bottom: 1rem;
   }
 }
 
@@ -99,8 +50,46 @@
   }
 }
 
-.slide {
-  padding-top: 20px;
+.popup {
+  width: 60%;
+}
+
+.close {
+  float: right;
+  margin: 0;
+  font-size: 1rem;
+  color: $darkblue;
+  cursor: pointer;
+  &:hover {
+    background-color: $lightblue;
+  }
+}
+
+.large {
+  width: 100%;
+  cursor: pointer;
+}
+
+.explainer {
+  color: $darkblue;
+  a {
+    color: $blue;
+    &:hover {
+      background-color: $lightblue;
+    }
+  }
+}
+
+.shorten {
+  width: 90%;
+}
+
+.top {
+  display: inline;
+  cursor: pointer;
+  &:hover {
+    background: $lightblue;
+  }
 }
 
 // talks
@@ -108,12 +97,10 @@
 .notes {
   width: 80%;
   padding: 25px 0 0 0;
-}
-
-.notes p {
-  padding-bottom: 15px;
-}
-
-.notes h4 {
-  padding-bottom: 15px;
+  h4 {
+    padding-bottom: 15px;
+  }
+  p {
+    padding-bottom: 15px;
+  }
 }

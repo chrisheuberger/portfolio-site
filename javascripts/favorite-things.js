@@ -1,4 +1,5 @@
 $(function() {
+
   var options = {
     valueNames: ["name", "category"]
   };
@@ -10,7 +11,6 @@ $(function() {
   $(".filter").change(function() {
     var isChecked = this.checked;
     var value = $(this).data("value");
-
     if (isChecked) {
       // add to list of active filters
       activeFilters.push(value);
@@ -18,7 +18,6 @@ $(function() {
       // remove from active filters
       activeFilters.splice(activeFilters.indexOf(value), 1);
     }
-
     userList.filter(function(item) {
       if (activeFilters.length > 0) {
         return activeFilters.indexOf(item.values().category) > -1;
@@ -26,4 +25,5 @@ $(function() {
       return true;
     });
   });
+
 });

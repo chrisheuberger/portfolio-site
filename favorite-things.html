@@ -25,9 +25,6 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i" rel="stylesheet">
   <link rel="stylesheet" href="stylesheets/styles.css">
   <script src="javascripts/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.0/list.min.js"></script>
-  <script src="javascripts/favorite-things.js"></script>
 </head>
 <body>
   <!--[if lt IE 7]>
@@ -38,8 +35,8 @@
 
     <div class="sidebar">
       <a href="#menu" class="mobile-menu-link">menu</a>
-      <h3 class='nav name'><a class='nav' href="index.html">Chris Heuberger</a></h3>
-      <p class='nav title'>frontend web developer</p>
+      <h3 class='name'><a class='nav' href="index.html">Chris Heuberger</a></h3>
+      <p class='title'>frontend web developer</p>
       <ul id="menu" class="nav-ul">
         <li><a class='nav' href="about.html">about</a></li>
         <br>
@@ -62,43 +59,44 @@
 
       <div class="favorite-things">
 
-        <h3 class="filter-header">Filter Categories</h3>
-
-        <ul class="favorites-row filter-container">
-          <li class="checkbox-btn">
+        <div class="filter-container">
+          <h3 class="filter-header">Filter Categories</h3>
+          <ul class="filter-ul">
             <!-- Culture, Economics, History, Psychology, Technology -->
-            <label>
-              <input type="checkbox" name="art" class="filter" data-value="Art" /><span>Art</span>
-            </label>
-          </li>
-          <li class="checkbox-btn">
-            <label>
-              <input type="checkbox" name="coding" class="filter" data-value="Coding" /><span>Coding</span>
-            </label>
-          </li>
-          <li class="checkbox-btn">
-            <label>
-              <input type="checkbox" name="design" class="filter" data-value="Design" /><span>Design</span>
-            </label>
-          </li>
-          <li class="checkbox-btn">
-            <label>
-              <input type="checkbox" name="math" class="filter" data-value="Math" /><span>Math</span>
-            </label>
-          </li>
-          <li class="checkbox-btn">
-            <label>
-              <input type="checkbox" name="science" class="filter" data-value="Science" /><span>Science</span>
-            </label>
-          </li>
-          <li class="checkbox-btn">
-            <label>
-              <input type="checkbox" name="tomfoolery" class="filter" data-value="Tomfoolery" /><span>Tomfoolery</span>
-            </label>
-          </li>
-        </ul>
+            <li class="checkbox-btn">
+              <label>
+                <input type="checkbox" name="art" class="filter" data-value="Art" /><span>Art</span>
+              </label>
+            </li>
+            <li class="checkbox-btn">
+              <label>
+                <input type="checkbox" name="coding" class="filter" data-value="Coding" /><span>Coding</span>
+              </label>
+            </li>
+            <li class="checkbox-btn">
+              <label>
+                <input type="checkbox" name="design" class="filter" data-value="Design" /><span>Design</span>
+              </label>
+            </li>
+            <li class="checkbox-btn">
+              <label>
+                <input type="checkbox" name="math" class="filter" data-value="Math" /><span>Math</span>
+              </label>
+            </li>
+            <li class="checkbox-btn">
+              <label>
+                <input type="checkbox" name="science" class="filter" data-value="Science" /><span>Science</span>
+              </label>
+            </li>
+            <li class="checkbox-btn">
+              <label>
+                <input type="checkbox" name="tomfoolery" class="filter" data-value="Tomfoolery" /><span>Tomfoolery</span>
+              </label>
+            </li>
+          </ul>
+        </div>
 
-        <div class="favorites-row results-container">
+        <div class="results-container">
           <div id="search-results">
             <div class="list">
               <div class="package">
@@ -172,6 +170,8 @@
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.0/list.min.js"></script>
   <script src="javascripts/scripts.js"></script>
+  <script src="javascripts/favorite-things.js"></script>
 </body>
 </html>

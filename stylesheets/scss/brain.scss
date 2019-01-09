@@ -22,32 +22,29 @@
   width: 90%;
   margin: 0 auto;
   padding: 0;
+  img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  h2 {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    font: 1em $font-stack;
+    text-align: center;
+    letter-spacing: .125em;
+  }
 }
 
-.brain img {
-  display: block;
-  width: 80%;
-  margin: 0 auto;
-  padding: 0;
-}
-
-.brain h2 {
-  display: inline-block;
-  position: relative;
-  z-index: 2;
-  margin: 0;
-  padding: 0;
-  font: 1em $font-stack;
-  text-align: center;
-  letter-spacing: .125em;
-}
-
-a.brain-nav {
-  color: $lightgreen;
-}
-
-a.brain-nav:hover {
-  color: darken($lightgreen, 20%);
+.brain-nav {
+  color: $darkblue;
+  &:hover {
+    color: $darkblue;
+  }
 }
 
 .ghost {

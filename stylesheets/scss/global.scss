@@ -33,7 +33,7 @@ button,
 input,
 select,
 textarea {
-  color: #222;
+  color: $darkblue;
 }
 
 html {
@@ -44,24 +44,24 @@ html {
 body {
   font: 1rem/1.5 $font-stack;
   font-weight: 400;
-  color: $darkgray;
+  color: $darkblue;
 }
 
 ::-moz-selection {
-  background: $lightblue;
+  background: $green;
   text-shadow: none;
 }
 
 ::selection {
-  background: $lightblue;
+  background: $green;
   text-shadow: none;
 }
 
 .browsehappy {
   margin: 0.2rem 0;
   padding: 0.2rem 0;
-  background: $lightgray;
-  color: $darkgray;
+  background: $lightblue;
+  color: $darkblue;
 }
 
 .ie7 .title {
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   font-weight: 300;
   line-height: 1.2;
-  color: $darkgray;
+  color: $darkblue;
 }
 
 h1 {
@@ -87,11 +87,11 @@ h2 {
 }
 
 h3 {
-  font-size: 1.6rem;
+  font-size: 1.65rem;
 }
 
 h4 {
-  font-size: 1.4rem;
+ font-size: 1.6rem;
 }
 
 p {
@@ -99,7 +99,7 @@ p {
   font-size: 1.3rem;
   line-height: 1.4;
   font-weight: 400;
-  color: $darkgray;
+  color: $darkblue;
 }
 
 li {
@@ -115,9 +115,9 @@ em {
 a {
   font-weight: 600;
   text-decoration: none;
-  color: $darkblue;
+  color: $blue;
   &:hover {
-    background: $aqua;
+    background: $lightblue;
   }
 }
 
@@ -128,7 +128,7 @@ small {
 a small {
   display: block;
   font-size: 1rem;
-  color: $gray;
+  color: $blue;
 }
 
 q:before, q:after {
@@ -142,8 +142,8 @@ hr {
   margin: 1rem 0;
   padding: 0;
   border: 0;
-  border-top: .5px solid $lightgray;
-  background: $lightgray;
+  border-top: .5px solid $lightblue;
+  background: $lightblue;
 }
 
 /* main content */
@@ -179,27 +179,16 @@ footer {
 
 .quote {
   cursor: pointer;
+  &:hover {
+    background-color: $lightblue;
+  }
 }
 
-.quote:hover {
-  background-color: $aqua;
-}
-
-.colorize {
-  color: $darkgray;
-  background-color: $aqua;
-}
-
-.fade, .work-temp-fade, .cv-temp-fade {
+.fade {
   display: none;
-}
-
-.fade p {
-  color: $gray;
-}
-
-.fade a.nav {
-  color: $gray;
+  p {
+    color: $darkblue;
+  }
 }
 
 /* helper classes */
@@ -275,7 +264,7 @@ footer {
   }
 
   .main-content {
-    border-top: 2px solid $darkblue;
+    border-top: 2px solid $lightblue;
   }
 
   .logo {

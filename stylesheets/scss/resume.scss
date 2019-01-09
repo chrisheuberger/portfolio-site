@@ -6,18 +6,33 @@
 }
 
 .pdf-link:hover {
-  background-color: $aqua;
+  background-color: $lightblue;
 }
 
 .resume-format {
   width: 100%;
   max-width: 550px;
-}
 
-.resume-format ul {
-  padding: 0 0 0 25px;
 }
 
 .resume-shim {
   height: 10px;
+}
+
+.resume-header {
+  margin: 2rem 0 0 0;
+  font-weight: 400;
+}
+
+.resume-subheader {
+  margin: 0.5rem 0;
+  color: $blue;
+}
+
+.resume-ul li {
+  margin-top: 1rem;
+  padding-left: 1rem;
+  color: $darkblue;
+  list-style: none;
+  border-left: 2px solid $lesslightblue;
 }

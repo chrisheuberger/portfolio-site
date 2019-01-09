@@ -1,66 +1,71 @@
 .favorite-things {
-  width: 100%;
-  margin-top: 2rem;
   display: flex;
   flex-direction: column;
-  background: $lightblue;
-}
-
-.filter-header {
-  margin: 1rem 0 0 0.5rem;
-  color: $white;
+  width: 100%;
+  margin-top: 2rem;
 }
 
 .filter-container {
-  margin-bottom: 1rem;
-}
-
-.favorites-row {
-  width: 100%;
-}
-
-.checkbox-btn {
-  float: left;
-  margin: 0.5rem 0 0 0.5rem;
-  overflow: auto;
-  color: $white;
-  background-color: $darkblue;
-}
-
-.checkbox-btn:hover {
-  background: darken($darkblue, 20%);
-}
-
-.checkbox-btn label {
-  float: left;
-  cursor: pointer;
-}
-
-.checkbox-btn label span {
-  display: block;
-  padding: 0.25rem 0.5rem;
-  text-align: center;
-}
-
-.checkbox-btn label input {
-  position: absolute;
-  top: -20px;
-}
-
-.checkbox-btn input:checked + span {
-  background: darken($darkblue, 20%);
+  background: $lightblue;
+  margin: 1rem 0;
+  .filter-header {
+    margin: 1rem 0 0 1rem;
+  }
+  .filter-ul {
+    .checkbox-btn {
+      float: left;
+      margin: 1rem 0.5rem 1rem 0;
+      overflow: auto;
+      font-size: 1rem;
+      color: $darkblue;
+      background-color: $lesslightblue;
+      &:first-child {
+        margin-left: 1rem;
+      }
+      &:hover {
+        background-color: $blue;
+      }
+      label {
+        float: left;
+        display: block;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        span {
+          display: block;
+          padding: 0.25rem 0.5rem;
+          text-align: center;
+        }
+        input {
+          position: absolute;
+          top: -20px;
+          &:checked + span {
+            color: white;
+            background-color: $darkblue;
+          }
+        }
+      }
+    }
+  }
 }
 
 .package {
-  margin: 0.5rem;
-  padding: 0.5rem;
-  background-color: lighten($lightblue, 20%);
-}
-
-.category {
-  display: inline-block;
-  margin-top: 0.5rem;
-  padding: 0.125rem 0.5rem;
-  color: $white;
-  background: $darkblue;
+  margin: 1rem 0;
+  padding: 1rem 0 2rem 0;
+  border-bottom: 1px solid $lightblue;
+  .name {
+    margin: 0;
+    font-size: 1.2rem;
+    .faves-link:hover {
+      background: $lightblue;
+    }
+  }
+  .category {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.125rem 0.5rem;
+    font-size: 1rem;
+    color: $darkblue;
+    background-color: $lesslightblue;
+  }
 }
