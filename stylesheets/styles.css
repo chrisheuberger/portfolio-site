@@ -63,8 +63,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   font-weight: 300;
   line-height: 1.2;
-  color: #0f0080; }
+  color: #0f0080;
+  animation: textColor 2s 1; }
 
+@keyframes textColor {
+  0% {
+    color: #95f691; }
+  100% {
+    color: #0f0080; } }
 h1 {
   font-size: 2.5rem; }
 
@@ -935,7 +941,7 @@ footer {
   margin: 0;
   padding: 25px;
   list-style: none;
-  background-color: #e9e6ff; }
+  border: 1px solid #e9e6ff; }
 
 h2.short-title {
   padding-bottom: 10px;
