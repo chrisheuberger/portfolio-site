@@ -63,14 +63,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   font-weight: 300;
   line-height: 1.2;
-  color: #0f0080;
-  animation: textColor 2s 1; }
+  color: #0f0080; }
 
-@keyframes textColor {
-  0% {
-    color: #95f691; }
-  100% {
-    color: #0f0080; } }
 h1 {
   font-size: 2.5rem; }
 
@@ -93,7 +87,8 @@ p {
 li {
   font-size: 1.3rem;
   line-height: 1.4;
-  font-weight: 400; }
+  font-weight: 400;
+  color: #0f0080; }
 
 em {
   font-style: italic; }
@@ -350,8 +345,14 @@ footer {
 /* work */
 .all-caps {
   text-transform: uppercase;
-  letter-spacing: .15rem; }
+  letter-spacing: .15rem;
+  animation: textColor 2s 1; }
 
+@keyframes textColor {
+  0% {
+    color: #95f691; }
+  100% {
+    color: #0f0080; } }
 .grid {
   width: 90%; }
   .grid img {
@@ -943,14 +944,12 @@ footer {
   list-style: none;
   border: 1px solid #e9e6ff; }
 
-h2.short-title {
-  padding-bottom: 10px;
-  color: #0f0080; }
+.short-title {
+  padding-bottom: 10px; }
 
 .short ul li {
   margin-top: 1rem;
   padding-left: 1rem;
-  color: #0f0080;
   list-style: none;
   border-left: 2px solid #d2cdff; }
 
@@ -980,7 +979,6 @@ h2.short-title {
 .resume-ul li {
   margin-top: 1rem;
   padding-left: 1rem;
-  color: #0f0080;
   list-style: none;
   border-left: 2px solid #d2cdff; }
 

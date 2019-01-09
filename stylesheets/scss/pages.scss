@@ -3,6 +3,12 @@
 .all-caps {
   text-transform: uppercase;
   letter-spacing: .15rem;
+  animation: textColor 2s 1;
+}
+
+@keyframes textColor {
+  0% { color: $green; }
+  100% { color: $darkblue }
 }
 
 .grid {

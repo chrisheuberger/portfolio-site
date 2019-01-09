@@ -76,12 +76,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   line-height: 1.2;
   color: $darkblue;
-  animation: textColor 2s 1;
-}
-
-@keyframes textColor {
-  0% { color: $green; }
-  100% { color: $darkblue }
 }
 
 h1 {
@@ -112,6 +106,7 @@ li {
   font-size: 1.3rem;
   line-height: 1.4;
   font-weight: 400;
+  color: $darkblue;
 }
 
 em {
