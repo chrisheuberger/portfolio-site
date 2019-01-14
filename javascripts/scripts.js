@@ -15,16 +15,21 @@ $(function(){
   
   $menulink.click(function() {
     $menulink.toggleClass('active');
-    $menu.toggleClass('active');
+    if ($menu.is(":hidden")) {
+      $menu.slideDown( "fast" );
+    } else {
+      $menu.slideUp();
+    }
     return false;
   });
 
-  // show/hide Venn diagram
-
-  $('.close-intro').click(function() {
-    $( "#intro" ).fadeOut( 500, function() {
-      $( ".venn" ).fadeIn( 500 );
-    });
+  $(window).resize(function() {
+    if ($(window).width() > 768) {   
+      if($menulink.hasClass("active")){
+        $menulink.removeClass('active');
+      };
+      $menu.css("display","");   
+    };
   });
 
   // scroll to top

@@ -34,30 +34,37 @@
   <div class="page-container">
 
     <div class="sidebar">
-      <a href="#menu" class="mobile-menu-link">menu</a>
-      <h3 class='name'><a class='nav' href="index.html">Chris Heuberger</a></h3>
-      <p class='title'>frontend web developer</p>
-      <ul id="menu" class="nav-ul">
-        <li><a class='nav' href="about.html">about</a></li>
-        <br>
-        <li><a class='nav' href='https://github.com/ChrisBup' target="_blank" rel="noopener noreferrer">GitHub</a></li>
-        <li><a class='nav' href='https://codepen.io/ChrisBup' target="_blank" rel="noopener noreferrer">CodePen</a></li>
-        <li><a class='nav' href='https://dribbble.com/chrisbup' target="_blank" rel="noopener noreferrer">Dribbble</a></li>
-        <li><a class='nav' href='https://www.linkedin.com/in/chrisheuberger/' target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-        <li><a class='nav' href='https://twitter.com/chrisbup' target="_blank" rel="noopener noreferrer">Twitter</a></li>
-        <li><a class='nav' href='https://instagram.com/chrisbup' target="_blank" rel="noopener noreferrer">Instagram</a></li>
-        <li><a class='nav' href='mailto:chrisheuberg@gmail.com' target="_blank" rel="noopener noreferrer" title='chrisheuberg@gmail.com'>email</a></li>
-      </ul>
+      <div class="sidebar-content">
+        <a href="#menu" class="mobile-menu-link">
+          <span class="bar"></span><span class="bar"></span>
+        </a>
+        <h3 class="name"><a class="nav" href="index.html">Chris Heuberger</a></h3>
+        <p class="title">frontend web developer</p>
+        <nav>
+          <ul id="menu" class="nav-ul">
+            <li><a class="nav" href="about.html">About</a></li>
+            <li><a class="nav" href="work.html">Work</a></li>
+            <br>
+            <li><a class="nav" href="https://github.com/ChrisBup" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a class="nav" href="https://codepen.io/ChrisBup" target="_blank" rel="noopener noreferrer">CodePen</a></li>
+            <li><a class="nav" href="https://dribbble.com/chrisbup" target="_blank" rel="noopener noreferrer">Dribbble</a></li>
+            <li><a class="nav" href="https://www.linkedin.com/in/chrisheuberger/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a class="nav" href="https://twitter.com/chrisbup" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+            <li><a class="nav" href="https://instagram.com/chrisbup" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a class="nav" href="mailto:chrisheuberg@gmail.com" target="_blank" rel="noopener noreferrer" title="chrisheuberg@gmail.com">email</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
 
-    <div class="main-content">
+    <div class="main-content main-content_favorite-things">
 
       <div class='favorites-header'>
         <h1 class='about all-caps'>FAVORITE THINGS</h1><br>
         <p>Note: this list is imperfect and just for fun but I keep it in the hopes that it could be interesting for others and because I don't want to be sucked back into the vortex of social media.</p>
       </div>
 
-      <div class="favorite-things">
+      <div class="favorite-things-block">
 
         <div class="filter-container">
           <h3 class="filter-header">Filter Categories</h3>
@@ -86,6 +93,11 @@
             <li class="checkbox-btn">
               <label>
                 <input type="checkbox" name="science" class="filter" data-value="Science" /><span>Science</span>
+              </label>
+            </li>
+            <li class="checkbox-btn">
+              <label>
+                <input type="checkbox" name="social impact" class="filter" data-value="Social Impact" /><span>Social Impact</span>
               </label>
             </li>
             <li class="checkbox-btn">
@@ -147,6 +159,22 @@
                 <span class="name"><a class="faves-link" href="https://www.youtube.com/watch?v=s86-Z-CbaHA" target="_blank" rel="noopener noreferrer">Infinite sets</a> to stretch your brain.</span><br />
                 <span class="category">Math</span>
               </div>
+              <div class="package">
+                <span class="name"><a class="faves-link" href="https://80000hours.org/podcast/episodes/claire-walsh-evidence-in-development/" target="_blank" rel="noopener noreferrer">This episode of the 10,000 Hours podcast</a> (on effective altruism) is a fascinating talk with Claire Walsh, Senior Policy Manager at <a class="faves-link" href="https://www.povertyactionlab.org/" target="_blank" rel="noopener noreferrer">J-PAL Global at MIT</a>, on using randomized controlled trials to empirically evaluate policies and programs in the developing world governments to most effectively reduce global poverty.</span><br />
+                <span class="category">Social Impact</span>
+              </div>
+              <div class="package">
+                <span class="name">A superub and thought-provoking <a class="faves-link" href="https://www.nytimes.com/2019/01/09/magazine/beauty-evolution-animal.html" target="_blank" rel="noopener noreferrer">article in NYT Magazine</a> on how competing explanaitions for beauty in nature are causing a stir in evolutionary biology.</span><br />
+                <span class="category">Science</span>
+              </div>
+              <div class="package">
+                <span class="name">A <a class="faves-link" href="https://www.gapminder.org/topics/population/fill-up/" target="_blank" rel="noopener noreferrer">simple explainer</a> by the legendary Hans Rosling on how global population will increase for a while, then stabilize.</span><br />
+                <span class="category">Science</span>
+              </div>
+              <!-- <div class="package">
+                <span class="name"><a class="faves-link" href="xxx" target="_blank" rel="noopener noreferrer">xxx</a> xxx</span><br />
+                <span class="category">xxx</span>
+              </div> -->
             </div>
           </div>
         </div>
@@ -166,7 +194,7 @@
 
     </div> <!--  .main-content -->
 
-  </div> <!--  .page-content -->
+  </div> <!--  .page-container -->
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.11.0.min.js"><\/script>')</script>

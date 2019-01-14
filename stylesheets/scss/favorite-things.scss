@@ -1,27 +1,31 @@
-.favorite-things {
+.main-content.main-content_favorite-things {
+  max-width: 1000px;
+}
+
+.favorite-things-block {
   display: flex;
   flex-direction: column;
   width: 100%;
   margin-top: 2rem;
 }
 
+// filter categories
+
 .filter-container {
-  background: $lightblue;
   margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid $lightblue;
   .filter-header {
-    margin: 1rem 0 0 1rem;
+    margin: 0;
   }
   .filter-ul {
     .checkbox-btn {
       float: left;
-      margin: 1rem 0.5rem 1rem 0;
+      margin: 1rem 0.5rem 0 0;
       overflow: auto;
       font-size: 1rem;
       color: $darkblue;
       background-color: $lesslightblue;
-      &:first-child {
-        margin-left: 1rem;
-      }
       &:hover {
         background-color: $blue;
       }
@@ -49,6 +53,8 @@
   }
 }
 
+// items
+
 .package {
   margin: 1rem 0;
   padding: 1rem 0 2rem 0;
@@ -57,7 +63,8 @@
     margin: 0;
     font-size: 1.2rem;
     .faves-link:hover {
-      background: $lightblue;
+      color: $darkblue;
+      background: $aqua;
     }
   }
   .category {

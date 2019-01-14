@@ -3,12 +3,13 @@
 .all-caps {
   text-transform: uppercase;
   letter-spacing: .15rem;
-  animation: textColor 2s 1;
+  animation: textColorFlash 2s 1;
 }
 
-@keyframes textColor {
-  0% { color: $green; }
-  100% { color: $darkblue }
+@keyframes textColorFlash {
+  0% { color: $aqua; }
+  25% { color: $aqua; }
+  100% { color: $darkblue; }
 }
 
 .grid {
@@ -67,7 +68,7 @@
   color: $darkblue;
   cursor: pointer;
   &:hover {
-    background-color: $lightblue;
+    background-color: $aqua;
   }
 }
 
@@ -81,7 +82,7 @@
   a {
     color: $blue;
     &:hover {
-      background-color: $lightblue;
+      background-color: $aqua;
     }
   }
 }
@@ -94,7 +95,7 @@
   display: inline;
   cursor: pointer;
   &:hover {
-    background: $lightblue;
+    background: $aqua;
   }
 }
 

@@ -1,46 +1,60 @@
 /* about page */
 
-.about-img {
-  float: left;
-  width: 30%;
-  max-width: 200px;
-  padding: 0 30px 20px 0;
-}
-
-.about-content {
+.main-content.main-content_about {
   display: flex;
   flex-direction: column;
+  max-width: 1000px;
 }
 
-.about-body {
-  display: block;
+.about-intro {
   width: 100%;
-  max-width: 1000px;
-  margin: 0 0 1rem 0;
+  margin: 0;
   padding: 0;
+  .about-bio {
+    display: flex;
+    .about-img {
+      width: 30%;
+      min-width: 200px;
+      padding: 0 2rem 1rem 0;
+    }
+  }
 }
 
 .about-list {
   width: 100%;
-  margin: 0;
+  margin: 2rem 0 0 0;
   padding: 0;
 }
 
-.short {
-  max-width: 800px;
+.short-list {
   margin: 0;
-  padding: 25px;
+  padding: 1rem;
   list-style: none;
   border: 1px solid $lightblue;
+  .short-title {
+    padding-bottom: 1rem;
+  }
+  ul li {
+    margin-top: 1rem;
+    padding-left: 1rem;
+    list-style: none;
+    border-left: 2px solid $lesslightblue;
+  }
 }
 
-.short-title {
-  padding-bottom: 10px;
+@include media(medium) {
+  .about-intro {
+    .about-bio {
+      flex-direction: column;
+      .about-img {
+        width: 50%;
+      }
+    }
+  }
 }
 
-.short ul li {
-  margin-top: 1rem;
-  padding-left: 1rem;
-  list-style: none;
-  border-left: 2px solid $lesslightblue;
+@include media(small) {
+  .about-img {
+    width: 80%;
+  }
 }

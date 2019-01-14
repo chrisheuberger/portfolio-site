@@ -19,6 +19,7 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  box-sizing: border-box;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -37,23 +38,26 @@ textarea {
 }
 
 html {
+  min-height: 100%;
+  position: relative;
   font-size: 1rem;
   line-height: 1.4;
 }
 
 body {
+  height: 100%;
   font: 1rem/1.5 $font-stack;
   font-weight: 400;
   color: $darkblue;
 }
 
 ::-moz-selection {
-  background: $green;
+  background: $aqua;
   text-shadow: none;
 }
 
 ::selection {
-  background: $green;
+  background: $aqua;
   text-shadow: none;
 }
 
@@ -83,11 +87,11 @@ h1 {
 }
 
 h2 {
-  font-size: 1.75rem;
+  font-size: 1.8rem;
 }
 
 h3 {
-  font-size: 1.65rem;
+  font-size: 1.7rem;
 }
 
 h4 {
@@ -118,7 +122,8 @@ a {
   text-decoration: none;
   color: $blue;
   &:hover {
-    background: $lightblue;
+    color: $darkblue;
+    background: $aqua;
   }
 }
 
@@ -151,22 +156,20 @@ hr {
 
 .page-container {
   width: 100%;
-  max-width: 1200px;
-  display: flex;
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
 .main-content {
-  flex: 1 1 auto;
-  margin: 0;
-  padding: 20px;
+  margin: 0 0 0 150px;
+  padding: 1rem 2rem;
 }
 
 img {
   width: 100%
 }
+
+/* footer */
 
 footer {
   float: left;
@@ -176,12 +179,11 @@ footer {
   clear: both;
 }
 
-/* footer */
-
 .quote {
   cursor: pointer;
   &:hover {
-    background-color: $lightblue;
+    color: $darkblue;
+    background-color: $aqua;
   }
 }
 
@@ -254,7 +256,7 @@ footer {
 
 /* media queries */
 
-@include media(small) {
+@include media(medium) {
 
   body {
     margin-top: 0;
@@ -265,11 +267,9 @@ footer {
   }
 
   .main-content {
-    border-top: 2px solid $lightblue;
-  }
-
-  .logo {
-    display: none;
+    margin-left: 0;
+    padding: 1rem;
+    border-top: 1px solid $lightblue;
   }
 
   .grid img {
