@@ -1,8 +1,8 @@
 /* 404 */
 
 .broken-container {
-  width: 60%;
-  margin: 5% auto;
+  width: 100%;
+  margin: 0;
 }
 
 .broken-header {
@@ -26,8 +26,7 @@
 }
 
 .broken-link:hover {
-  text-decoration: underline;
-  color: $blue;
+  text-decoration: none;
 }
 
 .broken-pic {

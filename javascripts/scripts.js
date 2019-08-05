@@ -23,6 +23,11 @@ $(function(){
     return false;
   });
 
+  // mobile menu
+  $('.menu-tab').on('click',function(){
+    $('.mobile-menu-group').toggleClass('showing');
+  });
+
   $(window).resize(function() {
     if ($(window).width() > 768) {   
       if($menulink.hasClass("active")){

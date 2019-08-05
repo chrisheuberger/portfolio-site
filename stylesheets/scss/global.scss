@@ -38,14 +38,15 @@ textarea {
 }
 
 html {
-  min-height: 100%;
-  position: relative;
+  height: 100%;
   font-size: 1rem;
   line-height: 1.4;
 }
 
 body {
-  height: 100%;
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 150px;
   font: 1rem/1.5 $font-stack;
   font-weight: 400;
   color: $darkblue;
@@ -161,37 +162,12 @@ hr {
 }
 
 .main-content {
-  margin: 0 0 0 150px;
-  padding: 1.25rem 2rem;
+  margin: 0;
+  padding: 1.25rem 2rem 1.25rem 150px;
 }
 
 img {
   width: 100%
-}
-
-/* footer */
-
-footer {
-  float: left;
-  position: relative;
-  width: 100%;
-  padding-top: 100px;
-  clear: both;
-}
-
-.quote {
-  cursor: pointer;
-  &:hover {
-    color: $darkblue;
-    background-color: $aqua;
-  }
-}
-
-.fade {
-  display: none;
-  p {
-    color: $darkblue;
-  }
 }
 
 /* helper classes */
@@ -275,18 +251,6 @@ footer {
   .grid img {
     width: 40%;
     margin: 2%;
-  }
-
-  .large {
-    width: 100%;
-  }
-
-  .top {
-    padding-bottom: 2rem;
-  }
-
-  footer {
-    display: none;
   }
 
 }

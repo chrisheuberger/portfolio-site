@@ -14,7 +14,7 @@
 .filter-container {
   margin: 1rem 0;
   padding: 1rem;
-  border: 1px solid $lightblue;
+  @include box-shadow-with-animation;
   .filter-header {
     margin: 0;
   }
@@ -26,8 +26,10 @@
       font-size: 1rem;
       color: $darkblue;
       background-color: $lesslightblue;
-      &:hover {
-        background-color: $blue;
+      @media (hover) {
+        &:hover {
+          background-color: $blue;
+        }
       }
       label {
         float: left;

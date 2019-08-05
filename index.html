@@ -20,10 +20,11 @@
   <meta name="HandheldFriendly" content="true">
   <meta name="description" content="The portfolio website of Chris Heuberger - developer / designer / organizer - Brooklyn, NY">
   <title>Chris Heuberger</title>
-  <link rel="stylesheet" href="stylesheets/normalize.min.css">
-  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+  <link href="stylesheets/normalize.min.css" rel="stylesheet">
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i" rel="stylesheet">
-  <link rel="stylesheet" href="stylesheets/styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel=stylesheet type="text/css">
+  <link href="stylesheets/styles.css" rel="stylesheet">
   <script src="javascripts/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
 <body>
@@ -35,9 +36,6 @@
 
     <div class="sidebar">
       <div class="sidebar-content">
-        <a href="#menu" class="mobile-menu-link">
-          <span class="bar"></span><span class="bar"></span>
-        </a>
         <h3 class="name"><a class="nav-link" href="index.html">Chris Heuberger</a></h3>
         <nav>
           <ul id="menu" class="nav-ul">
@@ -56,30 +54,48 @@
       </div>
     </div>
 
+    <div class="mobile-menu-group">
+      <div class="menu-tab">
+        <p class="open-mobile-menu"><span class="hi">Hi</span><span class="berger"><span class="berger-bar"></span><span class="berger-bar"></span><span class="berger-bar"></span></span></p>
+        <p class="close-mobile-menu">close</p>
+      </div>
+      <nav class="mobile-menu">
+        <ul>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link" href="work.html">Work</a></li>
+          <li class="mobile-social">
+            <div class="icons1">
+              <span><a class="nav-link" href="https://github.com/ChrisBup" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></span>
+              <span><a class="nav-link" href="https://codepen.io/ChrisBup" target="_blank" rel="noopener noreferrer"><i class="fab fa-codepen"></i></a></span>
+              <span><a class="nav-link" href="https://dribbble.com/chrisbup" target="_blank" rel="noopener noreferrer"><i class="fab fa-dribbble"></i></a></span>
+              <span><a class="nav-link" href="https://www.linkedin.com/in/chrisheuberger/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a></span>
+            </div>
+            <div class="icons2">
+              <span><a class="nav-link" href="https://twitter.com/chrisbup" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></span>
+              <span><a class="nav-link" href="https://instagram.com/chrisbup" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></span>
+              <span><a class="nav-link" href="mailto:chrisheuberg@gmail.com" target="_blank" rel="noopener noreferrer" title="chrisheuberg@gmail.com"><i class="far fa-envelope"></i></a></span>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="main-content main-content_home">
 
       <div class='home-intro'>  
         <h3 class='highlight'>Hi, Chris here. I&#8217;m a web developer at <a href="https://www.radishlab.com" target="_blank" rel="noopener noreferrer">Radish Lab</a> in Bushwick, Brooklyn. I&#8217;m also an environmentalist, <a href="https://www.bushwickbrewingtour.com" target="_blank" rel="noopener noreferrer">history nerd</a>, <a href="https://www.chrisheuberger.com/rrbc" target="_blank" rel="noopener noreferrer">runner</a>, and fanny pack enthusiast. Here&#8217;s a list of my <a href="favorite-things.html">favorite things</a>, some <a href="talks.html">talks I&#8217;ve given</a>, and a few <a href="side-projects.html">side projects</a>. Do <a href='mailto:chrisheuberg@gmail.com' target="_blank" rel="noopener noreferrer" title='chrisheuberg@gmail.com'>say hello</a>.</h3>
       </div>
 
-      <!-- hidden -->
-      <div class='venn'>
-        <h2 class='interests'>INTERESTS</h2>
-        <div class="brain">
-          <div class="behind"><img src="images/brain-venn-diagram.jpg" alt="brain venn diagram (get it?)"></div>
-          <div class="ghost">
-            <h2 class='amazing'><a class='brain-nav' href="development.html">MAKING<br>SOMETHING<br>AMAZING</a></h2>
-            <h2 class='information'><a class='brain-nav' href="about.html">ORGANIZING<br>INFORMATION</a></h2>
-            <h2 class='solving'><a class='brain-nav' href="design.html">CREATIVE<br>PROBLEM<br>SOLVING</a></h2>
-            <h2 class='communication'><a class='brain-nav' href="photo.html">COMMUNICATION</a></h2>
-            <h2 class='pizza'><a class='brain-nav' href="play.html">PIZZA</a></h2>
-          </div>
-        </div>
-      </div>
-
-      <footer>
+      <footer class="homepage-footer">
         <p>
-          <small>Thanks for reading. Have a <a class='quote'>nice day.</a>
+          <small>
+            <!-- <span class='license'>
+              All work is licensed under a
+              <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+                Creative Commons Attribution 4.0 International License.
+              </a>
+            </span><br> -->
+            Thanks for reading. Have a <a class='quote'>nice day.</a>
             <span class='fade'>
               &nbsp;&mdash;&nbsp;
               <span class='colorize'>"The details are not the details. They make the design." &mdash;Charles Eames</span>

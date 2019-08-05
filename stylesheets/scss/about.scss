@@ -30,7 +30,7 @@
   margin: 0;
   padding: 1rem;
   list-style: none;
-  border: 1px solid $lightblue;
+  @include box-shadow-with-animation;
   .short-title {
     padding-bottom: 1rem;
   }

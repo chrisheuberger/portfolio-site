@@ -7,7 +7,7 @@
 
 2. Turn list into array.
 
-3. Go to [https://rubyfiddle.com/](https://rubyfiddle.com/) and use something like this to generate markup:  
+3. Go to [https://rubyfiddle.com/](http://rubyfiddle.com/) and use something like this to generate markup:  
 
         dir_array = [
           "test-1.jpg",
