@@ -28,12 +28,24 @@ $(function(){
     $('.mobile-menu-group').toggleClass('showing');
   });
 
+  var checkMobileViewed = false;
+  function mobileViewed(){
+    console.log('My last name is pronounced "HI-ber-ger." Do you get it? Like, but, do you %cget', 'font-style: italic; color:indigo;', 'it?', '\n' + 'https://www.ibm.com/design/language/elements/logos/rebus/#ibm-rebus');
+    checkMobileViewed = true;
+  }
+  if ($(window).width() < 767) {   
+    mobileViewed(); 
+  };
+
   $(window).resize(function() {
     if ($(window).width() > 768) {   
       if($menulink.hasClass("active")){
         $menulink.removeClass('active');
       };
       $menu.css("display","");   
+    };
+    if ($(window).width() < 767 && checkMobileViewed == false) {   
+      mobileViewed(); 
     };
   });
 
