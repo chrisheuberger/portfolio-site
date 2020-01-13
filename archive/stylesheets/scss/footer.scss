@@ -1,0 +1,89 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 150px);
+}
+
+.quote {
+  cursor: pointer;
+  &:hover {
+    color: $darkblue;
+    background-color: $aqua;
+  }
+}
+
+.fade {
+  display: none;
+  p {
+    color: $darkblue;
+  }
+}
+
+.homepage-footer {
+  p {
+    opacity: 0;
+    visibility: hidden;
+    animation: footerFade 1s forwards;
+    -webkit-animation: footerFade 1s forwards;
+    -moz-animation: footerFade 1s forwards;
+    -o-animation: footerFade 1s forwards;
+    animation-delay: 0.375s;
+    -webkit-animation-delay: 0.375s;
+    -moz-animation-delay: 0.375s;
+    -o-animation-delay: 0.375s;
+  }
+  @include mediaMin(medium) {
+    margin-left: 100px;
+  }
+}
+
+@keyframes footerFade {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@-webkit-keyframes footerFade {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@-moz-keyframes footerFade {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@-o-keyframes footerFade {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+/* media queries */
+
+@include media(medium) {
+
+  footer {
+    display: none;
+  }
+
+}

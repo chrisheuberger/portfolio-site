@@ -1,0 +1,63 @@
+/* about page */
+
+.main-content.main-content_about {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+}
+
+.about-intro {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  .about-bio {
+    display: flex;
+    .about-img {
+      width: 30%;
+      min-width: 200px;
+      padding: 0 2rem 1rem 0;
+    }
+  }
+}
+
+.about-list {
+  width: 100%;
+  margin: 2rem 0 0 0;
+  padding: 0;
+}
+
+.short-list {
+  margin: 0;
+  padding: 1rem;
+  list-style: none;
+  @include box-shadow-with-animation;
+  @include mediaMin(medium) {
+    padding: 3rem;
+  }
+  .short-title {
+    padding-bottom: 1rem;
+  }
+  ul li {
+    margin-top: 1rem;
+    padding-left: 1rem;
+    list-style: none;
+    border-left: 2px solid $lesslightblue;
+  }
+}
+
+@include media(medium) {
+  .about-intro {
+    .about-bio {
+      flex-direction: column;
+      .about-img {
+        width: 50%;
+      }
+    }
+  }
+}
+
+@include media(small) {
+  .about-img {
+    width: 80%;
+  }
+}
