@@ -1,0 +1,98 @@
+---
+title: Chris Heuberger / design
+layout: default
+permalink: /design
+---
+
+<div class="main-content">
+
+  <h1 class="all-caps">Work</h1>
+  <br>
+  <div class='grid'>
+    <img src="images/design/ppn1.jpg">
+    <img src="images/design/ppn2.jpg">
+    <img src="images/design/ppn3.jpg">
+    <img src="images/design/ppn4.jpg">
+    <img src="images/design/ppn5.jpg">
+    <img src="images/design/ppn-poster.jpg">
+    <img src="images/design/type-project1.jpg">
+    <img src="images/design/type-project2.jpg">
+    <img src="images/design/blockpartyflyer.jpg">
+    <img src="images/design/blockpartyflyer2.jpg">
+    <img src="images/design/sbp-poster1.jpg">
+    <img src="images/design/sbp-poster2.jpg">
+    <img src="images/design/halloween-flyer.jpg">
+    <img src="images/design/nyfile.jpg">
+    <img src="images/design/concept-dartboard.jpg">
+    <img src="images/design/insert-sample1.jpg">
+    <img src="images/design/insert-sample2.jpg">
+    <img src="images/design/poster-royal-we.jpg">
+    <img src="images/design/poster-union-artwalk.jpg">
+    <img src="images/design/poster-we-are-best.jpg">
+    <img src="images/design/poster-west-egg.jpg">
+    <img src="images/design/poster-whale.jpg">
+    <img src="images/design/fruitcake-bazooka.jpg">
+    <img src="images/design/gold-shoulder.jpg">
+    <img src="images/design/killer-cat.jpg">
+    <img src="images/design/banana-poster.jpg">
+    <img src="images/design/img_7362.jpg">
+    <img src="images/design/img_7363.jpg">
+    <img src="images/design/aiga.jpg">
+    <img src="images/design/aiga2.jpg">
+    <img src="images/design/lp-flyer2.jpg">
+    <img src="images/design/lp-flyer1.jpg">
+    <img src="images/design/lp-flyer3.jpg">
+    <img src="images/design/lp-flyer4.jpg">
+    <img src="images/design/lp-flyer6.jpg">
+    <img src="images/design/lp-flyer8.jpg">
+    <img src="images/design/img_7274.jpg">
+    <img src="images/design/img_7284.jpg">
+    <img src="images/design/img_7292.jpg">
+    <img src="images/design/img_7299.jpg">
+    <img src="images/design/img_7308.jpg">
+    <img src="images/design/img_7290.jpg">
+    <img src="images/design/img_7307.jpg">
+    <img src="images/design/abt.jpg">
+    <img src="images/design/aacc.jpg">
+    <img src="images/design/acc.jpg">
+    <img src="images/design/acc2.jpg">
+    <img src="images/design/acc3.jpg">
+    <img src="images/design/lv.jpg">
+    <img src="images/design/mlk2.jpg">
+    <img src="images/design/mlk3.jpg">
+    <img src="images/design/mlk4.jpg">
+    <img src="images/design/mlk5.jpg">
+    <img src="images/design/mlk7.jpg">
+    <img src="images/design/derby1.jpg">
+    <img src="images/design/derby2.jpg">
+    <img src="images/design/mdg-home.jpg">
+    <img src="images/design/mdg-sample.jpg">
+    <img src="images/design/ht-home.jpg">
+    <img src="images/design/ht-series.jpg">
+    <img src="images/design/otb-logo1.jpg">
+    <img src="images/design/otb-logo2.jpg">
+    <img src="images/design/rh-logo.jpg">
+    <img src="images/design/ranch-logo.jpg">
+    <img src="images/design/coookies.jpg">
+    <img src="images/design/cookielogo1.jpg">
+    <img src="images/design/cookielogo2.jpg">
+    <img src="images/design/logo2.jpg">
+    <img src="images/design/logo3.jpg">
+    <img src="images/design/logo4.jpg">
+    <img src="images/design/ts-logo1.jpg">
+    <img src="images/design/ts-logo2.jpg">
+    <img src="images/design/fiss-logo4.jpg">
+    <img src="images/design/fiss-logo1.jpg">
+    <img src="images/design/fiss-logo2.jpg">
+    <img src="images/design/bmz-lettering-2.jpg">
+  </div>
+  <div class="popup">
+    <span class='close all-caps'>CLOSE (X)</span>
+    <img class="large" src="">
+    <div class='explainer'></div>
+  </div>
+
+  <div class='shorten'><br><hr><br></div>
+  <p class='top'>top</p>
+
+</div> <!-- .main-content -->

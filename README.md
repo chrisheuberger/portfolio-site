@@ -1,8 +1,25 @@
-### Personal Site: [chrisheuberger.com](https://chrisheuberger.com)
+### Personal Site: [chrisheuberger.com](https://www.chrisheuberger.com)
 
 Built with [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/)
 
 Current Version: 2
+
+### Local Development
+
+To build the site:
+```
+bundle exec jekyll build
+```
+
+To run a local server:
+```
+bundle exec jekyll serve
+```
+
+view compiled site at
+```
+http://localhost:4000
+```
 
 ### Use AWS Cloudfront for Images
 
