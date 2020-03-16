@@ -1,5 +1,12 @@
 // home
 
+.main-content.main-content_home {
+  @include media(medium) {
+    padding-top: 0;
+    border-top: none;
+  }
+}
+
 .home-intro {
   max-width: 768px;
   height: auto;
@@ -22,14 +29,7 @@
       }
     }
   }
-}
-
-@include media(medium) {
-  .main-content.main-content_home {
-    padding-top: 0;
-    border-top: none;
-  }
-  .home-intro {
+  @include media(medium) {
     display: block;
     width: 100%;
     .highlight {

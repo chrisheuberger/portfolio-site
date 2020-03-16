@@ -5,15 +5,16 @@ $font-stack: 'Source Sans Pro', sans-serif;
 // palette
 
 $aqua: #87ffe3;
-$lightaqua: lighten($aqua, 20%);
-$darkaqua: darken($aqua, 20%);
-$verydarkaqua: darken($aqua, 40%);
+$lightaqua: lighten($aqua, 20%); // #edfffb
+$darkaqua: darken($aqua, 20%); // #21ffcb
+$verydarkaqua: darken($aqua, 40%); // #00ba8f
 
 $blue: #8f80ff;
-$lightblue: lighten($blue, 20%);
-$lesslightblue: lighten($blue, 15%);
+$lightblue: lighten($blue, 20%); // #e9e6ff
+$lesslightblue: lighten($blue, 15%); // #d2cdff
 $darkblue: darken($blue, 50%); // #0f0080
 $verydarkblue: darken($blue, 65%); // #060034
+
 
 // mixins
 
@@ -75,6 +76,38 @@ $verydarkblue: darken($blue, 65%); // #060034
     box-shadow: 14px 14px 0 0 $blue;
     -webkit-box-shadow: 14px 14px 0 0 $blue;
     -moz-box-shadow: 14px 14px 0 0 $blue;
+  }
+}
+
+@mixin link-with-animation {
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  margin-top: 20px;
+  padding-bottom: 4px;
+  text-transform: lowercase;
+  letter-spacing: 0;
+  font-weight: 300;
+  color: $darkblue;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $aqua;
+    transition: all 0.2s ease-in-out 0s;
+    z-index: -10;
+  }
+  &:hover {
+    text-decoration: none;
+    background: none;
+    &:before {
+      width: 100%;
+      height: 36px;
+    }
   }
 }
 

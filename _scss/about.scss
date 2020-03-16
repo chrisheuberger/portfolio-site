@@ -1,4 +1,4 @@
-// about page
+// about
 
 .main-content.main-content_about {
   display: flex;
@@ -12,10 +12,19 @@
   padding: 0;
   .about-bio {
     display: flex;
+    @include media(medium) {
+      flex-direction: column;
+    }
     .about-img {
       width: 30%;
       min-width: 200px;
       padding: 0 2rem 1rem 0;
+      @include media(medium) {
+        width: 50%;
+      }
+      @include media(small) {
+        width: 80%;
+      }
     }
   }
 }
@@ -41,22 +50,5 @@
     padding-left: 1rem;
     list-style: none;
     border-left: 2px solid $lesslightblue;
-  }
-}
-
-@include media(medium) {
-  .about-intro {
-    .about-bio {
-      flex-direction: column;
-      .about-img {
-        width: 50%;
-      }
-    }
-  }
-}
-
-@include media(small) {
-  .about-img {
-    width: 80%;
   }
 }

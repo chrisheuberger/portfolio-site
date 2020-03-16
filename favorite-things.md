@@ -8,7 +8,7 @@ permalink: /favorite-things
 
   <div class='favorites-header'>
     <h1 class='about all-caps'>FAVORITE THINGS</h1><br>
-    <p>Note: this list is totally incomplete and just for fun but I keep it in the hopes that it might be interesting for others and as a record for myself since I'm not so much on social media anymore.</p>
+    <p>Note: this list is totally incomplete and just for fun but I keep it in the hopes that it might be interesting for others and as a record for myself since I’m not so much on social media anymore.</p>
   </div>
 
   <div class="favorite-things-block">
@@ -108,7 +108,7 @@ permalink: /favorite-things
             <span class="category">Math</span>
           </div>
           <div class="package">
-            <span class="name">Dumb funny: <a class="faves-link" href="https://www.youtube.com/watch?v=c2r_fZ-aCtg" target="_blank" rel="noopener">A bat trapped in an Irish family's kitchen</a>.</span><br>
+            <span class="name">Dumb funny: <a class="faves-link" href="https://www.youtube.com/watch?v=c2r_fZ-aCtg" target="_blank" rel="noopener">A bat trapped in an Irish family’s kitchen</a>.</span><br>
             <span class="category">Tomfoolery</span>
           </div>
           <div class="package">
@@ -116,7 +116,7 @@ permalink: /favorite-things
             <span class="category">Science</span>
           </div>
           <div class="package">
-            <span class="name">Dafi Kühne has one amazing <a class="faves-link" href="https://eyeondesign.aiga.org/a-look-inside-dafi-kuhnes-swiss-alps-based-mindblowingly-vast-letterpress-studio/" target="_blank" rel="noopener">printmaking studio</a> in the Swiss Alps and a perfect little <a class="faves-link" href="https://vimeo.com/dafi" target="_blank" rel="noopener">video series</a> on his craft. Here's a <a class="faves-link" href="https://vimeo.com/282812808" target="_blank" rel="noopener">good one</a>.</span><br>
+            <span class="name">Dafi Kühne has one amazing <a class="faves-link" href="https://eyeondesign.aiga.org/a-look-inside-dafi-kuhnes-swiss-alps-based-mindblowingly-vast-letterpress-studio/" target="_blank" rel="noopener">printmaking studio</a> in the Swiss Alps and a perfect little <a class="faves-link" href="https://vimeo.com/dafi" target="_blank" rel="noopener">video series</a> on his craft. Here’s a <a class="faves-link" href="https://vimeo.com/282812808" target="_blank" rel="noopener">good one</a>.</span><br>
             <span class="category">Design</span>
           </div>
           <div class="package">
@@ -124,7 +124,7 @@ permalink: /favorite-things
             <span class="category">Math</span>
           </div>
           <div class="package">
-            <span class="name">A couple highlights from <em>Better Explained</em> on rethinking mathematical approaches: on <a class="faves-link" href="https://betterexplained.com/articles/math-and-analogies/" target="_blank" rel="noopener">Euler's Identity</a> and more broadly, <a class="faves-link" href="https://betterexplained.com/articles/a-visual-intuitive-guide-to-imaginary-numbers/" target="_blank" rel="noopener">imaginary numbers</a>.</span><br>
+            <span class="name">A couple highlights from <em>Better Explained</em> on rethinking mathematical approaches: on <a class="faves-link" href="https://betterexplained.com/articles/math-and-analogies/" target="_blank" rel="noopener">Euler’s Identity</a> and more broadly, <a class="faves-link" href="https://betterexplained.com/articles/a-visual-intuitive-guide-to-imaginary-numbers/" target="_blank" rel="noopener">imaginary numbers</a>.</span><br>
             <span class="category">Math</span>
           </div>
           <div class="package">
@@ -148,7 +148,7 @@ permalink: /favorite-things
             <span class="category">Psychology</span>
           </div>
           <div class="package">
-            <span class="name">Engrossing book on Alan Turing's 1936 paper, “On Computable Numbers, with an Application to the Entscheidungsproblem”: <a class="faves-link" href="https://mitpress.mit.edu/books/turings-vision" target="_blank" rel="noopener">Turing's Vision: The Birth of Computer Science by Christopher Bernhardt</a>.</span><br>
+            <span class="name">Engrossing book on Alan Turing’s 1936 paper, “On Computable Numbers, with an Application to the Entscheidungsproblem”: <a class="faves-link" href="https://mitpress.mit.edu/books/turings-vision" target="_blank" rel="noopener">Turing’s Vision: The Birth of Computer Science by Christopher Bernhardt</a>.</span><br>
             <span class="category">Science</span>
           </div>
           <div class="package">
@@ -156,17 +156,17 @@ permalink: /favorite-things
             <span class="category">History</span>
           </div>
           <div class="package">
-            <span class="name"><a class="faves-link" href="https://www.youtube.com/watch?v=B5575Ky0Fz0" target="_blank" rel="noopener">Newcomb's problem</a>: a thought experiment to illustrate the difference between causal and evidential decision theory.</span><br>
+            <span class="name"><a class="faves-link" href="https://www.youtube.com/watch?v=B5575Ky0Fz0" target="_blank" rel="noopener">Newcomb’s problem</a>: a thought experiment to illustrate the difference between causal and evidential decision theory.</span><br>
             <span class="category">Science</span>
           </div>
           <div class="package">
             <span class="name">Two of the greatest statements in human history about what makes science wonderful:</span><br>
-            <span class="name">1. <a class="faves-link" href="https://en.wikipedia.org/wiki/And_yet_it_moves" target="_blank" rel="noopener">“Eppure si muove”</a> (And yet it moves) -Galileo in 1633, after being forced by the Catholic Church to recant his claims that the earth moves around the sun. His powerful and profound statement was a reminder for all time that it doesn't matter what doctrine or dogma you adhere to not does it matter what you want to believe or compel others to declare. Facts and reality do not require your belief and the universe is as it is, regardless of what you'd like it to be.</span><br>
+            <span class="name">1. <a class="faves-link" href="https://en.wikipedia.org/wiki/And_yet_it_moves" target="_blank" rel="noopener">“Eppure si muove”</a> (And yet it moves) -Galileo in 1633, after being forced by the Catholic Church to recant his claims that the earth moves around the sun. His powerful and profound statement was a reminder for all time that it doesn’t matter what doctrine or dogma you adhere to not does it matter what you want to believe or compel others to declare. Facts and reality do not require your belief and the universe is as it is, regardless of what you’d like it to be.</span><br>
             <span class="name">2. <a class="faves-link" href="https://getyarn.io/yarn-clip/6772ff56-2fc3-4125-8d59-f115533708f1/gif" target="_blank" rel="noopener">“Make me a liar, Fish.”</a> -Jodi Foster in <em>Contact</em> expressing an essential tenet of science: falsifiability. It is only after a theory has withstood rigorous testing, peer review analysis, and robust criticism that one should accept it. Therefore a true scientist welcomes push-back and encourages even their most cherished ideas to be subjected to the highest scrutiny. In a sense, they should want to be proven wrong, because that is the purest way to pursue truth.</span><br>
             <span class="category">Science</span>
           </div>
           <div class="package">
-            <span class="name">Take a deep dive into John Horton Conway’s <em>Game of Life</em>. Here is a <a class="faves-link" href="https://academo.org/demos/conways-game-of-life/" target="_blank" rel="noopener">basic explainer of the rules</a>, a <a class="faves-link" href="https://bitstorm.org/gameoflife/" target="_blank" rel="noopener">simple demo</a>, an <a class="faves-link" href="https://www.youtube.com/watch?v=R9Plq-D1gEk" target="_blank" rel="noopener">interview with Conway himself</a> on cellular automata, and a <a class="faves-link" href="https://www.youtube.com/watch?v=jrCZYDm5D8M&feature=youtu.be&t=1857" target="_blank" rel="noopener">portion of another talk</a> on why the game is relevant to philosophy and evolution. Here’s how someone used it to created <a class="faves-link" href="https://www.newscientist.com/article/mg20627653-800-first-replicating-creature-spawned-in-life-simulator/" target="_blank" rel="noopener">self-replicating creatures</a>. Here's <a class="faves-link" href="http://xpl.github.io/life/" target="_blank" rel="noopener">how cool it can look</a>. And here’s how you can use it to <a class="faves-link" href="https://xpl.github.io/expression/" target="_blank" rel="noopener">play god</a>.</span><br>
+            <span class="name">Take a deep dive into John Horton Conway’s <em>Game of Life</em>. Here is a <a class="faves-link" href="https://academo.org/demos/conways-game-of-life/" target="_blank" rel="noopener">basic explainer of the rules</a>, a <a class="faves-link" href="https://bitstorm.org/gameoflife/" target="_blank" rel="noopener">simple demo</a>, an <a class="faves-link" href="https://www.youtube.com/watch?v=R9Plq-D1gEk" target="_blank" rel="noopener">interview with Conway himself</a> on cellular automata, and a <a class="faves-link" href="https://www.youtube.com/watch?v=jrCZYDm5D8M&feature=youtu.be&t=1857" target="_blank" rel="noopener">portion of another talk</a> on why the game is relevant to philosophy and evolution. Here’s how someone used it to created <a class="faves-link" href="https://www.newscientist.com/article/mg20627653-800-first-replicating-creature-spawned-in-life-simulator/" target="_blank" rel="noopener">self-replicating creatures</a>. Here’s <a class="faves-link" href="http://xpl.github.io/life/" target="_blank" rel="noopener">how cool it can look</a>. And here’s how you can use it to <a class="faves-link" href="https://xpl.github.io/expression/" target="_blank" rel="noopener">play god</a>.</span><br>
             <span class="category">Math</span>
           </div>
           <div class="package">
@@ -202,7 +202,7 @@ permalink: /favorite-things
             <span class="category">Tomfoolery</span>
           </div>
           <div class="package">
-            <span class="name">Ever since <a class="faves-link" href="https://www.youtube.com/watch?v=f6F_CF7Yvo0" target="_blank" rel="noopener">her talk at the XOXO Festival</a> in Portland, OR in 2015, I've been a fan of the illustrator <a class="faves-link" href="http://www.lisahanawalt.com/" target="_blank" rel="noopener">Lisa Hanawalt</a>. She used to be in the amazing all-female Greenpoint illustrators collective, <a class="faves-link" href="https://pizzaisland.wordpress.com/" target="_blank" rel="noopener">Pizza Island</a> (which also included the incredible <a class="faves-link" href="http://www.juliawertz.com/" target="_blank" rel="noopener">Julia Wertz</a>). After serving as production designer on BoJack Horseman, Hanawalt's new show <a class="faves-link" href="https://www.youtube.com/watch?v=ZybYIJtbcu0" target="_blank" rel="noopener">Tuca & Bertie</a> is so much fun. I think it's best appreciated after having listened to <a class="faves-link" href="https://www.npr.org/2015/03/24/393853692/for-bojack-horseman-it-matters-if-a-cartoon-dog-is-a-man-or-a-woman" target="_blank" rel="noopener">this NPR interview</a> and reading <a class="faves-link" href="https://www.nytimes.com/2019/04/29/arts/television/tuca-and-bertie-bojack-horseman-netflix.html" target="_blank" rel="noopener">this profile</a>. Hopefully you find it as goofy and clever and heartfelt and zany and raunchy and bizarre and amazing as I did. It’s crazy frivolity and wacky hijinks meets a sincere story about two friends who love and support each other. The show has plants that can talk, buildings with boobs on them, tangible thought and speech bubbles that the characters can interact with and yet the show is as real as it gets. And bonus, Hanawalt's long-term partner is Adam Conover, of <a class="faves-link" href="https://www.trutv.com/shows/adam-ruins-everything/index.html" target="_blank" rel="noopener">Adam Ruins Everything</a> of whom I'm also a huge fan. UPDATE: when Tuca & Bertie was canceled by Netflix after one perfect season, Hanwalt's collaborator Raphael Bob-Waksberg tweeted <a class="faves-link" href="https://twitter.com/RaphaelBW/status/1154633034513055744?s=20" target="_blank" rel="noopener">this poignant thread</a>.</span><br>
+            <span class="name">Ever since <a class="faves-link" href="https://www.youtube.com/watch?v=f6F_CF7Yvo0" target="_blank" rel="noopener">her talk at the XOXO Festival</a> in Portland, OR in 2015, I’ve been a fan of the illustrator <a class="faves-link" href="http://www.lisahanawalt.com/" target="_blank" rel="noopener">Lisa Hanawalt</a>. She used to be in the amazing all-female Greenpoint illustrators collective, <a class="faves-link" href="https://pizzaisland.wordpress.com/" target="_blank" rel="noopener">Pizza Island</a> (which also included the incredible <a class="faves-link" href="http://www.juliawertz.com/" target="_blank" rel="noopener">Julia Wertz</a>). After serving as production designer on BoJack Horseman, Hanawalt’s new show <a class="faves-link" href="https://www.youtube.com/watch?v=ZybYIJtbcu0" target="_blank" rel="noopener">Tuca & Bertie</a> is so much fun. I think it’s best appreciated after having listened to <a class="faves-link" href="https://www.npr.org/2015/03/24/393853692/for-bojack-horseman-it-matters-if-a-cartoon-dog-is-a-man-or-a-woman" target="_blank" rel="noopener">this NPR interview</a> and reading <a class="faves-link" href="https://www.nytimes.com/2019/04/29/arts/television/tuca-and-bertie-bojack-horseman-netflix.html" target="_blank" rel="noopener">this profile</a>. Hopefully you find it as goofy and clever and heartfelt and zany and raunchy and bizarre and amazing as I did. It’s crazy frivolity and wacky hijinks meets a sincere story about two friends who love and support each other. The show has plants that can talk, buildings with boobs on them, tangible thought and speech bubbles that the characters can interact with and yet the show is as real as it gets. And bonus, Hanawalt’s long-term partner is Adam Conover, of <a class="faves-link" href="https://www.trutv.com/shows/adam-ruins-everything/index.html" target="_blank" rel="noopener">Adam Ruins Everything</a> of whom I’m also a huge fan. UPDATE: when Tuca & Bertie was canceled by Netflix after one perfect season, Hanwalt’s collaborator Raphael Bob-Waksberg tweeted <a class="faves-link" href="https://twitter.com/RaphaelBW/status/1154633034513055744?s=20" target="_blank" rel="noopener">this poignant thread</a>.</span><br>
             <span class="category">Art</span>
           </div>
           <div class="package">
@@ -214,11 +214,11 @@ permalink: /favorite-things
             <span class="category">Art</span>
           </div>
           <div class="package">
-            <span class="name">Two exceptional piano accompaniments: <a class="faves-link" href="https://www.youtube.com/watch?v=ptpcNHC40o8" target="_blank" rel="noopener">“Answer Me”</a> by Sharon Jones & the Dap-Kings and Sarah Goldstone playing to Nina Simone's recording of <a class="faves-link" href="https://www.youtube.com/watch?v=sC8bBXMO9Es" target="_blank" rel="noopener">“I Wish I Knew How It Would Feel to Be Free”</a>.</span><br>
+            <span class="name">Two exceptional piano accompaniments: <a class="faves-link" href="https://www.youtube.com/watch?v=ptpcNHC40o8" target="_blank" rel="noopener">“Answer Me”</a> by Sharon Jones & the Dap-Kings and Sarah Goldstone playing to Nina Simone’s recording of <a class="faves-link" href="https://www.youtube.com/watch?v=sC8bBXMO9Es" target="_blank" rel="noopener">“I Wish I Knew How It Would Feel to Be Free”</a>.</span><br>
             <span class="category">Music</span>
           </div>
           <div class="package">
-            <span class="name">Sarah Goldstone singing Dolly Parton's <a class="faves-link" href="https://www.instagram.com/p/BxQ9y2ZFmt3/" target="_blank" rel="noopener">“Gonna Hurry (As Slow As I Can)”</a> and <a class="faves-link" href="https://open.spotify.com/track/5kNnINqsYOjV2ROreqRUa9?si=daAcD4TxT8qXfpUK-BSi4A" target="_blank" rel="noopener">Dolly's original</a>.</span><br>
+            <span class="name">Sarah Goldstone singing Dolly Parton’s <a class="faves-link" href="https://www.instagram.com/p/BxQ9y2ZFmt3/" target="_blank" rel="noopener">“Gonna Hurry (As Slow As I Can)”</a> and <a class="faves-link" href="https://open.spotify.com/track/5kNnINqsYOjV2ROreqRUa9?si=daAcD4TxT8qXfpUK-BSi4A" target="_blank" rel="noopener">Dolly’s original</a>.</span><br>
             <span class="category">Music</span>
           </div>
           <div class="package">
@@ -246,7 +246,7 @@ permalink: /favorite-things
             <span class="category">Science</span>
           </div>
           <div class="package">
-            <span class="name">A satisfyingly thorough and balanced <a class="faves-link" href="https://www.youtube.com/watch?v=so8sB25IL4o" target="_blank" rel="noopener">Explanation of Cattelan's Comedian</a>.</span><br>
+            <span class="name">A satisfyingly thorough and balanced <a class="faves-link" href="https://www.youtube.com/watch?v=so8sB25IL4o" target="_blank" rel="noopener">Explanation of Cattelan’s Comedian</a>.</span><br>
             <span class="category">Art</span>
           </div>
           <div class="package">
@@ -258,7 +258,7 @@ permalink: /favorite-things
             <span class="category">Design</span>
           </div>
           <div class="package">
-            <span class="name">Fascinating <a class="faves-link" href="https://www.nytimes.com/interactive/2019/12/02/nyregion/nyc-subway-map.html" target="_blank" rel="noopener">New York Times Interactive about the MTA's Subway Map</a>. The anecdote about Nobuyuki Siraisi riding the lines with his eyes closed to sketch out how the curve of each track felt is a lesson in user-centered design. Although, it does kind of bug me that in the 1998 digital redesign, street names weren't consistently aligned and the sloppy vector work on street line endings and feature shapes.</span><br>
+            <span class="name">Fascinating <a class="faves-link" href="https://www.nytimes.com/interactive/2019/12/02/nyregion/nyc-subway-map.html" target="_blank" rel="noopener">New York Times Interactive about the MTA’s Subway Map</a>. The anecdote about Nobuyuki Siraisi riding the lines with his eyes closed to sketch out how the curve of each track felt is a lesson in user-centered design. Although, it does kind of bug me that in the 1998 digital redesign, street names weren’t consistently aligned and the sloppy vector work on street line endings and feature shapes.</span><br>
             <span class="category">Design</span>
           </div>
           <div class="package">
@@ -266,11 +266,11 @@ permalink: /favorite-things
             <span class="category">Culture</span>
           </div>
           <div class="package">
-            <span class="name">My favorite song from the Sound of Music ironically is not, "My favorite Things" but is <a class="faves-link" href="https://www.youtube.com/watch?v=JJYz8pyXOG4" target="_blank" rel="noopener">"I Have Confidence"</a> for its insightful message. Maria is aware of her unexpected reaction to this opportunity and is trying to understand why. She’s not exactly confident that she will be able to easily handle this obstacle before her. Instead, she has confidence "in confidence alone", in her potential to rise to any occasion. She trusts not in her current skills but in her ability to learn and adapt to whatever challenges present themselves, knowing full well that she doesn't really know what they will be. She is absolutely afraid and self-doubting and yet resolves to do it anyway. Through self talk and body language she is in fact trying to convince <em>herself</em> that she's confident, exemplifying the Aristotelian insight that behavior leads to character, not the other way around. Brava, Julie Andrews.</span><br>
+            <span class="name">My favorite song from the Sound of Music ironically is not, "My favorite Things" but is <a class="faves-link" href="https://www.youtube.com/watch?v=JJYz8pyXOG4" target="_blank" rel="noopener">"I Have Confidence"</a> for its insightful message. Maria is aware of her unexpected reaction to this opportunity and is trying to understand why. She’s not exactly confident that she will be able to easily handle this obstacle before her. Instead, she has confidence "in confidence alone", in her potential to rise to any occasion. She trusts not in her current skills but in her ability to learn and adapt to whatever challenges present themselves, knowing full well that she doesn’t really know what they will be. She is absolutely afraid and self-doubting and yet resolves to do it anyway. Through self talk and body language she is in fact trying to convince <em>herself</em> that she’s confident, exemplifying the Aristotelian insight that behavior leads to character, not the other way around. Brava, Julie Andrews.</span><br>
             <span class="category">Music</span>
           </div>
           <div class="package">
-            <span class="name"><a class="faves-link" href="https://www.youtube.com/watch?v=WuN4wcDGlIc" target="_blank" rel="noopener">This scene</a> from <em>A Girl Walks Home Alone at Night</em> is an entrancing study in building romantic suspense without much happening at all. Sometimes, what isn't shown is what makes a scene great.</span><br>
+            <span class="name"><a class="faves-link" href="https://www.youtube.com/watch?v=WuN4wcDGlIc" target="_blank" rel="noopener">This scene</a> from <em>A Girl Walks Home Alone at Night</em> is an entrancing study in building romantic suspense without much happening at all. Sometimes, what isn’t shown is what makes a scene great.</span><br>
             <span class="category">Movies and TV</span>
           </div>
           <div class="package">

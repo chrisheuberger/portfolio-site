@@ -5,6 +5,9 @@ footer {
   left: 200px;
   bottom: 0;
   width: calc(100% - 200px);
+  @include media(medium) {
+    display: none;
+  }
 }
 
 .quote {
@@ -79,14 +82,4 @@ footer {
     opacity: 1;
     visibility: visible;
   }
-}
-
-// media queries
-
-@include media(medium) {
-
-  footer {
-    display: none;
-  }
-
 }
