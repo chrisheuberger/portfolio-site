@@ -6,7 +6,7 @@ permalink: /resume
 
 <div class="main-content">
   <div class="resume-content">
-    <h1 class="all-caps">R&Eacute;SUME</h1>
+    <h1 class="all-caps">R&eacute;sume</h1>
     <p><a class="pdf-link" href="assets/docs/chris-heuberger-resume-2014.pdf" target="_blank" rel="noopener">view PDF</a></p>
 
     <h3 class="resume margin-top-lg">Experience</h3>

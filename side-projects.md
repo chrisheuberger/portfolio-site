@@ -6,7 +6,7 @@ permalink: /side-projects
 
 <div class="main-content">
 
-  <h1 class="all-caps">SIDE PROJECTS</h1>
+  <h1 class="all-caps">Side Projects</h1>
 
   <ul class="work-list">
     <li>My beer history tour: <a href="https://www.bushwickbrewingtour.com" target="_blank" rel="noopener">The Bushwick Brewing Tour</a></li>

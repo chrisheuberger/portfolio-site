@@ -7,7 +7,7 @@ permalink: /favorite-things
 <div class="main-content main-content_favorite-things">
 
   <div class='favorites-header'>
-    <h1 class='about all-caps'>FAVORITE THINGS</h1><br>
+    <h1 class='about all-caps'>Favorite Things</h1><br>
     <p>Note: this list is totally incomplete and just for fun but I keep it in the hopes that it might be interesting for others and as a record for myself since I’m not so much on social media anymore.</p>
   </div>
 

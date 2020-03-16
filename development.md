@@ -6,7 +6,7 @@ permalink: /development
 
 <div class="main-content">
 
-  <h1 class="all-caps">DEVELOPMENT</h1><br>
+  <h1 class="all-caps">Development</h1><br>
   <div class="dev-title">
     <h3>Curator</h3>
     <p>Curator allows you to search the entire Brooklyn Museum collection, see information about each piece, and curate your own gallery to help plan your visit. It uses Rails 4, PostgreSQL, and The Brooklyn Museum API.</p>

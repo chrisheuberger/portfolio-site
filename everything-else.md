@@ -6,7 +6,7 @@ permalink: /everything-else
 
 <div class="main-content">
 
-  <h1 class="all-caps">EVERYTHING ELSE</h1>
+  <h1 class="all-caps">Everything Else</h1>
   <div class="sketchbook-content">
     <p>view sketchbooks
     <a class="sketchbook-link" href="https://www.sketchbookproject.com/library/15336" target="_blank" rel="noopener">one</a>

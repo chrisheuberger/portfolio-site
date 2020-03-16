@@ -6,7 +6,7 @@ permalink: /talks
 
 <div class="main-content">
 
-  <h1 class="all-caps">TALKS</h1>
+  <h1 class="all-caps">Talks</h1>
 
   <ul class="work-list">
     <li class="talk-list-item">

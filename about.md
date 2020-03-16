@@ -7,7 +7,7 @@ permalink: /about
 <div class="main-content main-content_about">
 
   <div class="about-intro">
-    <h1 class="all-caps">ABOUT</h1><br>
+    <h1 class="all-caps">About</h1><br>
     <div class="about-bio">
       <div class="about-img">
         <img src="{{site.baseurl}}/assets/img/chrisheuberger-grayscale-3.jpeg">
