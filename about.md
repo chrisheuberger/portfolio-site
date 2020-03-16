@@ -18,7 +18,7 @@ permalink: /about
 
   <div class="about-list">
     <div class="short-list">
-      <h2 class="short-title all-caps">The Short List</h2>
+      <h2 class="short-title">The Short List</h2>
       <ul>
         <li><strong>political issue:</strong> electoral reform to improve our democracy</li>
         <li><strong>life issue:</strong> climate change</li>
