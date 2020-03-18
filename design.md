@@ -6,7 +6,7 @@ permalink: /design
 
 <div class="main-content">
 
-  <h1 class="all-caps">Work</h1>
+  <h1 class="all-caps">Design</h1>
   <br>
   <div class="grid">
     <img src="assets/img/design/ppn1.jpg">

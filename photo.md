@@ -6,7 +6,7 @@ permalink: /photo
 
 <div class="main-content">
       
-  <h1 class="all-caps">Photo</h1>
+  <h1 class="all-caps">Photography</h1>
   <br>
   <div class="grid">
     <img src="assets/img/photo/fb1.jpg">
