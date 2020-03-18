@@ -21,6 +21,8 @@ view compiled site at
 http://localhost:4000
 ```
 
+Deploy by pushing to the `master` branch.
+
 ### Use AWS Cloudfront for Images
 
 log in to [AWS console](https://console.aws.amazon.com/)

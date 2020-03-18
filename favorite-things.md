@@ -266,7 +266,7 @@ permalink: /favorite-things
             <span class="category">Culture</span>
           </div>
           <div class="package">
-            <span class="name">My favorite song from the Sound of Music ironically is not, "My favorite Things" but is <a class="faves-link" href="https://www.youtube.com/watch?v=JJYz8pyXOG4" target="_blank" rel="noopener">"I Have Confidence"</a> for its insightful message. Maria is aware of her unexpected reaction to this opportunity and is trying to understand why. She’s not exactly confident that she will be able to easily handle this obstacle before her. Instead, she has confidence "in confidence alone", in her potential to rise to any occasion. She trusts not in her current skills but in her ability to learn and adapt to whatever challenges present themselves, knowing full well that she doesn’t really know what they will be. She is absolutely afraid and self-doubting and yet resolves to do it anyway. Through self talk and body language she is in fact trying to convince <em>herself</em> that she’s confident, exemplifying the Aristotelian insight that behavior leads to character, not the other way around. Brava, Julie Andrews.</span><br>
+            <span class="name">My favorite song from the Sound of Music ironically is not, “My favorite Things” but is <a class="faves-link" href="https://www.youtube.com/watch?v=JJYz8pyXOG4" target="_blank" rel="noopener">“I Have Confidence”</a> for its insightful message. Maria is aware of her unexpected reaction to this opportunity and is trying to understand why. She’s not exactly confident that she will be able to easily handle this obstacle before her. Instead, she has confidence “in confidence alone”, in her potential to rise to any occasion. She trusts not in her current skills but in her ability to learn and adapt to whatever challenges present themselves, knowing full well that she doesn’t really know what they will be. She is absolutely afraid and self-doubting and yet resolves to do it anyway. Through self talk and body language she is in fact trying to convince <em>herself</em> that she’s confident, exemplifying the Aristotelian insight that behavior leads to character, not the other way around. Brava, Julie Andrews.</span><br>
             <span class="category">Music</span>
           </div>
           <div class="package">
@@ -294,7 +294,7 @@ permalink: /favorite-things
             <span class="category">Tomfoolery</span>
           </div>
           <div class="package">
-            <span class="name"> I just finished <a class="faves-link" href="https://www.nbc.com/the-good-place" target="_blank" rel="noopener">The Good Place</a> (4 seasons) and really enjoyed it. It’s light, zany, and heartfelt; sort of feels like Community, Brooklyn Nine-Nine, Parks and Recreation, Unbreakable Kimmy Schmidt, or 30 Rock (all of which are also my favorites) but brings in enough moral philosophy and deep questions to make you think. It's like educational children's programming — but for adults. There’s also a delightful <a class="faves-link" href="https://www.nbc.com/the-good-place/exclusives/tgp-podcast" target="_blank" rel="noopener">podcast</a>, as well as <a class="faves-link" href="https://www.vox.com/podcasts/2019/12/10/21002589/the-good-place-mike-shur-moral-philosophy-the-ezra-klein-show" target="_blank" rel="noopener">this interview</a> on the moral universe of the show, and a <a class="faves-link" href="https://www.youtube.com/watch?v=fvfLU4kY_8A" target="_blank" rel="noopener">series of YouTube videos</a> with Todd May, one of the philosophy consultants on the show, for deep dives.</span><br>
+            <span class="name"> I just finished <a class="faves-link" href="https://www.nbc.com/the-good-place" target="_blank" rel="noopener">The Good Place</a> (4 seasons) and really enjoyed it. It’s light, zany, and heartfelt; sort of feels like Community, Brooklyn Nine-Nine, Parks and Recreation, Unbreakable Kimmy Schmidt, or 30 Rock (all of which are also my favorites) but brings in enough moral philosophy and deep questions to make you think. It’s like educational children’s programming — but for adults. There’s also a delightful <a class="faves-link" href="https://www.nbc.com/the-good-place/exclusives/tgp-podcast" target="_blank" rel="noopener">podcast</a>, as well as <a class="faves-link" href="https://www.vox.com/podcasts/2019/12/10/21002589/the-good-place-mike-shur-moral-philosophy-the-ezra-klein-show" target="_blank" rel="noopener">this interview</a> on the moral universe of the show, and a <a class="faves-link" href="https://www.youtube.com/watch?v=fvfLU4kY_8A" target="_blank" rel="noopener">series of YouTube videos</a> with Todd May, one of the philosophy consultants on the show, for deep dives.</span><br>
             <span class="category">Movies and TV</span>
           </div>
           <!-- <div class="package">
@@ -304,6 +304,12 @@ permalink: /favorite-things
         </div>
       </div>
     </div>
+
+    <!--
+    opening curly quotes: “
+    closing curly quotes: ”
+    apostrophe: ’
+    -->
 
   </div> <!-- .favorite-things -->
 
