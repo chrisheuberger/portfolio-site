@@ -1,5 +1,9 @@
 // favorite things
 
+.main-content.main-content_favorite-things {
+  max-width: 800px;
+}
+
 .favorite-things-block {
   display: flex;
   flex-direction: column;
@@ -59,7 +63,8 @@
   margin: 1rem 0;
   padding: 1rem 0 2rem 0;
   border-bottom: 1px solid $lightblue;
-  .name {
+  .text {
+    display: block;
     margin: 0;
     font-size: 1.2rem;
     .faves-link:hover {
@@ -69,7 +74,7 @@
   }
   .category {
     display: inline-block;
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
     padding: 0.125rem 0.5rem;
     font-size: 1rem;
     color: $darkblue;

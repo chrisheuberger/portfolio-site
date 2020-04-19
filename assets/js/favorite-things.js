@@ -1,7 +1,5 @@
 $(function() {
 
-  console.log('ft');
-
   var options = {
     valueNames: ["name", "category"]
   };
@@ -13,6 +11,7 @@ $(function() {
   $(".filter").change(function() {
     var isChecked = this.checked;
     var value = $(this).data("value");
+
     if (isChecked) {
       // add to list of active filters
       activeFilters.push(value);
@@ -22,7 +21,7 @@ $(function() {
     }
     userList.filter(function(item) {
       if (activeFilters.length > 0) {
-        return activeFilters.indexOf(item.values().category) > -1;
+        return activeFilters.indexOf(item.values().category.replace(/&amp;/g, "&")) > -1;
       }
       return true;
     });
