@@ -1,6 +1,21 @@
 # opening curly quotes: “
 # closing curly quotes: ”
 # apostrophe: ’
+
+# categories:
+#  Art & Illustration
+#  Psychology
+#  Coding
+#  Culture
+#  Design
+#  History
+#  Math
+#  Science
+#  Social Impact
+#  Tomfoolery
+#  Music
+#  Movies & TV
+
 favorite_things:
   - text: "If you have that [[https://arvr.google.com/cardboard/[+]Google Cardboard viewer]] and are curious what it might be like to travel into a black hole, [[https://www.quantamagazine.org/plunge-into-a-virtual-reality-black-hole-20171204/[+]this VR app is worth 10 minutes.]]"
     category: Science
@@ -116,3 +131,15 @@ favorite_things:
     category: Movies & TV
   - text: "[[https://apps.apple.com/us/app/universe-splitter/id329233299[+]Universe Splitter]] is a fantastic, if slightly cheeky app recommended by [[https://www.preposterousuniverse.com/[+]Dr. Sean Carroll]] at Cal Tech. It allows you to make a binary choice by way of a laboratory in Geneva, Switzerland which uses a Quantis brand quantum device called a beam splitter to send a single photon into a partially-silvered mirror and return one of your given options based on how the photon is detected. Since this constitutes observing a quantum event, the many-worlds interpretation of Heisenberg’s Uncertainty Principle in quantum mechanics implies that you’ve just split the wave function of the entire universe into two branches, creating two parallel quantum states and this app simply tells you which universe you are in. You can then assume there’s another version of you in another universe who got the other otpion returned to them and you’re now on separate paths. The app even keeps a tree diagram of all your past decisions and the various forks you took to where you are today."
     category: Science
+  - text: "Two of my favorite YouTube channels are [[https://www.youtube.com/user/numberphile/videos[+]Numberphile]] and [[https://www.youtube.com/user/Computerphile/videos[+]Computerphile]]. They’re each massive and varied collections of fascinating, informal explorations of both foundational and tangential concepts by experts."
+    category: Coding
+  - text: "This is my all-time favorite [[https://www.youtube.com/watch?v=tOP5pUIYhv4[+]Moth story]]. The speaker, Dr. Mary-Claire King, mentions BRCA1 at the end which is a gene she discovered and was a major breakthrough for cancer research, therapies, and prevention. [[https://en.wikipedia.org/wiki/Mary-Claire_King[+]Her wikipedia page is incredible.]]"
+    category: Culture
+  - text: "[[https://www.youtube.com/watch?v=o0u4M6vppCI[+]<em>“Shia LaBeouf” Live</em>]] by Rob Cantor. I know it's gimmicky but I think this is so inventive and funny. I love when people devote inordinate effort to the completely inane."
+    category: Tomfoolery
+  - text: "Three of my favorite poems: [[https://www.poetryfoundation.org/poems/52702/the-bridge-builder[+]<em>The Bridge Builder</em>]] by Will Allen Dromdoole, [[https://www.poetryfoundation.org/poems-and-poets/poems/detail/46473[+]<em>If</em>]] by Rudyard Kipling, and [[https://allpoetry.com/poem/11586611-A-Drink-With-Something-In-It--Complete-poem--by-Ogden-Nash[+]<em>A Drink With Something In It</em>]] by Ogden Nash."
+    category: Culture
+  - text: "A [[https://www.newyorker.com/magazine/2002/11/25/what-comes-naturally-2[+]book review by Louis Menand]] packed with well-made and thought-provoking points on human nature and evolutionary psychology."
+    category: Science
+  - text: "I love a good closed circle mystery or chamber drama that takes place in a single location. My favorites are <em>Rear Window</em>, <em>12 Angry Men</em>, <em>Clue</em>, <em>Coherence</em>, <em>The One I Love</em>, <em>Bad Times At The El Royale</em>, <em>Knives Out</em>, and any of Agatha Christie's Poirot whodunits."
+    category: Movies & TV
