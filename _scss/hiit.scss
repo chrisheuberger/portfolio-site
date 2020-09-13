@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600;900&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  &:focus {
+    outline: none;
+  }
+}
+
+* {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hiit-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: rgba(50, 10, 110, 0.95);
+  background: linear-gradient( rgba(40, 35, 70, 0.95), rgba(50, 10, 110, 0.95) ), url("https://d1snbyjv506jvs.cloudfront.net/hiit/zigzag2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#start-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 800px;
+  padding: 1.5rem;
+  font-size: 20px;
+  font-weight: 600;
+  color: darken(Teal,10%);
+  background: darken(Khaki,25%);
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  &:hover {
+    background: darken(Khaki,30%);
+  }
+  .speaker-icon {
+    margin-left: 1rem;
+  }
+}
+
+// radial timer
+
+#countdown {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 2rem;
+  text-align: center;
+  #countdown-number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+    font-size: 60px;
+    line-height: 200px;
+    color: white;
+  }
+  .countdown-svg-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%,-50%);
+    .countdown-svg {
+      display: none;
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 200px;
+      height: 200px;
+      transform: rotateY(-180deg) rotateZ(-90deg);
+    }
+    &.counting-30 .countdown-svg {
+      display: block;
+      circle {
+        stroke-dasharray: 575px;
+        stroke-dashoffset: 0px;
+        stroke-width: 20px;
+        stroke: white;
+        fill: none;
+        animation: countdown30 30s linear forwards;
+      }
+    }
+    &.counting-15 .countdown-svg {
+      display: block;
+      circle {
+        stroke-dasharray: 565px;
+        stroke-dashoffset: 0px;
+        stroke-width: 20px;
+        stroke: white;
+        fill: none;
+        animation: countdown15 15s linear forwards;
+      }
+    }
+  }
+}
+
+@keyframes countdown30 {
+  from { stroke-dashoffset: 0px; }
+  to { stroke-dashoffset: 575px; }
+}
+
+@keyframes countdown15 {
+  from { stroke-dashoffset: 0px; }
+  to { stroke-dashoffset: 565px; }
+}
+
+// exercise
+
+.exercise-name-wrapper {
+  display: none;
+  width: 90%;
+  max-width: 800px;
+  margin: 2rem;
+}
+
+.exercise-name {
+  margin: 0;
+  padding: 0;
+  --minFontSize: 20px;
+  --maxFontSize: 200px;
+  --scaler: 10vw;
+  font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
+  line-height: 0.9;
+  color: white;
+}
