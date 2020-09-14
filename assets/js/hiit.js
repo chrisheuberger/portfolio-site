@@ -10,169 +10,49 @@ let msg = new SpeechSynthesisUtterance();
 let button = document.getElementById('start-button');
 
 let exercises = [
-  { "message"  : "arm/neck rolls",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "waist rotations",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "high leg kicks",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "knee ups",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "butt kicks",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "skater plyo",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "rest",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "burpees",
-    "countdown" : "count30",
-    "time" : 32000
-  },
-  { "message"  : "rest",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "squat jumps with 180˚ turn",
-    "countdown" : "count30",
-    "time" : 32000
-  },
-  { "message"  : "rest",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "jump squats with pulse",
-    "countdown" : "count30",
-    "time" : 32000
-  },
-  { "message"  : "rest",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "alternating heel touch squats",
-    "countdown" : "count30",
-    "time" : 32000
-  },
-  { "message"  : "rest",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "mountain climbers",
-    "countdown" : "count30",
-    "time" : 32000
-  },
-  { "message"  : "rest",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "side-to-side mountain climbers",
-    "countdown" : "count30",
-    "time" : 32000
-  },
-  { "message"  : "rest",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "mason twists",
-    "countdown" : "count30",
-    "time" : 32000
-  },
-  { "message"  : "rest",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "hollow body windshield wipers",
-    "countdown" : "count30",
-    "time" : 32000
-  },
-  { "message"  : "rest",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "v-up tuck",
-    "countdown" : "count30",
-    "time" : 32000
-  },
-  { "message"  : "rest",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "abs halo",
-    "countdown" : "count30",
-    "time" : 32000
-  },
-  { "message"  : "rest",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "alternating reverse lunges",
-    "countdown" : "count30",
-    "time" : 32000
-  },
-  { "message"  : "rest",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "alternating sprinter lunges",
-    "countdown" : "count30",
-    "time" : 32000
-  },
-  { "message"  : "rest",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "Russian steps",
-    "countdown" : "count30",
-    "time" : 32000
-  },
-  { "message"  : "rest",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "blast-off push-ups",
-    "countdown" : "count30",
-    "time" : 32000
-  },
-  { "message"  : "rest",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "spiderman push-ups",
-    "countdown" : "count30",
-    "time" : 32000
-  },
-  { "message"  : "rest",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "power pushaways",
-    "countdown" : "count30",
-    "time" : 32000
-  },
-  { "message"  : "rest",
-    "countdown" : "count15",
-    "time" : 17000
-  },
-  { "message"  : "angels and devils",
-    "countdown" : "count30",
-    "time" : 32000
-  },
-  { "message"  : "Workout complete. Good Job Chris.",
-    "time" : 32000
-  }
+  "seal jacks",
+  "arm/neck rolls",
+  "waist rotations",
+  "high leg kicks",
+  "hip flexor rotations",
+  "knee ups",
+  "butt kicks",
+  "skater plyo",
+  "rest",
+  "burpees",
+  "rest",
+  "squat jumps with 180˚ turn",
+  "rest",
+  "jump squats with pulse",
+  "rest",
+  "alternating heel touch squats",
+  "rest",
+  "mountain climbers",
+  "rest",
+  "side-to-side mountain climbers",
+  "rest",
+  "mason twists",
+  "rest",
+  "hollow body windshield wipers",
+  "rest",
+  "v-up tuck",
+  "rest",
+  "abs halo",
+  "rest",
+  "alternating reverse lunges",
+  "rest",
+  "alternating sprinter lunges",
+  "rest",
+  "Russian steps",
+  "rest",
+  "blast-off push-ups",
+  "rest",
+  "spiderman push-ups",
+  "rest",
+  "power pushaways",
+  "rest",
+  "angels and devils",
+  "Workout complete. Good Job Chris."
 ]
 
 // radial timer
@@ -181,77 +61,55 @@ let countdownNumberEl = document.getElementById('countdown-number');
 
 function count30() {
   let countdown30 = 30;
-  let stopMark30 = 0;
-  $(".countdown-svg-wrapper").addClass("counting-30");
+  $("#countdown").append('<div class="countdown-svg-wrapper counting-30"><svg class="countdown-svg"><circle r="90" cx="100" cy="100"></circle></svg></div>');
   countdownNumberEl.textContent = countdown30;
   let countdownInterval30 = setInterval(function() {
     countdown30 = --countdown30 <= -1 ? 30 : countdown30;
     countdownNumberEl.textContent = countdown30;
     if (countdown30 === 0) {
-      $(".countdown-svg-wrapper").removeClass("counting-30");
-    }
-    if (countdown30 === -1) {
+      $(".countdown-svg-wrapper").remove();
       window.clearInterval(countdownInterval30);
-      countdownNumberEl.textContent = "";
+      countdownNumberEl.textContent = "0";
     }
   }, 1000);
 }
 
-function count15() {
-  let countdown15 = 15;
-  let stopMark15 = 0;
-  $(".countdown-svg-wrapper").addClass("counting-15");
-  countdownNumberEl.textContent = countdown15;
-  let countdownInterval15 = setInterval(function() {
-    countdown15 = --countdown15 < -1 ? 15 : countdown15;
-    countdownNumberEl.textContent = countdown15;
-    if (countdown15 === 0) {
-      $(".countdown-svg-wrapper").removeClass("counting-15");
+// show timed exercises
+
+function orderExercises(currentNumber) {
+  let exercise = $(".exercise-name");
+  let numberOfExercises = exercises.length - 1;
+  let remainingNumber = currentNumber + 1;
+  setTimeout(function() {
+
+    msg.text = exercises[currentNumber];
+    exercise.text(msg.text);
+    window.speechSynthesis.speak(msg);
+
+    count30();
+
+    if (currentNumber < numberOfExercises) {
+      orderExercises(remainingNumber);
+    } else {
+      console.log("completed");
     }
-    if (countdown15 === -1) {
-      window.clearInterval(countdownInterval15);
-      countdownNumberEl.textContent = "";
-    }
-  }, 1000);
+    
+  }, 32000); 
 }
 
 $(function(){
 
   button.addEventListener('click', function(e) {
     let exercise = $(".exercise-name");
-
     $("#start-button").hide();
     $(".exercise-name-wrapper").show();
     
-    msg.text = 'seal jacks';
+    msg.text = exercises[0];
     exercise.text(msg.text);
     window.speechSynthesis.speak(msg);
-    
-    count15();
-    
-    function orderExercises(currentNumber) {
-      let numberOfExercises = exercises.length - 1;
-      let remainingNumber = currentNumber + 1;
-      setTimeout(function() {
 
-        msg.text = exercises[currentNumber].message;
-        exercise.text(msg.text);
-        window.speechSynthesis.speak(msg);
-        
-        if (exercises[currentNumber].countdown) {
-          window[exercises[currentNumber].countdown]()
-        }
-        
-        if (currentNumber < numberOfExercises) {
-          orderExercises(remainingNumber);
-        } else {
-          console.log("completed");
-        }
-      }, exercises[currentNumber].time); 
-    }
-    
-    orderExercises(0);
-    
+    count30();
+    orderExercises(1);
   });
 
 });

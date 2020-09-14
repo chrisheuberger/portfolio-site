@@ -87,16 +87,13 @@ body {
     height: 200px;
     transform: translate(-50%,-50%);
     .countdown-svg {
-      display: none;
+      display: block;
       position: relative;
       top: 0;
       left: 0;
       width: 200px;
       height: 200px;
       transform: rotateY(-180deg) rotateZ(-90deg);
-    }
-    &.counting-30 .countdown-svg {
-      display: block;
       circle {
         stroke-dasharray: 575px;
         stroke-dashoffset: 0px;
@@ -106,28 +103,12 @@ body {
         animation: countdown30 30s linear forwards;
       }
     }
-    &.counting-15 .countdown-svg {
-      display: block;
-      circle {
-        stroke-dasharray: 565px;
-        stroke-dashoffset: 0px;
-        stroke-width: 20px;
-        stroke: white;
-        fill: none;
-        animation: countdown15 15s linear forwards;
-      }
-    }
   }
 }
 
 @keyframes countdown30 {
   from { stroke-dashoffset: 0px; }
   to { stroke-dashoffset: 575px; }
-}
-
-@keyframes countdown15 {
-  from { stroke-dashoffset: 0px; }
-  to { stroke-dashoffset: 565px; }
 }
 
 // exercise
