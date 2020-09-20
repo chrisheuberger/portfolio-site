@@ -35,8 +35,7 @@ plugins:
 sass:
   sass_dir: _scss
 
-include:
-  - assets/js/vendor
+include : ["vendor"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
