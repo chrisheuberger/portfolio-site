@@ -39,7 +39,7 @@ bannerOffset: 16%
 
     <div class="spotify-svg-wrapper">
       <svg class="spotify-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3184 2294">
-        <image width="2965" height="2075" transform="translate(109.5 109.5)" xlink:href="https://assets.codepen.io/219932/spotify-playlist-covers.png?1"/>
+        <image width="2965" height="2075" transform="translate(109.5 109.5)" xlink:href="{{site.baseurl}}/assets/img/misc/spotify-playlist-covers.png"/>
 
         <!-- first row -->
             
