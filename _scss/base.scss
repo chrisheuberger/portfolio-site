@@ -41,15 +41,20 @@ html {
   height: 100%;
   font-size: 1rem;
   line-height: 1.4;
+  background-color: $darkblue;
 }
 
 body {
   min-height: 100%;
   position: relative;
-  padding-bottom: 150px;
-  font: 1rem/1.5 $font-stack;
+  padding-bottom: 150px;  
+  font-family: $font-stack;
+  font-size: 1rem;
+  line-height: 1.4;
   font-weight: 400;
+  -webkit-font-smoothing: antialiased;
   color: $darkblue;
+  background-color: white;
   @include media(medium) {
     margin-top: 0;
   }
@@ -81,6 +86,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
+  font-family: $font-stack;
+  font-size: 1rem;
   font-weight: 300;
   line-height: 1.2;
   color: $darkblue;
@@ -112,10 +119,32 @@ h6 {
 
 p {
   margin: 0;
+  font-family: $font-stack;
   font-size: 1.3rem;
   line-height: 1.4;
   font-weight: 400;
   color: $darkblue;
+  &.small {
+    font-size: 1rem;
+  }
+}
+
+small {
+  font-size: 1rem;
+}
+
+blockquote {
+  margin: 0.5rem 0 2rem 4px;
+  padding-left: 1rem;
+  font-size: 1rem;
+  border-left: 2px solid $lesslightblue;
+}
+
+.basic-list {
+  margin-left: 20px;
+  li {
+    margin-bottom: 0.75rem;
+  }
 }
 
 li {
@@ -143,8 +172,10 @@ a {
   }
 }
 
-small {
-  font-size: 1rem;
+a,
+a:active,
+a:focus {
+  outline: 0;
 }
 
 a small {
@@ -158,6 +189,8 @@ q:before, q:after {
   content: none;
 }
 
+// tag defaults
+
 hr {
   display: block;
   height: 1px;
@@ -166,6 +199,11 @@ hr {
   border: 0;
   border-top: .5px solid $lightblue;
   background: $lightblue;
+}
+
+img {
+  width: 100%;
+  background-color: $lightblue;
 }
 
 // main content
@@ -190,16 +228,28 @@ hr {
     left: 0;
     width: 100%;
     padding-left: 1rem;
-    border-top: 1px solid $lightblue;
   }
 }
 
-img {
+// utility classes
+
+.spacer {
   width: 100%;
-  background-color: $lightblue;
+  height: 40px;
 }
 
-// helper classes
+.spacer-small {
+  width: 100%;
+  height: 20px;
+}
+
+.section-title {
+  display: inline-block;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  border-bottom: 2px solid $lightbluegray;
+}
 
 .hidden {
   display: none !important;

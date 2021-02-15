@@ -1,16 +1,65 @@
 ---
-title: Chris Heuberger / r&eacute;sume
+title: Chris Heuberger / R&eacute;sume
 layout: default
 permalink: /resume
+bannerOffset: 68%
 ---
 
 <div class="main-content">
   <div class="resume-content">
-    <h1 class="all-caps">R&eacute;sume</h1>
-    <p><a class="pdf-link" href="assets/docs/chris-heuberger-resume-2014.pdf" target="_blank" rel="noopener">view PDF</a></p>
+
+    <h1 class="page-title">R&eacute;sume</h1>
+
+    <div class="spacer-small"></div>
+
+    <div class="short-list-wrapper">
+      <div class="short-list">
+        <h2 class="short-title">Tools and Tech I Use</h2>
+        <ul class="tools-list">
+          <li class="tool">Adobe Creative Cloud</li><!-- 
+          --><li class="tool">AJAX</li><!-- 
+          --><li class="tool">AJAX</li><!-- 
+          --><li class="tool">APIs</li><!-- 
+          --><li class="tool">Airtable</li><!-- 
+          --><li class="tool">BEM</li><!-- 
+          --><li class="tool">Basecamp</li><!-- 
+          --><li class="tool">Bootstrap</li><!-- 
+          --><li class="tool">Carto</li><!-- 
+          --><li class="tool">CSS Grid</li><!-- 
+          --><li class="tool">D3</li><!-- 
+          --><li class="tool">Figma</li><!-- 
+          --><li class="tool">Flexbox</li><!-- 
+          --><li class="tool">Gatsby</li><!-- 
+          --><li class="tool">GitHub</li><!-- 
+          --><li class="tool">Greensock</li><!-- 
+          --><li class="tool">Gridsome</li><!-- 
+          --><li class="tool">Grunt/Gulp</li><!-- 
+          --><li class="tool">JavaScript</li><!-- 
+          --><li class="tool">jQuery</li><!-- 
+          --><li class="tool">Mailchimp</li><!-- 
+          --><li class="tool">Mapbox</li><!-- 
+          --><li class="tool">Netlify</li><!-- 
+          --><li class="tool">Node</li><!-- 
+          --><li class="tool">Nuxt</li><!-- 
+          --><li class="tool">PostgreSQL</li><!-- 
+          --><li class="tool">Ruby/Rails</li><!-- 
+          --><li class="tool">SASS/SCSS</li><!-- 
+          --><li class="tool">Semantic HTML</li><!-- 
+          --><li class="tool">Sinatra</li><!-- 
+          --><li class="tool">Sketch</li><!-- 
+          --><li class="tool">Slack</li><!-- 
+          --><li class="tool">TailwindCSS</li><!-- 
+          --><li class="tool">Vue/Vuex</li><!-- 
+          --><li class="tool">Webflow</li><!-- 
+          --><li class="tool">Webpack</li><!-- 
+          --><li class="tool">WordPress</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="spacer-small"></div>
 
     <h3 class="resume margin-top-lg">Experience</h3>
-    <div class="resume-shim"></div>
 
     <h5 class="resume-header">General Assembly / New York, NY</h5>
     <h6 class="resume-subheader">Web Development Immersive / April 2014&ndash;July 2014</h6>
@@ -46,13 +95,12 @@ permalink: /resume
     </ul>
 
     <h3 class="resume margin-top-lg">Education</h3>
-    <div class="resume-shim"></div>
 
     <h6 class="resume-subheader">Virginia Tech | College of Architecture and Urban Studies | Blacksburg, VA</h6>
     <p>BFA in Graphic Design, Minor in Communication | Graduated May 2005</p>
 
+    <!--
     <h3 class="resume margin-top-lg">Stack</h3>
-    <div class="resume-shim"></div>
 
     <p>HTML5 / CSS3</p>
     <p>Ruby / Rails4 / Sinatra</p>
@@ -61,7 +109,6 @@ permalink: /resume
     <p>PostgreSQL / MongoDB</p>
 
     <h3 class="resume margin-top-lg">Skills</h3>
-    <div class="resume-shim"></div>
 
     <p>Adobe Creative Suite</p>
     <p>Microsoft Office Suite</p>
@@ -72,10 +119,11 @@ permalink: /resume
     <p>illustration</p>
     <p>photography</p>
     <p>copywriting</p>
+    -->
 
+    <hr/>
+    <p><a class="pdf-link" href="assets/docs/chris-heuberger-resume-2014.pdf" target="_blank" rel="noopener">View PDF</a></p>
+    
   </div>
 
-  <div class="shorten"><hr></div>
-  <p class="top">top</p>
-
-</div> <!-- .main-content -->
+</div>

@@ -29,26 +29,74 @@
   }
 }
 
-.about-list {
+.short-list-wrapper {
   margin: 2rem 0 0 0;
   padding: 0;
+  .short-list {
+    margin: 0;
+    padding: 1rem;
+    list-style: none;
+    @include box-shadow-with-animation;
+    @include mediaMin(medium) {
+      padding: 2rem;
+    }
+    .short-title {
+      padding-bottom: 1rem;
+    }
+    .short-list-li {
+      margin-top: 1rem;
+      padding-left: 1rem;
+      list-style: none;
+      border-left: 2px solid $lesslightblue;
+    }
+  }
 }
 
-.short-list {
-  margin: 0;
-  padding: 1rem;
-  list-style: none;
-  @include box-shadow-with-animation;
-  @include mediaMin(medium) {
-    padding: 3rem;
+// Spotify playlists
+
+.about-content {
+  margin-top: 60px;
+  border-top: 2px solid $blue;
+  p {
+    margin: 40px 0 20px 0;
   }
-  .short-title {
-    padding-bottom: 1rem;
-  }
-  ul li {
-    margin-top: 1rem;
-    padding-left: 1rem;
-    list-style: none;
-    border-left: 2px solid $lesslightblue;
+}
+.spotify-svg-wrapper {
+  overflow: hidden;
+  .spotify-svg {
+    display: block;
+    width: calc(100% + 20px);
+    margin-left: -10px;
+    @include mediaMin(small) {
+      width: calc(100% + 36px);
+      margin-left: -18px;
+    }
+    @include mediaMin(large) {
+      width: 100%;
+      margin-left: -30px;
+    }
+    a:hover {
+      rect,
+      path {
+        opacity: 1;
+      }
+    }
+    rect {
+      opacity: 0;
+      transition: all 0.2s linear;
+    }
+    path {
+      opacity: 0;
+      transition: all 0.2s linear;
+    }
+    .playlist-bg-rect {
+      fill: $blue;
+    }
+    .playlist-rect {
+      fill: white;
+    }
+    .playlist-text {
+      fill: $darkblue;
+    }
   }
 }

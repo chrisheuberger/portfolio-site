@@ -4,11 +4,12 @@
   max-width: 800px;
 }
 
+// main content
+
 .favorite-things-block {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 2rem;
 }
 
 // filter categories
@@ -17,36 +18,46 @@
   margin: 1rem 0;
   padding: 1rem;
   @include box-shadow-with-animation;
+  @include mediaMin(medium) {
+    padding: 2rem;
+  }
   .filter-header {
-    margin: 0;
+    margin: 0 0 1rem 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
   }
   .filter-ul {
     .checkbox-btn {
       float: left;
-      margin: 1rem 0.5rem 0 0;
+      margin: 0 6px 6px 0;
       overflow: auto;
-      font-size: 1rem;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
       color: $darkblue;
-      background-color: $lesslightblue;
+      transition: all 0.2s ease-in-out;
+      border: 1px solid $darkblue;
+      border-radius: 500px;
       @media (hover) {
         &:hover {
-          background-color: $blue;
+          background-color: $aqua;
         }
       }
       label {
+        position: relative;
         float: left;
         display: block;
-        position: relative;
         overflow: hidden;
         cursor: pointer;
         span {
           display: block;
-          padding: 0.25rem 0.5rem;
+          padding: 0.25rem 1rem;
           text-align: center;
         }
         input {
           position: absolute;
           top: -20px;
+          padding: 0 10px;
           &:checked + span {
             color: white;
             background-color: $darkblue;
@@ -74,10 +85,10 @@
   }
   .category {
     display: inline-block;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     padding: 0.125rem 0.5rem;
-    font-size: 1rem;
+    font-size: 12px;
     color: $darkblue;
-    background-color: $lesslightblue;
+    border-left: 1px solid $lesslightblue;
   }
 }

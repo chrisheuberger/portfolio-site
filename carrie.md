@@ -1,14 +1,15 @@
 ---
-title: Chris Heuberger / talks
+title: Chris Heuberger / Talks / Carrie
 layout: default
 permalink: /carrie
+bannerOffset: 22%
 ---
 
 <div class="main-content">
 
-  <div class="notes-content">
+  <div class="talk-notes">
 
-    <h1 class="all-caps">NOTES / <span class="sketchbooks">Carrie Nation And Prohibition</span></h1>
+    <h1 class="page-title">NOTES / <span class="sketchbooks">Carrie Nation And Prohibition</span></h1>
 
     <h4>Intro</h4>
 
@@ -56,7 +57,7 @@ permalink: /carrie
 
     <p>So what else led to it’s passing? Well it was a combination of things.</p>
 
-    <p>Number 1 The suffrage movement.</p>
+    <p>Number 1 &mdash; The suffrage movement.</p>
 
     <p class="slide-label">[SLIDE]</p>
 
@@ -64,9 +65,9 @@ permalink: /carrie
 
     <p class="slide-label">[SLIDE]</p>
 
-    <p>Number 2 The income tax. Before the income tax was invented, the government got it’s revenue from taxing alcohol. Until 1910, 40% of federal revenue came from this. So those two groups joined forces. The Ku Klux Klan even joined the party.</p>
+    <p>Number 2 &mdash; The income tax. Before the income tax was invented, the government got it’s revenue from taxing alcohol. Until 1910, 40% of federal revenue came from this. So those two groups joined forces. The Ku Klux Klan even joined the party.</p>
 
-    <p>Number 3 World War I. All the brewers had German last names and so they were demonized as the enemy along with immigrants in general, who often drank wine. They were of course looked down on.</p>
+    <p>Number 3 &mdash; World War I. All the brewers had German last names and so they were demonized as the enemy along with immigrants in general, who often drank wine. They were of course looked down on.</p>
 
     <p>So the next question is, well did it work?</p>
 
@@ -102,7 +103,4 @@ permalink: /carrie
 
   </div>
 
-  <div class="shorten"><hr></div>
-  <p class="top">top</p>
-
-</div> <!-- .main-content -->
+</div>

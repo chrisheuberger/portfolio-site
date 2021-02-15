@@ -1,29 +1,26 @@
 ---
-title: Chris Heuberger / favorite things
+title: Chris Heuberger / Favorite Things
 layout: default
 permalink: /favorite-things
+jump-to-top: true
+bannerOffset: 50%
 ---
 
 <div class="main-content main-content_favorite-things">
 
-  <div class='favorites-header'>
-    <h1 class='about all-caps'>Favorite Things</h1><br>
-    <p>Note: this list is woefully incomplete and just for fun. I keep it as a record for myself and anyone interested.</p>
+  <div class="page-title-group">
+    <h1 class="page-title">Favorite Things</h1>
+    <p class="page-title-note">Note: this list is woefully incomplete and just for fun. I keep it as a record for myself and anyone interested.</p>
   </div>
 
   <div class="favorite-things-block">
 
     <div class="filter-container">
-      <h3 class="filter-header">Filter Categories</h3>
+      <h6 class="filter-header">Filter Categories</h6>
       <ul class="filter-ul">
         <li class="checkbox-btn">
           <label>
             <input class="filter" type="checkbox" name="art & illustration" data-value="Art & Illustration" /><span>Art & Illustration</span>
-          </label>
-        </li>
-        <li class="checkbox-btn">
-          <label>
-            <input class="filter" type="checkbox" name="psychology" data-value="Psychology" /><span>Psychology</span>
           </label>
         </li>
         <li class="checkbox-btn">
@@ -43,12 +40,32 @@ permalink: /favorite-things
         </li>
         <li class="checkbox-btn">
           <label>
-            <input class="filter" type="checkbox" name="math" data-value="History" /><span>History</span>
+            <input class="filter" type="checkbox" name="history" data-value="History" /><span>History</span>
           </label>
         </li>
         <li class="checkbox-btn">
           <label>
             <input class="filter" type="checkbox" name="math" data-value="Math" /><span>Math</span>
+          </label>
+        </li>
+        <li class="checkbox-btn">
+          <label>
+            <input class="filter" type="checkbox" name="movies & tv" data-value="Movies & TV" /><span>Movies & TV</span>
+          </label>
+        </li>
+        <li class="checkbox-btn">
+          <label>
+            <input class="filter" type="checkbox" name="music" data-value="Music" /><span>Music</span>
+          </label>
+        </li>
+        <li class="checkbox-btn">
+          <label>
+            <input class="filter" type="checkbox" name="philosophy" data-value="Philosophy" /><span>Philosophy</span>
+          </label>
+        </li>
+        <li class="checkbox-btn">
+          <label>
+            <input class="filter" type="checkbox" name="psychology" data-value="Psychology" /><span>Psychology</span>
           </label>
         </li>
         <li class="checkbox-btn">
@@ -68,12 +85,7 @@ permalink: /favorite-things
         </li>
         <li class="checkbox-btn">
           <label>
-            <input class="filter" type="checkbox" name="music" data-value="Music" /><span>Music</span>
-          </label>
-        </li>
-        <li class="checkbox-btn">
-          <label>
-            <input class="filter" type="checkbox" name="movies & tv" data-value="Movies & TV" /><span>Movies & TV</span>
+            <input class="filter" type="checkbox" name="writing & lists" data-value="Writing & Lists" /><span>Writing & Lists</span>
           </label>
         </li>
       </ul>
@@ -98,6 +110,6 @@ permalink: /favorite-things
       </div>
     </div>
 
-  </div> <!-- .favorite-things -->
+  </div>
 
-</div> <!-- .main-content -->
+</div>

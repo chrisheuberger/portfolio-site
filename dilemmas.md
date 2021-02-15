@@ -1,14 +1,15 @@
 ---
-title: Chris Heuberger / talks
+title: Chris Heuberger / Talks / Dilemmas
 layout: default
 permalink: /dilemmas
+bannerOffset: 40%
 ---
 
 <div class="main-content">
 
-  <div class="notes-content">
+  <div class="talk-notes">
 
-    <h1 class="all-caps">NOTES / <span class="sketchbooks">Moral Dilemmas</span></h1>
+    <h1 class="page-title">NOTES / <span class="sketchbooks">Moral Dilemmas</span></h1>
 
     <h4>Intro</h4>
 
@@ -17,7 +18,7 @@ permalink: /dilemmas
     <p>quick poll: 2 choices</p>
 
     <p>1. Who here belives in objective morality? That is, there is such a thing as real right and real wrong.</p>
-    
+
     <p>2. Who thinks morality is subjective or that there’s no such thing? That is, it only has to do with whatever works best for you or your culture. One moral system is just as valid as any other. It’s all relative and you can never say what is right or wrong, only what a particular society says is right or wrong.</p>
 
     <p>Who thinks there should be another choice? Would anyone like to share it?</p>
@@ -104,7 +105,4 @@ permalink: /dilemmas
 
   </div>
 
-  <div class="shorten"><hr></div>
-  <p class="top">top</p>
-
-</div> <!-- .main-content -->
+</div>

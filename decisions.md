@@ -1,14 +1,15 @@
 ---
-title: Chris Heuberger / talks
+title: Chris Heuberger / Talks / Decisions
 layout: default
 permalink: /decisions
+bannerOffset: 30%
 ---
 
 <div class="main-content">
 
-  <div class="notes-content">
+  <div class="talk-notes">
 
-    <h1 class="all-caps">NOTES / <span class="sketchbooks">How We Make Decisions And Why They Often Suck</span></h1>
+    <h1 class="page-title">NOTES / <span class="sketchbooks">How We Make Decisions And Why They Often Suck</span></h1>
 
     <h4>1. Intro</h4>
 
@@ -76,7 +77,4 @@ permalink: /decisions
 
   </div>
 
-  <div class="shorten"><hr></div>
-  <p class="top">top</p>
-
-</div> <!-- .main-content -->
+</div>

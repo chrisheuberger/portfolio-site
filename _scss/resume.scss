@@ -31,3 +31,16 @@
   list-style: none;
   border-left: 2px solid $lesslightblue;
 }
+
+.tools-list {
+  margin-top: 0.5rem;
+  list-style-type: none;
+  .tool {
+    display: inline-block;
+    margin: 0 6px 6px 0;
+    padding: 8px 10px;
+    font-size: 12px;
+    color: $darkblue;
+    border: 1px solid $lesslightblue; 
+  }
+}

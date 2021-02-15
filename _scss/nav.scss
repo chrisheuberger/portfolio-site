@@ -7,18 +7,15 @@
   width: 150px;
   margin: 0;
   padding: 0;
-  background: #fff;
+  background: white;
   @include media(medium) {
-    width: 100%;
-    position: static;
+    display: none;
   }
 }
 
-.sidebar-content {
-  margin: 1.25rem 1rem;
-  @include media(medium) {
-    margin: 0.5rem 1rem;
-  }
+.name,
+.desktop-menu {
+  margin-left: 1rem;
 }
 
 .mobile-menu-link {
@@ -38,7 +35,7 @@
   &.active,
   &:hover,
   &:active {
-    background: #fff;
+    background: white;
     .bar {
       background: $lightblue;
     }
@@ -46,10 +43,30 @@
 }
 
 .name {
+  display: flex;
+  align-items: center;
+  height: 60px;
   margin: 0;
-  .nav-tem {
+  background: $darkblue;
+  .nav-link {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;    
+    padding-left: 1rem;    
     font-size: 1rem;
-    line-height: 1;
+    font-weight: 600;
+    color: white;
+  }
+  &:hover {
+    background: $aqua;
+    .nav-link {
+      color: $darkblue;
+    }
+  }
+  @include media(medium) {
+    display: none;
   }
 }
 
@@ -71,6 +88,7 @@
   font-size: 1rem;
   font-weight: 400;
   color: $darkblue;
+  outline: 0;
   &.current {
     background-color: $darkaqua;
   }
@@ -101,10 +119,12 @@
   }
   .menu-tab {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    width: 100px;
+    width: 50%;
+    min-width: 100px;
     height: 60px;
+    padding-left: 1rem;
     cursor: pointer;
     transition: all 0.125s ease;
     background: $darkblue;
@@ -151,7 +171,6 @@
       }
       &.close-mobile-menu {
         display: none;
-        // font-size: 16px;
         text-transform: uppercase;
         letter-spacing: 2px;
         color: $lightblue;
@@ -194,7 +213,7 @@
         a {
           color: $lightblue;
           font-weight: 400;
-          text-decoration: none;    
+          text-decoration: none;
           &:hover {
             color: $aqua;
             background: none !important;
@@ -224,8 +243,29 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  line-height: 0;
   span {
     margin-right: 2rem;
+    &.glitch-icon {
+      width: 18px;
+      height: 16px;
+      margin-right: 0;
+      display: inline-block;
+      .glitch-svg {
+        width: 18px;
+        height: 18px;
+        .glitch-path{
+          fill-rule: evenodd;
+          clip-rule: evenodd;
+          fill: white;
+        }
+      }
+      &:hover {
+        .glitch-path {
+          fill: $aqua;
+        }
+      }
+    }
   }
   @include media(small) {
     justify-content: space-between;

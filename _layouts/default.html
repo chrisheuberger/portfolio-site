@@ -3,21 +3,37 @@
   {% include head.html %}
   <body>
     <!--[if lt IE 7]>
-      <p class="browsehappy">Uh-oh! Looks like you’re using an <strong>outdated</strong> browser. You should definitely <a href="https://browsehappy.com/">upgrade</a>. May I suggest Google Chrome, Firefox or Safari?</p>
+      <p class="browsehappy">
+        Uh-oh! Looks like you’re using an <strong>outdated</strong> browser. You should definitely
+        <a href="https://browsehappy.com/">upgrade</a>. May I suggest Google Chrome, Firefox or Safari?
+      </p>
     <![endif]-->
 
+    {% include color-bar.html %}
+
     <main class="page-container">
-
       {% include nav.html %}
-
       {{ content }}
-
     </main> <!-- .page-container -->
 
+    {% if page.jump-to-top == true %}
+      <div class="top">
+        <svg width="34px" height="16px" viewBox="0 0 34 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+            <g id="arrow-polyline-group" transform="translate(-5.000000, -9.000000)" stroke-width="2">
+              <polyline transform="translate(21.695436, 23.463203) rotate(-45.000000) translate(-21.695436, -23.463203)" points="10.6954365 12.4632034 30.7508928 14.4077471 32.6954365 34.4632034"></polyline>
+            </g>
+          </g>
+        </svg>
+      </div>
+    {% endif %}
+    
     {% include footer.html %}
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+    <script>
+      window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.11.0.min.js"><\/script>');
+    </script>
     {% if page.url == "/favorite-things" %}
       <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.0/list.min.js"></script>
       <script src="assets/js/main.js"></script>
