@@ -54,9 +54,9 @@ bannerOffset: 84%
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/wall-of-fame/kirsten-gillibrand-resized.jpg" alt="My senator, the honorable junior Senator from New York Kirsten Gillibrand, and me!" loading="lazy">
+        <img class="list-mc__img" src="assets/img/wall-of-fame/kirsten-gillibrand-resized.jpg" alt="My senator, the honorable junior senator from New York Kirsten Gillibrand, and me!" loading="lazy">
         <div class="list-mc__text">
-          <p class="small">My senator, the honorable junior Senator from New York Kirsten Gillibrand, and me!</p>
+          <p class="small">My senator, the honorable junior senator from New York Kirsten Gillibrand, and me!</p>
         </div>
       </li>
       <li class="list-mc__item">
