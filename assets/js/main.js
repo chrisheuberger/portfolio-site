@@ -67,10 +67,10 @@ $(function() {
   // show/hide jump-to-top on scroll
 
   let offset = 1000,
-      $animation = $(".top");
+      animation = $(".top");
 
   $(window).scroll(function () {
-    $(this).scrollTop() > offset ? $animation.addClass("top-visible") : $animation.removeClass("top-visible");
+    $(this).scrollTop() > offset ? animation.addClass("top-visible") : animation.removeClass("top-visible");
   });
 
   // footer date

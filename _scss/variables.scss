@@ -11,17 +11,35 @@ $lesslightaqua: lighten($aqua, 10%); // #baffef
 $darkaqua: darken($aqua, 20%); // #21ffcb
 $verydarkaqua: darken($aqua, 40%); // #00ba8f
 
-// #256c5c rgba(37,108,92,0.75)
-
 $blue: #8f80ff;
 $lightblue: lighten($blue, 20%); // #e9e6ff
 $lesslightblue: lighten($blue, 15%); // #d2cdff
-$darkblue: darken($blue, 50%); // #0f0080 rgba(15,0,128,0.75,6,0,52,0.5)
-$verydarkblue: darken($blue, 65%); // #060034 rgba(6,0,52,0.75,6,0,52,0.5)
+$darkblue: darken($blue, 50%); // #0f0080
+$verydarkblue: darken($blue, 65%); // #060034
 
+$darkbluegray: #86858f;
+$bluegray: #b9b7c7;
 $lightbluegray: #f1f0fa;
+$white: #fff;
+
+$lightred: #FFA497;
+$lightorange: #FFC798;
+$lightpeach: #FFECC8;
+$lightyellow: #FFF98B;
+$lightgreen: #CBFFC3;
+$lightblue: #C4F3FF;
+$lightpurple: #E3D8FE;
+
 
 // mixins
+
+$html-font-size: 16px;
+@function stripUnit($value) {
+  @return $value / ($value * 0 + 1);
+}
+@function rem($pxValue) {
+  @return #{stripUnit($pxValue) / stripUnit($html-font-size)}rem;
+}
 
 @mixin box-shadow-with-animation {
   width: calc(100% - 14px);

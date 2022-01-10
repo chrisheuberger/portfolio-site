@@ -3,31 +3,86 @@
 .home-intro {
   max-width: 940px;
   height: 0;
+  padding-bottom: rem(20px);
   transition: all 1s ease;
   overflow: hidden;
-  animation: introSlide 2s forwards;
-  -webkit-animation: introSlide 2s forwards;
-  -moz-animation: introSlide 2s forwards;
-  -o-animation: introSlide 2s forwards;
-  .highlight {
+  animation: introSlide 1.5s forwards, bottomBorder 2s forwards;
+  -webkit-animation: introSlide 1.5s forwards, bottomBorder 2s forwards;
+  -moz-animation: introSlide 1.5s forwards, bottomBorder 2s forwards;
+  -o-animation: introSlide 1.5s forwards, bottomBorder 2s forwards;
+  .home-intro-text {
     font-family: $serif-font-stack;
     font-size: 2.75rem;
     font-weight: 600;
     line-height: 1.4;
-    a {
+    position: relative;
+    z-index: 2;
+    span {
+      position: relative;
+      &.word {
+        white-space: nowrap;
+      }
+      &.char {
+        &::after {
+          content: '';
+          position: absolute;
+          z-index: -1;
+          top: 60%;
+          left: 50%;
+          transform: translate(-50%,-50%) rotate(45deg);
+          display: inline;
+          width: 0;
+          height: 0;
+          background: transparent;
+          border-radius: 500px;
+          transition: height 0.25s ease;
+        }
+      }
+    }
+    .home-intro-link {
+      margin-right: -8px;
       font-style: italic;
       color: $blue;
       &:hover {
-        color: $darkblue;;
-        background: $aqua;
+        color: $blue;
+        background: transparent;
         text-decoration: none;
+      }
+      &.mouseover {
+        .char {
+          &.medium-less-75::after {
+            width: 20px;
+            height: 70px;
+            background: $lightpurple;
+          }
+          &.medium-bn-75-150::after {
+            width: 19px;
+            height: 65px;
+            background: $lightblue;
+          }
+          &.medium-bn-150-225::after {
+            width: 18px;
+            height: 60px;
+            background: $lightgreen;
+          }
+          &.medium-bn-225-300::after {
+            width: 17px;
+            height: 55px;
+            background: $lightyellow;
+          }
+          &.medium-more-300::after {
+            width: 16px;
+            height: 50px;
+            background: $lightpeach;
+          }
+        }
       }
     }
   }
   @include media(medium) {
     display: block;
     width: 100%;
-    .highlight {
+    .home-intro-text {
       font-size: 2rem;
     }
   }
@@ -39,19 +94,52 @@
   font-size: 14px;
 }
 
+@keyframes bottomBorder {
+  0% {
+    border-bottom: 1px solid $bluegray;
+  }
+  100% {
+    border-bottom: 1px solid transparent;
+  }
+}
+
 @keyframes introSlide {
-  0%   { max-height: 0; height: auto; }
-  100% { max-height: 600px; height: auto; }
+  0% {
+    max-height: 0;
+    height: auto;
+  }
+  100% {
+    max-height: 600px;
+    height: auto;
+  }
 }
 @-webkit-keyframes introSlide {
-  0%   { max-height: 0; height: auto; }
-  100% { max-height: 600px; height: auto; }
+  0% {
+    max-height: 0;
+    height: auto;
+  }
+  100% {
+    max-height: 600px;
+    height: auto;
+  }
 }
 @-moz-keyframes introSlide {
-  0%   { max-height: 0; height: auto; }
-  100% { max-height: 600px; height: auto; }
+  0% {
+    max-height: 0;
+    height: auto;
+  }
+  100% {
+    max-height: 600px;
+    height: auto;
+  }
 }
 @-o-keyframes introSlide {
-  0%   { max-height: 0; height: auto; }
-  100% { max-height: 600px; height: auto; }
+  0% {
+    max-height: 0;
+    height: auto;
+  }
+  100% {
+    max-height: 600px;
+    height: auto;
+  }
 }

@@ -8,12 +8,20 @@ bannerOffset: 16%
 <div class="main-content main-content_about">
 
   <div class="about-intro">
-    <h1 class="page-title">About</h1><br>
+    <h1 class="page-title">About</h1>
     <div class="about-bio">
       <div class="about-img">
-        <img src="{{site.baseurl}}/assets/img/misc/chris-heuberger-2021a-square.jpg">
+        <div class="hex-outer">
+          <div class="hex-inner">
+            <div class="hex-inner">
+              <div class="hex-inner">
+                <img class="test" src="{{site.baseurl}}/assets/img/misc/chris-heuberger-2021a-square-small.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <p>I’m a full-stack web developer, though I focus more on the front end. I’m into social impact projects, data visualization, typography, and all forms of design as well as science, math, art, and pretty much every other subject. I like running, reading non-fiction, learning about quantum mechanics and relativity, deeply analyzing works of art, organizing everything, making lists, cooking mediterranean, and petting any dog I meet. I volunteer with the amazing organization <a href="https://www.dare2bnyc.org/" target="_blank" rel="noopener" title="Dare2B">Dare2B</a>. My last name is pronounced <strong>HI&#8239;•&#8239;ber&#8239;•&#8239;ger</strong> but I’m not a stickler.</p>
+      <p>I’m a full-stack web developer, though I focus more on the front end. I’m into social impact projects, data visualization, typography, and all forms of design as well as science, math, art, philosophy, psychology and pretty much every other subject. I like running, reading non-fiction, learning about quantum mechanics and relativity, deeply analyzing works of art, organizing everything, making lists, making smoothies, cooking mediterranean, and petting any dog I meet. I volunteer with the amazing organization <a href="https://www.dare2bnyc.org/" target="_blank" rel="noopener" title="Dare2B">Dare2B</a>. My last name is pronounced <strong>HI&#8239;•&#8239;ber&#8239;•&#8239;ger</strong> but I’m not a stickler.</p>
     </div>
   </div>
 
@@ -35,7 +43,7 @@ bannerOffset: 16%
 
   <div class="about-content">  
 
-    <p>I also make color-coded custom covers for my Spotify playlists. Go ahead, click on a playlist to view songs.</p>
+    <p>I also make color-coded custom covers for my Spotify playlists. Click on a playlist to listen.</p>
 
     <div class="spotify-svg-wrapper">
       <svg class="spotify-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3184 2294">

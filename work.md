@@ -153,6 +153,32 @@ bannerOffset: 96%
     </ul>
   </section>
 
+  <div class="spacer"></div>
+
+  <section>
+    <h2>Selected clients</h2>  
+    <ul class="basic-list basic-list__ul client-list">  
+      <li>Alliance for Youth Action</li>
+      <li>American Cancer Society</li>
+      <li>BigID</li>
+      <li>BRAC (Building Resources Across Communities) - Ultra Poor Graduation Initiative</li>
+      <li>Center for New York City Neighborhoods</li>
+      <li>FOSI (Family Online Safety Institute)</li>
+      <li>InsideSchools.org</li>
+      <li>NASTAD (National Alliance of State and Territorial AIDS Directors)</li>
+      <li>NOAA (National Oceanic and Atmospheric Administration)</li>
+      <li>Promundo</li>
+      <li>Rainforest Alliance</li>
+      <li>(RED)</li>
+      <li>Research for Action</li>
+      <li>Sesame Workshop initiative</li>
+      <li>Watershed Agricultural Council / Pure Catskills</li>
+      <li>Women's Refugee Commission</li>
+    </ul>
+  </section> 
+
+  <div class="spacer"></div>
+
   <p class="page-note">And just for fun, here is some of my past <a href="/creative">creative work</a>.</p>
 
 </div>

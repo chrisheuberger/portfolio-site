@@ -97,7 +97,7 @@ function orderExercises(currentNumber) {
   }, 32000); 
 }
 
-$(function(){
+$(function() {
 
   button.addEventListener('click', function(e) {
     let exercise = $(".exercise-name");

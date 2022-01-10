@@ -6,7 +6,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-53787405-1', 'auto');
 ga('send', 'pageview');
 
-$(function(){
+$(function() {
 
   $(".title").lettering();
 

@@ -41,7 +41,7 @@ html {
   height: 100%;
   font-size: 1rem;
   line-height: 1.4;
-  background-color: $darkblue;
+  background-color: $lightbluegray;
 }
 
 body {
@@ -54,7 +54,7 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   color: $darkblue;
-  background-color: white;
+  background-color: $white;
   @include media(medium) {
     margin-top: 0;
   }
@@ -137,13 +137,31 @@ blockquote {
   margin: 0.5rem 0 2rem 4px;
   padding-left: 1rem;
   font-size: 1rem;
-  border-left: 2px solid $lesslightblue;
+  border-left: 2px solid $lightbluegray;
 }
 
 .basic-list {
-  margin-left: 20px;
+  margin: rem(10px);
+  list-style: none;
   li {
-    margin-bottom: 0.75rem;
+    margin-bottom: rem(12px);
+    &::before {
+      content: "\2022";
+      display: inline-block;
+      width: rem(10px);
+      margin-left: rem(-10px);
+      margin-right: rem(10px);
+      color: $bluegray;
+    }
+  }
+  &.basic-list__ol {
+    counter-reset: item;
+    li {
+      &::before {
+        content: counter(item) ". ";
+        counter-increment: item;
+      }
+    }
   }
 }
 
@@ -166,6 +184,7 @@ a {
   font-weight: 600;
   text-decoration: none;
   color: $blue;
+  transition: all 0.2s ease;
   &:hover {
     color: $darkblue;
     background: $aqua;
@@ -197,13 +216,13 @@ hr {
   margin: 3rem 0;
   padding: 0;
   border: 0;
-  border-top: .5px solid $lightblue;
-  background: $lightblue;
+  border-top: .5px solid $lightbluegray;
+  background: $lightbluegray;
 }
 
 img {
   width: 100%;
-  background-color: $lightblue;
+  background-color: $lightbluegray;
 }
 
 // main content

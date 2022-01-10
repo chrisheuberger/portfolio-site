@@ -27,18 +27,18 @@ bannerOffset: 56%
 
   <hr/>
 
-  <ul class="basic-list">
-    <li>pretium voluptatibus placerat, varius aliqua ultrices</li>
+  <ul class="basic-list basic-list__ul">
+    <li>Pretium voluptatibus placerat, varius aliqua ultrices</li>
     <li>Vel, Primis nec iste cras molestie phasellus</li>
-    <li>ligula dictumst quasi. Vel, Primis nec iste cras molestie</li>
+    <li>Ligula dictumst quasi. Vel, Primis nec iste cras molestie</li>
   </ul>
 
   <div class="spacer"></div>
 
-  <ol class="basic-list">
-    <li>pretium voluptatibus placerat, varius aliqua ultrices</li>
+  <ol class="basic-list basic-list__ol">
+    <li>Pretium voluptatibus placerat, varius aliqua ultrices</li>
     <li>Vel, Primis nec iste cras molestie phasellus</li>
-    <li>ligula dictumst quasi. Vel, Primis nec iste cras molestie</li>
+    <li>Ligula dictumst quasi. Vel, Primis nec iste cras molestie</li>
   </ol>
 
 </div>

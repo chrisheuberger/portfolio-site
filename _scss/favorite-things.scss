@@ -73,7 +73,9 @@
 .package {
   margin: 1rem 0;
   padding: 1rem 0 2rem 0;
-  border-bottom: 1px solid $lightblue;
+  &:not(:last-of-type) {
+    border-bottom: 1px solid $lightbluegray;
+  }
   .text {
     display: block;
     margin: 0;
@@ -89,6 +91,6 @@
     padding: 0.125rem 0.5rem;
     font-size: 12px;
     color: $darkblue;
-    border-left: 1px solid $lesslightblue;
+    border-left: 1px solid $lightbluegray;
   }
 }

@@ -1,10 +1,15 @@
-### Personal Site: [chrisheuberger.com](https://www.chrisheuberger.com)
+### Portfolio website for Chris Heuberger: [chrisheuberger.com](https://www.chrisheuberger.com)
 
 Built with [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/)
 
 Current Version: 2
 
 ### Local Development
+
+To update gems:
+```
+bundle update jekyll
+```
 
 To build the site:
 ```

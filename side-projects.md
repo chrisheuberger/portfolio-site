@@ -31,7 +31,7 @@ bannerOffset: 78%
         <img class="list-mc__img" src="assets/img/wall-of-fame/celeste-beatty-resized.jpg" alt="" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Wall of Fame</h3>
-          <p class="list-mc__description">My wall of fame is just some photos of amazing people and me!</p>
+          <p class="list-mc__description">Just some photos of amazing people and me!</p>
           <p class="list-mc__resources"><a class="btn" href="/wall-of-fame" target="_blank" rel="noopener">View Photos</a></p>
         </div>
       </li>
@@ -111,7 +111,7 @@ bannerOffset: 78%
         <img class="list-mc__img" src="assets/img/side-projects/jillian-russo.png" alt="" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Jillian Russo Site</h3>
-          <p class="list-mc__description">Website for my wife, an art art historian and curator.</p>
+          <p class="list-mc__description">Website for my wife, an art historian and curator.</p>
           <p class="list-mc__resources"><a class="btn" href="https://jillianelliottrusso.com/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>

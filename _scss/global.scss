@@ -75,6 +75,10 @@
   }
 }
 
+.client-list {
+  margin: rem(40px) 0;
+}
+
 // one-column layout
 
 .list-1c {
@@ -224,23 +228,32 @@
   position: fixed;
   right: 40px;
   bottom: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
   z-index: 20;
-  display: inline;
   opacity: 0;
+  border-radius: 500px;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   &.top-visible {
     visibility: visible;
     opacity: 1;
   }
-  #arrow-polyline-group {
-    stroke: $darkblue;
-    transition: all 0.2s ease-in-out;
-  }
-  &:hover #arrow-polyline-group {
-    stroke: $aqua;
+  &:hover {
+    background: $lightbluegray;
   }
   @include media(medium) {
     bottom: 12px;
+  }
+  svg {
+    margin-bottom: 4px;
+    #arrow-polyline-group {
+      stroke: $darkblue;
+      transition: all 0.2s ease-in-out;
+    }
   }
 }
