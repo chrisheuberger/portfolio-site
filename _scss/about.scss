@@ -10,13 +10,13 @@
   width: 100%;
   margin: 0;
   padding: 0;
-  .about-bio {
+  .about-img-wrapper {
     display: flex;
     margin: rem(40px) 0;
     @include media(medium) {
       flex-direction: column;
     }
-    .about-img {
+    .about-hex-wrapper {
       width: 30%;
       min-width: 200px;
       padding: 0 2rem 1rem 0;
@@ -122,7 +122,7 @@
       fill: $blue;
     }
     .playlist-rect {
-      fill: white;
+      fill: $white;
     }
     .playlist-text {
       fill: $darkblue;

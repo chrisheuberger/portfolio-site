@@ -70,7 +70,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  background: white;
+  background: #fff;
 }
 
 .wrapper {
@@ -172,7 +172,7 @@ ul li {
   width: 100%;
   padding: 8rem 4rem;
   background: #8df0dd;
-  border-top: 10px solid white;
+  border-top: 10px solid #fff;
 }
 @media (min-width: 768px) {
   ul li {
@@ -180,7 +180,7 @@ ul li {
     padding: 10rem 4rem;
   }
   ul li:nth-child(2n), ul li:nth-child(4n), ul li:nth-child(6n) {
-    border-left: 10px solid white;
+    border-left: 10px solid #fff;
   }
 }
 @media (min-width: 992px) {

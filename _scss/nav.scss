@@ -7,7 +7,7 @@
   width: 150px;
   margin: 0;
   padding: 0;
-  background: white;
+  background: $white;
   @include media(medium) {
     display: none;
   }
@@ -35,7 +35,7 @@
   &.active,
   &:hover,
   &:active {
-    background: white;
+    background: $white;
     .bar {
       background: $lightblue;
     }
@@ -57,12 +57,13 @@
     padding-left: 1rem;    
     font-size: 1rem;
     font-weight: 600;
-    color: white;
+    color: $white;
+    transition: color 0.2s ease;
   }
   &:hover {
-    background: $aqua;
     .nav-link {
-      color: $darkblue;
+      color: $aqua;
+      background-color: $darkblue;
     }
   }
   @include media(medium) {
@@ -89,6 +90,7 @@
   font-weight: 400;
   color: $darkblue;
   outline: 0;
+  transition: background-color 0.2s ease;
   &.current {
     background-color: $darkaqua;
   }
@@ -202,7 +204,7 @@
   }
   .mobile-menu {
     transition: all 0.125s ease;
-    color: white;
+    color: $white;
     background: $darkblue;
     ul {
       margin: 0;
@@ -257,7 +259,7 @@
         .glitch-path{
           fill-rule: evenodd;
           clip-rule: evenodd;
-          fill: white;
+          fill: $white;
         }
       }
       &:hover {

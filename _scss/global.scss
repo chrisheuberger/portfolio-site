@@ -217,7 +217,7 @@
   color: $darkblue;
   transition: all 0.2s ease-in-out;
   &:hover {
-    color: white;
+    color: $white;
     background: $darkblue;
   }
 }

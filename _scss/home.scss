@@ -51,27 +51,27 @@
       &.mouseover {
         .char {
           &.medium-less-75::after {
-            width: 20px;
+            width: 26px;
             height: 70px;
-            background: $lightpurple;
+            background: $lightnavy;
           }
           &.medium-bn-75-150::after {
-            width: 19px;
+            width: 24px;
             height: 65px;
             background: $lightblue;
           }
           &.medium-bn-150-225::after {
-            width: 18px;
+            width: 22px;
             height: 60px;
             background: $lightgreen;
           }
           &.medium-bn-225-300::after {
-            width: 17px;
+            width: 20px;
             height: 55px;
             background: $lightyellow;
           }
           &.medium-more-300::after {
-            width: 16px;
+            width: 18px;
             height: 50px;
             background: $lightpeach;
           }

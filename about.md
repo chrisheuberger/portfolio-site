@@ -9,13 +9,13 @@ bannerOffset: 16%
 
   <div class="about-intro">
     <h1 class="page-title">About</h1>
-    <div class="about-bio">
-      <div class="about-img">
+    <div class="about-img-wrapper">
+      <div class="about-hex-wrapper">
         <div class="hex-outer">
           <div class="hex-inner">
             <div class="hex-inner">
               <div class="hex-inner">
-                <img class="test" src="{{site.baseurl}}/assets/img/misc/chris-heuberger-2021a-square-small.jpg">
+                <img class="about-img" src="{{site.baseurl}}/assets/img/misc/chris-heuberger-2021a-square-200x200.jpg" alt="smiling man in a knit cap facing forward">
               </div>
             </div>
           </div>
