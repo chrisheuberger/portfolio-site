@@ -35,8 +35,8 @@ $(function() {
   function mobileViewed() {
     console.log(
       'Regarding the mobile menu tab icon, my last name is pronounced "HI-ber-ger." Do you get it? Like, but, do you %cget',
-      "font-style: italic; color:MediumSeaGreen;",
-      "it?",
+      "font-style: italic; color:#8f80ff;",
+      "it?" + "\n",
       "\n" + "design reference: https://www.ibm.com/design/language/elements/logos/rebus/#ibm-rebus",
       "\n" + "movie reference: https://www.youtube.com/watch?v=oBoPQUIowHY"
     );

@@ -1,20 +1,7 @@
-// document ready
-
-$(function() {
-
-  // Lettering.js
-
-  $(".home-intro-link").lettering('words').children('span').addClass('word').lettering();
-  $(".home-intro-link .word span").addClass('char');
-  
-  lettersInView();
-
-});
-
 let charArray = [];
 let wordArray = [];
 
-function lettersInView() {
+function createWordsLettersArrays() {
   $(".char").each(function() {
     charArray.push(this);
   });
@@ -23,7 +10,7 @@ function lettersInView() {
   });
 }
 
-for (let container of document.querySelectorAll(".home-intro-link")) {
+for (let container of document.querySelectorAll(".home-intro-link__desktop")) {
   container.addEventListener("mousemove", function (e) {
     container.classList.add("mouseover");
   });
@@ -55,7 +42,7 @@ document.addEventListener("mousemove", function (e) {
       bounds.left + bounds.width / 2,
       bounds.top + bounds.height / 2
     );
-    let ancestor = findAncestor(char, "home-intro-link");
+    let ancestor = findAncestor(char, "home-intro-link__desktop");
     
     // medium line
 
@@ -78,3 +65,38 @@ document.addEventListener("mousemove", function (e) {
 
   }
 });
+
+function allowLinkHoverEffect() {
+  $('.reveal-line').addClass('loaded');
+}
+
+function init() {
+  $(".home-intro-link__desktop").lettering('words').children('span').addClass('word').lettering();
+  $(".home-intro-link__desktop .word span").addClass('char');
+
+  createWordsLettersArrays();
+
+  let tl = new TimelineMax({ onComplete: allowLinkHoverEffect });
+  tl.staggerFromTo(".reveal-text", 0.25,
+    {
+      y: "100%",
+      autoAlpha: 0,
+    }, {
+      y: 0,
+      autoAlpha: 1,
+      ease: "power4.easeOut"
+    }, 0.05
+  );
+}
+
+let timeout;
+let delay = 250;
+
+window.addEventListener('resize', function() {
+  $('.reveal-line').removeClass('loaded');
+  gsap.set(".reveal-text", {autoAlpha: 0});
+  clearTimeout(timeout);
+  timeout = setTimeout(init, delay);
+});
+
+window.addEventListener("load", init);
