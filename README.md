@@ -28,6 +28,12 @@ http://localhost:4000
 
 Deploy by pushing to the `master` branch.
 
+### Prep Images and Videos
+
+ImageOptim for images
+
+Convert videos to gifs: https://ezgif.com/video-to-gif
+
 ### Use AWS Cloudfront for Images
 
 log in to [AWS console](https://console.aws.amazon.com/)

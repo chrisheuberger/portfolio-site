@@ -156,25 +156,8 @@ bannerOffset: 96%
   <div class="spacer"></div>
 
   <section>
-    <h2>Selected clients</h2>  
-    <ul class="basic-list basic-list__ul client-list">  
-      <li>Alliance for Youth Action</li>
-      <li>American Cancer Society</li>
-      <li>BigID</li>
-      <li>BRAC (Building Resources Across Communities) - Ultra Poor Graduation Initiative</li>
-      <li>Center for New York City Neighborhoods</li>
-      <li>FOSI (Family Online Safety Institute)</li>
-      <li>InsideSchools.org</li>
-      <li>NASTAD (National Alliance of State and Territorial AIDS Directors)</li>
-      <li>NOAA (National Oceanic and Atmospheric Administration)</li>
-      <li>Promundo</li>
-      <li>Rainforest Alliance</li>
-      <li>(RED)</li>
-      <li>Research for Action</li>
-      <li>Sesame Workshop initiative</li>
-      <li>Watershed Agricultural Council / Pure Catskills</li>
-      <li>Women's Refugee Commission</li>
-    </ul>
+    <h2>A few more selected clients I’ve worked with</h2>  
+    <p>Alliance for Youth Action, American Cancer Society, BigID, BRAC (Building Resources Across Communities) - Ultra Poor Graduation Initiative, Center for New York City Neighborhoods, FOSI (Family Online Safety Institute), InsideSchools.org, NASTAD (National Alliance of State and Territorial AIDS Directors), NOAA (National Oceanic and Atmospheric Administration), Promundo, Rainforest Alliance, (RED), Research for Action, Sesame Workshop initiative, Watershed Agricultural Council / Pure Catskills, Women's Refugee Commission</p>
   </section> 
 
   <div class="spacer"></div>

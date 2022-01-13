@@ -49,16 +49,22 @@
     }
     &.home-intro-text__small-desktop {
       display: none;
-      font-size: rem(28px);
+      font-size: 28px;
       .reveal-line {
         height: 44px;
+      }
+      @media (min-width: 1000px) and (max-width: 1239px) {
+        font-size: 36px;
+        .reveal-line {
+          height: 52px;
+        }
       }
     }
     &.home-intro-text__large-desktop {
       display: none;
-      font-size: rem(44px);
+      font-size: rem(48px);
       .reveal-line {
-        height: 60px;
+        height: 64px;
       }
     }
     // small mobile
@@ -146,7 +152,7 @@
       }
     }
     // large desktop
-    @media (min-width: 1200px) {
+    @media (min-width: 1240px) {
       &.home-intro-text__small-mobile {
         display: none;
       }
@@ -202,53 +208,53 @@
       }
       &.mouseover {
         .char {
-          &.medium-less-75::after {
+          &.medium-less-40::after {
             width: 20px;
             height: 45px;
             background: $lightnavy;
           }
-          &.medium-bn-75-150::after {
+          &.medium-bn-40-100::after {
             width: 18px;
             height: 40px;
             background: $lightblue;
           }
-          &.medium-bn-150-225::after {
+          &.medium-bn-100-150::after {
             width: 16px;
             height: 35px;
             background: $lightgreen;
           }
-          &.medium-bn-225-300::after {
+          &.medium-bn-150-200::after {
             width: 14px;
             height: 30px;
             background: $lightyellow;
           }
-          &.medium-more-300::after {
+          &.medium-more-200::after {
             width: 12px;
             height: 25px;
             background: $lightpeach;
           }
           @media (min-width: 1200px) {
-            &.medium-less-75::after {
+            &.medium-less-40::after {
               width: 26px;
               height: 70px;
               background: $lightnavy;
             }
-            &.medium-bn-75-150::after {
+            &.medium-bn-40-100::after {
               width: 24px;
               height: 65px;
               background: $lightblue;
             }
-            &.medium-bn-150-225::after {
+            &.medium-bn-100-150::after {
               width: 22px;
               height: 60px;
               background: $lightgreen;
             }
-            &.medium-bn-225-300::after {
+            &.medium-bn-150-200::after {
               width: 20px;
               height: 55px;
               background: $lightyellow;
             }
-            &.medium-more-300::after {
+            &.medium-more-200::after {
               width: 18px;
               height: 50px;
               background: $lightpeach;

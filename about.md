@@ -21,7 +21,7 @@ bannerOffset: 16%
           </div>
         </div>
       </div>
-      <p>I’m a full-stack web developer, though I focus more on the front end. I’m into social impact projects, data visualization, typography, and all forms of design as well as science, math, art, philosophy, psychology and pretty much every other subject. I like running, reading non-fiction, learning about quantum mechanics and relativity, deeply analyzing works of art, organizing everything, making lists, making smoothies, cooking mediterranean, and petting any dog I meet. I volunteer with the amazing organization <a href="https://www.dare2bnyc.org/" target="_blank" rel="noopener" title="Dare2B">Dare2B</a>. My last name is pronounced <strong>HI&#8239;•&#8239;ber&#8239;•&#8239;ger</strong> but I’m not a stickler.</p>
+      <p>I’m a full-stack web developer, though I focus more on the front end. I build websites for positive change in the world. My aim is to craft simple, beautiful, and well-considered products. I’m into social impact projects, data visualization, typography, and all forms of design as well as science, math, art, philosophy, psychology and pretty much every other subject. I like running, reading non-fiction, learning about quantum mechanics and relativity, deeply analyzing works of art, organizing everything, making lists, making smoothies, cooking mediterranean, and petting any dog I meet. I volunteer with the amazing organization <a href="https://www.dare2bnyc.org/" target="_blank" rel="noopener" title="Dare2B">Dare2B</a>. My last name is pronounced <strong>HI&#8239;•&#8239;ber&#8239;•&#8239;ger</strong> but I’m not a stickler.</p>
     </div>
   </div>
 
@@ -30,18 +30,18 @@ bannerOffset: 16%
       <h2 class="short-title">The Short List</h2>
       <ul class="short-list-ul">
         <li class="short-list-li"><strong>Political Cause:</strong> electoral reform to improve our democracy</li>
-        <li class="short-list-li"><strong>Global Cause:</strong> climate change</li>
-        <li class="short-list-li"><strong>Fascination:</strong> behavioral economics</li>
-        <li class="short-list-li"><strong>Proud Accomplishment:</strong> I’ve run two marathons.</li>
-        <li class="short-list-li"><strong>Hidden Talent:</strong> I can recite Hamlet’s big soliloquy.</li>
-        <li class="short-list-li"><strong>Favorite Recreation:</strong> exploring a new city</li>
+        <li class="short-list-li"><strong>Global Cause:</strong> addressing climate change</li>
+        <li class="short-list-li"><strong>Side Interest:</strong> behavioral economics</li>
+        <li class="short-list-li"><strong>Minor Accomplishment:</strong> I’ve run two marathons.</li>
+        <li class="short-list-li"><strong>Hidden Talent:</strong> I can recite Hamlet’s “To be or not to be” soliloquy.</li>
+        <li class="short-list-li"><strong>Favorite Pastime:</strong> exploring a new city</li>
         <li class="short-list-li"><strong>Guilty Pleasure:</strong> Broadway musicals</li>
-        <li class="short-list-li"><strong>Odd Habit:</strong> I keep lists of good conversation topics, fun facts, side project ideas, etc.</li>
+        <li class="short-list-li"><strong>Avocation:</strong> I keep lists of good conversation topics, fun facts, side project ideas, and so much more.</li>
       </ul>
     </div>
   </div>
 
-  <div class="about-content">  
+  <div class="about-content">
 
     <p>I also make color-coded custom covers for my Spotify playlists. Click on a playlist to listen.</p>
 
