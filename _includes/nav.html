@@ -1,11 +1,14 @@
 <div class="sidebar">
   <div class="sidebar-content">
-    <h3 class="name"><a class="nav-link" href="/">Chris Heuberger</a></h3>
+    <div class="name-wrapper">
+      <h3 class="name">
+        <a class="name-link" href="/" aria-label="Chris Heuberger"><span>Chris</span><span>Heuberger</span></a>
+      </h3>
+    </div>
     <nav class="desktop-menu">
       <ul id="menu" class="nav-ul">
         <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
         <li class="nav-item"><a class="nav-link" href="/">Work</a></li>
-        <br>
         <li class="nav-item"><a class="nav-link" href="https://github.com/ChrisBup" target="_blank" rel="noopener">GitHub</a></li>
         <li class="nav-item"><a class="nav-link" href="https://codepen.io/ChrisBup" target="_blank" rel="noopener">CodePen</a></li>
         <li class="nav-item"><a class="nav-link" href="https://glitch.com/@ChrisBup" target="_blank" rel="noopener">Glitch</a></li>
@@ -21,19 +24,19 @@
 
 <div class="mobile-menu-group">
   <div class="menu-tab">
-    <p class="open-mobile-menu"><span class="hi">Hi</span><span class="berger"><span class="berger-bar"></span><span class="berger-bar"></span><span class="berger-bar"></span></span></p>
-    <p class="close-mobile-menu">close</p>
+    <div class="menu-tab-state open-mobile-menu"><span class="hi">Hi</span><span class="berger"><span class="berger-bar"></span><span class="berger-bar"></span><span class="berger-bar"></span></span></div>
+    <div class="menu-tab-state close-mobile-menu"><span class="close-bar"></span><span class="close-bar"></span></div>
   </div>
   <nav class="mobile-menu">
-    <ul>
-      <li><a class="nav-link" href="/about">About</a></li>
-      <li><a class="nav-link" href="/">Work</a></li>
-      <li class="mobile-social">
-        <div class="icons1">
-          <span><a class="nav-link" href="https://github.com/ChrisBup" target="_blank" rel="noopener"><i class="fab fa-github"></i></a></span>
-          <span><a class="nav-link" href="https://codepen.io/ChrisBup" target="_blank" rel="noopener"><i class="fab fa-codepen"></i></a></span>
-          <span><a class="nav-link" href="https://glitch.com/@ChrisBup" target="_blank" rel="noopener"><span class="glitch-icon">
-            <svg class="glitch-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="320px" height="255.3px" viewBox="0 0 320 255.3" style="enable-background:new 0 0 320 255.3;" xml:space="preserve">
+    <ul class="mobile-nav-list">
+      <li><a class="mobile-nav-link" href="/about">About</a></li>
+      <li><a class="mobile-nav-link" href="/">Work</a></li>
+    </ul>
+    <ul class="mobile-social-grid">
+      <li><a class="mobile-nav-link" href="https://github.com/ChrisBup" target="_blank" rel="noopener"><i class="fab fa-github"></i></a></li>
+      <li><a class="mobile-nav-link" href="https://codepen.io/ChrisBup" target="_blank" rel="noopener"><i class="fab fa-codepen"></i></a></li>
+      <li><a class="mobile-nav-link" href="https://glitch.com/@ChrisBup" target="_blank" rel="noopener"><span class="glitch-icon">
+        <svg class="glitch-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="320px" height="255.3px" viewBox="0 0 320 255.3" style="enable-background:new 0 0 320 255.3;" xml:space="preserve">
               <g transform="translate(0.000000, 30.000000)">
                 <g transform="translate(0.000000, 101.318171)">
                   <g transform="translate(43.838525, 68.150533) scale(-1, 1) translate(-43.838525, -68.150533) translate(29.338525, 51.285453)">
@@ -80,17 +83,12 @@
                   </g>
                 </g>
               </g>
-            </svg>
-          </span></a></span>
-          <span><a class="nav-link" href="https://dribbble.com/chrisbup" target="_blank" rel="noopener"><i class="fab fa-dribbble"></i></a></span>
-          <span><a class="nav-link" href="https://www.linkedin.com/in/chrisheuberger/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a></span>
-        </div>
-        <div class="icons2">
-          <span><a class="nav-link" href="https://twitter.com/chrisbup" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></span>
-          <span><a class="nav-link" href="https://instagram.com/chrisbup" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></span>
-          <span><a class="nav-link" href="mailto:chrisheuberg@gmail.com" target="_blank" rel="noopener" title="chrisheuberg@gmail.com"><i class="far fa-envelope"></i></a></span>
-        </div>
-      </li>
+        </svg></a></li>
+      <li><a class="mobile-nav-link" href="https://dribbble.com/chrisbup" target="_blank" rel="noopener"><i class="fab fa-dribbble"></i></a></li>
+      <li><a class="mobile-nav-link" href="https://www.linkedin.com/in/chrisheuberger/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a></li>
+      <li><a class="mobile-nav-link" href="https://twitter.com/chrisbup" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
+      <li><a class="mobile-nav-link" href="https://instagram.com/chrisbup" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+      <li><a class="mobile-nav-link" href="mailto:chrisheuberg@gmail.com" target="_blank" rel="noopener" title="chrisheuberg@gmail.com"><i class="far fa-envelope"></i></a></li>
     </ul>
   </nav>
 </div>

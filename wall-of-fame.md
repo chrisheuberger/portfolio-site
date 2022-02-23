@@ -20,7 +20,7 @@ bannerOffset: 84%
       <li class="list-mc__item">
         <img class="list-mc__img" src="assets/img/wall-of-fame/celeste-beatty-resized.jpg" alt="Celeste Beatty, founder and owner of Harlem Brewing Company, and me!" loading="lazy">
         <div class="list-mc__text">
-          <p class="small">Celeste Beatty, founder and owner of <a href="https://www.harlembrewing.com/" target="_blank" rel="noopener">Harlem Brewing Company</a>, and me!</p>
+          <p class="small">Celeste Beatty, founder and owner of <a class="text-link" href="https://www.harlembrewing.com/" target="_blank" rel="noopener">Harlem Brewing Company</a>, and me!</p>
         </div>
       </li>
       <li class="list-mc__item">
@@ -98,7 +98,7 @@ bannerOffset: 84%
       <li class="list-mc__item">
         <img class="list-mc__img" src="assets/img/wall-of-fame/nawida-resized.jpg" alt="Nawida, a League of Kitchens instructor, and me!" loading="lazy">
         <div class="list-mc__text">
-          <p class="small">Nawida, a <a href="https://www.leagueofkitchens.com/" target="_blank" rel="noopener">League of Kitchens</a> instructor, and me!</p>
+          <p class="small">Nawida, a <a class="text-link" href="https://www.leagueofkitchens.com/" target="_blank" rel="noopener">League of Kitchens</a> instructor, and me!</p>
         </div>
       </li>
       <li class="list-mc__item">

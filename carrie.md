@@ -11,7 +11,7 @@ bannerOffset: 22%
 
     <h1 class="page-title">NOTES / <span class="sketchbooks">Carrie Nation And Prohibition</span></h1>
 
-    <h4>Intro</h4>
+    <h4 class="talk-intro">Intro</h4>
 
     <p class="slide-label">[SLIDE]</p>
 
@@ -99,7 +99,7 @@ bannerOffset: 22%
 
     <p class="slide-label">[SLIDE] x 2</p>
 
-    <h4>Outro</h4>
+    <h4 class="talk-outro">Outro</h4>
 
   </div>
 

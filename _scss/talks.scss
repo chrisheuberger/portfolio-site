@@ -3,15 +3,15 @@
 .talk-notes {
   width: 100%;
   max-width: 800px;
-  margin-bottom: 100px;
-  h4 {
-    padding-top: 30px;
-    padding-bottom: 15px;
+  margin-bottom: rem(100px);
+  .talk-intro {
+    padding-top: rem(40px);
+    padding-bottom: rem(20px);
   }
   p {
-    padding-bottom: 15px;
+    padding-bottom: rem(20px);
   }
   .slide-label {
-    color: $lesslightblue;
+    color: $graydark;
   }
 }

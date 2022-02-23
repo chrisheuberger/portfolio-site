@@ -6,13 +6,13 @@
 }
 
 .broken-header {
-  font-size: 50px;
+  font-size: 4rem;
   color: $blue;
 }
 
 .broken-float {
   float: left;
-  padding-top: 20px;
+  padding-top: rem(20px);
 }
 
 .broken-text {
@@ -20,41 +20,8 @@
   font-size: 1.75rem;
 }
 
-.broken-link {
-  display: inline-block;
-  text-decoration: none;
-  position: relative;
-  z-index: 1;
-  padding-bottom: 4px;
-  font-weight: 300;
-  color: $darkblue;
-  &:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: $aqua;
-    transition: all 0.2s ease-in-out 0s;
-    z-index: -10;
-  }
-  &:hover {
-    text-decoration: none;
-    background: none;
-    &:before {
-      width: 100%;
-      height: 36px;
-    }
-  }
-}
-
-.broken-link:hover {
-  text-decoration: none;
-}
-
 .broken-pic {
   float: left;
   width: 50%;
-  margin-left: -50px;
+  margin-left: rem(-50px);
 }

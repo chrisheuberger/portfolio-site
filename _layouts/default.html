@@ -2,12 +2,17 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">
-        Uh-oh! Looks like you’re using an <strong>outdated</strong> browser. You should definitely
-        <a href="https://browsehappy.com/">upgrade</a>. May I suggest Google Chrome, Firefox or Safari?
-      </p>
-    <![endif]-->
+    {% include browse-happy.html %}
+
+    <svg id="page-fade-veil"></svg>
+    <script>
+      fadeInPage();
+      function fadeInPage() {
+        if (!window.AnimationEvent) { return; }
+        var fader = document.getElementById('page-fade-veil');
+        fader.classList.add('fade-out');
+      }
+    </script>
 
     {% include color-bar.html %}
 
@@ -38,11 +43,6 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.0/list.min.js"></script>
       <script src="assets/js/main.js"></script>
       <script src="assets/js/favorite-things.js"></script>
-    {% else if == "/" %}
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-      <script src="assets/js/main.js"></script>
-      <script src="assets/js/home.js"></script>
     {% else %}
       <script src="assets/js/main.js"></script>
     {% endif %}

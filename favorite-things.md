@@ -91,7 +91,7 @@ bannerOffset: 50%
       </ul>
     </div>
 
-    {% assign a_start = "<a class='faves-link' href='" %}
+    {% assign a_start = "<a class='text-link' href='" %}
     {% assign a_middle = "' target='_blank' rel='noopener'>" %}
     {% assign a_end = "</a>" %}
 
@@ -100,7 +100,7 @@ bannerOffset: 50%
         <div class="list">
 
           {% for favorite in site.data.data.favorite_things %}
-            <div class="package">
+            <div class="favorite-item-block">
               <span class="text">{{ favorite.text | replace: "[[", a_start | replace: "[+]", a_middle | replace: "]]", a_end }}</span>
               <span class="category">{{ favorite.category }}</span>
             </div>

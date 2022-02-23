@@ -1,46 +1,42 @@
 // resume
 
-.pdf-link {
-  @include link-with-animation;
-}
-
 .resume-content {
   width: 100%;
   max-width: 800px;
-  margin-bottom: 100px;
+  margin-bottom: rem(100px);
 }
 
 .resume-header {
-  margin: 30px 0 10px 0;
+  margin: rem(40px) 0 rem(10px) 0;
   font-weight: 400;
 }
 
 .margin-top-lg {
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: rem(60px);
+  margin-bottom: rem(20px);
 }
 
 .resume-subheader {
-  margin: 0.5rem 0;
-  color: $blue;
+  margin: 1rem 0;
+  color: $greendark;
 }
 
 .resume-ul li {
-  margin-top: 10px;
-  padding-left: 1rem;
+  margin-top: rem(10px);
+  padding-left: rem(10px);
   list-style: none;
-  border-left: 2px solid $lesslightblue;
+  border-left: 2px solid $green;
 }
 
 .tools-list {
-  margin-top: 0.5rem;
+  margin-top: rem(10px);
   list-style-type: none;
   .tool {
     display: inline-block;
-    margin: 0 6px 6px 0;
-    padding: 8px 10px;
-    font-size: 12px;
-    color: $darkblue;
-    border: 1px solid $lesslightblue; 
+    margin: 0 rem(6px) rem(6px) 0;
+    padding: rem(6px) rem(12px);
+    font-size: rem(12px);
+    color: $greendark;
+    border: 1px solid $greendark; 
   }
 }

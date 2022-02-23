@@ -34,51 +34,57 @@ button,
 input,
 select,
 textarea {
-  color: $darkblue;
+  color: $browndark;
 }
 
 html {
   height: 100%;
   font-size: 1rem;
-  line-height: 1.4;
-  background-color: $lightbluegray;
+  line-height: 1.6;
+  background-color: $gray;
 }
 
 body {
   min-height: 100%;
   position: relative;
-  padding-bottom: 150px;  
-  font-family: $font-stack;
+  padding-bottom: rem(150px);  
+  font-family: $base-font-stack;
   font-size: 1rem;
-  line-height: 1.4;
+  line-height: 1.6;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
-  color: $darkblue;
-  background-color: $white;
+  color: $browndark;
+  background-color: $graylight;
   @include media(medium) {
     margin-top: 0;
   }
 }
 
 ::-moz-selection {
-  background: $aqua;
+  background: $orangelight;
   text-shadow: none;
 }
 
 ::selection {
-  background: $aqua;
+  background: $orangelight;
   text-shadow: none;
 }
 
 .browsehappy {
-  margin: 0.2rem 0;
-  padding: 0.2rem 0;
-  background: $lightblue;
-  color: $darkblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: rem(20px);
+  color: $browndark;
+  background: $gray;
 }
 
 .ie7 .title {
-  padding-top: 20px;
+  padding-top: rem(20px);
 }
 
 // typography
@@ -86,11 +92,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
-  font-family: $font-stack;
+  font-family: $display-font-stack;
   font-size: 1rem;
   font-weight: 300;
-  line-height: 1.2;
-  color: $darkblue;
+  line-height: 1.4;
+  color: $browndark;
 }
 
 h1 {
@@ -98,34 +104,40 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5rem;
-}
-
-h3 {
   font-size: 2.25rem;
 }
 
-h4 {
- font-size: 2rem;
+h3 {
+  font-size: 2rem;
 }
 
-h5 {
+h4 {
  font-size: 1.75rem;
 }
 
-h6 {
+h5 {
  font-size: 1.5rem;
+}
+
+h6 {
+ font-size: 1.25rem;
 }
 
 p {
   margin: 0;
-  font-family: $font-stack;
+  font-family: $base-font-stack;
   font-size: 1.3rem;
-  line-height: 1.4;
+  line-height: 1.6;
   font-weight: 400;
-  color: $darkblue;
+  color: $browndark;
   &.small {
     font-size: 1rem;
+    .text-link {
+      border-bottom: 1px solid $greendark;
+      &:hover {
+        border-bottom: 1px solid $browndark;
+      }
+    }
   }
 }
 
@@ -134,24 +146,24 @@ small {
 }
 
 blockquote {
-  margin: 0.5rem 0 2rem 4px;
-  padding-left: 1rem;
+  margin: rem(10px) 0 rem(20px) rem(6px);
+  padding-left: rem(20px);
   font-size: 1rem;
-  border-left: 2px solid $lightbluegray;
+  border-left: 2px solid $green;
 }
 
 .basic-list {
   margin: rem(10px);
   list-style: none;
   li {
-    margin-bottom: rem(12px);
+    margin-bottom: rem(15px);
     &::before {
       content: "\2022";
       display: inline-block;
       width: rem(10px);
       margin-left: rem(-10px);
       margin-right: rem(10px);
-      color: $bluegray;
+      color: $green;
     }
   }
   &.basic-list__ol {
@@ -160,6 +172,7 @@ blockquote {
       &::before {
         content: counter(item) ". ";
         counter-increment: item;
+        color: $graydark;
       }
     }
   }
@@ -167,9 +180,9 @@ blockquote {
 
 li {
   font-size: 1.3rem;
-  line-height: 1.4;
+  line-height: 1.6;
   font-weight: 400;
-  color: $darkblue;
+  color: $browndark;
 }
 
 strong {
@@ -183,11 +196,11 @@ em {
 a {
   font-weight: 600;
   text-decoration: none;
-  color: $blue;
+  color: $greendark;
   transition: all 0.2s ease;
   &:hover {
-    color: $darkblue;
-    background: $aqua;
+    text-decoration: none;
+    color: $browndark;
   }
 }
 
@@ -200,7 +213,14 @@ a:focus {
 a small {
   display: block;
   font-size: 1rem;
-  color: $blue;
+  color: $greendark;
+}
+
+.text-link {
+  border-bottom: 2px solid $greendark;
+  &:hover {
+    border-bottom: 2px solid $browndark;
+  }
 }
 
 q:before, q:after {
@@ -213,16 +233,16 @@ q:before, q:after {
 hr {
   display: block;
   height: 1px;
-  margin: 3rem 0;
+  margin: rem(60px) 0;
   padding: 0;
   border: 0;
-  border-top: .5px solid $lightbluegray;
-  background: $lightbluegray;
+  border-top: 1px solid $divider;
+  background: $gray;
 }
 
 img {
   width: 100%;
-  background-color: $lightbluegray;
+  background-color: $gray;
 }
 
 // main content
@@ -240,13 +260,13 @@ img {
   position: relative;
   left: 200px;
   width: calc(100% - 200px);
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0;
-  padding: 1rem 1rem 1rem 0;
+  padding: rem(20px) rem(20px) rem(20px) 0;
   @include media(medium) {
     left: 0;
     width: 100%;
-    padding-left: 1rem;
+    padding-left: rem(20px);
   }
 }
 
@@ -254,20 +274,20 @@ img {
 
 .spacer {
   width: 100%;
-  height: 40px;
+  height: rem(40px);
 }
 
 .spacer-small {
   width: 100%;
-  height: 20px;
+  height: rem(20px);
 }
 
 .section-title {
-  display: inline-block;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-size: 2rem;
-  border-bottom: 2px solid $lightbluegray;
+  margin: rem(40px) 0;
+}
+
+.sketchbook-title {
+  margin-top: rem(100px);
 }
 
 .hidden {
@@ -287,4 +307,67 @@ img {
 
 .clearfix {
   *zoom: 1;
+}
+
+// style guide
+
+.color-palette {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: rem(10px);
+  max-width: 600px;
+  margin: 0 0 rem(10px) 0;
+  .palette-swatch {
+    list-style: none;
+    aspect-ratio: 1;
+    width: 100%;
+    height: 100%;
+    &.browndark {
+      background: $browndark;
+    }
+    &.brown {
+      background: $brown;
+    }
+    &.brownlight {
+      background: $brownlight;
+    }
+    &.greendark {
+      background: $greendark;
+    }
+    &.green {
+      background: $green;
+    }
+    &.greenlight {
+      background: $greenlight;
+    }
+    &.bluedark {
+      background: $bluedark;
+    }
+    &.blue {
+      background: $blue;
+    }
+    &.bluelight {
+      background: $bluelight;
+    }
+    &.orangedark {
+      background: $orangedark;
+    }
+    &.orange {
+      background: $orange;
+    }
+    &.orangelight {
+      background: $orangelight;
+    }
+    &.graydark {
+      background: $graydark;
+    }
+    &.gray {
+      background: $gray;
+    }
+    &.graylight {
+      background: $graylight;
+      border: 1px solid $gray;
+    }
+  }
 }

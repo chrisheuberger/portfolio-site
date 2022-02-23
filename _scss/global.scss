@@ -2,26 +2,62 @@
 
 @mixin layoutType($layoutStyle) {
   .#{$layoutStyle}__title {
-    margin-bottom: 0.5rem;
-    font-family: $serif-font-stack;
+    margin-bottom: rem(10px);
+    font-family: $display-font-stack;
     font-size: 1.75rem;
-    font-weight: 600;
-    font-style: italic;
+    font-weight: 400;
   }
   .#{$layoutStyle}__date {
-    margin: 0.5rem 0;
+    margin: rem(10px) 0;
     font-size: 1.5rem;
-    color: $blue;
+    color: $greendark;
   }
   .#{$layoutStyle}__description {
-    margin: 1rem 0 2rem 4px;
-    padding-left: 1rem;
-    border-left: 2px solid $lesslightblue;
+    margin: rem(20px) 0 rem(40px) 0;
     font-size: 1rem;
+    .text-link {
+      border-bottom: 1px solid $greendark;
+      &:hover {
+        border-bottom: 1px solid $browndark;
+      }
+    }
   }
   .#{$layoutStyle}__resources {
-    margin: 1rem 0 0.5rem 0;
+    margin: rem(20px) 0 rem(10px) 0;
   }
+}
+
+// page fade veil
+
+#page-fade-veil {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  pointer-events: none;
+  background: $graylight;
+  animation-duration: 300ms;
+  animation-timing-function: ease-in-out;
+  &.fade-out {
+    opacity: 0;
+    animation-name: fade-out;
+  }
+  &.fade-in {
+    opacity: 1;
+    animation-name: fade-in;
+  }
+}
+
+@keyframes fade-out {
+  from { opacity: 1 }
+  to { opacity: 0 }
+}
+
+@keyframes fade-in {
+  from { opacity: 0 }
+  to { opacity: 1 }
 }
 
 // color bar
@@ -41,37 +77,37 @@
 // header
 
 .page-title-group {
-  margin-bottom: 2rem;
+  margin-bottom: rem(60px);
 }
 
 .page-title {
-  font-family: $serif-font-stack;
-  font-weight: 600;
+  font-family: $display-font-stack;
+  font-weight: 700;
   line-height: 1.15;
   animation: textColorFlash 2s 1;
 }
 
 @keyframes textColorFlash {
-  0% { color: $aqua; }
-  25% { color: $aqua; }
-  100% { color: $darkblue; }
+  0% { color: $green; }
+  25% { color: $green; }
+  100% { color: $browndark; }
 }
 
 .page-title-note,
 .page-note {
-  margin-top: 1rem;
-  padding-left: 1rem;
-  font-size: 1rem;
-  border-left: 2px solid $lesslightblue;
+  margin-top: rem(20px);
+  padding-left: rem(20px);
+  font-size: rem(20px);
+  border-left: 2px solid $green;
 }
 
 // main
 
 .list-wrapper {
   width: 100%;
-  margin: 1rem auto;
+  margin: rem(40px) auto;
   @include mediaMin(600) {
-    margin: 1rem 0;
+    margin: rem(40px) 0;
   }
 }
 
@@ -82,13 +118,13 @@
 // one-column layout
 
 .list-1c {
-  margin: 2rem 0;
+  margin: rem(40px) 0;
   list-style: none;
   .list-1c__item {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    margin-bottom: 1rem;
+    margin-bottom: rem(20px);
     @include mediaMin(600) {
       flex-direction: row;
     }
@@ -99,23 +135,12 @@
       @include mediaMin(600) {
         width: 50%;
       }
-      &.list-1c__img-border {
-        border-top: 1px solid $lightbluegray;
-        border-left: 1px solid $lightbluegray;
-        border-right: 1px solid $lightbluegray;
-        @include mediaMin(600) {
-          border-top: 1px solid $lightbluegray;
-          border-left: 1px solid $lightbluegray;
-          border-right: none;
-          border-bottom: 1px solid $lightbluegray;
-        }
-      }
     }
     .list-1c__text {
       align-self: stretch;
       width: 100%;
-      padding: 1rem;
-      background: $lightbluegray;
+      padding: rem(20px);
+      background: $gray;
       @include mediaMin(600) {
         width: 50%;
       }
@@ -129,49 +154,53 @@
 .list-mc {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 1rem;
-  margin: 2rem 0;
+  grid-gap: rem(20px);
+  margin: rem(40px) 0;
   list-style: none;
   &.extra-gap { 
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    grid-gap: 40px;
+    grid-gap: rem(40px);
   }
   &.no-bg {
     .list-mc__item {
-      background: none;
+      background: inherit;
     }
   }
   .list-mc__item {
-    background: $lightbluegray;
+    background: $gray;
     .list-mc__img {
       display: block;
       width: 100%;
       height: auto;
       &.list-mc__img-border {
-        border-top: 1px solid $lightbluegray;
-        border-left: 1px solid $lightbluegray;
-        border-right: 1px solid $lightbluegray;
+        &.loaded {
+          border-top: 1px solid $gray;
+          border-left: 1px solid $gray;
+          border-right: 1px solid $gray;
+        }
       }
       &.list-mc__img-full-border {
-        border: 1px solid $lightbluegray;
+        &.loaded {
+          border: 1px solid $gray;
+        }
       }
     }
     .list-mc__text {
       width: 100%;
-      padding: 1rem;
+      padding: rem(20px);
       @include layoutType("list-mc");
     }
   }
 }
 
 .with-just-btn {
-  margin-top: 0.5rem !important;
+  margin-top: rem(10px) !important;
 }
 
 // simple list
 
 .simple-list {
-  margin: 2rem 0;
+  margin: rem(40px) 0;
   list-style: none;
   .simple-list__item {
     display: flex;
@@ -181,22 +210,22 @@
       flex-wrap: nowrap;
     }
     &:not(:last-of-type) {
-      margin-bottom: 2rem;
-      padding-bottom: 2rem;
-      border-bottom: 1px solid $lightblue;
+      margin-bottom: rem(40px);
+      padding-bottom: rem(40px);
+      border-bottom: 1px solid $divider;
     }
     .simple-list__img {
       width: 100%;
       height: auto;
-      margin-bottom: 1rem;
+      margin-bottom: rem(10px);
       @include mediaMin(medium) {
         width: 25%;
         flex: 0 0 25%;
-        margin-right: 2rem;
+        margin-right: rem(40px);
         margin-bottom: 0;
       }
       &.simple-list__img-border {
-        border: 1px solid $lightbluegray;
+        border: 1px solid $gray;
       }
     }
     @include layoutType("simple-list");
@@ -207,18 +236,18 @@
 
 .btn {
   display: inline-block;
-  padding: 0.5rem 1rem;
-  border: 1px solid $darkblue;
+  padding: rem(10px) rem(20px);
+  border: 1px solid $browndark;
   border-radius: 500px;
   font-size: 0.8rem;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: $darkblue;
+  color: $browndark;
   transition: all 0.2s ease-in-out;
   &:hover {
-    color: $white;
-    background: $darkblue;
+    color: $graylight;
+    background: $browndark;
   }
 }
 
@@ -226,14 +255,14 @@
 
 .top {
   position: fixed;
-  right: 40px;
-  bottom: 28px;
+  right: rem(40px);
+  bottom: rem(28px);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
-  height: 60px;
-  padding: 10px;
+  width: rem(60px);
+  height: rem(60px);
+  padding: rem(10px);
   z-index: 20;
   opacity: 0;
   border-radius: 500px;
@@ -244,15 +273,15 @@
     opacity: 1;
   }
   &:hover {
-    background: $lightbluegray;
+    background: $gray;
   }
   @include media(medium) {
-    bottom: 12px;
+    bottom: rem(12px);
   }
   svg {
-    margin-bottom: 4px;
+    margin-bottom: rem(4px);
     #arrow-polyline-group {
-      stroke: $darkblue;
+      stroke: $greendark;
       transition: all 0.2s ease-in-out;
     }
   }

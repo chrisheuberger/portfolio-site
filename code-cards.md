@@ -2,7 +2,7 @@
 title: Chris Heuberger / Code Cards
 layout: default
 permalink: /code-cards
-bannerOffset: 86%
+bannerOffset: 76%
 ---
 
 <div class="main-content">
@@ -11,6 +11,36 @@ bannerOffset: 86%
 
   <section class="list-wrapper">
     <ul class="list-mc">
+      <li class="list-mc__item">
+        <img class="list-mc__img" src="assets/img/code-cards/greta-bday-2021.png" alt="" loading="lazy">
+        <div class="list-mc__text">
+          <p class="list-mc__resources with-just-btn"><a class="btn" href="https://codepen.io/ChrisBup/live/abwmEze" target="_blank" rel="noopener">View Code Card</a></p>
+        </div>
+      </li>
+      <li class="list-mc__item">
+        <img class="list-mc__img" src="assets/img/code-cards/ann-bday-2021.png" alt="" loading="lazy">
+        <div class="list-mc__text">
+          <p class="list-mc__resources with-just-btn"><a class="btn" href="https://codepen.io/ChrisBup/live/zYzBKOY" target="_blank" rel="noopener">View Code Card</a></p>
+        </div>
+      </li>
+      <li class="list-mc__item">
+        <img class="list-mc__img" src="assets/img/code-cards/anniversary-2021.gif" alt="" loading="lazy">
+        <div class="list-mc__text">
+          <p class="list-mc__resources with-just-btn"><a class="btn" href="https://codepen.io/ChrisBup/live/ZEJzZZB" target="_blank" rel="noopener">View Code Card</a></p>
+        </div>
+      </li>
+      <li class="list-mc__item">
+        <img class="list-mc__img" src="assets/img/code-cards/dad-bday-2021.gif" alt="" loading="lazy">
+        <div class="list-mc__text">
+          <p class="list-mc__resources with-just-btn"><a class="btn" href="https://codepen.io/ChrisBup/live/GREaZRN" target="_blank" rel="noopener">View Code Card</a></p>
+        </div>
+      </li>
+      <li class="list-mc__item">
+        <img class="list-mc__img" src="assets/img/code-cards/jules-bday-2021.png" alt="" loading="lazy">
+        <div class="list-mc__text">
+          <p class="list-mc__resources with-just-btn"><a class="btn" href="https://codepen.io/ChrisBup/pen/ZEKNEmg" target="_blank" rel="noopener">View Code Card</a></p>
+        </div>
+      </li>
       <li class="list-mc__item">
         <img class="list-mc__img" src="assets/img/code-cards/greta-bday-2020.gif" alt="" loading="lazy">
         <div class="list-mc__text">

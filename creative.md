@@ -273,9 +273,7 @@ bannerOffset: 82%
     </ul>
   </section>
 
-  <div class="spacer"></div>
-
-  <h2 class="section-title">Sketchbook Project Submissions</h2>
+  <h2 class="section-title sketchbook-title">Sketchbook Project Submissions</h2>
 
   <section class="list-wrapper">
     <ul class="list-mc">

@@ -22,9 +22,9 @@ bannerOffset: 78%
       <li class="list-mc__item">
         <img class="list-mc__img list-mc__img-border" src="assets/img/annual-emails/2016-email.png" alt="" loading="lazy">
         <div class="list-mc__text">
-          <h3 class="list-mc__title">Holiday Emails</h3>
-          <p class="list-mc__description">A collection of the holiday email greeting cards my wife and I send out every year.</p>
-          <p class="list-mc__resources"><a class="btn" href="/annual-email" target="_blank" rel="noopener">View Emails</a></p>
+          <h3 class="list-mc__title">Annual Emails</h3>
+          <p class="list-mc__description">A collection of the holiday greeting and update email my wife and I send out every year.</p>
+          <p class="list-mc__resources"><a class="btn" href="/annual-emails" target="_blank" rel="noopener">View Emails</a></p>
         </div>
       </li>
       <li class="list-mc__item">
@@ -33,6 +33,14 @@ bannerOffset: 78%
           <h3 class="list-mc__title">Wall of Fame</h3>
           <p class="list-mc__description">Just some photos of amazing people and me!</p>
           <p class="list-mc__resources"><a class="btn" href="/wall-of-fame" target="_blank" rel="noopener">View Photos</a></p>
+        </div>
+      </li>
+      <li class="list-mc__item">
+        <img class="list-mc__img" src="assets/img/creative/IMG_3422.jpg" alt="" loading="lazy">
+        <div class="list-mc__text">
+          <h3 class="list-mc__title">Creative</h3>
+          <p class="list-mc__description">A collection of illustration, collage, and other creative work.</p>
+          <p class="list-mc__resources"><a class="btn" href="/creative" target="_blank" rel="noopener">View Creative</a></p>
         </div>
       </li>
       <li class="list-mc__item">

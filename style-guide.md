@@ -10,6 +10,30 @@ bannerOffset: 56%
 
   <div class="spacer"></div>
 
+  <ul class="color-palette">
+    <li class="palette-swatch browndark"></li>
+    <li class="palette-swatch greendark"></li>
+    <li class="palette-swatch bluedark"></li>
+    <li class="palette-swatch orangedark"></li>
+    <li class="palette-swatch graydark"></li>
+  </ul>
+  <ul class="color-palette">
+    <li class="palette-swatch brown"></li>
+    <li class="palette-swatch green"></li>
+    <li class="palette-swatch blue"></li>
+    <li class="palette-swatch orange"></li>
+    <li class="palette-swatch gray"></li>
+  </ul>
+  <ul class="color-palette">
+    <li class="palette-swatch brownlight"></li>
+    <li class="palette-swatch greenlight"></li>
+    <li class="palette-swatch bluelight"></li>
+    <li class="palette-swatch orangelight"></li>
+    <li class="palette-swatch graylight"></li>
+  </ul>
+
+  <div class="spacer"></div>
+
   <h1>Header 1</h1>
   <h2>Header 2</h2>
   <h3>Header 3</h3>
@@ -19,7 +43,7 @@ bannerOffset: 56%
    
   <div class="spacer"></div>
 
-  <p>Cumque tincidunt odit ligula dictumst quasi. Vel, Primis nec iste cras molestie placerat phasellus, iure nibh perferendis tempora quos officiis, Dui, quisquam wisi dolorum, pretium voluptatibus placerat, varius aliqua ultrices. Cumque tincidunt odit ligula dictumst quasi. Vel, Primis nec iste cras molestie placerat phasellus, iure nibh perferendis tempora quos officiis, Dui, quisquam wisi dolorum, pretium voluptatibus placerat, varius aliqua ultrices.</p>
+  <p>Cumque tincidunt odit <a class="text-link" href="#">ligula dictumst quasi</a>. Vel, Primis nec iste cras molestie placerat phasellus, iure nibh perferendis tempora quos officiis, Dui, quisquam wisi dolorum, pretium voluptatibus placerat, varius aliqua ultrices. Cumque tincidunt odit ligula dictumst quasi. Vel, Primis nec iste cras molestie placerat phasellus, iure nibh perferendis tempora quos officiis, Dui, quisquam wisi dolorum, pretium voluptatibus placerat, varius aliqua ultrices.</p>
   
   <div class="spacer"></div>
   

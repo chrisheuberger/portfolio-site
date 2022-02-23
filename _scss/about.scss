@@ -10,7 +10,7 @@
   width: 100%;
   margin: 0;
   padding: 0;
-  .about-img-wrapper {
+  .about-content-wrapper {
     display: flex;
     margin: rem(40px) 0;
     @include media(medium) {
@@ -60,24 +60,24 @@
 }
 
 .short-list-wrapper {
-  margin: 2rem 0 0 0;
+  margin: rem(40px) 0 0 0;
   padding: 0;
   .short-list {
     margin: 0;
-    padding: 1rem;
+    padding: rem(20px);
     list-style: none;
     @include box-shadow-with-animation;
     @include mediaMin(medium) {
-      padding: 2rem;
+      padding: rem(40px);
     }
     .short-title {
-      padding-bottom: 1rem;
+      padding-bottom: rem(20px);
     }
     .short-list-li {
-      margin-top: 1rem;
-      padding-left: 1rem;
+      margin-top: rem(20px);
+      padding-left: rem(20px);
       list-style: none;
-      border-left: 2px solid $lesslightblue;
+      border-left: 2px solid $green;
     }
   }
 }
@@ -85,47 +85,45 @@
 // Spotify playlists
 
 .about-content {
-  margin-top: 60px;
-  padding-top: 40px;
-  border-top: 2px solid $blue;
+  margin-top: rem(80px);
+  padding-top: rem(60px);
+  border-top: 1px solid $divider;
 }
 
-.spotify-svg-wrapper {
-  overflow: hidden;
-  .spotify-svg {
-    display: block;
-    width: calc(100% + 20px);
-    margin-left: -10px;
-    @include mediaMin(small) {
-      width: calc(100% + 36px);
-      margin-left: -18px;
-    }
-    @include mediaMin(large) {
+.spotify-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-gap: rem(10px);
+  margin-top: rem(40px);
+  @include media(medium) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  @include media(small) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .spotify-playlist-link {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
       width: 100%;
-      margin-left: -30px;
+      height: 100%;
+      background: $browndark;
+      opacity: 0;
+      transition: opacity 0.2s ease;
     }
-    a:hover {
-      rect,
-      path {
-        opacity: 1;
+    &:hover {
+      &::before {
+        opacity: 0.25;
       }
     }
-    rect {
-      opacity: 0;
-      transition: all 0.2s linear;
-    }
-    path {
-      opacity: 0;
-      transition: all 0.2s linear;
-    }
-    .playlist-bg-rect {
-      fill: $blue;
-    }
-    .playlist-rect {
-      fill: $white;
-    }
-    .playlist-text {
-      fill: $darkblue;
+    img {
+      vertical-align: middle;
     }
   }
 }

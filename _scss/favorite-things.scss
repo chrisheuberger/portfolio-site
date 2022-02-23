@@ -15,32 +15,29 @@
 // filter categories
 
 .filter-container {
-  margin: 1rem 0;
-  padding: 1rem;
+  margin: 0;
+  padding: rem(20px);
   @include box-shadow-with-animation;
   @include mediaMin(medium) {
-    padding: 2rem;
+    padding: rem(40px);
   }
   .filter-header {
-    margin: 0 0 1rem 0;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    margin: 0 0 rem(20px) 0;
   }
   .filter-ul {
     .checkbox-btn {
       float: left;
-      margin: 0 6px 6px 0;
+      margin: 0 rem(6px) rem(6px) 0;
       overflow: auto;
       font-size: 0.8rem;
       text-transform: uppercase;
       letter-spacing: 1px;
-      color: $darkblue;
+      color: $greendark;
       transition: all 0.2s ease-in-out;
-      border: 1px solid $darkblue;
       border-radius: 500px;
       @media (hover) {
         &:hover {
-          background-color: $aqua;
+          background-color: $greenlight;
         }
       }
       label {
@@ -51,16 +48,18 @@
         cursor: pointer;
         span {
           display: block;
-          padding: 0.25rem 1rem;
+          padding: rem(4px) rem(20px);
           text-align: center;
+          border: 1px solid $greendark;
+          border-radius: 500px;
         }
         input {
           position: absolute;
-          top: -20px;
-          padding: 0 10px;
+          top: rem(-20px);
+          padding: 0 rem(10px);
           &:checked + span {
-            color: $white;
-            background-color: $darkblue;
+            color: $graylight;
+            background-color: $greendark;
           }
         }
       }
@@ -68,29 +67,30 @@
   }
 }
 
-// items
+// results
 
-.package {
-  margin: 1rem 0;
-  padding: 1rem 0 2rem 0;
+.results-container {
+  margin-top: rem(40px);
+}
+
+.favorite-item-block {
+  margin: rem(20px) 0;
+  padding: rem(20px) 0 rem(40px) 0;
   &:not(:last-of-type) {
-    border-bottom: 1px solid $lightbluegray;
+    border-bottom: 1px solid $divider;
   }
   .text {
     display: block;
     margin: 0;
     font-size: 1.2rem;
-    .faves-link:hover {
-      color: $darkblue;
-      background: $aqua;
-    }
   }
   .category {
     display: inline-block;
-    margin-top: 1rem;
-    padding: 0.125rem 0.5rem;
-    font-size: 12px;
-    color: $darkblue;
-    border-left: 1px solid $lightbluegray;
+    margin-top: rem(20px);
+    padding: rem(4px) rem(14px);
+    font-size: 0.8rem;
+    border-radius: 500px;
+    color: $browndark;
+    background: $greenlight;
   }
 }

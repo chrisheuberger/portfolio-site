@@ -14,30 +14,19 @@ $(function() {
 
   // mobile nav
 
-  let $menu = $("#menu"),
-      $menulink = $(".mobile-menu-link");
-
-  $menulink.click(function () {
-    $menulink.toggleClass("active");
-    if ($menu.is(":hidden")) {
-      $menu.slideDown("fast");
-    } else {
-      $menu.slideUp();
-    }
-    return false;
-  });
+  let $menu = $("#menu");
 
   $(".menu-tab").on("click", function () {
     $(".mobile-menu-group").toggleClass("showing");
   });
 
   let checkMobileViewed = false;
+
   function mobileViewed() {
     console.log(
-      'Regarding the mobile menu tab icon, my last name is pronounced "HI-ber-ger." Do you get it? Like, but, do you %cget',
-      "font-style: italic; color:#8f80ff;",
-      "it?" + "\n",
-      "\n" + "design reference: https://www.ibm.com/design/language/elements/logos/rebus/#ibm-rebus",
+      '%cRegarding the mobile menu tab icon, my last name is pronounced "HI-ber-ger." Do you get it? Do you get it?',
+      "background-color:#6CF1AD;",
+      "\n\n" + "design reference: https://www.ibm.com/design/language/elements/logos/rebus/#ibm-rebus",
       "\n" + "movie reference: https://www.youtube.com/watch?v=oBoPQUIowHY"
     );
     checkMobileViewed = true;
@@ -48,14 +37,79 @@ $(function() {
 
   $(window).resize(function () {
     if ($(window).width() > 768) {
-      if ($menulink.hasClass("active")) {
-        $menulink.removeClass("active");
-      }
       $menu.css("display", "");
     }
     if ($(window).width() < 767 && checkMobileViewed == false) {
       mobileViewed();
     }
+  });
+
+  // fade page transition
+
+  document.addEventListener('DOMContentLoaded', function() {
+    if (!window.AnimationEvent) { return; }
+    var anchors = document.getElementsByTagName('a');
+    for (var idx=0; idx<anchors.length; idx+=1) {
+      if (anchors[idx].hostname !== window.location.hostname ||
+        anchors[idx].pathname === window.location.pathname) {
+        continue;
+      }
+      anchors[idx].addEventListener('click', function(event) {
+        var fader = document.getElementById('page-fade-veil'),
+            anchor = event.currentTarget;
+        
+        var listener = function() {
+          window.location = anchor.href;
+          fader.removeEventListener('animationend', listener);
+        };
+        fader.addEventListener('animationend', listener);
+        
+        event.preventDefault();
+        
+        fader.classList.add('fade-in');
+      });
+    }
+  });
+
+  window.addEventListener('pageshow', function (event) {
+    if (!event.persisted) {
+      return;
+    }
+    var fader = document.getElementById('page-fade-veil');
+    fader.classList.remove('fade-in');
+  });
+
+  // link hover effect
+
+  // return color randomly selected from list
+  const colorsList = ['#6CF1AD', '#41DFF9', '#8F80FF', '#FF8464', '#FF00A0', '#CECC7D', '#FCE500', '#A8FFD5'];
+
+  const setListedLinkColor = (el) => {
+    let randomListedColor = colorsList[Math.floor(Math.random() * colorsList.length)];
+    $(el).css("background-color", randomListedColor);
+  }
+
+  $(".nav-link, .text-link, .home-intro-link").mouseenter(function() {
+    setListedLinkColor(this);
+  });
+
+  $(".nav-link, .text-link, .home-intro-link").mouseout(function() {
+    $(this).css("background-color", "inherit");
+  });
+
+  $(".name-link span").mouseenter(function() {
+    let nameSpans = $('.name-link span');
+    setListedLinkColor(nameSpans);
+  });
+
+  $(".name-link span").mouseout(function() {
+    $('.name-link span').css("background-color", "inherit");
+  });
+
+  // add image styles only after image has been loaded
+
+  $('.list-mc__img-border, .list-mc__img-full-border').on("load", function () {  
+    $(this).addClass('loaded');
   });
 
   // jump-to-top scroll animation

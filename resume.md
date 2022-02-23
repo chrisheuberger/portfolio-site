@@ -122,7 +122,7 @@ bannerOffset: 68%
     -->
 
     <hr/>
-    <p><a class="pdf-link" href="assets/docs/chris-heuberger-resume-2014.pdf" target="_blank" rel="noopener">View PDF</a></p>
+    <p><a class="text-link" href="#" target="_blank" rel="noopener">View PDF</a></p>
     
   </div>
 

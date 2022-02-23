@@ -9,7 +9,7 @@ bannerOffset: 96%
 
   <div class="page-title-group">
     <h1 class="page-title">Work</h1>
-    <p class="page-title-note">This is some of my web development work. All projects were a team effort unless otherwise noted.</p>
+    <p class="page-title-note">Here is some of my web development work. All projects were a team effort.</p>
   </div>
 
   <section class="list-wrapper">
@@ -17,81 +17,17 @@ bannerOffset: 96%
       <li class="list-1c__item">
         <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
         <div class="list-1c__text">
-          <h3 class="list-1c__title">Women's Refugee Commission</h3>
+          <h3 class="list-1c__title">The Clinton Foundation</h3>
           <p class="list-1c__description">Placeholder description.</p>
-          <p class="list-1c__resources"><a class="btn" href="https://www.womensrefugeecommission.org/" target="_blank" rel="noopener">View Site</a></p>
+          <p class="list-1c__resources"><a class="btn" href="https://www.clintonfoundation.org/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
       <li class="list-1c__item">
         <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
         <div class="list-1c__text">
-          <h3 class="list-1c__title">NASTAD Annual Report</h3>
-          <p class="list-1c__description">Placeholder description.</p>
-          <p class="list-1c__resources"><a class="btn" href="https://publications.partbadap-2019.nastad.org/" target="_blank" rel="noopener">View Site</a></p>
-        </div>
-      </li>
-      <li class="list-1c__item">
-        <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
-        <div class="list-1c__text">
-          <h3 class="list-1c__title">Enodo Rights</h3>
-          <p class="list-1c__description">Placeholder description.</p>
-          <p class="list-1c__resources"><a class="btn" href="https://www.enodorights.com/" target="_blank" rel="noopener">View Site</a></p>
-        </div>
-      </li>
-      <li class="list-1c__item">
-        <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
-        <div class="list-1c__text">
-          <h3 class="list-1c__title">Culture Trac</h3>
-          <p class="list-1c__description">Placeholder description.</p>
-          <p class="list-1c__resources"><a class="btn" href="https://culturetrack.com/" target="_blank" rel="noopener">View Site</a></p>
-        </div>
-      </li>
-      <li class="list-1c__item">
-        <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
-        <div class="list-1c__text">
-          <h3 class="list-1c__title">Promundo</h3>
-          <p class="list-1c__description">Placeholder description.</p>
-          <p class="list-1c__resources"><a class="btn" href="https://promundoglobal.org/" target="_blank" rel="noopener">View Site</a></p>
-        </div>
-      </li>
-      <li class="list-1c__item">
-        <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
-        <div class="list-1c__text">
-          <h3 class="list-1c__title">(RED)</h3>
-          <p class="list-1c__description">Placeholder description.</p>
-          <p class="list-1c__resources"><a class="btn" href="https://www.red.org/" target="_blank" rel="noopener">View Site</a></p>
-        </div>
-      </li>
-      <li class="list-1c__item">
-        <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
-        <div class="list-1c__text">
-          <h3 class="list-1c__title">Landesa Annual Report</h3>
-          <p class="list-1c__description">Placeholder description.</p>
-          <p class="list-1c__resources"><a class="btn" href="https://www.landesa.org/annual-report-2017/" target="_blank" rel="noopener">View Site</a></p>
-        </div>
-      </li>
-      <li class="list-1c__item">
-        <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
-        <div class="list-1c__text">
-          <h3 class="list-1c__title">National Oceanic and Atmospheric Administration (NOAA)</h3>
-          <p class="list-1c__description">Placeholder description.</p>
-          <p class="list-1c__resources"><a class="btn" href="https://www.seathefuture.org/" target="_blank" rel="noopener">View Site</a></p>
-        </div>
-      </li>
-      <li class="list-1c__item">
-        <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
-        <div class="list-1c__text">
-          <h3 class="list-1c__title">A Mini Guide to NationBuilder</h3>
-          <p class="list-1c__description">Placeholder description.</p>
-          <p class="list-1c__resources"><a class="btn" href="https://radishlab.github.io/nationbuilder-guide/" target="_blank" rel="noopener">View Site</a></p>
-        </div>
-      </li>
-      <li class="list-1c__item">
-        <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
-        <div class="list-1c__text">
-          <h3 class="list-1c__title">Edwin Gould Foundation Accelerator</h3>
-          <p class="list-1c__description">Placeholder description.</p>
-          <p class="list-1c__resources"><a class="btn" href="https://www.egfaccelerator.org/" target="_blank" rel="noopener">View Site</a></p>
+          <h3 class="list-1c__title">BRAC UPGI</h3>
+          <p class="list-1c__description">BRAC (Building Resources Across Communities) is a Bangladeshi international development NGO (and one of the world's largest NGO's). This site is for their Ultra Poor Graduation Initiative.</p>
+          <p class="list-1c__resources"><a class="btn" href="https://bracupgi.org/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
       <li class="list-1c__item">
@@ -105,25 +41,49 @@ bannerOffset: 96%
       <li class="list-1c__item">
         <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
         <div class="list-1c__text">
-          <h3 class="list-1c__title">Community Resource Exchange (CRE)</h3>
+          <h3 class="list-1c__title">Radish Lab website</h3>
           <p class="list-1c__description">Placeholder description.</p>
-          <p class="list-1c__resources"><a class="btn" href="https://www.crenyc.org/" target="_blank" rel="noopener">View Site</a></p>
+          <p class="list-1c__resources"><a class="btn" href="https://www.radishlab.com/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
       <li class="list-1c__item">
         <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
         <div class="list-1c__text">
-          <h3 class="list-1c__title">FOSI GRID</h3>
+          <h3 class="list-1c__title">Affordable Healthcare Coalition of North Carolina</h3>
           <p class="list-1c__description">Placeholder description.</p>
-          <p class="list-1c__resources"><a class="btn" href="https://fosigrid.org/" target="_blank" rel="noopener">View Site</a></p>
+          <p class="list-1c__resources"><a class="btn" href="https://www.affordablecarenc.com/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
       <li class="list-1c__item">
         <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
         <div class="list-1c__text">
-          <h3 class="list-1c__title">Humanity United Performance Report</h3>
+          <h3 class="list-1c__title">Women's Refugee Commission</h3>
           <p class="list-1c__description">Placeholder description.</p>
-          <p class="list-1c__resources"><a class="btn" href="https://humanityunited.org/" target="_blank" rel="noopener">View Site</a></p>
+          <p class="list-1c__resources"><a class="btn" href="https://www.womensrefugeecommission.org/" target="_blank" rel="noopener">View Site</a></p>
+        </div>
+      </li>
+      <li class="list-1c__item">
+        <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
+        <div class="list-1c__text">
+          <h3 class="list-1c__title">(RED)</h3>
+          <p class="list-1c__description">Placeholder description.</p>
+          <p class="list-1c__resources"><a class="btn" href="https://www.red.org/" target="_blank" rel="noopener">View Site</a></p>
+        </div>
+      </li>
+      <li class="list-1c__item">
+        <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
+        <div class="list-1c__text">
+          <h3 class="list-1c__title">Culture Track</h3>
+          <p class="list-1c__description">Placeholder description.</p>
+          <p class="list-1c__resources"><a class="btn" href="https://culturetrack.com/" target="_blank" rel="noopener">View Site</a></p>
+        </div>
+      </li>
+      <li class="list-1c__item">
+        <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
+        <div class="list-1c__text">
+          <h3 class="list-1c__title">Tobacco Atlas</h3>
+          <p class="list-1c__description">For the American Cancer Society.</p>
+          <p class="list-1c__resources"><a class="btn" href="https://tobaccoatlas.org/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
       <li class="list-1c__item">
@@ -137,9 +97,73 @@ bannerOffset: 96%
       <li class="list-1c__item">
         <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
         <div class="list-1c__text">
-          <h3 class="list-1c__title">Tobacco Atlas</h3>
+          <h3 class="list-1c__title">Edwin Gould Foundation Accelerator</h3>
           <p class="list-1c__description">Placeholder description.</p>
-          <p class="list-1c__resources"><a class="btn" href="https://tobaccoatlas.org/" target="_blank" rel="noopener">View Site</a></p>
+          <p class="list-1c__resources"><a class="btn" href="https://www.egfaccelerator.org/" target="_blank" rel="noopener">View Site</a></p>
+        </div>
+      </li>
+      <li class="list-1c__item">
+        <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
+        <div class="list-1c__text">
+          <h3 class="list-1c__title">Enodo Rights</h3>
+          <p class="list-1c__description">Placeholder description.</p>
+          <p class="list-1c__resources"><a class="btn" href="https://www.enodorights.com/" target="_blank" rel="noopener">View Site</a></p>
+        </div>
+      </li>
+      <li class="list-1c__item">
+        <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
+        <div class="list-1c__text">
+          <h3 class="list-1c__title">NASTAD Annual Report</h3>
+          <p class="list-1c__description">National Alliance of State and Territorial AIDS Directors</p>
+          <p class="list-1c__resources"><a class="btn" href="https://publications.partbadap-2019.nastad.org/" target="_blank" rel="noopener">View Site</a></p>
+        </div>
+      </li>
+      <li class="list-1c__item">
+        <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
+        <div class="list-1c__text">
+          <h3 class="list-1c__title">Landesa Annual Report</h3>
+          <p class="list-1c__description">Placeholder description.</p>
+          <p class="list-1c__resources"><a class="btn" href="https://www.landesa.org/annual-report-2017/" target="_blank" rel="noopener">View Site</a></p>
+        </div>
+      </li>
+      <li class="list-1c__item">
+        <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
+        <div class="list-1c__text">
+          <h3 class="list-1c__title">Humanity United Performance Report</h3>
+          <p class="list-1c__description">Placeholder description.</p>
+          <p class="list-1c__resources"><a class="btn" href="https://humanityunited.org/" target="_blank" rel="noopener">View Site</a></p>
+        </div>
+      </li>
+      <li class="list-1c__item">
+        <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
+        <div class="list-1c__text">
+          <h3 class="list-1c__title">National Oceanic and Atmospheric Administration (NOAA)</h3>
+          <p class="list-1c__description">Placeholder description.</p>
+          <p class="list-1c__resources"><a class="btn" href="https://www.seathefuture.org/" target="_blank" rel="noopener">View Site</a></p>
+        </div>
+      </li>
+      <li class="list-1c__item">
+        <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
+        <div class="list-1c__text">
+          <h3 class="list-1c__title">Promundo</h3>
+          <p class="list-1c__description">Placeholder description.</p>
+          <p class="list-1c__resources"><a class="btn" href="https://promundoglobal.org/" target="_blank" rel="noopener">View Site</a></p>
+        </div>
+      </li>
+      <li class="list-1c__item">
+        <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
+        <div class="list-1c__text">
+          <h3 class="list-1c__title">FOSI GRID</h3>
+          <p class="list-1c__description">Family Online Safety Institute.</p>
+          <p class="list-1c__resources"><a class="btn" href="https://fosigrid.org/" target="_blank" rel="noopener">View Site</a></p>
+        </div>
+      </li>
+      <li class="list-1c__item">
+        <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
+        <div class="list-1c__text">
+          <h3 class="list-1c__title">Community Resource Exchange (CRE)</h3>
+          <p class="list-1c__description">Placeholder description.</p>
+          <p class="list-1c__resources"><a class="btn" href="https://www.crenyc.org/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
       <li class="list-1c__item">
@@ -150,18 +174,22 @@ bannerOffset: 96%
           <p class="list-1c__resources"><a class="btn" href="https://www.philanthropyforum.org/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
+      <li class="list-1c__item">
+        <img class="list-1c__img" src="https://source.unsplash.com/random/400x400" alt="" loading="lazy">
+        <div class="list-1c__text">
+          <h3 class="list-1c__title">A Mini Guide to NationBuilder</h3>
+          <p class="list-1c__description">Placeholder description.</p>
+          <p class="list-1c__resources"><a class="btn" href="https://radishlab.github.io/nationbuilder-guide/" target="_blank" rel="noopener">View Site</a></p>
+        </div>
+      </li>
     </ul>
   </section>
 
   <div class="spacer"></div>
 
   <section>
-    <h2>A few more selected clients I’ve worked with</h2>  
-    <p>Alliance for Youth Action, American Cancer Society, BigID, BRAC (Building Resources Across Communities) - Ultra Poor Graduation Initiative, Center for New York City Neighborhoods, FOSI (Family Online Safety Institute), InsideSchools.org, NASTAD (National Alliance of State and Territorial AIDS Directors), NOAA (National Oceanic and Atmospheric Administration), Promundo, Rainforest Alliance, (RED), Research for Action, Sesame Workshop initiative, Watershed Agricultural Council / Pure Catskills, Women's Refugee Commission</p>
-  </section> 
-
-  <div class="spacer"></div>
-
-  <p class="page-note">And just for fun, here is some of my past <a href="/creative">creative work</a>.</p>
+    <h2 class="section-title">A few more selected clients I’ve worked with</h2>  
+    <p>Alliance for Youth Action, Center for New York City Neighborhoods, Rainforest Alliance, Research for Action, Sesame Workshop initiative, Watershed Agricultural Council / Pure Catskills</p>
+  </section>
 
 </div>

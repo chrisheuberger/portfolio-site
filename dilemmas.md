@@ -11,7 +11,7 @@ bannerOffset: 40%
 
     <h1 class="page-title">NOTES / <span class="sketchbooks">Moral Dilemmas</span></h1>
 
-    <h4>Intro</h4>
+    <h4 class="talk-intro">Intro</h4>
 
     <p class="slide-label">[SLIDE]</p>
 
@@ -101,7 +101,7 @@ bannerOffset: 40%
 
     <p class="slide-label">[SLIDE]</p>
 
-    <h4>Outro</h4>
+    <h4 class="talk-outro">Outro</h4>
 
   </div>
 
