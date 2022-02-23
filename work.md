@@ -188,8 +188,15 @@ bannerOffset: 96%
   <div class="spacer"></div>
 
   <section>
-    <h2 class="section-title">A few more selected clients I’ve worked with</h2>  
-    <p>Alliance for Youth Action, Center for New York City Neighborhoods, Rainforest Alliance, Research for Action, Sesame Workshop initiative, Watershed Agricultural Council / Pure Catskills</p>
+    <h2 class="section-title">A Few More Selected Clients</h2>  
+    <ul class="basic-list basic-list__ul">
+      <li>Alliance for Youth Action</li>
+      <li>Center for New York City Neighborhoods</li>
+      <li>Rainforest Alliance</li>
+      <li>Research for Action</li>
+      <li>Sesame Workshop initiative</li>
+      <li>Watershed Agricultural Council / Pure Catskills</li>
+    </ul>
   </section>
 
 </div>
