@@ -287,7 +287,9 @@ img {
 }
 
 .sketchbook-title {
-  margin-top: rem(100px);
+  margin-top: rem(160px);
+  padding-top: rem(40px);
+  border-top: 1px solid $divider;
 }
 
 .hidden {

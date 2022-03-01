@@ -44,6 +44,15 @@ $(function() {
     }
   });
 
+  // color list for links and color bar 
+
+  const colorsList = ['#6CF1AD', '#41DFF9', '#8F80FF', '#FF8464', '#FF00A0', '#CECC7D', '#FCE500', '#A8FFD5'];
+
+  // color bar
+
+  var randomColor = colorsList[Math.floor(Math.random() * colorsList.length)];
+  $('.mobile-color-bar, .desktop-color-bar').css('background-color',randomColor);
+
   // fade page transition
 
   document.addEventListener('DOMContentLoaded', function() {
@@ -82,8 +91,6 @@ $(function() {
   // link hover effect
 
   // return color randomly selected from list
-  const colorsList = ['#6CF1AD', '#41DFF9', '#8F80FF', '#FF8464', '#FF00A0', '#CECC7D', '#FCE500', '#A8FFD5'];
-
   const setListedLinkColor = (el) => {
     let randomListedColor = colorsList[Math.floor(Math.random() * colorsList.length)];
     $(el).css("background-color", randomListedColor);
@@ -106,10 +113,11 @@ $(function() {
     $('.name-link span').css("background-color", "inherit");
   });
 
-  // add image styles only after image has been loaded
+  // stagger load multi-column cards
 
-  $('.list-mc__img-border, .list-mc__img-full-border').on("load", function () {  
-    $(this).addClass('loaded');
+  ScrollTrigger.batch(".list-mc__item", {
+    start: "top 90%",
+    onEnter: batch => gsap.to(batch, {autoAlpha: 1, stagger: 0.1}),
   });
 
   // jump-to-top scroll animation

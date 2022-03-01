@@ -44,6 +44,22 @@ bannerOffset: 78%
         </div>
       </li>
       <li class="list-mc__item">
+        <img class="list-mc__img" src="assets/img/talks/decisions.png" alt="" loading="lazy">
+        <div class="list-mc__text">
+          <h3 class="list-mc__title">Talks</h3>
+          <p class="list-mc__description">Notes and decks for a very random assortment of talks I've given.</p>
+          <p class="list-mc__resources"><a class="btn" href="/talks" rel="noopener">View Talks</a></p>
+        </div>
+      </li>
+      <li class="list-mc__item">
+        <img class="list-mc__img list-mc__img-border" src="assets/img/side-projects/favorite-things.png" alt="" loading="lazy">
+        <div class="list-mc__text">
+          <h3 class="list-mc__title">Favorite Things</h3>
+          <p class="list-mc__description">These are a few of my favorite things.</p>
+          <p class="list-mc__resources"><a class="btn" href="/favorite-things" rel="noopener">View Favorite Things</a></p>
+        </div>
+      </li>
+      <li class="list-mc__item">
         <img class="list-mc__img" src="assets/img/side-projects/roll-a-fun.png" alt="" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Roll-A-Fun</h3>
