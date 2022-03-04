@@ -2,7 +2,6 @@
 title: Chris Heuberger / Talks / Carrie
 layout: default
 permalink: /carrie
-bannerOffset: 22%
 ---
 
 <div class="main-content">

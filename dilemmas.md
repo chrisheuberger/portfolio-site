@@ -2,7 +2,6 @@
 title: Chris Heuberger / Talks / Dilemmas
 layout: default
 permalink: /dilemmas
-bannerOffset: 40%
 ---
 
 <div class="main-content">

@@ -2,7 +2,6 @@
 title: Chris Heuberger / Side Projects
 layout: default
 permalink: /side-projects
-bannerOffset: 78%
 ---
 
 <div class="main-content">

@@ -2,7 +2,6 @@
 title: Chris Heuberger / Talks / Decisions
 layout: default
 permalink: /decisions
-bannerOffset: 30%
 ---
 
 <div class="main-content">

@@ -20,6 +20,8 @@ $(function() {
     $(".mobile-menu-group").toggleClass("showing");
   });
 
+  // display console message only smaller screens
+
   let checkMobileViewed = false;
 
   function mobileViewed() {

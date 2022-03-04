@@ -2,7 +2,6 @@
 title: Chris Heuberger / Wall of Fame
 layout: default
 permalink: /wall-of-fame
-bannerOffset: 84%
 ---
 
 <div class="main-content">

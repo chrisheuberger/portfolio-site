@@ -2,7 +2,6 @@
 title: Chris Heuberger / R&eacute;sume
 layout: default
 permalink: /resume
-bannerOffset: 68%
 ---
 
 <div class="main-content">

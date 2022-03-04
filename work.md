@@ -2,7 +2,6 @@
 title: Chris Heuberger / Work
 layout: default
 permalink: /work
-bannerOffset: 96%
 ---
 
 <div class="main-content">

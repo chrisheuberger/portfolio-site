@@ -2,7 +2,6 @@
 title: Chris Heuberger / Talks
 layout: default
 permalink: /talks
-bannerOffset: 22%
 ---
 
 <div class="main-content">

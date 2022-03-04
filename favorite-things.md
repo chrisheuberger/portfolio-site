@@ -3,7 +3,6 @@ title: Chris Heuberger / Favorite Things
 layout: default
 permalink: /favorite-things
 jump-to-top: true
-bannerOffset: 50%
 ---
 
 <div class="main-content main-content_favorite-things">

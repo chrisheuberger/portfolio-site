@@ -2,7 +2,6 @@
 title: Chris Heuberger / Creative
 layout: default
 permalink: /creative
-bannerOffset: 82%
 ---
 
 <div class="main-content">

@@ -2,7 +2,6 @@
 title: Chris Heuberger / About
 layout: default
 permalink: /about
-bannerOffset: 16%
 ---
 
 <div class="main-content main-content_about">
@@ -21,7 +20,7 @@ bannerOffset: 16%
           </div>
         </div>
       </div>
-      <p>I’m a full-stack web developer, though I focus more on the front end. I build websites for positive change in the world. My aim is to craft simple, beautiful, and well-considered products. I’m into social impact projects, data visualization, typography, and all forms of design as well as science, math, art, philosophy, psychology and pretty much every other subject. I like running, playing soccer, reading non-fiction, learning about theoretical physics, deeply analyzing works of art, organizing everything, making lists, making smoothies, watching old movies, cooking mediterranean, and petting any dog I meet. I’m a <a class="text-link" href="https://www.reducetarian.org/" target="_blank" rel="noopener">reducetarian</a> stoic existentialist skeptical <a class="text-link" href="https://www.gutenberg.org/files/5116/5116-h/5116-h.htm#link2H_4_0004" target="_blank" rel="noopener">pragmatic</a> deontological rule consequentialist virtue ethicist effective altruist incrementalist-idealist Bayesian neatnik. I volunteer with some amazing organizations: <a class="text-link" href="https://www.dare2bnyc.org/" target="_blank" rel="noopener">Dare2B</a>, <a class="text-link" href="https://www.cpnyc.org/" target="_blank" rel="noopener">Children of Promise</a>, <a class="text-link" href="https://renewableheatnow.org/" target="_blank" rel="noopener">Renewable Heat Now</a>, <a class="text-link" href="https://www.saneenergy.org/" target="_blank" rel="noopener">Sane Energy Project</a>, <a class="text-link" href="https://www.instagram.com/club_a_nyc/" target="_blank" rel="noopener">Bushwick City Farm</a>, and <a class="text-link" href="https://cleanbushwickinitiative.org/" target="_blank" rel="noopener">Clean Bushwick Initiative</a> to name a few. My last name is pronounced <strong>HI&#8239;•&#8239;ber&#8239;•&#8239;ger</strong> but I’m not a stickler.</p>
+      <p>I’m a full-stack web developer, though I focus more on the front end. I build websites for positive social impact. My aim is to craft simple, beautiful, and well-considered products. I’m into data visualization, typography, and all forms of design as well as science, math, art, philosophy, psychology and pretty much every other subject. I enjoy running, playing soccer, reading non-fiction, learning about theoretical physics, deeply analyzing works of art, organizing everything, making lists, making smoothies, watching old movies, cooking mediterranean, volunteering, and petting any dog I meet. My last name is pronounced <strong>HI&#8239;•&#8239;ber&#8239;•&#8239;ger</strong> but I’m not a stickler.</p>
     </div>
   </div>
 

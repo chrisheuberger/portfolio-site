@@ -2,7 +2,6 @@
 title: Chris Heuberger / Code Cards
 layout: default
 permalink: /code-cards
-bannerOffset: 76%
 ---
 
 <div class="main-content">

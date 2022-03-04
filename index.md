@@ -1,7 +1,6 @@
 ---
 title: Chris Heuberger
 layout: default
-bannerOffset: 56%
 ---
 
 <div class="main-content">

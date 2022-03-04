@@ -2,7 +2,6 @@
 title: Chris Heuberger / Annual Email
 layout: default
 permalink: /annual-emails
-bannerOffset: 48%
 ---
 
 <div class="main-content">
