@@ -10,18 +10,6 @@
   color: $blue;
 }
 
-.broken-float {
-  float: left;
-  padding-top: rem(20px);
-}
-
 .broken-text {
-  margin: 1rem 0;
-  font-size: 1.75rem;
-}
-
-.broken-pic {
-  float: left;
-  width: 50%;
-  margin-left: rem(-50px);
+  margin: rem(20px) 0;
 }

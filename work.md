@@ -33,7 +33,7 @@ permalink: /work
         <img class="list-mc__img" src="assets/img/work/clinton-foundation.gif" alt="" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">The Clinton Foundation</h3>
-          <p class="list-mc__description"></p>
+          <p class="list-mc__description">A philanthropic nonprofit dedicated to expanding economic opportunity, improving public health, confronting the climate crisis, and inspiring citizen engagement and service.</p>
           <p class="list-mc__resources"><a class="btn" href="https://www.clintonfoundation.org/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
@@ -65,7 +65,7 @@ permalink: /work
         <img class="list-mc__img" src="assets/img/work/affordablecarenc.png" alt="" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Affordable Healthcare Coalition of North Carolina</h3>
-          <p class="list-mc__description"></p>
+          <p class="list-mc__description">A nonprofit, nonpartisan, statewide grassroots organization committed to lowering the cost of quality healthcare for businesses, workers, and their families.</p>
           <p class="list-mc__resources"><a class="btn" href="https://www.affordablecarenc.com/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
@@ -81,7 +81,7 @@ permalink: /work
         <img class="list-mc__img" src="assets/img/work/culture-track.gif" alt="" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Culture Track</h3>
-          <p class="list-mc__description"></p>
+          <p class="list-mc__description">A cultural innovation platform, dedicated to addressing the most pressing challenges facing the worlds of culture and creativity through research, education, dialogue, and action.</p>
           <p class="list-mc__resources"><a class="btn" href="https://culturetrack.com/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
@@ -89,7 +89,7 @@ permalink: /work
         <img class="list-mc__img list-mc__img-border" src="assets/img/work/red.png" alt="" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">(RED)</h3>
-          <p class="list-mc__description"></p>
+          <p class="list-mc__description">(RED) partners with the world's most iconic brands to support global health and equity.</p>
           <p class="list-mc__resources"><a class="btn" href="https://www.red.org/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
@@ -97,7 +97,7 @@ permalink: /work
         <img class="list-mc__img" src="assets/img/work/radish-lab.png" alt="" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Radish Lab website</h3>
-          <p class="list-mc__description"></p>
+          <p class="list-mc__description">The company I've been a part of for over 6 years. A purpose-driven creative agency in Brooklyn and Berlin.</p>
           <p class="list-mc__resources"><a class="btn" href="https://www.radishlab.com/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
@@ -105,7 +105,7 @@ permalink: /work
         <img class="list-mc__img" src="assets/img/work/egfaccelerator.gif" alt="" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Edwin Gould Foundation Accelerator</h3>
-          <p class="list-mc__description"></p>
+          <p class="list-mc__description">The EGF Accelerator is a long-term nonprofit incubator working to improve educational equity in New York City.</p>
           <p class="list-mc__resources"><a class="btn" href="https://www.egfaccelerator.org/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
@@ -113,7 +113,7 @@ permalink: /work
         <img class="list-mc__img" src="assets/img/work/tobacco-atlas.png" alt="" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Tobacco Atlas</h3>
-          <p class="list-mc__description">A leading resources on tobacco use and its impact on world health created for the American Cancer Society.</p>
+          <p class="list-mc__description">A leading resource on tobacco use and its impact on world health created for the American Cancer Society.</p>
           <p class="list-mc__resources"><a class="btn" href="https://tobaccoatlas.org/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
@@ -129,7 +129,7 @@ permalink: /work
         <img class="list-mc__img" src="assets/img/work/inside-schools.png" alt="" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">InsideSchools</h3>
-          <p class="list-mc__description"></p>
+          <p class="list-mc__description">Providing independent evaluations, comparisons, and insight into New York City public schools as well as information about the New York City Department of Education.</p>
           <p class="list-mc__resources"><a class="btn" href="https://insideschools.org/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
@@ -137,7 +137,7 @@ permalink: /work
         <img class="list-mc__img" src="assets/img/work/enodorights.gif" alt="" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Enodo Rights</h3>
-          <p class="list-mc__description"></p>
+          <p class="list-mc__description">Deploying legal expertise to analyze corporate social impacts through a human rights lens.</p>
           <p class="list-mc__resources"><a class="btn" href="https://www.enodorights.com/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
@@ -153,7 +153,7 @@ permalink: /work
         <img class="list-mc__img" src="assets/img/work/landesa.png" alt="" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Landesa Annual Report</h3>
-          <p class="list-mc__description"></p>
+          <p class="list-mc__description">Harnessing land rights to fight global poverty and conflict, strengthening food security, and improving environmental stewardship.</p>
           <p class="list-mc__resources"><a class="btn" href="https://www.landesa.org/annual-report-2017/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
@@ -161,7 +161,7 @@ permalink: /work
         <img class="list-mc__img" src="assets/img/work/humanityunited.png" alt="" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Humanity United Performance Report</h3>
-          <p class="list-mc__description"></p>
+          <p class="list-mc__description">A philanthropic organization and partnership network combating forced labor and human trafficking and dismantling systems of violent conflict and human exploitation around the world.</p>
           <p class="list-mc__resources"><a class="btn" href="https://www.humanityunited.org/performancereport2014/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
@@ -169,7 +169,7 @@ permalink: /work
         <img class="list-mc__img list-mc__img-border" src="assets/img/work/promundo.png" alt="" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Promundo</h3>
-          <p class="list-mc__description"></p>
+          <p class="list-mc__description">A global leader in advancing gender equality and preventing violence by engaging men and boys in partnership with women, girls, and individuals of all gender identities.</p>
           <p class="list-mc__resources"><a class="btn" href="https://promundoglobal.org/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
@@ -177,7 +177,7 @@ permalink: /work
         <img class="list-mc__img list-mc__img-border" src="assets/img/work/cre.png" alt="" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Community Resource Exchange (CRE)</h3>
-          <p class="list-mc__description"></p>
+          <p class="list-mc__description">Partnering with organizations to reduce poverty, promote equity, and increase opportunity.</p>
           <p class="list-mc__resources"><a class="btn" href="https://www.crenyc.org/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
@@ -185,7 +185,7 @@ permalink: /work
         <img class="list-mc__img" src="assets/img/work/nationbuilder.png" alt="" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">A Mini Guide to NationBuilder</h3>
-          <p class="list-mc__description"></p>
+          <p class="list-mc__description">An overview of the content management and customer relationship software designed for nonprofits, movements, and campaigns.</p>
           <p class="list-mc__resources"><a class="btn" href="/nationbuilder-guide" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
