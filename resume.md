@@ -1,5 +1,5 @@
 ---
-title: Chris Heuberger / R&eacute;sume
+title: Chris Heuberger / R&eacute;sum&eacute;
 layout: default
 permalink: /resume
 ---
@@ -7,7 +7,7 @@ permalink: /resume
 <div class="main-content">
   <div class="resume-content">
 
-    <h1 class="page-title">R&eacute;sume</h1>
+    <h1 class="page-title">R&eacute;sum&eacute;</h1>
 
     <div class="spacer-small"></div>
 

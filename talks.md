@@ -11,7 +11,7 @@ permalink: /talks
   <section class="list-wrapper">
     <ul class="simple-list">
       <li class="simple-list__item">
-        <img class="simple-list__img simple-list__img-border" src="assets/img/talks/bcs.gif" alt="" loading="lazy">
+        <img class="simple-list__img simple-list__img-border" src="assets/img/talks/bcs.gif" alt="colorful animated lettering that reads showcase!" loading="lazy">
         <div class="simple-list__text">
           <h3 class="simple-list__title">What is a Web Developer?</h3>
           <h6 class="simple-list__date">April 2019</h6>
@@ -20,7 +20,7 @@ permalink: /talks
         </div>
       </li>
       <li class="simple-list__item">
-        <img class="simple-list__img" src="assets/img/talks/brewing-tour.png" alt="" loading="lazy">
+        <img class="simple-list__img" src="assets/img/talks/brewing-tour.png" alt="antique illustration of a made holding a beer" loading="lazy">
         <div class="simple-list__text">
           <h3 class="simple-list__title">A Brewing History of Brooklyn</h3>
           <h6 class="simple-list__date">December 2018</h6>
@@ -29,30 +29,30 @@ permalink: /talks
         </div>
       </li>
       <li class="simple-list__item">
-        <img class="simple-list__img simple-list__img-border" src="assets/img/talks/dilemmas.png" alt="" loading="lazy">
+        <img class="simple-list__img simple-list__img-border" src="assets/img/talks/dilemmas.png" alt="portraits of Bentham and Kant with color overlays" loading="lazy">
         <div class="simple-list__text">
           <h3 class="simple-list__title">Moral Dilemmas</h3>
           <h6 class="simple-list__date">October 2011</h6>
           <p class="simple-list__description">An overview of the most well-known and much-debated moral quandaries and the philosophical and ethical schools of thought around them.</p>
-          <p class="simple-list-resources"><a class="btn" href="assets/img/presentations/ppn-dilemmas.pdf" target="_blank" rel="noopener">View Deck</a>&ensp;<a class="btn" href="dilemmas.html" target="_blank" rel="noopener">View Notes</a></p>
+          <p class="simple-list-resources"><a class="btn" href="assets/img/presentations/ppn-dilemmas.pdf" target="_blank" rel="noopener">View Deck</a>&ensp;<a class="btn" href="/dilemmas" target="_blank" rel="noopener">View Notes</a></p>
         </div>
       </li>
       <li class="simple-list__item">
-        <img class="simple-list__img simple-list__img-border" src="assets/img/talks/carrie-nation.png" alt="" loading="lazy">
+        <img class="simple-list__img simple-list__img-border" src="assets/img/talks/carrie-nation.png" alt="old flyer and depiction of a woman holding a hatchet" loading="lazy">
         <div class="simple-list__text">
           <h3 class="simple-list__title">Carrie Nation</h3>
           <h6 class="simple-list__date">December 2010</h6>
           <p class="simple-list__description">The infamous American radical who led the temperance movement known for her saloon-smashing hatchet.</p>
-          <p class="simple-list-resources"><a class="btn" href="assets/img/presentations/ppn-prohibition.pdf" target="_blank" rel="noopener">View Deck</a>&ensp;<a class="btn" href="carrie.html" target="_blank" rel="noopener">View Notes</a></p>
+          <p class="simple-list-resources"><a class="btn" href="assets/img/presentations/ppn-prohibition.pdf" target="_blank" rel="noopener">View Deck</a>&ensp;<a class="btn" href="/carrie" target="_blank" rel="noopener">View Notes</a></p>
         </div>
       </li>
       <li class="simple-list__item">
-        <img class="simple-list__img" src="assets/img/talks/decisions.png" alt="" loading="lazy">
+        <img class="simple-list__img" src="assets/img/talks/decisions.png" alt="museum exhibit of a human skeleton inside a dinosaur skeleton" loading="lazy">
         <div class="simple-list__text">
           <h3 class="simple-list__title">How We Make Decisions and Why They Often Suck</h3>
           <h6 class="simple-list__date">October 2010</h6>
           <p class="simple-list__description">A talk on behavioral science covering cognitive biases, heuristics, and persuasion.</p>
-          <p class="simple-list-resources"><a class="btn" href="assets/img/presentations/ppn-decision.pdf" target="_blank" rel="noopener">View Deck</a>&ensp;<a class="btn" href="decisions.html" target="_blank" rel="noopener">View Notes</a></p>
+          <p class="simple-list-resources"><a class="btn" href="assets/img/presentations/ppn-decision.pdf" target="_blank" rel="noopener">View Deck</a>&ensp;<a class="btn" href="/decisions" target="_blank" rel="noopener">View Notes</a></p>
         </div>
       </li>
     </ul>

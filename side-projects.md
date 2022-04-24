@@ -11,7 +11,7 @@ permalink: /side-projects
   <section class="list-wrapper">
     <ul class="list-mc">
       <li class="list-mc__item">
-        <img class="list-mc__img list-mc__img-border" src="assets/img/code-cards/anniversary-2018.gif" alt="" loading="lazy">
+        <img class="list-mc__img list-mc__img-border" src="assets/img/code-cards/anniversary-2018.gif" alt="happy anniversary mom and dad animation" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Code Cards</h3>
           <p class="list-mc__description">Sometimes I send a handmade greeting card, sometimes I send a code card.</p>
@@ -19,7 +19,7 @@ permalink: /side-projects
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img list-mc__img-border" src="assets/img/annual-emails/2016-email.png" alt="" loading="lazy">
+        <img class="list-mc__img list-mc__img-border" src="assets/img/annual-emails/2016-email.png" alt="snaking timeline" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Annual Emails</h3>
           <p class="list-mc__description">A collection of the holiday greeting and update email my wife and I send out every year.</p>
@@ -27,7 +27,7 @@ permalink: /side-projects
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/wall-of-fame/celeste-beatty-resized.jpg" alt="" loading="lazy">
+        <img class="list-mc__img" src="assets/img/wall-of-fame/celeste-beatty-resized.jpg" alt="photo of a man and a woman" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Wall of Fame</h3>
           <p class="list-mc__description">Just some photos of amazing people and me!</p>
@@ -35,7 +35,7 @@ permalink: /side-projects
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/creative/IMG_3422.jpg" alt="" loading="lazy">
+        <img class="list-mc__img" src="assets/img/creative/IMG_3422.jpg" alt="pages of a zine spread out in a grid" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Creative</h3>
           <p class="list-mc__description">A collection of illustration, collage, and other creative work.</p>
@@ -43,7 +43,7 @@ permalink: /side-projects
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/talks/decisions.png" alt="" loading="lazy">
+        <img class="list-mc__img" src="assets/img/talks/decisions.png" alt="museum exhibit of a human skeleton inside a dinosaur skeleton" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Talks</h3>
           <p class="list-mc__description">Notes and decks for a very random assortment of talks I've given.</p>
@@ -51,7 +51,7 @@ permalink: /side-projects
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img list-mc__img-border" src="assets/img/side-projects/favorite-things.png" alt="" loading="lazy">
+        <img class="list-mc__img list-mc__img-border" src="assets/img/side-projects/favorite-things.png" alt="filter categories" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Favorite Things</h3>
           <p class="list-mc__description">These are a few of my favorite things.</p>
@@ -59,7 +59,7 @@ permalink: /side-projects
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/side-projects/roll-a-fun.png" alt="" loading="lazy">
+        <img class="list-mc__img" src="assets/img/side-projects/roll-a-fun.png" alt="winding board game path" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Roll-A-Fun</h3>
           <p class="list-mc__description">A very prototype, desktop-only, screen share board game to play with the whole family over Zoom with trivia specifically for adults and three-year-olds. Two teams: koalas and dolphins. Roll die, answer a question to move that amount. Hover, click on board to move. Click images to enlarge.</p>
@@ -67,7 +67,7 @@ permalink: /side-projects
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/side-projects/quarantainment.gif" alt="" loading="lazy">
+        <img class="list-mc__img" src="assets/img/side-projects/quarantainment.gif" alt="happy face icon over moving text" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Quarantainment</h3>
           <p class="list-mc__description">A running collection of events, entertainment, and resources available online to help make quarantine life just a little bit better.</p>
@@ -75,7 +75,7 @@ permalink: /side-projects
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/side-projects/prime-objective.png" alt="" loading="lazy">
+        <img class="list-mc__img" src="assets/img/side-projects/prime-objective.png" alt="form field that takes a number" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Prime Objective</h3>
           <p class="list-mc__description">A game created for no reason at all.</p>
@@ -83,7 +83,7 @@ permalink: /side-projects
         </div>
       </li>
       <!-- <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/side-projects/xxx" alt="" loading="lazy">
+        <img class="list-mc__img" src="assets/img/side-projects/oregon-cropped.jpg" alt="hiking trail" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">My Travel Site</h3>
           <p class="list-mc__description">A chronicle of a few of my most memorable trips.</p>
@@ -91,7 +91,7 @@ permalink: /side-projects
         </div>
       </li> -->
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/side-projects/brewing-tour-site.png" alt="" loading="lazy">
+        <img class="list-mc__img" src="assets/img/side-projects/brewing-tour-site.png" alt="historic brewery illustration" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Bushwick Brewing History Tour</h3>
           <p class="list-mc__description">My walking tour on the beer brewing and cultural history of Bushwick, Brooklyn.</p>
@@ -99,7 +99,7 @@ permalink: /side-projects
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img list-mc__img-border" src="assets/img/side-projects/cookyhero.png" alt="" loading="lazy">
+        <img class="list-mc__img list-mc__img-border" src="assets/img/side-projects/cookyhero.png" alt="stir fry" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">CookyHero</h3>
           <p class="list-mc__description">A list of recipes with ingredient checklists for easy grocery shopping.</p>
@@ -107,7 +107,7 @@ permalink: /side-projects
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/side-projects/hiit.png" alt="" loading="lazy">
+        <img class="list-mc__img" src="assets/img/side-projects/hiit.png" alt="HIIT IT button" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">HIIT</h3>
           <p class="list-mc__description">A guided high intensity interval training (HIIT) workout with audio commands so I don’t need to look at my phone to see the next exercise.</p>
@@ -115,7 +115,7 @@ permalink: /side-projects
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/side-projects/pizza-is-the-best.png" alt="" loading="lazy">
+        <img class="list-mc__img" src="assets/img/side-projects/pizza-is-the-best.png" alt="screenshot with text over pattern background" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Pizza is the Best</h3>
           <p class="list-mc__description">A collection of desktop backgrounds I designed, hosted at the best domain name I own.</p>
@@ -123,7 +123,7 @@ permalink: /side-projects
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/side-projects/fight-the-stupid.png" alt="" loading="lazy">
+        <img class="list-mc__img" src="assets/img/side-projects/fight-the-stupid.png" alt="Fight the Stupid" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Fight the Stupid</h3>
           <p class="list-mc__description">My political protest site.</p>
@@ -131,7 +131,7 @@ permalink: /side-projects
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/side-projects/jillian-russo.png" alt="" loading="lazy">
+        <img class="list-mc__img" src="assets/img/side-projects/jillian-russo.png" alt="Woman in an glass interior" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Jillian Russo Site</h3>
           <p class="list-mc__description">Website for my wife, an art historian and curator.</p>
@@ -139,7 +139,7 @@ permalink: /side-projects
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/side-projects/jules.png" alt="" loading="lazy">
+        <img class="list-mc__img" src="assets/img/side-projects/jules.png" alt="photo of a young girl" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Jules Ferrin Site</h3>
           <p class="list-mc__description">A photo journal for my niece.</p>
@@ -147,7 +147,7 @@ permalink: /side-projects
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/side-projects/greta.png" alt="" loading="lazy">
+        <img class="list-mc__img" src="assets/img/side-projects/greta.png" alt="photo of a smiling young girl on a swing set" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Greta Ferrin Site</h3>
           <p class="list-mc__description">And another one for my other niece.</p>
@@ -155,7 +155,7 @@ permalink: /side-projects
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/side-projects/g-train-love-story.png" alt="" loading="lazy">
+        <img class="list-mc__img" src="assets/img/side-projects/g-train-love-story.png" alt="map of north Brooklyn" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">G Train Love Story</h3>
           <p class="list-mc__description">Our wedding website.</p>

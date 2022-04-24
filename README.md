@@ -58,3 +58,7 @@ https://d1snbyjv506jvs.cloudfront.net/portland-summer-2018/IMG_9492.jpeg
 ```
 
 for all images
+
+### Deployment
+
+push to `master` branch
