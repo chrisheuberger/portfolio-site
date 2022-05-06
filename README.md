@@ -38,7 +38,8 @@ Convert videos to gifs: https://ezgif.com/video-to-gif
 
 log in to [AWS console](https://console.aws.amazon.com/)
 
-Services > S3  
+Services > S3
+chrisheuberger.com
 Create folder  
 upload images  
 

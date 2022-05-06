@@ -87,10 +87,12 @@
   .category {
     display: inline-block;
     margin-top: rem(20px);
-    padding: rem(4px) rem(14px);
+    padding: rem(2px) rem(10px);
     font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     border-radius: 500px;
-    color: $browndark;
+    color: $greendark;
     background: $greenlight;
   }
 }

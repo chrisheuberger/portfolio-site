@@ -2,6 +2,7 @@
 title: Chris Heuberger / Work
 layout: default
 permalink: /work
+img-root: https://d1snbyjv506jvs.cloudfront.net/work
 ---
 
 <div class="main-content">
@@ -14,7 +15,7 @@ permalink: /work
   <section class="list-wrapper">
     <ul class="list-mc">
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/work/accountability-framework.png" alt="website screenshot on a laptop" loading="lazy">
+        <img class="list-mc__img" src="{{ page.img-root }}/accountability-framework.png" alt="website screenshot on a laptop" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Accountability Framework Initiative</h3>
           <p class="list-mc__description">Providing businesses with information and guidance on how to achieve ethical supply chains free from deforestation, conversion, and human rights violations.</p>
@@ -22,7 +23,7 @@ permalink: /work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/work/ihra.png" alt="Learn the facts. Spread the word." loading="lazy">
+        <img class="list-mc__img" src="{{ page.img-root }}/ihra.png" alt="Learn the facts. Spread the word." loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">International Holocaust Remembrance Alliance</h3>
           <p class="list-mc__description">Countering Holocaust distortion in collaboration with the European Commission, the United Nations, and UNESCO.</p>
@@ -30,7 +31,7 @@ permalink: /work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/work/clinton-foundation.gif" alt="video with text overlay putting people first" loading="lazy">
+        <img class="list-mc__img" src="{{ page.img-root }}/clinton-foundation.gif" alt="video with text overlay putting people first" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">The Clinton Foundation</h3>
           <p class="list-mc__description">A philanthropic nonprofit dedicated to expanding economic opportunity, improving public health, confronting the climate crisis, and inspiring citizen engagement and service.</p>
@@ -38,7 +39,7 @@ permalink: /work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img list-mc__img-border" src="assets/img/work/brac-upgi.png" alt="smiling indigenous people" loading="lazy">
+        <img class="list-mc__img list-mc__img-border" src="{{ page.img-root }}/brac-upgi.png" alt="smiling indigenous people" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">BRAC UPGI</h3>
           <p class="list-mc__description">BRAC (Building Resources Across Communities) is a Bangladeshi international development NGO (and one of the world's largest NGO's). This site is for their Ultra Poor Graduation Initiative empowering millions of people to escape extreme poverty through education.</p>
@@ -46,7 +47,7 @@ permalink: /work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/work/fulcrum.png" alt="wheel hub and spokes" loading="lazy">
+        <img class="list-mc__img" src="{{ page.img-root }}/fulcrum.png" alt="wheel hub and spokes" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Fulcrum</h3>
           <p class="list-mc__description">A web app that enables businesses to collect field data with no-code mobile apps. These apps can instantly be deployed for use, and collect data without an internet connection.</p>
@@ -54,7 +55,7 @@ permalink: /work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/work/bigid.gif" alt="animated shape clusters" loading="lazy">
+        <img class="list-mc__img" src="{{ page.img-root }}/bigid.gif" alt="animated shape clusters" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">BigID</h3>
           <p class="list-mc__description">An ambitious startup with a first-of-its-kind data intelligence platform supporting companies in consolidating systems, protecting customer data, and achieving compliance with data-protection laws.</p>
@@ -62,7 +63,7 @@ permalink: /work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/work/affordablecarenc.png" alt="zoomed in medical document" loading="lazy">
+        <img class="list-mc__img" src="{{ page.img-root }}/affordablecarenc.png" alt="zoomed in medical document" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Affordable Healthcare Coalition of North Carolina</h3>
           <p class="list-mc__description">A nonprofit, nonpartisan, statewide grassroots organization committed to lowering the cost of quality healthcare for businesses, workers, and their families.</p>
@@ -70,7 +71,7 @@ permalink: /work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/work/womens-refugee-commission.png" alt="refugee women" loading="lazy">
+        <img class="list-mc__img" src="{{ page.img-root }}/womens-refugee-commission.png" alt="refugee women" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Women's Refugee Commission</h3>
           <p class="list-mc__description">Raising awareness to secure essential funds from the United Nations and beyond.</p>
@@ -78,7 +79,7 @@ permalink: /work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/work/culture-track.gif" alt="colorful scrolling website" loading="lazy">
+        <img class="list-mc__img" src="{{ page.img-root }}/culture-track.gif" alt="colorful scrolling website" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Culture Track</h3>
           <p class="list-mc__description">A cultural innovation platform, dedicated to addressing the most pressing challenges facing the worlds of culture and creativity through research, education, dialogue, and action.</p>
@@ -86,7 +87,7 @@ permalink: /work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img list-mc__img-border" src="assets/img/work/red.png" alt="woman with a mask" loading="lazy">
+        <img class="list-mc__img list-mc__img-border" src="{{ page.img-root }}/red.png" alt="woman with a mask" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">(RED)</h3>
           <p class="list-mc__description">(RED) partners with the world's most iconic brands to support global health and equity.</p>
@@ -94,7 +95,7 @@ permalink: /work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/work/radish-lab.png" alt="textured background with cropped text" loading="lazy">
+        <img class="list-mc__img" src="{{ page.img-root }}/radish-lab.png" alt="textured background with cropped text" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Radish Lab website</h3>
           <p class="list-mc__description">The company I've been a part of for over 6 years. A purpose-driven creative agency in Brooklyn and Berlin.</p>
@@ -102,7 +103,7 @@ permalink: /work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/work/egfaccelerator.gif" alt="scrolling website with smiling children in a classroom" loading="lazy">
+        <img class="list-mc__img" src="{{ page.img-root }}/egfaccelerator.gif" alt="scrolling website with smiling children in a classroom" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Edwin Gould Foundation Accelerator</h3>
           <p class="list-mc__description">The EGF Accelerator is a long-term nonprofit incubator working to improve educational equity in New York City.</p>
@@ -110,7 +111,7 @@ permalink: /work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/work/tobacco-atlas.png" alt="illustration of a cigarette over globe" loading="lazy">
+        <img class="list-mc__img" src="{{ page.img-root }}/tobacco-atlas.png" alt="illustration of a cigarette over globe" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Tobacco Atlas</h3>
           <p class="list-mc__description">A leading resource on tobacco use and its impact on world health created for the American Cancer Society.</p>
@@ -118,7 +119,7 @@ permalink: /work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img list-mc__img-border" src="assets/img/work/fosi.png" alt="girl running in a field" loading="lazy">
+        <img class="list-mc__img list-mc__img-border" src="{{ page.img-root }}/fosi.png" alt="girl running in a field" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">FOSI</h3>
           <p class="list-mc__description">Family Online Safety Institute is a framework for analysis and information regarding online safety for kids and their families around the world, FOSI provides both policymakers and parents with the tools, information, and resources to make informed decisions.</p>
@@ -126,7 +127,7 @@ permalink: /work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/work/inside-schools.png" alt="parents and teachers around a table" loading="lazy">
+        <img class="list-mc__img" src="{{ page.img-root }}/inside-schools.png" alt="parents and teachers around a table" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">InsideSchools</h3>
           <p class="list-mc__description">Providing independent evaluations, comparisons, and insight into New York City public schools as well as information about the New York City Department of Education.</p>
@@ -134,7 +135,7 @@ permalink: /work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/work/enodorights.gif" alt="rotating nature scenes" loading="lazy">
+        <img class="list-mc__img" src="{{ page.img-root }}/enodorights.gif" alt="rotating nature scenes" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Enodo Rights</h3>
           <p class="list-mc__description">Deploying legal expertise to analyze corporate social impacts through a human rights lens.</p>
@@ -142,7 +143,7 @@ permalink: /work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/work/nastad.png" alt="geometric pattern with cropped text" loading="lazy">
+        <img class="list-mc__img" src="{{ page.img-root }}/nastad.png" alt="geometric pattern with cropped text" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">NASTAD Annual Report</h3>
           <p class="list-mc__description">Annual impact report for the National Alliance of State and Territorial AIDS Directors</p>
@@ -150,7 +151,7 @@ permalink: /work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/work/landesa.png" alt="rural Asian painted faces" loading="lazy">
+        <img class="list-mc__img" src="{{ page.img-root }}/landesa.png" alt="rural Asian painted faces" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Landesa Annual Report</h3>
           <p class="list-mc__description">Harnessing land rights to fight global poverty and conflict, strengthening food security, and improving environmental stewardship.</p>
@@ -158,7 +159,7 @@ permalink: /work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/work/humanityunited.png" alt="a baby’s hand in a larger hand" loading="lazy">
+        <img class="list-mc__img" src="{{ page.img-root }}/humanityunited.png" alt="a baby’s hand in a larger hand" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Humanity United Performance Report</h3>
           <p class="list-mc__description">A philanthropic organization and partnership network combating forced labor and human trafficking and dismantling systems of violent conflict and human exploitation around the world.</p>
@@ -166,7 +167,7 @@ permalink: /work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img list-mc__img-border" src="assets/img/work/promundo.png" alt="father kissing his child on the head" loading="lazy">
+        <img class="list-mc__img list-mc__img-border" src="{{ page.img-root }}/promundo.png" alt="father kissing his child on the head" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Promundo</h3>
           <p class="list-mc__description">A global leader in advancing gender equality and preventing violence by engaging men and boys in partnership with women, girls, and individuals of all gender identities.</p>
@@ -174,7 +175,7 @@ permalink: /work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img list-mc__img-border" src="assets/img/work/cre.png" alt="cityscape" loading="lazy">
+        <img class="list-mc__img list-mc__img-border" src="{{ page.img-root }}/cre.png" alt="cityscape" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Community Resource Exchange (CRE)</h3>
           <p class="list-mc__description">Partnering with organizations to reduce poverty, promote equity, and increase opportunity.</p>
@@ -182,7 +183,7 @@ permalink: /work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="assets/img/work/nationbuilder.png" alt="map icon with arrow" loading="lazy">
+        <img class="list-mc__img" src="{{ page.img-root }}/nationbuilder.png" alt="map icon with arrow" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">A Mini Guide to NationBuilder</h3>
           <p class="list-mc__description">An overview of the content management and customer relationship software designed for nonprofits, movements, and campaigns.</p>

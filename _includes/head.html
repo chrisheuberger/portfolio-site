@@ -6,6 +6,22 @@
   <title>{{ page.title }}</title>
   <meta name="description" content="The portfolio website of Chris Heuberger — developer / designer / organizer - Brooklyn, NY">
   <link href="/assets/img/favicon.png" rel="shortcut icon" type="image/x-icon">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@chrisbup">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="The portfolio website of Chris Heuberger — developer / designer / organizer - Brooklyn, NY">
+  <meta name="twitter:image" content="/assets/img/og-art-1.png">
+  <meta name="twitter:creator" content="@chrisbup">
+
+  <!-- Open Graph data -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://www.chrisheuberger.com/" />
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:description" content="The portfolio website of Chris Heuberger — developer / designer / organizer - Brooklyn, NY" />
+  <meta property="og:image" content="/assets/img/og-art-1.png" />
+
   {% if page.url == "/rrbc" %}
     <link href="/assets/css/rrbc.css" rel="stylesheet">
   {% elsif page.url == "/hiit" %}
