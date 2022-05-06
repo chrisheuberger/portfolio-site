@@ -20,6 +20,14 @@ $(function() {
     $(".mobile-menu-group").toggleClass("showing");
   });
 
+  // dynamic open graph tags
+
+  let ogNumbers = ['1', '2', '3'];
+  let ogImgUrl = "http://www.chrisheuberger.com/assets/img/og-art-" + ogNumbers[Math.floor(Math.random() * ogNumbers.length)] + ".png";
+  
+  $("meta[name='twitter:image']").attr("content", ogImgUrl);
+  $("meta[property='og:image']").attr("content", ogImgUrl);
+
   // display console message only smaller screens
 
   let checkMobileViewed = false;
