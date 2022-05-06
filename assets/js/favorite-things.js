@@ -1,16 +1,16 @@
 $(function() {
 
-  var options = {
+  let options = {
     valueNames: ["name", "category"]
   };
 
-  var userList = new List("search-results", options);
-  var activeFilters = [];
+  let userList = new List("search-results", options);
+  let activeFilters = [];
 
   // filter
   $(".filter").change(function() {
-    var isChecked = this.checked;
-    var value = $(this).data("value");
+    let isChecked = this.checked;
+    let value = $(this).data("value");
 
     if (isChecked) {
       // add to list of active filters

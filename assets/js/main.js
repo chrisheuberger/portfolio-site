@@ -14,8 +14,6 @@ $(function() {
 
   // mobile nav
 
-  let $menu = $("#menu");
-
   $(".menu-tab").on("click", function () {
     $(".mobile-menu-group").toggleClass("showing");
   });
@@ -28,56 +26,21 @@ $(function() {
   $("meta[name='twitter:image']").attr("content", ogImgUrl);
   $("meta[property='og:image']").attr("content", ogImgUrl);
 
-  // display console message only smaller screens
-
-  let checkMobileViewed = false;
-
-  function mobileViewed() {
-    console.log(
-      '%cRegarding the mobile menu tab icon, my last name is pronounced "HI-ber-ger." Do you get it? Do you get it?',
-      "background-color:#6CF1AD;",
-      "\n\n" + "design reference: https://www.ibm.com/design/language/elements/logos/rebus/#ibm-rebus",
-      "\n" + "movie reference: https://www.youtube.com/watch?v=oBoPQUIowHY"
-    );
-    checkMobileViewed = true;
-  }
-  if ($(window).width() < 767) {
-    mobileViewed();
-  }
-
-  $(window).resize(function () {
-    if ($(window).width() > 768) {
-      $menu.css("display", "");
-    }
-    if ($(window).width() < 767 && checkMobileViewed == false) {
-      mobileViewed();
-    }
-  });
-
-  // color list for links and color bar 
-
-  const colorsList = ['#6CF1AD', '#41DFF9', '#8F80FF', '#FF8464', '#FF00A0', '#CECC7D', '#FCE500', '#A8FFD5'];
-
-  // color bar
-
-  var randomColor = colorsList[Math.floor(Math.random() * colorsList.length)];
-  $('.mobile-color-bar, .desktop-color-bar').css('background-color',randomColor);
-
   // fade page transition
 
   document.addEventListener('DOMContentLoaded', function() {
     if (!window.AnimationEvent) { return; }
-    var anchors = document.getElementsByTagName('a');
-    for (var idx=0; idx<anchors.length; idx+=1) {
+    let anchors = document.getElementsByTagName('a');
+    for (let idx=0; idx<anchors.length; idx+=1) {
       if (anchors[idx].hostname !== window.location.hostname ||
         anchors[idx].pathname === window.location.pathname) {
         continue;
       }
       anchors[idx].addEventListener('click', function(event) {
-        var fader = document.getElementById('page-fade-veil'),
+        let fader = document.getElementById('page-fade-veil'),
             anchor = event.currentTarget;
         
-        var listener = function() {
+        let listener = function() {
           window.location = anchor.href;
           fader.removeEventListener('animationend', listener);
         };
@@ -94,9 +57,18 @@ $(function() {
     if (!event.persisted) {
       return;
     }
-    var fader = document.getElementById('page-fade-veil');
+    let fader = document.getElementById('page-fade-veil');
     fader.classList.remove('fade-in');
   });
+
+  // color list for color bar  and links
+
+  const colorsList = ['#6CF1AD', '#41DFF9', '#8F80FF', '#FF8464', '#FF00A0', '#CECC7D', '#FCE500', '#A8FFD5'];
+
+  // color bar
+
+  let randomColor = colorsList[Math.floor(Math.random() * colorsList.length)];
+  $('.mobile-color-bar, .desktop-color-bar').css('background-color',randomColor);
 
   // link hover effect
 
@@ -152,4 +124,31 @@ $(function() {
 
   $(".date").append(days[date.getDay()] + ".");
 
+});
+
+// display console message only smaller screens
+
+let menu = $("#menu");
+let checkMobileViewed = false;
+
+function mobileViewed() {
+  console.log(
+    '%cRegarding the mobile menu tab icon, my last name is pronounced "HI-ber-ger." Do you get it? Do you get it?',
+    "background-color:#6CF1AD;",
+    "\n\n" + "design reference: https://www.ibm.com/design/language/elements/logos/rebus/#ibm-rebus",
+    "\n" + "movie reference: https://www.youtube.com/watch?v=oBoPQUIowHY"
+  );
+  checkMobileViewed = true;
+}
+if ($(window).width() < 767) {
+  mobileViewed();
+}
+
+$(window).resize(function () {
+  if ($(window).width() > 768) {
+    menu.css("display", "");
+  }
+  if ($(window).width() < 767 && checkMobileViewed == false) {
+    mobileViewed();
+  }
 });
