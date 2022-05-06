@@ -21,7 +21,7 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/about
           </div>
         </div>
       </div>
-      <p>I’m a full-stack web developer, though I focus more on the front end. I build websites for positive social impact. My aim is to craft simple, beautiful, and well-considered products. I’m into data visualization, typography, and all forms of design as well as science, math, art, philosophy, psychology and pretty much every other subject. I enjoy running, playing soccer, reading non-fiction, learning about theoretical physics, deeply analyzing works of art, organizing everything, making lists, making smoothies, watching old movies, cooking mediterranean, volunteering, and petting any dog I meet. My last name is pronounced <strong>HI&#8239;•&#8239;ber&#8239;•&#8239;ger</strong> but I’m not a stickler.</p>
+      <p>I’m a full-stack web developer, though I focus more on the front end. I build websites for positive social impact. My aim is to craft simple, beautiful, and well-considered products. I’m into data visualization, typography, and all forms of design as well as science, math, art, philosophy, psychology and pretty much every other subject. I enjoy running, playing soccer, reading non-fiction, learning about theoretical physics, deeply analyzing works of art, organizing everything, making lists, making smoothies, watching old movies, cooking mediterranean, volunteering, and petting any dog I meet. My last name is pronounced <strong>HI<span class="syllable-bullet">•</span>ber<span class="syllable-bullet">•</span>ger</strong> but I’m not a stickler.</p>
     </div>
   </div>
 
