@@ -90,7 +90,7 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/wall-of-fame
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/fire-sland-park-ranger-resized.jpg" alt="A park ranger on Fire Island and me!" loading="lazy">
+        <img class="list-mc__img" src="{{ page.img-root }}/fire-island-park-ranger-resized.jpg" alt="A park ranger on Fire Island and me!" loading="lazy">
         <div class="list-mc__text">
           <p class="small">A park ranger on Fire Island and me!</p>
         </div>
