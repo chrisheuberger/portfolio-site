@@ -23,8 +23,12 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/annual-emails
           <p class="list-mc__resources with-just-btn"><a class="btn" href="https://mailchi.mp/872124aa0b31/holiday-greetings-from-chris-jillian" target="_blank" rel="noopener">View Email</a></p>
         </div>
       </li>
+      <!--  -->
       <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/2019-email.gif" alt="scrolling timeline with photos" loading="lazy">
+        <video class="list-mc__img list-mc__img-border" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/2019-email.webm" type="video/webm">
+          <source src="{{ page.img-root }}/2019-email.mp4" type="video/mp4">
+        </video>
         <div class="list-mc__text">
           <p class="list-mc__resources with-just-btn"><a class="btn" href="https://mailchi.mp/a845c9462ec5/chris-and-jillians-year-in-review-vol-3-2499437" target="_blank" rel="noopener">View Email</a></p>
         </div>
@@ -36,7 +40,10 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/annual-emails
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img list-mc__img-border" src="{{ page.img-root }}/2017-email.gif" alt="2017 Chris and Jillian's year in review" loading="lazy">
+        <video class="list-mc__img list-mc__img-border" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/2017-email.webm" type="video/webm">
+          <source src="{{ page.img-root }}/2017-email.mp4" type="video/mp4">
+        </video>
         <div class="list-mc__text">
           <p class="list-mc__resources with-just-btn"><a class="btn" href="https://mailchi.mp/87699b70824a/chris-and-jillians-year-in-review-vol-3-2017" target="_blank" rel="noopener">View Email</a></p>
         </div>
