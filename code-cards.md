@@ -24,13 +24,19 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/code-cards
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/anniversary-2021.gif" alt="happy anniversary mom and dad" loading="lazy">
+        <video class="list-mc__img" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/anniversary-2021.webm" type="video/webm">
+          <source src="{{ page.img-root }}/anniversary-2021.mp4" type="video/mp4">
+        </video>
         <div class="list-mc__text">
           <p class="list-mc__resources with-just-btn"><a class="btn" href="https://codepen.io/ChrisBup/live/ZEJzZZB" target="_blank" rel="noopener">View Code Card</a></p>
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/dad-bday-2021.gif" alt="wall of text with letters highlighted" loading="lazy">
+        <video class="list-mc__img" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/dad-bday-2021.webm" type="video/webm">
+          <source src="{{ page.img-root }}/dad-bday-2021.mp4" type="video/mp4">
+        </video>
         <div class="list-mc__text">
           <p class="list-mc__resources with-just-btn"><a class="btn" href="https://codepen.io/ChrisBup/live/GREaZRN" target="_blank" rel="noopener">View Code Card</a></p>
         </div>
@@ -42,7 +48,10 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/code-cards
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/greta-bday-2020.gif" alt="multicolor happy birthday" loading="lazy">
+        <video class="list-mc__img" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/greta-bday-2020.webm" type="video/webm">
+          <source src="{{ page.img-root }}/greta-bday-2020.mp4" type="video/mp4">
+        </video>
         <div class="list-mc__text">
           <p class="list-mc__resources with-just-btn"><a class="btn" href="https://codepen.io/ChrisBup/live/zYBNJWa" target="_blank" rel="noopener">View Code Card</a></p>
         </div>
@@ -54,13 +63,19 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/code-cards
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/anniversary-2020.gif" alt="happy anniversary animated text" loading="lazy">
+        <video class="list-mc__img" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/anniversary-2020.webm" type="video/webm">
+          <source src="{{ page.img-root }}/anniversary-2020.mp4" type="video/mp4">
+        </video>
         <div class="list-mc__text">
           <p class="list-mc__resources with-just-btn"><a class="btn" href="https://parents-anniversary-codecard-2020.glitch.me/" target="_blank" rel="noopener">View Code Card</a></p>
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/dad-bday-2020.gif" alt="happy 70th birthday animated text" loading="lazy">
+        <video class="list-mc__img" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/dad-bday-2020.webm" type="video/webm">
+          <source src="{{ page.img-root }}/dad-bday-2020.mp4" type="video/mp4">
+        </video>
         <div class="list-mc__text">
           <p class="list-mc__resources with-just-btn"><a class="btn" href="https://dads-birthday-codecard-2020.glitch.me/" target="_blank" rel="noopener">View Code Card</a></p>
         </div>
@@ -72,7 +87,10 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/code-cards
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/anthony-bday-2020.gif" alt="fireworks behind cropped text" loading="lazy">
+        <video class="list-mc__img" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/anthony-bday-2020.webm" type="video/webm">
+          <source src="{{ page.img-root }}/anthony-bday-2020.mp4" type="video/mp4">
+        </video>
         <div class="list-mc__text">
           <p class="list-mc__resources with-just-btn"><a class="btn" href="https://codepen.io/ChrisBup/live/PoPKjab" target="_blank" rel="noopener">View Code Card</a></p>
         </div>
@@ -120,7 +138,10 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/code-cards
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img list-mc__img-border" src="{{ page.img-root }}/anniversary-2018.gif" alt="happy anniversary mom and dad animation" loading="lazy">
+        <video class="list-mc__img list-mc__img-border" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/anniversary-2018.webm" type="video/webm">
+          <source src="{{ page.img-root }}/anniversary-2018.mp4" type="video/mp4">
+        </video>
         <div class="list-mc__text">
           <p class="list-mc__resources with-just-btn"><a class="btn" href="https://codepen.io/ChrisBup/live/QZvymK" target="_blank" rel="noopener">View Code Card</a></p>
         </div>

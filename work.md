@@ -31,7 +31,10 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/clinton-foundation.gif" alt="video with text overlay putting people first" loading="lazy">
+        <video class="list-mc__img" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/clinton-foundation.webm" type="video/webm">
+          <source src="{{ page.img-root }}/clinton-foundation.mp4" type="video/mp4">
+        </video>
         <div class="list-mc__text">
           <h3 class="list-mc__title">The Clinton Foundation</h3>
           <p class="list-mc__description">A philanthropic nonprofit dedicated to expanding economic opportunity, improving public health, confronting the climate crisis, and inspiring citizen engagement and service.</p>
@@ -55,7 +58,10 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/bigid.gif" alt="animated shape clusters" loading="lazy">
+        <video class="list-mc__img" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/bigid.webm" type="video/webm">
+          <source src="{{ page.img-root }}/bigid.mp4" type="video/mp4">
+        </video>
         <div class="list-mc__text">
           <h3 class="list-mc__title">BigID</h3>
           <p class="list-mc__description">An ambitious startup with a first-of-its-kind data intelligence platform supporting companies in consolidating systems, protecting customer data, and achieving compliance with data-protection laws.</p>
@@ -79,7 +85,10 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/culture-track.gif" alt="colorful scrolling website" loading="lazy">
+        <video class="list-mc__img" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/culture-track.webm" type="video/webm">
+          <source src="{{ page.img-root }}/culture-track.mp4" type="video/mp4">
+        </video>
         <div class="list-mc__text">
           <h3 class="list-mc__title">Culture Track</h3>
           <p class="list-mc__description">A cultural innovation platform, dedicated to addressing the most pressing challenges facing the worlds of culture and creativity through research, education, dialogue, and action.</p>
@@ -103,7 +112,10 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/egfaccelerator.gif" alt="scrolling website with smiling children in a classroom" loading="lazy">
+        <video class="list-mc__img" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/egfaccelerator.webm" type="video/webm">
+          <source src="{{ page.img-root }}/egfaccelerator.mp4" type="video/mp4">
+        </video>
         <div class="list-mc__text">
           <h3 class="list-mc__title">Edwin Gould Foundation Accelerator</h3>
           <p class="list-mc__description">The EGF Accelerator is a long-term nonprofit incubator working to improve educational equity in New York City.</p>
@@ -135,7 +147,10 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/work
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/enodorights.gif" alt="rotating nature scenes" loading="lazy">
+        <video class="list-mc__img" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/enodorights.webm" type="video/webm">
+          <source src="{{ page.img-root }}/enodorights.mp4" type="video/mp4">
+        </video>
         <div class="list-mc__text">
           <h3 class="list-mc__title">Enodo Rights</h3>
           <p class="list-mc__description">Deploying legal expertise to analyze corporate social impacts through a human rights lens.</p>

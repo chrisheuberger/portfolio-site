@@ -36,15 +36,9 @@ For videos, use MPEG and WebM: https://web.dev/efficient-animated-content/
 
 Convert MOV to MPEG: https://www.videoconverter.com/convert-mov-to-mpeg.html  
 Convert MOV to WebM: https://cloudconvert.com/mov-to-webm  
-Convert GIFs to MPEG (limit of 10 per day): https://convertio.co/gif-mpeg/  
-Convert GIFs to MPEG: https://miconv.com/convert-gif-to-mpeg/  
+Convert GIFs to MP4: https://cloudconvert.com/gif-to-mp4  
 Convert GIFs to WebM: https://ezgif.com/gif-to-webm
 
-Or use [FFMEG](https://ffmpeg.org/) to convert GIFs to MPEG and WebM:
-```
-ffmpeg -i XXX.gif XXX.mp4
-ffmpeg -i XXX.gif -c vp9 -b:v 0 -crf 41 XXX.webm
-```
 
 ### Use AWS Cloudfront for Images
 

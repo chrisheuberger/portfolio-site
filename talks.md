@@ -12,7 +12,10 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/talks
   <section class="list-wrapper">
     <ul class="simple-list">
       <li class="simple-list__item">
-        <img class="simple-list__img simple-list__img-border" src="{{ page.img-root }}/bcs.gif" alt="colorful animated lettering that reads showcase!" loading="lazy">
+        <video class="simple-list__img simple-list__img-border" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/bcs.webm" type="video/webm">
+          <source src="{{ page.img-root }}/bcs.mp4" type="video/mp4">
+        </video>
         <div class="simple-list__text">
           <h3 class="simple-list__title">What is a Web Developer?</h3>
           <h6 class="simple-list__date">April 2019</h6>

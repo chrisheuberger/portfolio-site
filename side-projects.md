@@ -68,7 +68,11 @@ img-root: https://d1snbyjv506jvs.cloudfront.net
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/side-projects/quarantainment.gif" alt="happy face icon over moving text" loading="lazy">
+        <img class="list-mc__img" src="{{ page.img-root }}/side-projects/.gif" alt="happy face icon over moving text" loading="lazy">
+        <video class="list-mc__img" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/side-projects/quarantainment.webm" type="video/webm">
+          <source src="{{ page.img-root }}/side-projects/quarantainment.mp4" type="video/mp4">
+        </video>
         <div class="list-mc__text">
           <h3 class="list-mc__title">Quarantainment</h3>
           <p class="list-mc__description">A running collection of events, entertainment, and resources available online to help make quarantine life just a little bit better.</p>

@@ -51,7 +51,10 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/creative
         <img class="list-mc__img list-mc__img-full-border" src="{{ page.img-root }}/bushwick-brewing-tour-url.jpg" alt="Type with squiggly underline" loading="lazy">
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/bonde-sketches.gif" alt="Sketchbook of colorful drawings" loading="lazy">
+        <video class="list-mc__img" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/bonde-sketches.webm" type="video/webm">
+          <source src="{{ page.img-root }}/bonde-sketches.mp4" type="video/mp4">
+        </video>
       </li>
       <li class="list-mc__item">
         <img class="list-mc__img" src="{{ page.img-root }}/collage-brunch-1.jpg" alt="Collage with bright colors" loading="lazy">
@@ -70,13 +73,18 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/creative
       </li>
       <li class="list-mc__item">
         <img class="list-mc__img" src="{{ page.img-root }}/collage-dancing-girl.jpg" alt="Collage with dancing girl" loading="lazy">
-      </li><li class="list-mc__item">
+      </li>
+      <li class="list-mc__item">
         <img class="list-mc__img" src="{{ page.img-root }}/collage-face.jpg" alt="Collage with face" loading="lazy">
-      </li><li class="list-mc__item">
+      </li>
+      <li class="list-mc__item">
         <img class="list-mc__img" src="{{ page.img-root }}/collage-two-women.jpg" alt="Collage with two women" loading="lazy">
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/mayday-halloween-2018-save-date-v2.gif" alt="Event flyer with zombie" loading="lazy">
+        <video class="list-mc__img" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/mayday-halloween-2018-save-date-v2.webm" type="video/webm">
+          <source src="{{ page.img-root }}/mayday-halloween-2018-save-date-v2.mp4" type="video/mp4">
+        </video>
       </li>
       <li class="list-mc__item">
         <img class="list-mc__img" src="{{ page.img-root }}/mayday-halloween-2018-simplified-square-v2a.png" alt="Flyer with zombie" loading="lazy">
@@ -121,7 +129,10 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/creative
         <img class="list-mc__img list-mc__img-full-border" src="{{ page.img-root }}/color-outline-illustrations-12.png" alt="Hand with fingers crossed" loading="lazy">
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/holiday-cards.gif" alt="Holiday greetings cards" loading="lazy">
+        <video class="list-mc__img" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/holiday-cards.webm" type="video/webm">
+          <source src="{{ page.img-root }}/holiday-cards.mp4" type="video/mp4">
+        </video>
       </li>
       <li class="list-mc__item">
         <img class="list-mc__img list-mc__img-full-border" src="{{ page.img-root }}/blockpartyflyer.jpg" alt="North Third Street block party flyer." loading="lazy">
