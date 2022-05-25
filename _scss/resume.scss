@@ -63,7 +63,7 @@
     position: fixed;
     z-index: 10;
     top: rem(20px);
-    left: calc(100% - 620px);
+    left: calc(100% - 640px);
     width: 600px;
     height: 410px;
   }
@@ -122,10 +122,3 @@
     }
   }
 }
-
-// resume text links
-
-.resume-text-link-wrapper ~ .resume-text-link-wrapper {
-  margin-top: rem(20px);
-}
-  

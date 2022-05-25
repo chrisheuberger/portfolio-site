@@ -114,9 +114,7 @@ permalink: /resume
   </div>
 
   <hr/>
-  <p class="resume-text-link-wrapper"><a class="text-link" href="/assets/docs/chris-heuberger-resume-2022.pdf" target="_blank" rel="noopener">Download R&eacute;sum&eacute; PDF</a></p>
-  <p class="resume-text-link-wrapper"><a class="text-link" href="#" target="_blank" rel="noopener">View R&eacute;sum&eacute; JSON</a></p>
-    
+  <p class="resume-text-link-wrapper"><a class="text-link" href="/assets/docs/chris-heuberger-resume-2022.pdf" target="_blank" rel="noopener">Download R&eacute;sum&eacute; PDF</a></p>    
   </div>
 
 </div>
