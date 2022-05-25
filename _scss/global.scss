@@ -50,11 +50,35 @@
   }
 }
 
+@-webkit-keyframes fade-out {
+  from { opacity: 1 }
+  to { opacity: 0 }
+}
+@-moz-keyframes fade-out {
+  from { opacity: 1 }
+  to { opacity: 0 }
+}
+@-o-keyframes fade-out {
+  from { opacity: 1 }
+  to { opacity: 0 }
+}
 @keyframes fade-out {
   from { opacity: 1 }
   to { opacity: 0 }
 }
 
+@-webkit-keyframes fade-in {
+  from { opacity: 0 }
+  to { opacity: 1 }
+}
+@-moz-keyframes fade-in {
+  from { opacity: 0 }
+  to { opacity: 1 }
+}
+@-o-keyframes fade-in {
+  from { opacity: 0 }
+  to { opacity: 1 }
+}
 @keyframes fade-in {
   from { opacity: 0 }
   to { opacity: 1 }
@@ -81,14 +105,12 @@
   font-family: $display-font-stack;
   font-weight: 700;
   line-height: 1.15;
+  -webkit-animation: textColorFlash 2s forwards;
+  -moz-animation: textColorFlash 2s forwards;
+  -o-animation: textColorFlash 2s forwards;
   animation: textColorFlash 2s forwards;
 }
 
-@keyframes textColorFlash {
-  0% { color: $green; }
-  25% { color: $green; }
-  100% { color: $browndark; }
-}
 @-webkit-keyframes textColorFlash {
   0% { color: $green; }
   25% { color: $green; }
@@ -100,6 +122,11 @@
   100% { color: $browndark; }
 }
 @-o-keyframes textColorFlash {
+  0% { color: $green; }
+  25% { color: $green; }
+  100% { color: $browndark; }
+}
+@keyframes textColorFlash {
   0% { color: $green; }
   25% { color: $green; }
   100% { color: $browndark; }

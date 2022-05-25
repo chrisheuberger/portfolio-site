@@ -39,6 +39,10 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
   display: flex;
   justify-content: center;
@@ -73,6 +77,10 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
     display: inline-block;
     font-size: 60px;
@@ -85,6 +93,10 @@ body {
     left: 50%;
     width: 200px;
     height: 200px;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
     .countdown-svg {
       display: block;
@@ -93,6 +105,10 @@ body {
       left: 0;
       width: 200px;
       height: 200px;
+      -webkit-transform: rotateY(-180deg) rotateZ(-90deg);
+      -moz-transform: rotateY(-180deg) rotateZ(-90deg);
+      -ms-transform: rotateY(-180deg) rotateZ(-90deg);
+      -o-transform: rotateY(-180deg) rotateZ(-90deg);
       transform: rotateY(-180deg) rotateZ(-90deg);
       circle {
         stroke-dasharray: 575px;
@@ -100,12 +116,27 @@ body {
         stroke-width: 20px;
         stroke: #fff;
         fill: none;
+        -webkit-animation: countdown30 30s linear forwards;
+        -moz-animation: countdown30 30s linear forwards;
+        -o-animation: countdown30 30s linear forwards;
         animation: countdown30 30s linear forwards;
       }
     }
   }
 }
 
+@-webkit-keyframes countdown30 {
+  from { stroke-dashoffset: 0px; }
+  to { stroke-dashoffset: 575px; }
+}
+@-moz-keyframes countdown30 {
+  from { stroke-dashoffset: 0px; }
+  to { stroke-dashoffset: 575px; }
+}
+@-o-keyframes countdown30 {
+  from { stroke-dashoffset: 0px; }
+  to { stroke-dashoffset: 575px; }
+}
 @keyframes countdown30 {
   from { stroke-dashoffset: 0px; }
   to { stroke-dashoffset: 575px; }
