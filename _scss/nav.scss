@@ -105,7 +105,7 @@
   margin: 0;
   padding: 0;
   transform: translateY(100%) translateY(-60px);
-  transition: all 0.125s ease;
+  transition: transform 0.125s ease;
   @include media(medium) {
     display: block;
   }

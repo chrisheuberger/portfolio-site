@@ -16,7 +16,7 @@ permalink: /resume
   </div>
 
   <h5 class="resume-header">Radish Lab / Brooklyn, NY</h5>
-  <h6 class="resume-subheader">Front-end Web Developer, November 2014&ndash;present</h6>
+  <h6 class="resume-subheader">Front-end Web Developer, November 2014&ndash;May 2022</h6>
   <ul class="resume-ul">
     <li>developed, tested, and maintained websites for non-profit organizations and other social impact clients</li>
     <li>oversaw mobile-first front-end development, cross-browser compatibility, and performance optimization</li>
