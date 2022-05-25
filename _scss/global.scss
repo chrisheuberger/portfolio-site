@@ -81,10 +81,25 @@
   font-family: $display-font-stack;
   font-weight: 700;
   line-height: 1.15;
-  animation: textColorFlash 2s 1;
+  animation: textColorFlash 2s forwards;
 }
 
 @keyframes textColorFlash {
+  0% { color: $green; }
+  25% { color: $green; }
+  100% { color: $browndark; }
+}
+@-webkit-keyframes textColorFlash {
+  0% { color: $green; }
+  25% { color: $green; }
+  100% { color: $browndark; }
+}
+@-moz-keyframes textColorFlash {
+  0% { color: $green; }
+  25% { color: $green; }
+  100% { color: $browndark; }
+}
+@-o-keyframes textColorFlash {
   0% { color: $green; }
   25% { color: $green; }
   100% { color: $browndark; }

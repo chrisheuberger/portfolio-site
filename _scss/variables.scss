@@ -53,6 +53,34 @@ $html-font-size: 16px;
   -o-animation: var(--box-shadow-time) BoxShadowSlide var(--box-shadow-time) forwards;
 }
 
+@mixin floating-card-loading-animation {
+  border: 1px solid $divider;
+  box-shadow: 0 0 0 0 $box-shadow-bg;
+  -webkit-box-shadow: 0 0 0 0 $box-shadow-bg;
+  -moz-box-shadow: 0 0 0 0 $box-shadow-bg;
+  animation: var(--box-shadow-time) BoxShadowSlide var(--box-shadow-time) forwards, loadingAnimation 1s forwards;
+  -webkit-animation: var(--box-shadow-time) BoxShadowSlide var(--box-shadow-time) forwards , loadingAnimation 1s forwards;
+  -moz-animation: var(--box-shadow-time) BoxShadowSlide var(--box-shadow-time) forwards , loadingAnimation 1s forwards;
+  -o-animation: var(--box-shadow-time) BoxShadowSlide var(--box-shadow-time) forwards , loadingAnimation 1s forwards;
+}
+
+@keyframes loadingAnimation {
+  0% { top: rem(20px); }
+  100% { top: rem(40px); }
+}
+@-webkit-keyframes loadingAnimation {
+  0% { top: rem(20px); }
+  100% { top: rem(40px); }
+}
+@-moz-keyframes loadingAnimation {
+  0% { top: rem(20px); }
+  100% { top: rem(40px); }
+}
+@-o-keyframes loadingAnimation {
+  0% { top: rem(20px); }
+  100% { top: rem(40px); }
+}
+
 @keyframes BoxShadowSlide {
   0% {
     box-shadow: 0 0 0 0 $box-shadow-bg;

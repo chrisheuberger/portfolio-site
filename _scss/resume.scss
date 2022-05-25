@@ -8,35 +8,124 @@
 
 .resume-header {
   margin: rem(40px) 0 rem(10px) 0;
+  font-family: $base-font-stack;
   font-weight: 400;
 }
 
-.margin-top-lg {
-  margin-top: rem(60px);
+.resume-section-header-wrapper {
   margin-bottom: rem(20px);
+  border-bottom: 2px solid $green;
+}
+
+.resume-section-header {
+  display: inline-block;
+  margin-top: rem(60px);
+  padding: rem(8px) rem(16px);
+  background: $green;
 }
 
 .resume-subheader {
   margin: 1rem 0;
-  color: $greendark;
+  font-family: $base-font-stack;
+  font-weight: 400;
 }
 
-.resume-ul li {
-  margin-top: rem(10px);
-  padding-left: rem(10px);
-  list-style: none;
-  border-left: 2px solid $green;
-}
-
-.tools-list {
-  margin-top: rem(10px);
-  list-style-type: none;
-  .tool {
-    display: inline-block;
-    margin: 0 rem(6px) rem(6px) 0;
-    padding: rem(6px) rem(12px);
-    font-size: rem(12px);
-    color: $greendark;
-    border: 1px solid $greendark; 
+.resume-ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  list-style-image: none;
+  margin-left: rem(20px);
+  li {
+    margin-top: rem(10px);
+    font-size: rem(16px);
+    &::marker {
+      font-size: rem(12px);
+    }
   }
 }
+
+// tech/tools floating ui card
+
+.ui-card {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: rem(20px);
+  background: $graylight;
+  overflow: hidden;
+  touch-action: none;
+  box-sizing: border-box;
+  @include floating-card-loading-animation;
+  @include media(medium) {
+    transform: none;
+  }
+  @include mediaMin(medium) {
+    position: fixed;
+    z-index: 10;
+    top: rem(20px);
+    left: calc(100% - 620px);
+    width: 600px;
+    height: 410px;
+  }
+  &:hover {
+    .ui-instructions {
+      .ui-instructions-text {
+        color: $orangedark;
+      }
+      .ui-svg {
+        path,
+        polygon {
+          fill: $orangedark;
+        }
+      }
+    } 
+  }
+  .ui-instructions {
+    display: none;
+    margin: 0 0 rem(20px) 4px;
+    padding: 0;
+    @include mediaMin(medium) {
+      display: block;
+    }
+    .ui-svg {
+      display: inline-block;
+      height: rem(10px);
+      margin-right: rem(10px);
+      path,
+      polygon {
+        fill: $brownlight;
+      }
+    }
+    .ui-instructions-text {
+      display: inline-block;
+      font-size: 14px;
+      color: $brownlight;
+    }
+  }
+  .ui-card-inner {
+    margin: 0;
+    padding: 0;
+    .ui-card-title {
+      padding-bottom: rem(20px);
+    }
+    .tools-list {
+      margin-top: rem(10px);
+      list-style-type: none;
+      .tool {
+        display: inline-block;
+        margin: 0 rem(6px) rem(6px) 0;
+        padding: rem(6px) rem(12px);
+        font-size: rem(12px);
+        color: $browndark;
+        background: $green;
+      }
+    }
+  }
+}
+
+// resume text links
+
+.resume-text-link-wrapper ~ .resume-text-link-wrapper {
+  margin-top: rem(20px);
+}
+  
