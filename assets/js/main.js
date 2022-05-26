@@ -19,11 +19,11 @@ $(function() {
     if ($(".menu-tab").hasClass("open")) {
       setTimeout(() => {
         $(this).removeClass("open");
-      }, "2250")
+      }, "250")
     } else {
       setTimeout(() => {
         $(this).addClass("open");
-      }, "2250")
+      }, "250")
     }
   });
 

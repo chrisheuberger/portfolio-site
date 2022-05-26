@@ -109,11 +109,11 @@
   -ms-transform: translateY(100%) translateY(-60px);
   -o-transform: translateY(100%) translateY(-60px);
   transform: translateY(100%) translateY(-60px);
-  -webkit-transition: -webkit-transform 2.25s ease;
-  -moz-transition: -moz-transform 2.25s ease;
-  -o-transition: -o-transform 2.25s ease;
-  transition: -webkit-transform 2.25s ease;
-  transition: transform 2.25s ease;
+  -webkit-transition: -webkit-transform 0.25s ease;
+  -moz-transition: -moz-transform 0.25s ease;
+  -o-transition: -o-transform 0.25s ease;
+  transition: -webkit-transform 0.25s ease;
+  transition: transform 0.25s ease;
   @include media(medium) {
     display: block;
   }
