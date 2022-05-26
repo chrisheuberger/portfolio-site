@@ -16,6 +16,15 @@ $(function() {
 
   $(".menu-tab").on("click", function () {
     $(".mobile-menu-group").toggleClass("showing");
+    if ($(".menu-tab").hasClass("open")) {
+      setTimeout(() => {
+        $(this).removeClass("open");
+      }, "2250")
+    } else {
+      setTimeout(() => {
+        $(this).addClass("open");
+      }, "2250")
+    }
   });
 
   // dynamic open graph tags

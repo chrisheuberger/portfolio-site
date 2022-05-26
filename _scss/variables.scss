@@ -44,51 +44,28 @@ $html-font-size: 16px;
 
 @mixin box-shadow-with-animation {
   border: 1px solid $divider;
-  box-shadow: 0 0 0 0 $box-shadow-bg;
   -webkit-box-shadow: 0 0 0 0 $box-shadow-bg;
   -moz-box-shadow: 0 0 0 0 $box-shadow-bg;
-  animation: var(--box-shadow-time) BoxShadowSlide var(--box-shadow-time) forwards;
+  -o-box-shadow: 0 0 0 0 $box-shadow-bg;
+  box-shadow: 0 0 0 0 $box-shadow-bg;
   -webkit-animation: var(--box-shadow-time) BoxShadowSlide var(--box-shadow-time) forwards;
   -moz-animation: var(--box-shadow-time) BoxShadowSlide var(--box-shadow-time) forwards;
   -o-animation: var(--box-shadow-time) BoxShadowSlide var(--box-shadow-time) forwards;
+  animation: var(--box-shadow-time) BoxShadowSlide var(--box-shadow-time) forwards;
 }
 
 @mixin floating-card-loading-animation {
   border: 1px solid $divider;
-  box-shadow: 0 0 0 0 $box-shadow-bg;
   -webkit-box-shadow: 0 0 0 0 $box-shadow-bg;
   -moz-box-shadow: 0 0 0 0 $box-shadow-bg;
-  animation: var(--box-shadow-time) BoxShadowSlide var(--box-shadow-time) forwards, loadingAnimation 1s forwards;
+  -o-box-shadow: 0 0 0 0 $box-shadow-bg;
+  box-shadow: 0 0 0 0 $box-shadow-bg;
   -webkit-animation: var(--box-shadow-time) BoxShadowSlide var(--box-shadow-time) forwards , loadingAnimation 1s forwards;
   -moz-animation: var(--box-shadow-time) BoxShadowSlide var(--box-shadow-time) forwards , loadingAnimation 1s forwards;
   -o-animation: var(--box-shadow-time) BoxShadowSlide var(--box-shadow-time) forwards , loadingAnimation 1s forwards;
+  animation: var(--box-shadow-time) BoxShadowSlide var(--box-shadow-time) forwards, loadingAnimation 1s forwards;
 }
 
-@keyframes loadingAnimation {
-  0% { top: rem(20px); }
-  100% { top: rem(40px); }
-}
-@-webkit-keyframes loadingAnimation {
-  0% { top: rem(20px); }
-  100% { top: rem(40px); }
-}
-@-moz-keyframes loadingAnimation {
-  0% { top: rem(20px); }
-  100% { top: rem(40px); }
-}
-@-o-keyframes loadingAnimation {
-  0% { top: rem(20px); }
-  100% { top: rem(40px); }
-}
-
-@keyframes BoxShadowSlide {
-  0% {
-    box-shadow: 0 0 0 0 $box-shadow-bg;
-  }
-  100% {
-    box-shadow: -10px 10px 0 0 $box-shadow-bg;
-  }
-}
 @-webkit-keyframes BoxShadowSlide {
   0% {
     -webkit-box-shadow: 0 0 0 0 $box-shadow-bg;
@@ -107,42 +84,63 @@ $html-font-size: 16px;
 }
 @-o-keyframes BoxShadowSlide {
   0% {
+    -o-box-shadow: 0 0 0 0 $box-shadow-bg;
+  }
+  100% {
+    -o-box-shadow: -10px 10px 0 0 $box-shadow-bg;
+  }
+}
+@keyframes BoxShadowSlide {
+  0% {
     box-shadow: 0 0 0 0 $box-shadow-bg;
-    -webkit-box-shadow: 0 0 0 0 $box-shadow-bg;
-    -moz-box-shadow: 0 0 0 0 $box-shadow-bg;
   }
   100% {
     box-shadow: -10px 10px 0 0 $box-shadow-bg;
-    -webkit-box-shadow: -10px 10px 0 0 $box-shadow-bg;
-    -moz-box-shadow: -10px 10px 0 0 $box-shadow-bg;
   }
 }
 
-@mixin simple-fade-in {
-  -webkit-animation: fadein 2s;
-  -moz-animation: fadein 2s;
-  -ms-animation: fadein 2s;
-  -o-animation: fadein 2s;
-  animation: fadein 2s;
+@-webkit-keyframes loadingAnimation {
+  0% { top: rem(20px); }
+  100% { top: rem(40px); }
+}
+@-moz-keyframes loadingAnimation {
+  0% { top: rem(20px); }
+  100% { top: rem(40px); }
+}
+@-o-keyframes loadingAnimation {
+  0% { top: rem(20px); }
+  100% { top: rem(40px); }
+}
+@keyframes loadingAnimation {
+  0% { top: rem(20px); }
+  100% { top: rem(40px); }
 }
 
-@keyframes fadein {
+@mixin simple-fade-in {
+  -webkit-animation: simpleFadeIn 2s;
+  -moz-animation: simpleFadeIn 2s;
+  -ms-animation: simpleFadeIn 2s;
+  -o-animation: simpleFadeIn 2s;
+  animation: simpleFadeIn 2s;
+}
+
+@-webkit-keyframes simpleFadeIn {
   from { opacity: 0; }
   to   { opacity: 1; }
 }
-@-moz-keyframes fadein {
+@-moz-keyframes simpleFadeIn {
   from { opacity: 0; }
   to   { opacity: 1; }
 }
-@-webkit-keyframes fadein {
+@-ms-keyframes simpleFadeIn {
   from { opacity: 0; }
   to   { opacity: 1; }
 }
-@-ms-keyframes fadein {
+@-o-keyframes simpleFadeIn {
   from { opacity: 0; }
   to   { opacity: 1; }
 }
-@-o-keyframes fadein {
+@keyframes simpleFadeIn {
   from { opacity: 0; }
   to   { opacity: 1; }
 }

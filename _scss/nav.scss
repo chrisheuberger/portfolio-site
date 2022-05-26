@@ -109,11 +109,11 @@
   -ms-transform: translateY(100%) translateY(-60px);
   -o-transform: translateY(100%) translateY(-60px);
   transform: translateY(100%) translateY(-60px);
-  -webkit-transition: -webkit-transform 0.125s ease;
-  -moz-transition: -moz-transform 0.125s ease;
-  -o-transition: -o-transform 0.125s ease;
-  transition: -webkit-transform 0.125s ease;
-  transition: transform 0.125s ease;
+  -webkit-transition: -webkit-transform 2.25s ease;
+  -moz-transition: -moz-transform 2.25s ease;
+  -o-transition: -o-transform 2.25s ease;
+  transition: -webkit-transform 2.25s ease;
+  transition: transform 2.25s ease;
   @include media(medium) {
     display: block;
   }
@@ -125,9 +125,10 @@
     min-width: 100px;
     height: 60px;
     padding-left: rem(20px);
-    cursor: pointer;
-    transition: background 0.125s ease;
+    border-bottom: 1px solid darken($browndark,5%);
+    transition: background 0.25s ease;
     background: $browndark;
+    cursor: pointer;
     @media not all and (hover: none) {
       &:hover {
         background: darken($browndark,5%);
@@ -148,7 +149,7 @@
       &.open-mobile-menu {
         display: block;
         color: $graylight;
-        transition: color 0.125s ease;
+        transition: color 0.25s ease;
         .hi {
           margin-top: rem(40px);
           margin-bottom: rem(40px);
@@ -174,7 +175,7 @@
       }
       &.close-mobile-menu {
         display: none;
-        transition: color 0.125s ease;
+        transition: color 0.25s ease;
         .close-bar {
           display: block;
           width: 30px;
@@ -195,9 +196,18 @@
         }
       }
     }
+    &.open .menu-tab-state {
+      &.open-mobile-menu {
+        display: none;
+      }
+      &.close-mobile-menu {
+        display: block;
+      }
+    }
   }
   .mobile-menu {
     color: $graylight;
+    background: $browndark;
     .mobile-nav-list {
       margin: 0;
       padding: 0;
@@ -228,20 +238,6 @@
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
     transform: translateY(0);
-    .menu-tab {
-      justify-content: flex-start;
-      padding-left: rem(20px);
-      border-bottom: 1px solid darken($browndark,5%);
-      .open-mobile-menu {
-        display: none;
-      }
-      .close-mobile-menu {
-        display: block;
-      }
-    }
-    .mobile-menu {
-      background: $browndark;
-    }
   }
 }
 
@@ -306,7 +302,7 @@
         .glitch-path {
           fill-rule: evenodd;
           clip-rule: evenodd;
-          transition: fill 0.125s ease;
+          transition: fill 0.25s ease;
           fill: $graylight;
         }
       }
