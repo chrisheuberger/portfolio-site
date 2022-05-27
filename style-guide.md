@@ -1,6 +1,7 @@
 ---
 title: Chris Heuberger / Style Guide
 layout: default
+permalink: /style-guide
 ---
 
 <div class="main-content">
