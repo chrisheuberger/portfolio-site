@@ -291,19 +291,19 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/creative
       <li class="list-mc__item">
         <img class="list-mc__img" src="{{ page.img-root }}/sbp-1.png" alt="type study" loading="lazy">
         <div class="list-mc__text">
-          <p class="list-mc__resources"><a class="btn" href="https://www.sketchbookproject.com/library/15336" target="_blank" rel="noopener">View Sketchbook</a></p>
+          <p class="list-mc__resources"><a class="btn" href="https://www.sketchbookproject.com/library/S54939" target="_blank" rel="noopener">View Sketchbook</a></p>
         </div>
       </li>
       <li class="list-mc__item">
         <img class="list-mc__img" src="{{ page.img-root }}/sbp-2.png" alt="Koons sculpture and trumpet" loading="lazy">
         <div class="list-mc__text">
-          <p class="list-mc__resources"><a class="btn" href="https://www.sketchbookproject.com/library/15290" target="_blank" rel="noopener">View Sketchbook</a></p>
+          <p class="list-mc__resources"><a class="btn" href="https://www.sketchbookproject.com/library/S112140" target="_blank" rel="noopener">View Sketchbook</a></p>
         </div>
       </li>
       <li class="list-mc__item">
         <img class="list-mc__img" src="{{ page.img-root }}/sbp-3.png" alt="3D lettering" loading="lazy">
         <div class="list-mc__text">
-          <p class="list-mc__resources"><a class="btn" href="https://www.sketchbookproject.com/library/15335" target="_blank" rel="noopener">View Sketchbook</a></p>
+          <p class="list-mc__resources"><a class="btn" href="https://www.sketchbookproject.com/library/S139476" target="_blank" rel="noopener">View Sketchbook</a></p>
         </div>
       </li>
     </ul>

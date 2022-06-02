@@ -12,7 +12,10 @@ img-root: https://d1snbyjv506jvs.cloudfront.net
   <section class="list-wrapper">
     <ul class="list-mc">
       <li class="list-mc__item">
-        <img class="list-mc__img list-mc__img-border" src="{{ page.img-root }}/code-cards/anniversary-2018.gif" alt="happy anniversary mom and dad animation" loading="lazy">
+        <video class="list-mc__img" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/code-cards/anniversary-2018.webm" type="video/webm">
+          <source src="{{ page.img-root }}/code-cards/anniversary-2018.mp4" type="video/mp4">
+        </video>
         <div class="list-mc__text">
           <h3 class="list-mc__title">Code Cards</h3>
           <p class="list-mc__description">Sometimes I send a handmade greeting card, sometimes I send a code card.</p>
@@ -68,7 +71,6 @@ img-root: https://d1snbyjv506jvs.cloudfront.net
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/side-projects/.gif" alt="happy face icon over moving text" loading="lazy">
         <video class="list-mc__img" autoplay loop muted playsinline>
           <source src="{{ page.img-root }}/side-projects/quarantainment.webm" type="video/webm">
           <source src="{{ page.img-root }}/side-projects/quarantainment.mp4" type="video/mp4">

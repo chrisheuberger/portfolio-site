@@ -38,7 +38,7 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/talks
           <h3 class="simple-list__title">Moral Dilemmas</h3>
           <h6 class="simple-list__date">October 2011</h6>
           <p class="simple-list__description">An overview of the most well-known and much-debated moral quandaries and the philosophical and ethical schools of thought around them.</p>
-          <p class="simple-list-resources"><a class="btn" href="/assets/img/presentations/ppn-dilemmas.pdf" target="_blank" rel="noopener">View Deck</a>&ensp;<a class="btn" href="/dilemmas" target="_blank" rel="noopener">View Notes</a></p>
+          <p class="simple-list-resources"><a class="btn" href="/assets/docs/ppn-dilemmas.pdf" target="_blank" rel="noopener">View Deck</a>&ensp;<a class="btn" href="/dilemmas" target="_blank" rel="noopener">View Notes</a></p>
         </div>
       </li>
       <li class="simple-list__item">
@@ -47,7 +47,7 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/talks
           <h3 class="simple-list__title">Carrie Nation</h3>
           <h6 class="simple-list__date">December 2010</h6>
           <p class="simple-list__description">The infamous American radical who led the temperance movement known for her saloon-smashing hatchet.</p>
-          <p class="simple-list-resources"><a class="btn" href="/assets/img/presentations/ppn-prohibition.pdf" target="_blank" rel="noopener">View Deck</a>&ensp;<a class="btn" href="/carrie" target="_blank" rel="noopener">View Notes</a></p>
+          <p class="simple-list-resources"><a class="btn" href="/assets/docs/ppn-prohibition.pdf" target="_blank" rel="noopener">View Deck</a>&ensp;<a class="btn" href="/carrie" target="_blank" rel="noopener">View Notes</a></p>
         </div>
       </li>
       <li class="simple-list__item">
@@ -56,7 +56,7 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/talks
           <h3 class="simple-list__title">How We Make Decisions and Why They Often Suck</h3>
           <h6 class="simple-list__date">October 2010</h6>
           <p class="simple-list__description">A talk on behavioral science covering cognitive biases, heuristics, and persuasion.</p>
-          <p class="simple-list-resources"><a class="btn" href="/assets/img/presentations/ppn-decision.pdf" target="_blank" rel="noopener">View Deck</a>&ensp;<a class="btn" href="/decisions" target="_blank" rel="noopener">View Notes</a></p>
+          <p class="simple-list-resources"><a class="btn" href="/assets/docs/ppn-decision.pdf" target="_blank" rel="noopener">View Deck</a>&ensp;<a class="btn" href="/decisions" target="_blank" rel="noopener">View Notes</a></p>
         </div>
       </li>
     </ul>
