@@ -72,6 +72,7 @@ permalink: /resume
         <li class="tool">AJAX</li>
         <li class="tool">APIs</li>
         <li class="tool">Airtable</li>
+        <li class="tool">Bash</li>
         <li class="tool">BEM</li>
         <li class="tool">Bootstrap</li>
         <li class="tool">Carto</li>
@@ -104,7 +105,9 @@ permalink: /resume
         <li class="tool">Squarespace</li>
         <li class="tool">Statamic</li>
         <li class="tool">TailwindCSS</li>
+        <li class="tool">TMUX</li>
         <li class="tool">UX Design</li>
+        <li class="tool">VS Code</li>
         <li class="tool">Vue</li>
         <li class="tool">Webflow</li>
         <li class="tool">Webpack</li>
