@@ -202,7 +202,7 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/work
         <div class="list-mc__text">
           <h3 class="list-mc__title">A Mini Guide to NationBuilder</h3>
           <p class="list-mc__description">An overview of the content management and customer relationship software designed for nonprofits, movements, and campaigns.</p>
-          <p class="list-mc__resources"><a class="btn" href="/nationbuilder-guide" target="_blank" rel="noopener">View Site</a></p>
+          <p class="list-mc__resources"><a class="btn" href="https://nationbuilder-guide.chrisheuberger.com/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
     </ul>

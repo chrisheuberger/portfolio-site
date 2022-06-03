@@ -67,7 +67,7 @@ img-root: https://d1snbyjv506jvs.cloudfront.net
         <div class="list-mc__text">
           <h3 class="list-mc__title">Roll-A-Fun</h3>
           <p class="list-mc__description">A very prototype, desktop-only, screen share board game to play with the whole family over Zoom with trivia specifically for adults and three-year-olds. Two teams: koalas and dolphins. Roll die, answer a question to move that amount. Hover, click on board to move. Click images to enlarge.</p>
-          <p class="list-mc__resources"><a class="btn" href="/roll-a-fun" target="_blank" rel="noopener">View Game</a></p>
+          <p class="list-mc__resources"><a class="btn" href="https://roll-a-fun.chrisheuberger.com/" target="_blank" rel="noopener">View Game</a></p>
         </div>
       </li>
       <li class="list-mc__item">
@@ -78,7 +78,7 @@ img-root: https://d1snbyjv506jvs.cloudfront.net
         <div class="list-mc__text">
           <h3 class="list-mc__title">Quarantainment</h3>
           <p class="list-mc__description">A running collection of events, entertainment, and resources available online to help make quarantine life just a little bit better.</p>
-          <p class="list-mc__resources"><a class="btn" href="https://quarantainment.radishlab.com/" target="_blank" rel="noopener">View Site</a></p>
+          <p class="list-mc__resources"><a class="btn" href="https://quarantainment.chrisheuberger.com/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
       <li class="list-mc__item">
