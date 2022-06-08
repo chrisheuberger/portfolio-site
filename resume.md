@@ -69,10 +69,10 @@ permalink: /resume
       <h4 class="ui-card-title">Stack and Skills</h4>
       <ul class="tools-list">
         <li class="tool">Adobe Creative Cloud</li>
+        <li class="tool">Airtable</li>
         <li class="tool">AJAX</li>
         <li class="tool">Anime.js</li>
         <li class="tool">APIs</li>
-        <li class="tool">Airtable</li>
         <li class="tool">AWS</li>
         <li class="tool">Bash</li>
         <li class="tool">BEM</li>
@@ -83,8 +83,8 @@ permalink: /resume
         <li class="tool">Chart.js</li>
         <li class="tool">Cloudflare</li>
         <li class="tool">CSS Grid</li>
-        <li class="tool">DevOps</li>
         <li class="tool">D3</li>
+        <li class="tool">DevOps</li>
         <li class="tool">Docker</li>
         <li class="tool">Figma</li>
         <li class="tool">Flexbox</li>
@@ -103,8 +103,8 @@ permalink: /resume
         <li class="tool">Lando</li>
         <li class="tool">Laravel</li>
         <li class="tool">Mailchimp</li>
-        <li class="tool">Mapbox</li>
         <li class="tool">MongoDB</li>
+        <li class="tool">Mapbox</li>
         <li class="tool">MySQL</li>
         <li class="tool">NationBuilder</li>
         <li class="tool">Netlify</li>
