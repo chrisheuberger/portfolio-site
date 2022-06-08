@@ -109,6 +109,7 @@ permalink: /resume
         <li class="tool">Netlify</li>
         <li class="tool">Node</li>
         <li class="tool">Nuxt</li>
+        <li class="tool">PHP</li>
         <li class="tool">PostgreSQL</li>
         <li class="tool">Processing/p5.js</li>
         <li class="tool">React</li>
