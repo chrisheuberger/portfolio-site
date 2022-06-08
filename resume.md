@@ -103,8 +103,8 @@ permalink: /resume
         <li class="tool">Lando</li>
         <li class="tool">Laravel</li>
         <li class="tool">Mailchimp</li>
-        <li class="tool">MongoDB</li>
         <li class="tool">Mapbox</li>
+        <li class="tool">MongoDB</li>
         <li class="tool">MySQL</li>
         <li class="tool">NationBuilder</li>
         <li class="tool">Netlify</li>
