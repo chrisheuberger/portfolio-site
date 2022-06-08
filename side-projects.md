@@ -162,7 +162,7 @@ img-root: https://d1snbyjv506jvs.cloudfront.net
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/side-projects/david.png" alt="photo of a baby boy" loading="lazy">
+        <img class="list-mc__img" src="{{ page.img-root }}/side-projects/david.jpg" alt="photo of a baby boy" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">David Ferrin Site</h3>
           <p class="list-mc__description">And yet another one for my other nephew.</p>
