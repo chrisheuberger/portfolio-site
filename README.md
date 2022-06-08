@@ -6,19 +6,25 @@ Current Version: 2
 
 ### Local Development
 
-To update gems:
+set Ruby version:
 ```
-bundle update jekyll
+rvm list  
+rvm use ruby-2.5.5
+```
+
+To install gems:
+```
+bundle install
 ```
 
 To build the site:
 ```
-bundle exec jekyll build
+<bundle exec> jekyll build
 ```
 
 To run a local server:
 ```
-bundle exec jekyll serve
+<bundle exec> jekyll serve
 ```
 
 view compiled site at

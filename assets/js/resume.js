@@ -19,7 +19,7 @@ $(function() {
 
   function handleTabletChange(e) {
     if ($('.ui-card').hasClass('ui-card-has-been-mobile')) {
-      $('.ui-card').css({"width":"600px","height":"410px"})
+      $('.ui-card').css({"width":"600px","height":"540px"})
     }
     // check if the media query is true
     if (e.matches) {
