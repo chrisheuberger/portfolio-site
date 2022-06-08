@@ -149,7 +149,7 @@ img-root: https://d1snbyjv506jvs.cloudfront.net
         <img class="list-mc__img" src="{{ page.img-root }}/side-projects/jules.png" alt="photo of a young girl" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Jules Ferrin Site</h3>
-          <p class="list-mc__description">A photo journal for my niece.</p>
+          <p class="list-mc__description">A photo journal timeline for my niece.</p>
           <p class="list-mc__resources"><a class="btn" href="https://julesferrin.com/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
@@ -159,6 +159,14 @@ img-root: https://d1snbyjv506jvs.cloudfront.net
           <h3 class="list-mc__title">Greta Ferrin Site</h3>
           <p class="list-mc__description">And another one for my other niece.</p>
           <p class="list-mc__resources"><a class="btn" href="https://gretaferrin.com/" target="_blank" rel="noopener">View Site</a></p>
+        </div>
+      </li>
+      <li class="list-mc__item">
+        <img class="list-mc__img" src="{{ page.img-root }}/side-projects/david.png" alt="photo of a baby boy" loading="lazy">
+        <div class="list-mc__text">
+          <h3 class="list-mc__title">David Ferrin Site</h3>
+          <p class="list-mc__description">And yet another one for my other nephew.</p>
+          <p class="list-mc__resources"><a class="btn" href="https://davidhowardferrin.com/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
       <li class="list-mc__item">
