@@ -23,6 +23,9 @@
     .home-intro-link {
       color: $greendark;
       border-bottom: 4px solid $greendark;
+      &.allow-hyphen {
+        hyphens: auto;
+      }
       &:hover {
         color: $browndark;
         border-bottom: 4px solid $browndark;
