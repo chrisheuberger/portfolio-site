@@ -12,6 +12,12 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/code-cards
   <section class="list-wrapper">
     <ul class="list-mc">
       <li class="list-mc__item">
+        <img class="list-mc__img" src="{{ page.img-root }}/fathers-day-2022.png" alt="happy father’s day with raspberries background" loading="lazy">
+        <div class="list-mc__text">
+          <p class="list-mc__resources with-just-btn"><a class="btn" href="https://codepen.io/ChrisBup/live/PoQEvOd" target="_blank" rel="noopener">View Code Card</a></p>
+        </div>
+      </li>
+      <li class="list-mc__item">
         <img class="list-mc__img" src="{{ page.img-root }}/greta-bday-2021.png" alt="happy birthday Greta" loading="lazy">
         <div class="list-mc__text">
           <p class="list-mc__resources with-just-btn"><a class="btn" href="https://codepen.io/ChrisBup/live/abwmEze" target="_blank" rel="noopener">View Code Card</a></p>
@@ -162,12 +168,6 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/code-cards
         <img class="list-mc__img" src="{{ page.img-root }}/fathers-day-2018.png" alt="happy father’s day" loading="lazy">
         <div class="list-mc__text">
           <p class="list-mc__resources with-just-btn"><a class="btn" href="https://codepen.io/ChrisBup/live/qKRgPB" target="_blank" rel="noopener">View Code Card</a></p>
-        </div>
-      </li>
-      <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/fathers-day-2022.png" alt="happy father’s day with raspberries background" loading="lazy">
-        <div class="list-mc__text">
-          <p class="list-mc__resources with-just-btn"><a class="btn" href="https://codepen.io/ChrisBup/live/PoQEvOd" target="_blank" rel="noopener">View Code Card</a></p>
         </div>
       </li>
     </ul>

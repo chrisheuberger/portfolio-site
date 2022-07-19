@@ -30,38 +30,14 @@ img-root: https://d1snbyjv506jvs.cloudfront.net
           <p class="list-mc__resources"><a class="btn" href="/annual-emails" target="_blank" rel="noopener">View Emails</a></p>
         </div>
       </li>
-      <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/wall-of-fame/celeste-beatty-resized.jpg" alt="photo of a man and a woman" loading="lazy">
+      <!-- <li class="list-mc__item">
+        <img class="list-mc__img" src="{{ page.img-root }}/side-projects/oregon-cropped.jpg" alt="hiking trail" loading="lazy">
         <div class="list-mc__text">
-          <h3 class="list-mc__title">Wall of Fame</h3>
-          <p class="list-mc__description">Just some photos of amazing people and me!</p>
-          <p class="list-mc__resources"><a class="btn" href="/wall-of-fame" target="_blank" rel="noopener">View Photos</a></p>
+          <h3 class="list-mc__title">My Travel Site</h3>
+          <p class="list-mc__description">A chronicle of a few of my most memorable trips.</p>
+          <p class="list-mc__resources"><a class="btn" href="https://travel.chrisheuberger.com/" target="_blank" rel="noopener">View Site</a></p>
         </div>
-      </li>
-      <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/creative/IMG_3422.jpg" alt="pages of a zine spread out in a grid" loading="lazy">
-        <div class="list-mc__text">
-          <h3 class="list-mc__title">Creative</h3>
-          <p class="list-mc__description">A collection of illustration, collage, and other creative work.</p>
-          <p class="list-mc__resources"><a class="btn" href="/creative" target="_blank" rel="noopener">View Creative</a></p>
-        </div>
-      </li>
-      <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/talks/decisions.png" alt="museum exhibit of a human skeleton inside a dinosaur skeleton" loading="lazy">
-        <div class="list-mc__text">
-          <h3 class="list-mc__title">Talks</h3>
-          <p class="list-mc__description">Notes and decks for a very random assortment of talks I've given.</p>
-          <p class="list-mc__resources"><a class="btn" href="/talks" rel="noopener">View Talks</a></p>
-        </div>
-      </li>
-      <li class="list-mc__item">
-        <img class="list-mc__img list-mc__img-border" src="{{ page.img-root }}/side-projects/favorite-things.png" alt="filter categories" loading="lazy">
-        <div class="list-mc__text">
-          <h3 class="list-mc__title">Favorite Things</h3>
-          <p class="list-mc__description">These are a few of my favorite things.</p>
-          <p class="list-mc__resources"><a class="btn" href="/favorite-things" rel="noopener">View Favorite Things</a></p>
-        </div>
-      </li>
+      </li> -->
       <li class="list-mc__item">
         <img class="list-mc__img" src="{{ page.img-root }}/side-projects/roll-a-fun.png" alt="winding board game path" loading="lazy">
         <div class="list-mc__text">
@@ -89,14 +65,68 @@ img-root: https://d1snbyjv506jvs.cloudfront.net
           <p class="list-mc__resources"><a class="btn" href="https://codepen.io/ChrisBup/live/XWrpEPx" target="_blank" rel="noopener">View Game</a></p>
         </div>
       </li>
-      <!-- <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/side-projects/oregon-cropped.jpg" alt="hiking trail" loading="lazy">
+      <li class="list-mc__item">
+        <video class="list-mc__img" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/side-projects/ciao-matter-js.webm" type="video/webm">
+          <source src="{{ page.img-root }}/side-projects/ciao-matter-js.mp4" type="video/mp4">
+        </video>
         <div class="list-mc__text">
-          <h3 class="list-mc__title">My Travel Site</h3>
-          <p class="list-mc__description">A chronicle of a few of my most memorable trips.</p>
-          <p class="list-mc__resources"><a class="btn" href="https://travel.chrisheuberger.com/" target="_blank" rel="noopener">View Site</a></p>
+          <h3 class="list-mc__title">Ciao, An Interactive Animation Experiment</h3>
+          <p class="list-mc__description">This is a self-directed project using the physics engine <a class="text-link" href="https://brm.io/matter-js/" target="_blank" rel="noopener">Matter.js</a>. This project was even chosen by the CodePen team to be featured on their homepage!</p>
+          <p class="list-mc__resources"><a class="btn" href="https://codepen.io/ChrisBup/live/eYVaQbp" target="_blank" rel="noopener">View Demo</a></p>
         </div>
-      </li> -->
+      </li>
+      <li class="list-mc__item">
+        <img class="list-mc__img" src="{{ page.img-root }}/side-projects/type-interaction-1.png" alt="Text with varying letter sizes" loading="lazy">
+        <div class="list-mc__text">
+          <h3 class="list-mc__title">Type Interactions [1]</h3>
+          <p class="list-mc__description">A set of interactions and animations I created based on the work of <a class="text-link" href="https://taliacotton.com/" target="_blank" rel="noopener">Talia Cotton</a>. I’m an admirer of her work and wanted to riff on some of the effects she incorporates into her homepage. Click on a yellow button to select an interaction.</p>
+          <p class="list-mc__resources"><a class="btn" href="https://codepen.io/ChrisBup/live/BaZKqOK" target="_blank" rel="noopener">View Demo</a></p>
+        </div>
+      </li>
+      <li class="list-mc__item">
+        <video class="list-mc__img" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/side-projects/type-interaction-2.webm" type="video/webm">
+          <source src="{{ page.img-root }}/side-projects/type-interaction-2.mp4" type="video/mp4">
+        </video>
+        <div class="list-mc__text">
+          <h3 class="list-mc__title">Type Interactions [2]</h3>
+          <p class="list-mc__description">I got so into these explorations, I did a second set! I like to build up a library of these kinds of experiments on my own time just to expand my toolbox. You never know when they’ll come in handy.</p>
+          <p class="list-mc__resources"><a class="btn" href="https://codepen.io/ChrisBup/live/MWojROR" target="_blank" rel="noopener">View Demo</a></p>
+        </div>
+      </li>
+      <li class="list-mc__item">
+        <img class="list-mc__img" src="{{ page.img-root }}/creative/IMG_3422.jpg" alt="pages of a zine spread out in a grid" loading="lazy">
+        <div class="list-mc__text">
+          <h3 class="list-mc__title">Creative</h3>
+          <p class="list-mc__description">A collection of illustration, collage, and other creative work.</p>
+          <p class="list-mc__resources"><a class="btn" href="/creative" target="_blank" rel="noopener">View Creative</a></p>
+        </div>
+      </li>
+      <li class="list-mc__item">
+        <img class="list-mc__img list-mc__img-border" src="{{ page.img-root }}/side-projects/favorite-things.png" alt="filter categories" loading="lazy">
+        <div class="list-mc__text">
+          <h3 class="list-mc__title">Favorite Things</h3>
+          <p class="list-mc__description">These are a few of my favorite things.</p>
+          <p class="list-mc__resources"><a class="btn" href="/favorite-things" rel="noopener">View Favorite Things</a></p>
+        </div>
+      </li>
+      <li class="list-mc__item">
+        <img class="list-mc__img" src="{{ page.img-root }}/wall-of-fame/celeste-beatty-resized.jpg" alt="photo of a man and a woman" loading="lazy">
+        <div class="list-mc__text">
+          <h3 class="list-mc__title">Wall of Fame</h3>
+          <p class="list-mc__description">Just some photos of amazing people and me!</p>
+          <p class="list-mc__resources"><a class="btn" href="/wall-of-fame" target="_blank" rel="noopener">View Photos</a></p>
+        </div>
+      </li>
+      <li class="list-mc__item">
+        <img class="list-mc__img" src="{{ page.img-root }}/talks/decisions.png" alt="museum exhibit of a human skeleton inside a dinosaur skeleton" loading="lazy">
+        <div class="list-mc__text">
+          <h3 class="list-mc__title">Talks</h3>
+          <p class="list-mc__description">Notes and decks for a very random assortment of talks I've given.</p>
+          <p class="list-mc__resources"><a class="btn" href="/talks" rel="noopener">View Talks</a></p>
+        </div>
+      </li>
       <li class="list-mc__item">
         <img class="list-mc__img" src="{{ page.img-root }}/side-projects/brewing-tour-site.png" alt="historic brewery illustration" loading="lazy">
         <div class="list-mc__text">
@@ -114,14 +144,6 @@ img-root: https://d1snbyjv506jvs.cloudfront.net
         </div>
       </li>
       <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/side-projects/hiit.png" alt="HIIT IT button" loading="lazy">
-        <div class="list-mc__text">
-          <h3 class="list-mc__title">HIIT</h3>
-          <p class="list-mc__description">A guided high intensity interval training (HIIT) workout with audio commands so I don’t need to look at my phone to see the next exercise.</p>
-          <p class="list-mc__resources"><a class="btn" href="/hiit" target="_blank" rel="noopener">View Site</a></p>
-        </div>
-      </li>
-      <li class="list-mc__item">
         <img class="list-mc__img" src="{{ page.img-root }}/side-projects/pizza-is-the-best.png" alt="screenshot with text over pattern background" loading="lazy">
         <div class="list-mc__text">
           <h3 class="list-mc__title">Pizza is the Best</h3>
@@ -135,6 +157,22 @@ img-root: https://d1snbyjv506jvs.cloudfront.net
           <h3 class="list-mc__title">Fight the Stupid</h3>
           <p class="list-mc__description">My political protest site.</p>
           <p class="list-mc__resources"><a class="btn" href="https://www.fightthestupid.com/" target="_blank" rel="noopener">View Site</a></p>
+        </div>
+      </li>
+      <li class="list-mc__item">
+        <img class="list-mc__img" src="{{ page.img-root }}/side-projects/hiit.png" alt="HIIT IT button" loading="lazy">
+        <div class="list-mc__text">
+          <h3 class="list-mc__title">HIIT</h3>
+          <p class="list-mc__description">A guided high intensity interval training (HIIT) workout with audio commands so I don’t need to look at my phone to see the next exercise.</p>
+          <p class="list-mc__resources"><a class="btn" href="/hiit" target="_blank" rel="noopener">View Site</a></p>
+        </div>
+      </li>
+      <li class="list-mc__item">
+        <img class="list-mc__img" src="{{ page.img-root }}/side-projects/g-train-love-story.png" alt="map of north Brooklyn" loading="lazy">
+        <div class="list-mc__text">
+          <h3 class="list-mc__title">G Train Love Story</h3>
+          <p class="list-mc__description">Our wedding website.</p>
+          <p class="list-mc__resources"><a class="btn" href="https://www.gtrainlovestory.com/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
       <li class="list-mc__item">
@@ -167,14 +205,6 @@ img-root: https://d1snbyjv506jvs.cloudfront.net
           <h3 class="list-mc__title">David Ferrin Site</h3>
           <p class="list-mc__description">And yet another one for my other nephew.</p>
           <p class="list-mc__resources"><a class="btn" href="https://davidhowardferrin.com/" target="_blank" rel="noopener">View Site</a></p>
-        </div>
-      </li>
-      <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/side-projects/g-train-love-story.png" alt="map of north Brooklyn" loading="lazy">
-        <div class="list-mc__text">
-          <h3 class="list-mc__title">G Train Love Story</h3>
-          <p class="list-mc__description">Our wedding website.</p>
-          <p class="list-mc__resources"><a class="btn" href="https://www.gtrainlovestory.com/" target="_blank" rel="noopener">View Site</a></p>
         </div>
       </li>
     </ul>

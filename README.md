@@ -42,6 +42,7 @@ For videos, use MPEG and WebM: https://web.dev/efficient-animated-content/
 
 Convert MOV to MPEG: https://www.videoconverter.com/convert-mov-to-mpeg.html  
 Convert MOV to WebM: https://cloudconvert.com/mov-to-webm  
+Convert MP4 to WebM: https://cloudconvert.com/mp4-to-webm  
 Convert GIFs to MP4: https://cloudconvert.com/gif-to-mp4  
 Convert GIFs to WebM: https://ezgif.com/gif-to-webm
 
