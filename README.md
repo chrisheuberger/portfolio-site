@@ -30,8 +30,6 @@ view compiled site at
 http://localhost:4000
 ```
 
-Deploy by pushing to the `master` branch.
-
 ### Prep Images and Videos
 
 ImageOptim for images
