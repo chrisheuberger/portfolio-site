@@ -12,6 +12,15 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/code-cards
   <section class="list-wrapper">
     <ul class="list-mc">
       <li class="list-mc__item">
+        <video class="list-mc__img" autoplay loop muted playsinline>
+          <source src="{{ page.img-root }}/anniversary-2022-1.webm" type="video/webm">
+          <source src="{{ page.img-root }}/anniversary-2022-1.mp4" type="video/mp4">
+        </video>
+        <div class="list-mc__text">
+          <p class="list-mc__resources with-just-btn"><a class="btn" href="https://codepen.io/ChrisBup/live/poVQrEd" target="_blank" rel="noopener">View Code Card</a></p>
+        </div>
+      </li>
+      <li class="list-mc__item">
         <img class="list-mc__img" src="{{ page.img-root }}/fathers-day-2022.png" alt="happy father’s day with raspberries background" loading="lazy">
         <div class="list-mc__text">
           <p class="list-mc__resources with-just-btn"><a class="btn" href="https://codepen.io/ChrisBup/live/PoQEvOd" target="_blank" rel="noopener">View Code Card</a></p>

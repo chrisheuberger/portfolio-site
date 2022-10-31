@@ -49,7 +49,7 @@ favorite_things:
     category: Science
   - text: "A [[https://www.gapminder.org/topics/population/fill-up/[+]simple explainer]] by the legendary Hans Rosling on how global population is likely to increase for a while, then stabilize."
     category: Science
-  - text: "The foundational book on one of my favorite topics, behavioral science: [[https://www.nytimes.com/2011/11/27/books/review/thinking-fast-and-slow-by-daniel-kahneman-book-review.html[+]Thinking, Fast and Slow by Daniel Kahneman]]."
+  - text: "The foundational book on one of my favorite topics, behavioral science: [[https://www.nytimes.com/2011/11/27/books/review/thinking-fast-and-slow-by-daniel-kahneman-book-review.html[+]<em>Thinking, Fast and Slow</em>]] by Daniel Kahneman."
     category: Psychology
   - text: "[[https://mitpress.mit.edu/books/turings-vision[+]<em>Turing’s Vision: The Birth of Computer Science</em>]] by Christopher Bernhardt is an engrossing book on Alan Turing’s 1936 paper, <em>On Computable Numbers, with an Application to the Entscheidungsproblem</em>."
     category: Science
@@ -223,3 +223,11 @@ favorite_things:
     category: Music
   - text: "[[https://humanebydesign.com/[+]Humane by Design]] is a resource that provides guidance for designing ethically humane digital products through patterns focused on user well-being, by [[https://jonyablonski.com/[+]Jon Yablonski]]."
     category: Design
+  - text: "[[https://www.amazon.com/gp/video/detail/amzn1.dv.gti.e6b9cc78-a9a0-8a96-ab0e-206ccb83a722/[+]<em>Lewis & Clark: The Journey of the Corps of Discovery</em>]], Ken Burns’ 1997 two-part documentary, is replete with astounding stories of courage in the face of incredible danger and absolute uncertainty. It depicts a heroic and tragic tale, told by historians who will make you care about those brave souls and this young country. And it includes these prescient words, told to Thomas Jefferson by a delegation of Otoe, Uracha, and Yankton Sioux chiefs, having met with the expedition, “We have seen the beloved man (Lewis). We shook hands with him and we heard the words you put in his mouth. We wish him well. We have him in our hearts and when he will return, we believe that he will take care of us, prevent our wants, and make us happy. But when you tell us that your children of this side of the Mississippi hear your word, you are mistaken. Since every day, they raise their tomahawks over our heads... Tell your white children on our lands to follow your orders and to do not as they please for they do not keep your word.”"
+    category: Movies & TV
+  - text: "I fully admit that Carl Sagan can give me goosebumps. [[https://www.youtube.com/playlist?list=PLF17F07CFC3208E29[+]<em>The Sagan Series</em>]] is an approachable meditation on his philosophy of science. Sagan’s words are equal parts awe-inspiring and profoundly wise."
+    category: Science
+  - text: "<em>Justice</em> by Michael Sandel is one of my favorite books. It maps the foundational themes of moral philosophy in a clarifying, thought-provoking way. A perfect desert island read for the examined life, it frames the central questions of ethics throughout history without giving definitive answers."
+    category: Philosophy
+  - text: "I am an admirer of [[https://www.youtube.com/watch?v=Pv1Otdg4fok[+]Boyan Slat]] and his [[https://theoceancleanup.com/[+]Ocean Cleanup Project]]. I feel like [[https://www.youtube.com/watch?v=tLcnJEMnlTs[+]their work]], which requires an immense amount of [[https://www.youtube.com/watch?v=4rVTWsQ23Pk[+]experimentation and iteration]] is an exemplary model for how intelligence should be put to use."
+    category: Social Impact
