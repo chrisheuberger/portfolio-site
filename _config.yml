@@ -23,7 +23,7 @@ email: chrisheuberg@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Developer | Designer | Organizer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.chrisheuberger.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ChrisBup
 github_username:  ChrisBup
 

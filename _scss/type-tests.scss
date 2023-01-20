@@ -1,0 +1,11 @@
+// type tests
+
+.main-content.main-content_type-tests {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+}
+
+.type-test {
+  margin-bottom: rem(40px);
+}
