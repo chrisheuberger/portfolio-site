@@ -14,15 +14,15 @@ permalink: /type-tests
   <section class="list-wrapper">
 
   <div class="type-test">
-    <p class="codepen" data-height="500" data-theme-id="42847" data-default-tab="result" data-slug-hash="RwyEmxp" data-user="ChrisBup" style="height: 500px; box-sizing: border-box; border: 1px solid; display: flex; padding: 1em;"><span>View this Type Test: <a href="https://codepen.io/ChrisBup/pen/rNZNdwV"> Iterate Tracking (Letter Spacing) on Mouseover</a>.</span></p>
+    <p class="codepen" data-height="500" data-theme-id="42847" data-default-tab="result" data-slug-hash="rNZNdwV" data-user="ChrisBup" style="height: 500px; box-sizing: border-box; border: 1px solid; display: flex; padding: 1em;"><span>View this Type Test: <a href="https://codepen.io/ChrisBup/pen/rNZNdwV"> Iterate Tracking (Letter Spacing) on Mouseover</a>.</span></p>
   </div>
 
   <div class="type-test">
-    <p class="codepen" data-height="500" data-theme-id="42847" data-default-tab="result" data-slug-hash="RwyEmxp" data-user="ChrisBup" style="height: 500px; box-sizing: border-box; border: 1px solid; display: flex; padding: 1em;"><span>View this Type Test: <a href="https://codepen.io/ChrisBup/pen/LYJYdrj"> 3D Text Shadow</a>.</span></p>
+    <p class="codepen" data-height="500" data-theme-id="42847" data-default-tab="result" data-slug-hash="LYJYdrj" data-user="ChrisBup" style="height: 500px; box-sizing: border-box; border: 1px solid; display: flex; padding: 1em;"><span>View this Type Test: <a href="https://codepen.io/ChrisBup/pen/LYJYdrj"> 3D Text Shadow</a>.</span></p>
   </div>
 
   <div class="type-test">
-    <p class="codepen" data-height="500" data-theme-id="42847" data-default-tab="result" data-slug-hash="RwyEmxp" data-user="ChrisBup" style="height: 500px; box-sizing: border-box; border: 1px solid; display: flex; padding: 1em;"><span>View this Type Test: <a href="https://codepen.io/ChrisBup/pen/QWVWxjM"> Block Beautification Party Flyer</a>.</span></p>
+    <p class="codepen" data-height="500" data-theme-id="42847" data-default-tab="result" data-slug-hash="QWVWxjM" data-user="ChrisBup" style="height: 500px; box-sizing: border-box; border: 1px solid; display: flex; padding: 1em;"><span>View this Type Test: <a href="https://codepen.io/ChrisBup/pen/QWVWxjM"> Block Beautification Party Flyer</a>.</span></p>
   </div>
 
   </section>
