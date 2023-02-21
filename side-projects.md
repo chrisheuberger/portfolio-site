@@ -19,7 +19,15 @@ img-root: https://d1snbyjv506jvs.cloudfront.net
         <div class="list-mc__text">
           <h3 class="list-mc__title">Code Cards</h3>
           <p class="list-mc__description">Sometimes I send a handmade greeting card, sometimes I send a code card.</p>
-          <p class="list-mc__resources"><a class="btn" href="/code-cards" target="_blank" rel="noopener">View Code Cards</a></p>
+          <p class="list-mc__resources"><a class="btn" href="/code-cards">View Code Cards</a></p>
+        </div>
+      </li>
+      <li class="list-mc__item">
+        <img class="list-mc__img list-mc__img-border" src="{{ page.img-root }}/side-projects/so-be-it.png" alt="snaking timeline" loading="lazy">
+        <div class="list-mc__text">
+          <h3 class="list-mc__title">Type Tests</h3>
+          <p class="list-mc__description">Some typographic experiments for the web.</p>
+          <p class="list-mc__resources"><a class="btn" href="/type-tests">View Type Tests</a></p>
         </div>
       </li>
       <li class="list-mc__item">
@@ -27,7 +35,7 @@ img-root: https://d1snbyjv506jvs.cloudfront.net
         <div class="list-mc__text">
           <h3 class="list-mc__title">Annual Emails</h3>
           <p class="list-mc__description">A collection of the holiday greeting and update email my wife and I send out every year.</p>
-          <p class="list-mc__resources"><a class="btn" href="/annual-emails" target="_blank" rel="noopener">View Emails</a></p>
+          <p class="list-mc__resources"><a class="btn" href="/annual-emails">View Emails</a></p>
         </div>
       </li>
       <!-- <li class="list-mc__item">
@@ -100,7 +108,7 @@ img-root: https://d1snbyjv506jvs.cloudfront.net
         <div class="list-mc__text">
           <h3 class="list-mc__title">Creative</h3>
           <p class="list-mc__description">A collection of illustration, collage, and other creative work.</p>
-          <p class="list-mc__resources"><a class="btn" href="/creative" target="_blank" rel="noopener">View Creative</a></p>
+          <p class="list-mc__resources"><a class="btn" href="/creative">View Creative</a></p>
         </div>
       </li>
       <li class="list-mc__item">
@@ -108,7 +116,7 @@ img-root: https://d1snbyjv506jvs.cloudfront.net
         <div class="list-mc__text">
           <h3 class="list-mc__title">Favorite Things</h3>
           <p class="list-mc__description">These are a few of my favorite things.</p>
-          <p class="list-mc__resources"><a class="btn" href="/favorite-things" rel="noopener">View Favorite Things</a></p>
+          <p class="list-mc__resources"><a class="btn" href="/favorite-things">View Favorite Things</a></p>
         </div>
       </li>
       <li class="list-mc__item">
@@ -116,7 +124,7 @@ img-root: https://d1snbyjv506jvs.cloudfront.net
         <div class="list-mc__text">
           <h3 class="list-mc__title">Wall of Fame</h3>
           <p class="list-mc__description">Just some photos of amazing people and me!</p>
-          <p class="list-mc__resources"><a class="btn" href="/wall-of-fame" target="_blank" rel="noopener">View Photos</a></p>
+          <p class="list-mc__resources"><a class="btn" href="/wall-of-fame">View Photos</a></p>
         </div>
       </li>
       <li class="list-mc__item">
@@ -124,7 +132,7 @@ img-root: https://d1snbyjv506jvs.cloudfront.net
         <div class="list-mc__text">
           <h3 class="list-mc__title">Talks</h3>
           <p class="list-mc__description">Notes and decks for a very random assortment of talks I've given.</p>
-          <p class="list-mc__resources"><a class="btn" href="/talks" rel="noopener">View Talks</a></p>
+          <p class="list-mc__resources"><a class="btn" href="/talks">View Talks</a></p>
         </div>
       </li>
       <li class="list-mc__item">
@@ -164,7 +172,7 @@ img-root: https://d1snbyjv506jvs.cloudfront.net
         <div class="list-mc__text">
           <h3 class="list-mc__title">HIIT</h3>
           <p class="list-mc__description">A guided high intensity interval training (HIIT) workout with audio commands so I don’t need to look at my phone to see the next exercise.</p>
-          <p class="list-mc__resources"><a class="btn" href="/hiit" target="_blank" rel="noopener">View Site</a></p>
+          <p class="list-mc__resources"><a class="btn" href="/hiit">View Page</a></p>
         </div>
       </li>
       <li class="list-mc__item">
