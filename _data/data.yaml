@@ -157,7 +157,7 @@ favorite_things:
     category: Movies & TV
   - text: "Monty Python’s [[https://www.youtube.com/watch?v=LfduUFF_i1A[+]Philosophy Football]]. Carl Marx warming up."
     category: Tomfoolery
-  - text: "<em>The Colbert Shsow</em> finale featured [[https://www.youtube.com/watch?v=rEq3TCxbvJs[+]this heartwarming rendition of Vera Lynn’s <em>We’ll Meet Again</em>]]. Just a beautiful gathering of so many people, celebrating their common humanity and the joy of singing with others."
+  - text: "<em>The Colbert Show</em> finale featured [[https://www.youtube.com/watch?v=rEq3TCxbvJs[+]this heartwarming rendition of Vera Lynn’s <em>We’ll Meet Again</em>]]. Just a beautiful gathering of so many people, celebrating their common humanity and the joy of singing with others."
     category: Movies & TV
   - text: "Sean Carroll’s series [[https://www.youtube.com/watch?v=HI09kat_GeI&list=PLrxfgDEc2NxZJcWcrxH3jyjUUrJlnoyzX[+]<em>The Biggest Ideas in the Universe</em>]]."
     category: Science
@@ -185,7 +185,7 @@ favorite_things:
     category: Math
   - text: "Fantastic TikTok songs from Austin Archer: [[https://www.tiktok.com/@yourpal_austin/video/6912990065878764805[+]“You’re Not Getting Bullied,”]] [[https://www.tiktok.com/@yourpal_austin/video/6913735119438105861[+]“Turtleneck and Blazer,”]] [[https://www.tiktok.com/@yourpal_austin/video/6920641449826487558[+]“I Think That It’s Time,”]] [[https://www.tiktok.com/@yourpal_austin/video/6909962465828687109[+]“All I Want for Christmas Is You,”]] and his rousing full-length song, [[https://open.spotify.com/track/0u2tulL3C49i4YDCQYcfT3?si=xbHujmhCTem4tZOGTExIMg[+]“Kosciuszko Street.”]]"
     category: Music
-  - text: "<em>Why We’re Polarized</em> by Ezra Klein is the best explanaition I’ve read on the topic. It’s a fascinating exploration of the socialogical and political forces at play in this country, touching on human nature, behavioral incentives, unintended consequences, and predictable outcomes of a system of government such as ours."
+  - text: "<em>Why We’re Polarized</em> by Ezra Klein is the best explanation I’ve read on polarization as a logical outcome of our system of government and political institutions interacting with economics, technology, geography, identity, and human psychology."
     category: Culture
   - text: "These two stories from the Holocaust are among the most moving I’ve ever come across: [[https://www.indystar.com/story/entertainment/2018/04/28/into-eternity-she-did-not-survive-holocaust-but-her-words-did/551071002/[+]Vilma Grunwald’s “Into Eternity” letter]] and Daniel Kahneman’s story of his encounter with a Nazi soldier in occupied Paris [[https://www.nytimes.com/2017/10/10/opinion/auschwitz-israel-holocaust.html[+]at the very beginning of this interview]]."
     category: History
@@ -243,7 +243,7 @@ favorite_things:
     category: Science
   - text: "I audibly gasped multiple times while watching [[https://youtube.com/watch?v=L0NenZtIib4[+]this exquisite story]] of scientific adventure, perseverance, and discovery. Another beauty from Pioneer Works and very worth a watch."
     category: Science
-  - text: "<em>The Metaphysical Club: A Story of Ideas in America</em> by Louis Menand is an engaging historical overview of the birth of Pragmatism in America. It depicts the evolution of American philosophical thought, identity, and spirit during and after the Civil War and shows how changing times can give rise to wholly new ideas."
+  - text: "<em>The Metaphysical Club: A Story of Ideas in America</em> by Louis Menand is about the birth of Pragmatism, a school of thought that is skeptical of dogmatic truth claims while emphasizing the social project of moral consensus. The book depicts the evolution of American philosophical thought, identity, and spirit during and after the Civil War and shows how changing times can give rise to wholly new ideas."
     category: History
 
   # - text: "XXX [[https://XXX[+]XXX]] apostrophe’ / “Song Title” / <em>Book, Paper, Report, Program, Performance, Podcast, Movie, TV, YouTube Video Titles</em>"
