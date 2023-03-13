@@ -7,7 +7,10 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/talks
 
 <div class="main-content">
 
-  <h1 class="page-title">Talks</h1>
+  <div class="page-title-group">
+    <h1 class="page-title">Talks</h1>
+    <p class="page-title-note">Note: Unfortunately, I don't have video recordings of any of my talks, only deck and notes.</p>
+  </div>
 
   <section class="list-wrapper">
     <ul class="simple-list">
