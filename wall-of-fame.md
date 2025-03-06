@@ -12,11 +12,11 @@ img-root: https://d1snbyjv506jvs.cloudfront.net/wall-of-fame
   <section class="list-wrapper">
     <ul class="list-mc">
       <li class="list-mc__item">
-        <img class="list-mc__img" src="{{ page.img-root }}/daniel-kahneman-resized.jpg" alt="Daniel Kahneman, Nobel laureate and physiologist known for his work in decision-making and behavioral economics, and me!" loading="lazy">
+        <img class="list-mc__img" src="{{ page.img-root }}/daniel-kahneman-resized.jpg" alt="Daniel Kahneman, Nobel laureate and psychologist known for his work in decision-making and behavioral economics, and me!" loading="lazy">
         <div class="list-mc__text">
-          <p class="small">Daniel Kahneman, Nobel laureate and physiologist known for his work in decision-making and behavioral economics, and me!</p>
+          <p class="small">Daniel Kahneman, Nobel laureate and psychologist known for his work in decision-making and behavioral economics, and me!</p>
         </div>
-      </li>
+      </li> 
       <li class="list-mc__item">
         <img class="list-mc__img" src="{{ page.img-root }}/celeste-beatty-resized.jpg" alt="Celeste Beatty, founder and owner of Harlem Brewing Company, and me!" loading="lazy">
         <div class="list-mc__text">
